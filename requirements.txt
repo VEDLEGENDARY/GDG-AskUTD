@@ -1,0 +1,28 @@
+# --- Web Framework & API ---
+fastapi[standard]>=0.136.0,<0.142.0
+uvicorn[standard]>=0.30.0,<0.33.0
+pydantic>=2.8.0,<3.0.0
+
+# --- Retrieval, Embeddings & Neural Reranking ---
+sentence-transformers>=3.0.0,<3.5.0
+rank-bm25>=0.2.2,<0.3.0
+transformers>=4.42.0,<4.49.0
+torch>=2.3.0,<2.5.0
+
+# --- Vector Database ---
+chromadb>=0.5.0,<0.6.0
+
+# --- Document Parsing & Processing ---
+pymupdf>=1.24.0,<1.25.0
+
+# --- Local LLM Integration ---
+ollama>=0.2.0,<0.4.0
+
+# --- Evaluation & Benchmarking ---
+ragas>=0.1.10,<0.2.0
+datasets>=2.20.0,<3.0.0
+
+# --- Utilities & Environment ---
+python-dotenv>=1.0.1,<1.1.0
+requests>=2.32.0,<3.0.0
+numpy>=1.26.4,<2.1.0
