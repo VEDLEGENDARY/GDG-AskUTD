@@ -1,0 +1,38 @@
+what we did
+Setup tools, libraries, applications
+Teach basic rules and concepts for github and docker respectively
+
+what to do
+Add pdf docs of UTD websites into "GDG-AskUTD\backend\data\raw_pdfs"
+Each file should be named after the link of that website.
+
+Example:
+
+https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html?updatenow&fromnotif
+
+should be converted by removing the extra query parameters:
+
+https://www.intel.com/content/www/us/en/support/intel-driver-support-assistant.html
+
+should further be converted to 
+
+https___www-intel-com_content_www_us_en_support_intel-driver-support-assistant-html.pdf
+
+by replacing all colors(:) and forward slash(/) to underscore(_), 
+and replacing all periods(.) to be converted to dashes(-)
+
+your name should also contain no special characters such as ?, :, /, \, =, @, #, %, etc
+
+You can use ctrl+p for print command to convert a website to document. You should also make sure all files from a website (if there are) are downloaded and converted to pdf with the file link as name.
+
+Do about 40-50 pdfs each.
+
+Lokesh	Undergraduate Catalogs & Handbooks	~50 PDFs	University Policy Manual, Student Code of Conduct, Academic Calendar PDFs, General Degree Requirements
+
+Nandhan	School of Engineering & Computer Science (ECS)	~50 PDFs	CS/SE/CE Degree Plans, Flowcharts, ECS Transfer Guides, Fast-Track Handbooks, Advising Worksheets
+
+Roman	Jindal School of Management (JSOM) & Natural Sciences (NSM)	~50 PDFs	Marketing/Finance/Biology Degree Plans, JSOM Internship Policies, Lab Requirements
+
+Ariana	Registrar, Admissions, Transfer & Financial Aid	~50 PDFs	AP/IB Credit Tables, Collin/Dallas College Transfer Equivalencies, Drop/Withdrawal Forms, Residency Policies
+
+Any questions/concerns ask in the group chat.
