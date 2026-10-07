@@ -1,4 +1,3 @@
-Student UTD ID
 LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO
 1 7 Introduction to Engineering and CS ECS 1100
 2 Introduction to CS and SE CS 1200
