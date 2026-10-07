@@ -1,9 +1,5 @@
-Revision Date:  3/1/2016  
- 
+Revision Date:  3/1/2016
 B.S. in SOFTWARE ENGINEERING (2016 - 2018 Catalog) 
- 
-Student  _______________________________________ Advisor  ______________________________________________ 
-UTD ID Number  ____________________________  NET ID  _________________  Date of Review  _______________ 
 MAJOR PREPARATORY REQUIREMENTS 
 LD UD NOTES COURSE TITLE COURSE # GRADE SEM INFO 
 1  8 Intro to Engineering and CS ECS 1100    
