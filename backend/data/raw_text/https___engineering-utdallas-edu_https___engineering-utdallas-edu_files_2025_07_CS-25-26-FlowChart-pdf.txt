@@ -1,0 +1,158 @@
+Semester 1 and 2 Semester 3 and 4 Semester 5 and 6 Semester 7 and 8
+RHET 
+1302
+GOVT 
+2305
+GOVT 
+2306
+American 
+History 
+(060)
+American 
+History (060)
+Language, 
+Philosophy 
+and Culture 
+(040)
+Creative Arts 
+(050)
+Social and 
+Behavioral 
+Sciences
+(080)
+CORE CURRICULUM CHOICES
+ECS 1100
+Intro to ENGR & CS
+CS 1200
+Introduction to CS 
+and SE
+PHYS 2325/2125
+Mechanics and Lab
+MATH 2413 or 2417
+MATH 2414 or 2419
+MATH 2418*
+Linear Algebra
+MATH 2413 or 2417
+MATH 2413* or 
+2417*
+Calculus I
+CS 1436*
+Programming 
+Fundamentals
+CS 1337*
+Computer Science I
+CS 1436
+CS 2305*
+Discrete 
+Mathematics
+CS 2336 (Java)* or 
+CS 2337 (C++)*
+Computer Science II
+CS 1337
+CS 3341
+Probability & 
+Statistics in CS & SE
+MATH 2414 or 2419
+CS 2305
+CS 3345
+Data Structures & 
+Algorithms
+CS 2305
+CS 2336 or CS 2337
+CS 3377
+Systems 
+Programming
+CS 2336 or 2337
+CS 4341/4141
+Digital Logic  
+Computer Design 
+and Lab
+CS 2340
+PHYS 2326/2126
+CS 4337
+Programming 
+Language Paradigms
+CS 2305
+CS 3354
+Software Engineering
+ECS 2390
+ECS 2390
+Professional and 
+Technical Comm. 
+RHET 1302
+CS 4349
+Advanced Algorithm 
+Design & Analysis
+CS 2305
+CS 3345
+CS 3162
+Professional 
+Responsibility
+CS 4348
+Operating Systems 
+Concepts
+CS 2340
+CS 3377
+Free Elective
+CS 4384
+Automata Theory
+CS 2305
+CS 4347
+Database Systems
+CS 3345
+Free Elective (1SCH)
+CS 4485
+Computer Science 
+Project
+CS 3354
+Free Elective
+CS 2340
+Computer 
+Architecture
+CS 1337
+CS 2305
+MATH 2413 or 2417
+CS 3345CS 2336
+CS 2340
+CS 2336
+Free Elective
+BS Computer Science Course Map 2025-2026
+Prerequisite Pre- or Corequisite
+Critical Path
+MATH 2413 or 2417
+MATH 2414* or 
+2419*
+Calculus II
+PHYS 2326/2126
+Electricity and 
+Magnetism and Lab
+PHYS 2325/2125
+MATH 2414 or 2419
+Technical Elective
+Technical Elective
+First Year Only; Transfer 
+Sub (See Advisor)
+First Year
+* GRADE REQUIREMENTS
+D- or better required unless noted by *
+C or better required in CS 1436, CS 1337, CS 2305, 
+CS 2336 or 2337, MATH 2413 or 2417, MATH 2414 
+or 2419, MATH 2418
+Technical Elective
+Technical Elective
+MATH 2418
+Major Preparatory CourseCore
+Core
+CoreCoreCoreCoreCore Core
+See Catalog
+See Catalog
+See Catalog
+See Catalog
+ALEKS 80% or MATH 2312
+3 CS 4XXX
+CS 2336 or CS 2337
+CS 2305
+ECS 2390 CS 3345
+ECS 2390
+GOVT 2305
+First Year

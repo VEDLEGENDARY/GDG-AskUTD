@@ -1,0 +1,185 @@
+RHET 
+1302
+GOVT 
+2305
+GOVT 
+2306
+American 
+History 
+(060)
+American 
+History 
+(060)
+Language, 
+Philosophy 
+and Culture 
+(040)
+Creative 
+Arts (050)
+Social and 
+Behavioral 
+Sciences
+(080)
+REMAINING CORE CURRICULUM 
+Semester 7 and 8Semester 5 and 6Semester 3 and 4Semester 1 and 2
+ECS 1100
+Intro to Engr & CS
+CE 1100
+Intro to Comp Eng PHYS 2325/2125
+Mechanics and Lab
+MATH 2413 or 2417
+MATH 2414 or 2419
+CE 3345
+Data Structures & 
+Intro to Algorithmic 
+Analysis
+ALEKS 80% or MATH 2312
+MATH 2413* or 
+2417*
+Calculus I
+CS 1436*
+Programming 
+Fundamentals
+CE 1337*
+Computer Science I
+MATH 2414 or 2419
+CE 3202
+CE 3161
+Social Issues & 
+Ethics in Eng.
+CE 3303
+Signals and Systems
+CE 3201
+CE 42XX
+Elective Lab
+CE 4304
+Computer 
+Architecture
+CE 3202
+CE 4370
+Embedded Systems
+CE 4388
+Senior Design 
+Project I
+ECS 2390 CE 3161
+*CE 4348
+Operating Systems 
+Concepts
+CE 4389
+Senior Design 
+Project II
+CE Technical
+Elective
+CE 1337
+CS 1436
+CE 4388
+MATH 2420
+Core
+BS Computer Engineering Eight Semester Plan 2024-2025
+MATH 2414 or 
+2419
+Calculus II
+PHYS 2326/2126
+Electricity and 
+Magnetism and Lab
+MATH 2414 or 2419
+PHYS 2325/2125
+CE 1202
+Intro to Computer 
+Eng II
+Free Elective
+CE Technical 
+Elective
+First Year
+GRADE REQUIREMENTS
+C- or better required unless noted by *
+* C or better required
+Math 2415
+Calculus of Several 
+Variables
+MATH 2414
+CE 3320
+MATH 2420
+CE 2336 (Java)* or 
+CS 2337 (C++)*
+Computer Science II
+ENGR 3341
+Probability  & Stats 
+in CS and SE
+CE 1100
+MATH 2415 or 2419
+CE 3201
+Fundamentals I
+CE 3354
+Software 
+Engineering
+CE 2336 or CS 2337
+CE 2301
+CE 3320
+Digital Circuits
+CE 2310
+CE 1202
+CE 2305
+ECS 2390
+CE 3320
+ECS 2390
+Prof & Tech 
+Communication
+RHET 1302
+CE 3345
+See catalog
+See catalog
+ENGR 2300
+MATH 2414 or 2419
+CE 2301
+Electrical Network 
+Analysis 
+MATH 2413 or 2417
+Core
+Core
+Core
+Core
+Core
+MATH 2420
+Differential 
+Equations
+First Year
+CE 2310
+Intro to Digital 
+Systems
+CE 2305*
+Discrete 
+Mathematics I
+CE 3202
+Fundamentals II
+MATH Technical
+Elective
+Free Elective
+(1SCH)
+Core Core
+MATH 2420
+CE 2305
+MATH 2413
+PHYS 2326/2126
+RHET 1302
+CE 3320
+CE 2301
+CE 2336 or CS 2337
+CE 2305
+ENGR 3341
+CE 4304
+CE 3311
+Electronic Circuts
+CE 2310
+ENGR 2300
+Linear Algebra for 
+Engineers
+CE 3303
+ECS 2390
+See catalog
+See catalog
+Prerequisite Pre- or Corequisite
+Critical Path
+First Year only; Transfer sub 
+with Technical Elective Major Preparatory Course
+CE 3311 CE 3320

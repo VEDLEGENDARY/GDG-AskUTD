@@ -1,0 +1,74 @@
+UTD ID
+LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO
+1 1,8 Intro to Engineering and CS ECS 1100
+1 1 Intro to Electrical and Computer Engineering CE 1100
+2 1 Intro to Computer Engineering II CE 1202
+3 2 Computer Science I CE 1337 
+3 2 Computer Science II CE 2336 or 2337
+3 1 Introduction to Digital Systems CE 2310
+3 2 Discrete Mathematics for Computing I CE 2305
+3 1 Linear Algebra for Engineers ENGR 2300
+4 1,3,4 Calculus I MATH 2414 or 2417
+4 1,3,4 Calculus II MATH 2415 or 2419
+4 1 Differential Equations w/ Applications MATH 2420
+3 1,3 Mechanics PHYS 2325
+1 1,3 Physics Laboratory I PHYS 2125
+3 1,3 Electromagnetism and Waves PHYS 2326
+1 1 Physics Laboratory II PHYS 2126
+39 0
+1 1 Social Issues and Ethics in Engineering CE 3161
+2 1 CE Fundamentals Lab I CE 3201
+2 1 CE Fundamentals Lab II CE 3202
+2 1 CE Elective Lab CE 420x
+3 1 Electrical Network Analysis CE 3301
+3 1 Discrete Time-Signals and Systems CE 3303
+3 1 Electronic Devices CE 3310
+3 1 Electronic Circuits CE 3311
+3 1 Digital Circuits CE 3320
+3 1 Probability Theory & Statistics ENGR 3341
+3 1 Data Structures & Intro to Algorithmic Analysis CE 3345
+3 1 Software Engineering CE 3354
+3 1 Computer Architecture CE 4304
+3 1 Operating Systems Concepts CE 4348
+3 1 Embedded Systems CE 4370
+3 1 Senior Design Project I CE 4388
+3 1 Senior Design Project II CE 4389
+3 1 CE Guided Electives EE/CS 43xx
+3 1 CE Guided Electives EE/CS 43xx
+3 1 CE Guided Electives EE/CS 43xx
+3 1,3 Professional & Technical Communication ECS 3390
+0 58
+3 Rhetoric RHET 1302
+3 American National Government GOVT 2305
+3 State and Local Government GOVT 2306
+3 4 US History Survey to Civil War (Core: 060) HIST 1301
+3 4 US History Survey from Civil War (Core: 060) HIST 1302
+3 4 Exploration of the Humanities (Core: 040) HUMA 1301
+3 4 Exploration of the Arts (Core: 050) ARTS 1301
+3 4 Social Behavioral Science (Core: 080) ECON 2301
+24 0
+3 6,7 Free Elective
+2 6,7 Free Elective
+0 8 Freshmen Seminar UNIV 1010
+0 9 Core Curriculum Assessment UNIV 2020
+5
+68 58
+*** Must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate.  Students must also 
+complete 45 hours in residence and complete 24 of the last 30 hours at UTD.  No off-campus coursework in the last semester allowed.
+Student
+NOTES
+Total Hours_________126 hours required for graduation. Must include minimum 51 hours as Upper Division.***
+MAJOR CORE REQUIREMENTS
+REMAINING CORE CURRICULUM
+9.  All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020.
+8.  Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course.
+7.  Lower or upper division courses may count as free electives.
+1.  Major requirement. Must earn C- or better to receive credit.
+3.  Course meets both Major and CORE requirement.
+5.  Other course options available.  See advisor for details.
+4.  Must take Math 2413/2414/2415 or Math 2417/2419.
+6.  A maximum of 3 PHIN credits is allowed on any UTD degree plan.
+2.  CS Requirement:  Must earn a C or better to receive credit.
+B.S. in COMPUTER ENGINEERING (2021-2022 Catalog) 
+MAJOR PREPARATORY REQUIREMENTS
+ELECTIVES (5 Hours - Requires Approval from Advisor)

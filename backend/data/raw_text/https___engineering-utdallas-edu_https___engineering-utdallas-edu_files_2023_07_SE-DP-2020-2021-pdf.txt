@@ -1,0 +1,72 @@
+Student UTD ID
+LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO
+1 7 Introduction to Engineering and CS ECS 1100
+2 Introduction to CS and SE CS 1200
+3 1 Programming Fundamentals CS 1336
+1 Computer Science Laboratory CS 1136
+3 1 Computer Science I CS 1337
+3 1 Discrete Mathematics for Computing I CS 2305
+3 1 Computer Science II CS 2336 or 2337
+3 Computer Architecture SE 2340
+4 2,3 Calculus I MATH 2413 or 2417
+4 2,3 Calculus II MATH 2414 or 2419
+4 Linear Algebra MATH 2418
+3 2 Mechanics PHYS 2325
+1 2 Physics Laboratory I PHYS 2125
+3 2 Electromagnetism and Waves PHYS 2326
+1 Physics Laboratory II PHYS 2126
+39 0
+1 Professional Responsibility in CS/SE SE 3162
+3 Mathematics Foundations of SE SE 3306
+3 Probability & Statistics in CS/SE SE 3341
+3 Data Structures & Int. to Algorithms SE 3345
+3 Software Engineering SE 3354
+3 C/C++ Programming in a UNIX Envir SE 3377
+3 Database Systems SE 4347
+3 Operating Systems Concepts SE 4348
+3 Requirements Engineering SE 4351
+3 Software Architecture & Design SE 4352
+3 Software Testing, Verif, Valid, QA SE 4367
+3 Software Project Planning & Mgmt. SE 4381
+4 Software Engineering Project SE 4485
+3 5 SE Guided Elective SE/CS 43XX
+3 5 SE Guided Elective SE/CS 43XX
+3 5 SE Guided Elective SE/CS 43XX
+3 5 SE Guided Elective SE/CS 43XX
+3 2 Prof & Tech Communication ECS 3390
+53
+3 Rhetoric RHET 1302
+3 American National Government GOVT 2305
+3 State and Local Government GOVT 2306
+3 4 US History Survey to Civil War (Core: 060) HIST 1301
+3 4 US History Survey from Civil War (Core: 060) HIST 1302
+3 4 Exploration of the Humanities (Core: 040) HUMA 1301
+3 4 Exploration of the Arts (Core: 050) ARTS 1301
+3 4 Social Behavioral Science (Core: 080) ECON 2301
+24
+3 5,6 Free Elective
+3 5,6 Free Elective
+1 5,6 Free Elective
+0 7 Freshmen Seminar UNIV 1010
+0 8 Core Curriculum Assessment UNIV 2020
+7
+70 53
+NOTES
+4.  Other course options available.  See Advisor for details.
+6.  A maximum of 3 PHIN credits is allowed on any UTD degree plan.
+8.  Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and 
+the corresponding school-related freshmen seminar course.
+5.  Must satisfy at least one Application Domain. See Advisor for details.
+7.  Lower or upper division courses may count as free electives.
+*** Must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate.  Students must also complete 45 
+hours in residence and complete 24 of the last 30 hours at UTD.  No off-campus courses in the last semester allowed.
+9.  All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020. 
+B.S. in SOFTWARE ENGINEERING (2020-2021 Catalog) 
+MAJOR PREPARATORY REQUIREMENTS
+REMAINING CORE CURRICULUM
+ ELECTIVES (7 Hours - Requires Approval from Advisor)
+MAJOR CORE REQUIREMENTS
+Total Hours______  123 hours required for graduation.  Must include 51 hours as Upper Division.***
+1.  Major Requirement:  Must earn a C or better to receive credit.
+3.  Must take Math 2413/2414 or Math 2417/2419.
+2.  Course meets both major and CORE requirement.

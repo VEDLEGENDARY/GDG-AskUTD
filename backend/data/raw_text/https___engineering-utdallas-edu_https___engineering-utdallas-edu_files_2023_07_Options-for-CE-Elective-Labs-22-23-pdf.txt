@@ -1,0 +1,21 @@
+Revision Date: 6/24/20 
+OPTIONS FOR COMPUTER ENGINEERING ELECTIVE LAB 
+(2022-2023) 
+ 
+COURSE 
+CE 4201  
+Electrical and Computer Engineering Laboratory in Computing Systems and Computer 
+Engineering  
+ 
+CE 4202 
+ Electrical and Computer Engineering Laboratory in Circuits  
+ 
+CE 4203  
+Electrical and Computer Engineering Laboratory in Signals and Systems  
+ 
+CE 4204 
+ Electrical and Computer Engineering Laboratory in Devices  
+ 
+CE 4205 
+ Electrical and Computer Engineering Laboratory in Power Electronics and Energy Systems  
+class

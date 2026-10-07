@@ -1,0 +1,538 @@
+Online/Blended Teaching Handbook 
+ 
+ 
+The University of Texas at Dallas  
+eLearning Team 
+ 
+5/2024
+
+2 
+ 
+Table of Contents 
+ 
+Introduction……………………………………………………………………….….. 3 
+ 
+Organizational Information……….……………………………………………….... 3 
+ 
+Philosophy………………………………………………………………………….… 3 
+  Definition of Distance Education……………………………………………..….... 3 
+  Effectiveness of Online/Blended Instruction…………………………………...... 3  
+  Mission of Online/Blended Learning Programs………………..……………..…. 4  
+  Online/Blended Course Standards……………………………………………….. 4 
+ 
+Course Development ……………………………………………………………….. 5 
+  Online Teaching Certification……………………………………………….…..... 5 
+  Procedures…………………………………………………………………….…..... 5 
+  Syllabus……………………………………………………………………….…..… 5 
+  Learning Objectives………………………………………………………..……..... 6 
+  Textbook Selection……………………………………………………….……….... 6 
+  Course Activities/Assessment…………………………………………..………..… 6 
+  Communication…………………………………………………………...…...…… 7 
+  Group Presentations…………………………………………………….….....…… 7 
+  Assignments……………………………..………………………………..……...….. 7 
+  Online Tests…………………………………………………………….…….....….. 8 
+  Uploading Course Materials…………………...……………………….…………. 8 
+  Course Review……...………………………………………………….…………… 8 
+ 
+Technology……………………………………………………………….…....……… 9 
+  Getting Started……………………………………………………………………… 9 
+  Course Development Tools…………………………………………………....……  9 
+  Training/Tech Support………………………………………………………….….  10 
+ 
+Faculty …………………………………………………………………….…………. 11 
+  Responsibilities……………………………………………………………………... 11 
+ 
+Staff………………………………………………………………………..…...……… 12 
+  Responsibilities……………………………………………………………………… 12 
+ 
+Students…………………………………………………………….………….……... 12 
+  Requirements………………………………………………………………..……… 12 
+  Knowledge/Attitude/Skills………………………………………………..…...…… 12 
+ 
+Legal Issues…………………………………………………………………..………. 13 
+  Copyrighted Material……………………………………………….………...……. 13 
+  Accessibility……………………………………………………………..…………... 13 
+ 
+References………………………………………………………………….…………. 14
+
+3 
+Introduction 
+Online/Blended education is becoming commonplace in colleges and universities 
+throughout the world. It is the goal of this manual to facilitate a smooth entrance into 
+online/blended teaching by outlining processes and procedures for creating and teaching 
+your course. Topics covered include: Organizational Information, Philosophy, Course 
+Development, Technology, Faculty, Staff, Students, and Legal Issues.    
+           TOP 
+ 
+Organizational Information 
+Programs. The fully online degree programs at the University of Texas at Dallas are 
+extensions of campus programs. Internet-based programs have been available since 1999.   
+         
+Administration. The programs are managed by the program heads.  
+ 
+Course Development. Courses are developed by faculty with support from the UTD 
+eLearning Team.  
+  TOP  
+ 
+Philosophy 
+Definition of Distance Education. Distance education is defined as planned learning that 
+normally occurs in a different place from teaching and as a result requires special 
+techniques of course design, special instructional techniques, special methods of 
+communication by electronic and other technology, as well as special organizational and 
+administrative arrangements (Moore & Kearsley, 1996).  
+ 
+Title 19, Texas Administrative Code, Part 1, Chapter 2, Subchapter J, Rule §2.202, states 
+that a 100-percent online course is “A distance education course in which 100 percent of 
+instructional activity takes place when the student(s) and instructor(s) are in separate 
+physical locations. Requirements for on-campus or in-person orientation, testing, 
+academic support services, internships/fieldwork, or other non-instructional activities do 
+not exclude a course from this category.”  Generally speaking, online courses at UT 
+Dallas are 100% online and do not require face-to-face sessions. A “hybrid” or “blended” 
+course is “A distance education course in which more than 50 percent but less than 100 
+percent of instructional activity takes place when the student(s) and instructor(s) are in 
+separate physical locations.”   
+           TOP 
+ 
+Effectiveness of Online Instruction. Many have questioned if distance education is as 
+effective as traditional education. A compilation of research findings entitled The No 
+Significant Difference Phenomenon (NSDP) explores the effective use of technology, 
+chiefly distance learning, compared to alternative methods or techniques of 
+teaching.  The annotated studies in the original article are arranged chronologically. 
+There are 355 research reports, summaries, and papers cited in which no significant 
+difference was reported between the variables compared (Russell, 1999).
+
+4 
+The US Department of Education conducted a meta-analysis comparing online, blended, 
+and face-to-face effectiveness. It was found that “…blended instruction has been more 
+effective, providing a rationale for the effort required to design and implement blended 
+approaches. When used by itself, online learning appears to be as effective as 
+conventional classroom instruction, but not more so.” (Means, Toyama, Murphy, Bakia, 
+Jones, 2010).           
+           TOP 
+ 
+Mission of Online/Blended Learning Programs. The mission of online/blended 
+programs at The University of Texas at Dallas is to provide high quality educational 
+opportunities to students who may be at a geographic disadvantage, have employer travel 
+and other conflicts which prevent on-campus class attendance, have course conflicts, or 
+have personal circumstances that require scheduling flexibility.      
+           TOP 
+ 
+ 
+Online/Blended Course Standards. The University of Texas at Dallas’ standards for 
+online/blended courses are as follows. 
+ 
+Online/Blended courses will: 
+• adhere to the same rigorous standards as traditional courses. 
+• result in learning outcomes appropriate to the credit awarded. 
+• comply with the “Texas Higher Education Coordinating Board Distance 
+Education Advisory Committee Guide for Incorporating The Principles of Good 
+Practice into Electronically-Based Courses.”  
+• utilize the best available technology and pedagogy to create and provide a high 
+quality educational experience to students. 
+• be taught by academically qualified faculty.  
+• include regular communication and feedback to students. 
+• be regularly updated. 
+ 
+Online/Blended courses follow the same academic calendar as face-to-face sections. The 
+faculty member responsible for conducting each course is required to develop all content 
+and a corresponding syllabus which will include assignments, texts, due dates, grading 
+rubrics, and other relevant information.   
+ 
+ TOP
+
+5 
+ 
+ 
+Course Development 
+The instructor is responsible for designing and building the course, but is encouraged to 
+contact instructional designers as needed for training, technical support, and pedagogical 
+assistance. Services such as the recording studio are available on a first-come, first-served 
+basis. The instructor should review and follow the Texas Higher Education Coordinating 
+Board's Principles of Good Practice (PGP) (Approved Oct 2023)  a nd will need to 
+complete the UT Dallas Principle of Good Practice Form. 
+TOP 
+ 
+Online Teaching Certification. The eLearning Team offers Online Teaching 
+Certifications to  faculty (full- time and adjunct) and Graduate Teaching Assistants 
+(including Post-Doctoral associates) who have instructional responsibilities. 
+ 
+The program is online, self-paced, and allows instructors to experience the online tools 
+and educational environment as students prior to teaching. The learning materials focus 
+on pedagogy, University policies and processes, eLearning LMS functionality, and other 
+educational technology tools. 
+TOP 
+ 
+Procedures. The following procedures should be followed for the preparation of 
+materials.  
+ 
+The instructor should: 
+• schedule a course design consultation with an instructional designer as needed. 
+• make arrangements with instructional designers to receive technology training as 
+needed. 
+ 
+The development of course materials is time consuming. Sufficient time must be 
+allocated to this process to ensure the course is complete prior to the start of the semester. 
+Examples of course materials used in distance education courses include text-based 
+lectures, multimedia presentations, interactive web-based exercises, case studies, and 
+instructor videos. The instructional design staff is committed to supporting faculty, but 
+content and the creation of course materials is ultimately the responsibility of the 
+instructor. 60 hours is a good estimate of how much time you will spend preparing a 
+course. 
+ 
+Additionally, professors are encouraged to seek advice and assistance from the UT Dallas 
+eLearning team for face-to-face courses that utilize the university’s learning management 
+system or other educational technologies. 
+TOP 
+ 
+Syllabus. The syllabus is the roadmap to the course. A rough draft of this document 
+should be created very early in the course development process. This document will 
+ultimately contain all of the information students will need for the course including
+
+6 
+textbook information, due dates, special instructions, etc. An Online/Blended Course 
+Syllabus Template can be found on the Office of the Provost’s Syllabus Templates 
+website.  
+TOP 
+Learning Objectives. Like courses taught in the traditional classroom, distance education 
+courses should be based on objectives. The instructor should develop a list of objectives 
+for the course as a whole, as well as for each section (or module/unit)*. Here is an 
+example of course/module objectives: 
+ 
+Course Objectives:  
+• After completing Strategic Management 101, the student will explain core 
+concepts and provide examples of their relevance and use by actual companies. 
+• After completing Strategic Management 101, the student will present explanations 
+of analytical tools used in the managerial process of crafting and executing 
+strategy. 
+ 
+Module Objectives: 
+• After completing Module 1, the student will list the components of Porter's Five 
+Forces. 
+• After completing Module 1, the student will define key success factors (KSF’s).  
+      
+     *Instructional designers are available should the instructor need assistance writing 
+objectives.     
+           TOP 
+ 
+Textbook Selection. The instructor should select textbooks/case studies and communicate 
+this information to the area administrative assistant (who will pass it on to the bookstore 
+at least four weeks prior to the start of each semester to provide ample time for ordering 
+and shipment). Please contact the bookstore and the publisher if you are interested in 
+creating a custom textbook or an eBook. Many textbooks come with supplemental online 
+course material. Please contact an instructional designer if you would like assistance 
+importing this material into your course.  
+           TOP 
+ 
+ 
+Course Activities/Assessments. Activities for assessing students in an online course can 
+be as dynamic as in traditional face-to-face classes. Instructors have the options of 
+incorporating graded activities such as discussions (threaded, blogs, journals), group 
+presentations, papers, and online or proctored exams. 
+ 
+A common question is, “How much recorded lecture should go into an online course?” 
+Credit hour calculation in online courses is not necessarily as clear cut as in the face-to-
+face setting. For instance, in a class taught in the traditional format, a three -credit course 
+might require 45 hours of classroom time, plus two hours of homework time per each 
+hour of classroom time, totaling 135 hours.
+
+7 
+It is recommended that instructors DO NOT  record 45 hours of lecture, but instead 
+meet the 135 total hours in the online environment by calculating the student’s time 
+on task. There are many academic activities in which students can participate to 
+achieve this. An example week might include a student viewing a recorded lecture (1 
+hour), working on a discussion board assignment (2 hours), reading (2 hours), taking 
+an online quiz (1 hour), contributing to group work (2 hours), and participating in a 
+team web conference (1 hour) . Instructional designers are available for 
+assistance/consultation  on course design and best practices to help transition  a course 
+from the traditional classroom to the online environment.    
+ 
+Communication. 
+• Announcement: Post reminders, news and updates to the entire class. 
+• Discussion: Questions or discussion topics are posted on the discussion board in 
+threaded, blog or journal format. The amount and quality of student interaction 
+can be graded. 
+• Email: Instructor and students can use Course Messages or UTD email tool to 
+exchange information and address any issues and concerns. 
+• Web conference: Web conferences provide various methods of synchronous 
+communication, including audio, voice-chat, text chat, and desktop and 
+application sharing. These can be recorded and viewed asynchronously as well.   
+• Group tools: Groups can use group communication and collaboration tools for 
+group assignments.         
+          TOP 
+Group Presentations. 
+• Student presentations: In the Group Discussion area in eLearning, students may 
+be given a private venue to post discussions and files (such as Word documents, 
+PowerPoint presentations and Excel spreadsheets). The instructor has the option 
+to make these files available when the work is complete. The work can be graded 
+by the instructor and critiqued by students. 
+• Class Discussion Forum: Groups can present in the designated class discussion 
+forum for feedback and comments.  
+• Group presentations via web conference: Student presenters can upload 
+PowerPoints (or any other type of document) and conduct a web-based 
+presentation using audio, text chat, and desktop/application sharing. Content, 
+delivery, and attendance can be recorded.  
+          TOP 
+ 
+Assignments.  Assignments may be submitted electronically via the eLearning 
+Assignment tool. Notes can be made on the submission and returned electronically if 
+desired. As in the traditional classroom, plagiarism is a concern. Turn-it-in is a software 
+program that can scan a student’s paper and compare it to millions of previously 
+submitted papers and literary works in a database. A report is then displayed that flags 
+potentially plagiarized sections. This tool is available for use in all eLearning courses. 
+ 
+           TOP
+
+8 
+Online Tests. A test can be created within eLearning that can be automatically scored and 
+entered into the Grade Book. At the instructor’s discretion, results can be made available 
+to the student. It is recommended that the instructor write questions that test higher levels 
+of learning as opposed to rote knowledge. For background on this, please see Bloom’s 
+Taxonomy.  
+ 
+To address the issue of test security, the instructor should set up the test as follows: 
+• Randomize questions from the test bank to ensure that students do not receive 
+identical tests. 
+• Randomize the answers so that if students do receive the same question, the 
+answer order will not coincide between tests. *Do not do this with questions that 
+have answer options such as “all of the above, none of the above, etc.” as when 
+answers are randomized it will cause confusion. 
+• Adjust settings so one question appears at a time to discourage students from 
+printing test questions. 
+• Set a time limit on the test to minimize the possibility of students looking up 
+several answers in the textbook. 
+• Shorten the test availability time window. 
+• The Testing Center can host proctored exams. Students at a distance can make 
+arrangements to take proctored exams at an approved testing facility.  
+• The online proctored exam service Honorlock can be used. 
+• Limit the amount of time and details when test results are released.  
+TOP 
+ 
+Uploading Course Materials. Once the course materials are created, they must be 
+uploaded to eLearning. The instructor with assistance from an instructional designer 
+should develop an intuitive course structure to ensure ease of navigation for the student. 
+ 
+TOP 
+ 
+Course Review. The instructor is responsible for reviewing all aspects of the course for 
+accuracy. Once the course meets the instructor’s approval, the instructor must sign off on 
+the Texas Higher Education Coordinating Board Distance Education Advisory 
+Committee’s Guide for Incorporating The Principles of Good Practice into Electronically 
+Based Courses by submitting the UT Dallas Principle of Good Practice Form. The course 
+will also be reviewed by a faculty peer review. Finally, the course is to be approved by 
+the program head. 
+           TOP
+
+9 
+ 
+Technology 
+Getting Started. To ensure access and proper functioning of course materials, the 
+following steps should be taken: 
+ 
+Access 
+• Ensure there are no issues with the instructor’s NetID or password.  If issues exist, 
+contact the UTD Helpdesk at 972-883-2911 or assist@utdallas.edu.  
+ 
+Browsers and Operating Systems 
+• View Blackboard's Browser and OS Requirements. 
+ 
+Software 
+• Microsoft Office (install the latest supported version). Contact the help desk at 
+972-883-2911 to install this at no charge. 
+• Virus detection/protection software.  
+• Plug-ins may be required to view media in or your eLearning class, such as 
+Adobe Acrobat Reader. 
+• Login to your eLearning account. 
+Note: If you have problems logging in, see a wrong course listed, or do not see a 
+course listed, contact the eLearning Help Desk or 1-866-588-3192. 
+• To customize your eLearning course, contact the eLearning Team at 
+elearning@utdallas.edu.  
+                    TOP 
+ 
+ 
+Course Development Tools. In an Internet-based course, the teacher and learner can be in 
+different places at different times. Just as in the traditional classroom, communication is 
+essential for a course to be successful. The instructor and students may maintain constant 
+contact via announcements, discussion boards, web conferences, and emails. By using a 
+combination of asynchronous and synchronous tools, the barriers of space and time are 
+eliminated. In addition to the communication tools mentioned, information may be 
+conveyed to students in several ways such as text, audio, multimedia, synchronized slide 
+presentations with audio, and simulations.  
+ 
+Listed below are brief descriptions of some technologies used in distance education 
+courses: 
+• eLearning: A course management tool (or container) where all 
+materials/communication tools, grade book, etc. reside. 
+• Streaming video: Allows students to access video clips via the Internet without 
+any files being downloaded to their computers. 
+• PowerPoint: A component of Microsoft Office that facilitates computer-based 
+slide presentations.  
+• Camtasia: Allows the creation of multimedia presentations for viewing via 
+computer. Translates presentations into to streaming multimedia presentations.
+
+10 
+• Respondus: Enhances the functionality and usability of eLearning's quiz, survey, 
+and self-test tools. This tool saves considerable time developing tests by allowing 
+the creation of all questions in a single text file and importing them directly into 
+the eLearning test bank. This can be downloaded for free. 
+• Adobe Acrobat: A cross-platform (any computer can open it) program that can 
+convert Word Documents, Excel Spreadsheets, and PowerPoint Presentations into 
+a file that is very difficult to alter. PDF files tend to be much smaller, therefore 
+taking less time to download.  
+• Microsoft Word: A program for generating text documents. 
+• Microsoft Excel: A program used to generate spreadsheets. 
+• Tablet PC recording: Allows graphic illustration of any computer application. 
+• Library for Distance Students: Distance students may access UTD Library 
+resources including a chat-based reference service, a document delivery service 
+(books, articles, and media are sent via mail), and connection to the UTD Catalog. 
+• Web conferencing: A tool used for synchronous class meetings and small group 
+discussions. Capabilities include file sharing, audio/voice chat, video, 
+desktop/application sharing, and interactive features. 
+• Recording studio: This facility may be scheduled to record and edit audio/video 
+material. The material can then be produced and uploaded into the learning 
+management system for students to access.     
+TOP 
+ 
+ 
+Training/Tech Support: In order to get help as quickly as possible, please direct your 
+question to the proper contact. 
+• NetID issues: assist@utdallas.edu or 972-883-2911. 
+• eLearning course issues: eLearning Help Desk or 1-866-588-3192. 
+• Assistance developing/uploading materials, creating tests, general eLearning 
+questions: elearning@utdallas.edu. 
+• Training Requests: eLearning Faculty Training Site.     
+            
+TOP
+
+11 
+ 
+Faculty 
+Once the course is complete, the instructor is responsible for managing it throughout the 
+semester. This management includes monitoring the course, communicating regularly 
+with students, grading assignments and assessments in a timely manner, updating the 
+grade book, etc. A breakdown of the responsibilities of faculty, staff, and teaching 
+assistants follows.  
+ 
+Responsibilities. 
+ 
+Prior to 
+Course 
+Offering 
+• Attend a course development meeting with an instructional designer if needed. 
+• Request training as needed.  
+• Schedule studio recording time if needed. 
+• Ensure course is available in eLearning. 
+• Ensure all course materials are in compliance with accessibility standards. 
+• Prepare course materials (syllabus, lectures, quizzes, etc.) in accordance to the 
+course development timeline. 
+• Communicate textbook/case studies to be used with bookstore. 
+• Keep course materials up to date. 
+• Obtain clearance for copyrighted materials. 
+• Review course in its entirety at least two weeks prior to course offering. 
+• Make needed corrections/updates. 
+• Ensure the course is complete prior to the start of the semester. 
+During 
+Course 
+Offering 
+• Respond to student questions within 48 hours. 
+• Regular communication with students (announcement, discussion board, email, 
+web conference, etc.). 
+• Schedule and communicate times for synchronous communication (web 
+conference/chat) with students if needed. 
+• Maintain online course throughout the semester (discussions, group formation, 
+grade book, assignment submissions, calendar, course material uploads after 
+course release). 
+After Course 
+Offering 
+• Review course evaluations. 
+• Reflect on experiences in the course. 
+• Determine necessary changes for the next offering. 
+ 
+TOP
+
+12 
+ 
+Staff 
+Instructional designers will:  
+• conduct workshops for faculty and TAs. 
+• conduct individualized training sessions for faculty and TAs. 
+• assist with media selection, design, and development. 
+• provide guidance on copyright clearance. 
+• provide guidance on accessibility issues. 
+• provide technical assistance.   
+• evaluate and offer suggestions for course revisions. 
+          TOP 
+ 
+Students 
+Admission requirements and tuition are the same as for traditional students. The fees are 
+comparable to traditional classes (there is a distance learning fee, but students are exempt 
+from fees such as student union, recreational facility and medical service). Students can 
+take online courses and traditional classroom courses simultaneously. 
+ 
+Requirements.  
+Students will:  
+• have regular access to a computer that meets the specifications outlined. 
+• have regular access to a reliable Internet connection. 
+• access eLearning three times per week (minimum).   
+            TOP 
+ 
+Knowledge/Attitude/Skills.  
+The online student must be: 
+• proficient using a computer. 
+• disciplined to complete projects by deadlines. 
+• a self-starter with intrinsic motivation to read, write, and participate fully in class 
+activities. 
+• able to manage time effectively. 
+• able/willing to work independently and in virtual teams.     
+• willing to devote approximately 9-10 hours a week to a 3-credit course. 
+• committed to academic honesty. 
+• willing to contact the instructor immediately should course content issues arise. 
+• willing to contact technical support immediately should a technical issue arise.  
+ 
+TOP
+
+13 
+Legal Issues 
+Copyrighted Material. The instructor may not use copyrighted material without proper 
+clearance. Obtaining clearance to use copyrighted material is the responsibility of the 
+instructor. To determine if clearance needs to be obtained, the following four factors 
+should be considered: 
+1. The purpose and character of the use, including whether use is of a commercial 
+nature or is for nonprofit educational purposes. 
+2. The nature of the copyrighted work. 
+3. The amount and substantiality of the portion used in relation to the copyrighted 
+work as a whole. 
+4. The effect of the use upon the potential market for or value of the copyrighted 
+work. 
+ 
+It is recommended that the instructor reviews the UT System’s Crash Course in 
+Copyright. 
+TOP 
+ 
+Accessibility. Course materials should be accessible to students, regardless of disability. 
+A text equivalent for every non-text element should be included for all course materials. 
+This includes images, graphics, video, and audio files. A detailed set of guidelines can be 
+found at the World Wide Web Consortium (W3C) website. 
+ 
+A student identifying him/herself as having a disability should be directed to the UTD 
+AccessAbility Resource Center. Phone: 972-883-2098.     
+            
+TOP
+
+14 
+References 
+ 
+Means, B., Toyama, Y., Murphy, R., Bakia, M. & Jones, K., (2010). Evaluation of 
+Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online 
+Learning Studies. U.S. Department of Education Office of Planning, Evaluation, and 
+Policy Development Policy and Program Studies Service. 
+   
+Moore, M. & Kearsley, G. (1996). Distance Education: A Systems View. California: 
+Wadsworth Publishing Company. 
+ 
+Russell, T. L. (1999). The No Significant Difference Phenomenon. Raleigh, North 
+Carolina: North Carolina State University.  
+ 
+Schlosser, L.A. & Simonson, M. (2002). Distance Education: Definition and Glossary of 
+Terms. Bloomington, IN: Association for Educational Communication and Technology.  
+            
+TOP

@@ -1,0 +1,178 @@
+Description Course No
+Probability & Statistics in CS SE 3341
+Algorithms Analysis & Data Struct SE 3345
+C/C++ Prog'ing in a UNIX Env. SE 3377
+Linear Algebra Math 2418
+3 hours CORE: Choices below
+Senior
+Freshman
+Sophomore
+Junior
+Senior
+Freshman
+Sophomore
+Junior
+*Math 
+2417*Math 2413
+Math 2419Math 2414
+**CS 1337
+**CS 1336/1136
+ECS 
+1100
+**CS 2305
+Math 2418
+SE 
+3306
+SE 2340
+SE 3341 SE 3377
+ECS 3390
+SE 4351
+SE 43xx 
+Guided Elective
+See Advisor
+SE 4367
+SE 4381 SE 4352
+SE 4348
+SE 4485  Free 
+Elective (1)
+Domains and Guided Electives (12hrs)
+Students should complete three courses from 
+one  of the application domains. See the 
+document entitled "Application Domains."
+Further guided electives can be selected from 
+the CS/SE 43xx level classes.
+BS Software Engineering Suggested Four Year Plan
+ 2021 – 2022   Catalog
+LEGEND
+Pre- or Co-requisite
+Pre-requisite
+Prereq Critical Path
+Courses may be taken in any order, as long 
+as prerequisites are met.
+At this point, you should choose a domain.
+At least two of 
+these 4 complete 
+to begin Project.
+Description Course No
+Introduction to CS & SE CS 1200
+Introduction to Engr & CS ECS 1100
+Calculus I Math 2413 or 2417
+Computer Science I CS 1337
+6 hours CORE: Choices below
+Freshman Seminar UNIV 1010
+Description Course No
+Computer Science II CS 2336 or 2337
+Discrete Mathematics I CS 2305
+Calculus II Math 2414 or 2419
+Mechanics and Heat Phys 2325
+Mechanics and Heat Lab Phys 2125
+3 hours CORE: Choices below
+Description Course No
+Mathematics Foundations of SE SE 3306
+Computer Architecture SE 2340
+Electricity and Magnetism Phys 2326
+Electricity and Magnetism Lab Phys 2126
+6 hours CORE: Choices below
+Description Course No
+Software Engineering SE 3354
+Operating Systems SE 4348
+SE Guided Elective SE 43XX
+Prof & Tech Communication ECS 3390
+3 hours CORE: Choices below
+Description Course No
+Software Engineering Project SE 4485
+3 hours SE Guided Elective SE 43XX
+4 hours Free Elective See Advisor
+Core Curriculum Assessment UNIV 2020
+Phys 2325
+Phys 2125
+Phys 2326
+Phys 2126
+SE 4347
+SE 43xx Guided 
+Elective
+See Advisor
+SE 43xx Guided 
+Elective
+See Advisor
+Description Course No
+Software Project Planning & Mgmt. SE 4381
+Software Architecture & Design SE 4352
+3 hours SE Guided Elective SE 43XX
+Database Systems SE 4347
+Prof. Responsibility in CS & SE SE/CS  3162
+Description Course No
+Software Testing, Verif, Valid, QA SE 4367
+Requirements Engineering SE 4351
+3 hours SE Guided Elective SE/CS 43XX
+3 hours Free Elective See Advisor
+3 hours CORE: Choices below
+Junior &
+Rhet 1302
+SE 3345
+SE 3162
+SE 43xx Guided 
+Elective
+See Advisor
+SE 3354
+**CS 2305 & 
+**CS 2336
+Rhet 
+1302
+3 hours From:
+Ams 2300
+Ams 2341
+Huma 1301
+Lit 2331
+Phil 1301
+Phil 2316, 2317
+6 hours From:
+ Hist 1301
+Hist 1302
+Hist 2301
+Hist 2330
+Hist 2332
+Core Choices
+3 hours From:
+Ahst 1303, 1304, 2331
+Arts1301
+Danc 1310
+Film 2332
+Musi 1306
+Thea 1310
+Govt 2305
+Govt 2306
+CORECORE
+CORE
+CORE
+CORE
+CORE
+CORE
+ Free 
+Elective
+Math 2312 (C or better) 
+or 80% on ALEKS
+*A grade of C- or better is needed in Math 2413 or Math 2417 to move forward.
+**A grade of C or better is required for CS 1336, CS 1337, CS 2305, and CS 2336.
+CS 
+1200
+UNIV 
+1010
+UNIV 2020
+**CS 
+2336
+OR **CS 
+2337
+AP score of at 
+least 4
+OR
+OR
+3 hours From:
+ Crim 1301
+Econ 2301
+Econ 2302
+Geog 2303
+Psy 2301
+CORE
+ Free 
+Elective

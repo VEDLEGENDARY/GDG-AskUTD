@@ -1,0 +1,113 @@
+OPTIONS FOR COMPUTER SCIENCE MAJOR GUIDED ELECTIVES 
+(2022-2023) 
+ 
+Revision Date:  5/10/22 
+Students are required to take 9 hours of major guided electives. 
+ 
+Guided Elective Option 
+ 
+Pre-Requisite Course 
+CS 4301 
+Special Topics in Computer Science 
+CE/CS/SE 3345 
+CS 4314  
+Intelligent Systems Analysis 
+(MATH 2414 or MATH 2419) and (CS 3341 or SE 3341) and MATH 2418 or 
+Instructor consent required. 
+CS 4315 
+Intelligent Systems Design 
+CGS 4314 or CS 4314 or 
+Instructor consent required 
+CS 4332 
+Introduction to Programming Video Games 
+CE/CS/SE 3345 
+CS 4334 
+Numerical Analysis 
+(MATH 2370 or CE/CS 1337) and  
+MATH 2418 and (MATH 2451 or MATH 3351) 
+CS 4336 
+Advanced JAVA 
+CE/CS 2336 or CS 2337 or Equivalent 
+CS 4352 
+Human Computer Interactions I 
+NONE 
+CS 4353 
+Human Computer Interactions II 
+CS 4352 
+CS 4361 
+Computer Graphics 
+MATH 2418 and (CE/CS 2336 or CS 2337),  
+and CE/CS/SE 3345 or Equivalent 
+CS 4365 
+Artificial Intelligence 
+CE/CS/SE 3345 or Equivalent 
+CS 4375 
+Introduction to Machine Learning 
+CS/SE 3341 and CE/CS/SE 3345 or Equivalent 
+CS/SE 4376 
+Object Oriented Programming Systems 
+CE/CS 2336 or CS 2337 with a C or better or Equivalent 
+CS 4386 
+Compiler Design 
+CE/CS/SE 3345 or Equivalent 
+CS 4389 
+Data & Applications Security 
+CS/SE 4347 
+CS 4390 
+Computer Networks 
+CE/CS/SE 3345 or Equivalent 
+CS 4391 
+Intro to Computer Vision 
+CE/CS/SE 3345 or Equivalent 
+CS 4392 
+Computer Animation 
+Math 2418 and CE/CS/SE 3345 or Equivalent 
+CS 4393 
+Computer and Network Security 
+CE/CS/SE 4348 or Equivalent 
+CS 4394 
+Implementation of Modern Operating Systems 
+CE/CS/SE 4348 or  
+Equivalent Programming experience 
+CS 4395  
+Human Language Technologies 
+CS/SE 3341 and CE/CS/SE 3345 or Equivalent 
+CS 4396 
+Networking Laboratory 
+CS 4390 or Equivalent 
+ 
+CS 4397 
+Embedded Computer Systems 
+CE/CS/SE 4348 or Equivalent 
+CS 4398 
+Digital Forensics 
+CE/CS/SE 4348 and CE/CS 4390 or Equivalent 
+CS 4V95  
+Undergraduate Topics in Computer Science 
+CE/CS/SE 3345 and Instructor Consent Required 
+EE 4325 
+Introduction to VLSI Design 
+CS 4341 
+SE 4351 
+Requirements Engineering 
+SE 3306 and CE/CS/SE 3354 or  
+Instructor Consent Required 
+SE 4352 
+Software Architecture and Design 
+SE 3306 and CE/CS/SE 3354 or  
+Instructor Consent Required 
+SE 4367 
+Software Testing, Verification, Validation and 
+Quality Assurance 
+SE 3306 and CE/CS/SE 3354 or  
+Instructor Consent Required 
+SE 4381 
+Software Project Planning and Management  
+CE/CS/SE 3354
+
+OPTIONS FOR COMPUTER SCIENCE MAJOR GUIDED ELECTIVES 
+(2022-2023) 
+ 
+Revision Date:  5/10/22 
+Students may also use CS 4V98 Undergraduate Research in Computer Science or CS 4399 Senior Honors in Computer Science.  Students must 
+consult an Academic Advisor before registering in these options.

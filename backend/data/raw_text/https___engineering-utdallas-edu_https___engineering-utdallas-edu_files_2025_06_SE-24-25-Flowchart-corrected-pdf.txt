@@ -1,0 +1,167 @@
+Semester 1 and 2 Semester 3 and 4
+RHET 
+1302
+GOVT 
+2305
+GOVT 
+2306
+American 
+History 
+(060)
+American 
+History 
+(060)
+Language, 
+Philosophy 
+and Culture 
+(040)
+Creative 
+Arts (050)
+Social and 
+Behavioral 
+Sciences
+(080)
+REMAINING CORE CURRICULUM 
+Semester 5 and 6 Semester 7 and 8
+ECS 1100
+Intro to ENGR & CS
+CS 1200
+Intro to CS & SE
+MATH 2413 or 2417
+ALEKS 80%
+CS 2336 (Java)* or 
+CS 2337 (C++)*
+Computer Science II
+CS 1337*
+Computer Science I
+CS 2305
+ECS 2390
+Professional and 
+Technical Comm 
+RHET 1302
+SE 4347
+Database Systems
+SE 3162
+Prof Responsibility in 
+CS & SE
+Technical Elective
+MATH 2312
+Core
+BS Software Engineering Eight Semester Plan 2024-2025
+Prerequisite Pre- or Corequisite
+Critical Path
+MATH
+2414* or 2419*
+Calculus II
+PHYS 2325/2125
+MATH 2414 or 2419
+Technical Elective
+Technical Elective
+First Year only; Transfer sub 
+with Technical Elective
+First Year
+* GRADE REQUIREMENTS
+D- or better required unless noted by *
+C or better is required in CS 1436, CS 1337, CS 
+2305, CS 2336 or 2337, MATH 2413 or 2417, 
+MATH 2414 or 2419, MATH 2418
+SE 4381
+Software Project 
+Planning & Mgmt.
+PHYS 2325/2125
+Mechanics and Lab
+See catalog
+See catalog
+Core
+Core
+Major prep
+Core Core Core
+MATH 2418*
+Linear Algebra
+PHYS 2326/2126
+Electromagnetism
+& Waves and Lab
+SE 3306
+Mathematics 
+Foundations of SE
+SE 2340
+Computer
+Architecture
+CS 1337
+MATH 2413 or 2417
+SE 3341
+Probability & 
+Statistics in CS
+Core
+SE 3377
+Systems
+Programming in UNIX
+CS 2336 or 2337
+SE 3345
+Algorithms Analysis 
+& Data Struct
+MATH 2414 or 2419
+CS 2336 or 2337
+Core
+Technical Elective
+See catalog
+SE 4348
+Operating Systems
+SE 2340 SE 3345
+SE 3377
+SE 3354
+Software 
+Engineering
+SE 4352
+Software 
+Architecture & 
+Design
+SE 3306
+SE 3345
+SE 3354
+SE 3354
+See catalog
+MATH Technical
+Elective
+Free Elective
+SE 4367
+Software Testing, 
+Verif, Valid, QA
+SE 4351
+Requirements 
+Engineering
+SE 4485
+Software 
+Engineering Project
+SE 3306
+SE 3354
+SE 3306
+SE 3354
+Free Elective
+CS 1436
+CS 1436*
+Programming 
+Fundamentals
+MATH
+2413* or 2417*
+Calculus I
+MATH 2413 or 2417
+Atleast two of SE 
+4381/ SE 4352/ SE 
+4351/ SE 4367
+CS 2336
+CS 2305*
+Discrete 
+Mathematics I
+MATH 2313 or 2417
+CS 1337
+CS 2305
+CS 2305
+CS 2305 MATH 2418
+CS 2305
+MATH 2414 or 2419
+ECS 2390
+SE 3354
+SE 3345
+SE 3341
+CS 2305
