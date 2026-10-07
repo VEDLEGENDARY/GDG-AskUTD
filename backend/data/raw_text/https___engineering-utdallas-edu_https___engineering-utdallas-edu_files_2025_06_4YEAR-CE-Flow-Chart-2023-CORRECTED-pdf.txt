@@ -1,0 +1,207 @@
+Junior
+Senior
+Freshman
+Sophomore
+Senior
+Sophomore
+Junior
+Freshman
+Calculus 
+Complete
+Math 
+2417
+Math 
+2413
+Math 
+2419
+Math 
+2415
+**CE 
+1337
+**CS 1436
+Phys 2326 
+Phys 2126
+ECS 
+1100
+**CE 2305
+Math 
+2420
+ENGR 
+3341
+CE 2336 or 
+CS 2337*
+(AP score at least 4)
+CE 
+2310
+CE 3345
+CE 4304
+MATH 
+Guided 
+Elective
+CE 3311
+CE Guided 
+Elective 
+CE 4388
+CE 3161 
+M
+CE 4389
+BS Computer Engineering Suggested Four Year Plan
+2023 – 2024 Catalog
+A grade of C- or better is required in each class.
+**A grade of C or better is required in CS 1336, CE 1337, CE 2305, and CE 2336.
+LEGEND
+Pre- or Co-requisite
+Pre-requisite
+Prereq Critical Path
+LEGEND
+Pre- or Co-requisite
+Pre-requisite
+Prereq Critical Path
+Courses may be taken in any 
+order, as long as 
+prerequisites are met.
+Phys 2325  
+Phys 2125
+CE 3320 
+CE 2301
+CE 
+3303
+CE 4370
+**CE 2305 & 
+**CE 2336
+CE 1202 Math 
+2414
+CE 3354
+ECS 
+3390
+Junior & 
+Rhet 1302
+Free 
+Elective
+(1)
+Description Course No
+Introduction to Comp Eng CE 1100
+Introduction to Engr'g. & CS ECS 1100
+Ca l cul us  I Ma th 2413 or 2417
+Programming Fundamentals CS 1436
+6 hours CORE: Choices below
+Fres hma n Semi na r UNIV 1010
+Description Course No
+Intro to Computer Engr'g. II CE 1202
+Computer Science I CS 1337
+Calculus II Math 2414 or 2419
+Introduction to Digital SystemsCE 2310
+Applied Linear Alegebra ENGR 2300
+Mechanics and Heat Phys 2325
+Mechanics and Heat Lab Phys 2125
+Calculus of Several Variables 
+(Summer) MATH 2415
+Description Course No
+Differential Equations w/Applications Math 2420
+Computer Science II CE 2336 or CS 2337
+Probability & Stats in CS and SE ENGR 3341
+Electricity and Magnetism Phys 2326
+Electricity and Magnetism Lab Phys 2126
+Discrete Mathematics I CE 2305
+Description Course No
+Electrical Network Analysis CE 2301
+Fundamentals l CE 3201
+Data Structures & Intro to 
+Al gori thmi c Anal ys i s CE 3345
+Digital Circuits CE 3320
+3 hours CORE: Choices below
+Description Course No
+Fundamentals II CE 3202
+Software Engineering CE 3354
+Social Issues & Ethics in Eng. CE 3161
+Prof & Tech Communication ECS 3390
+Discrete-Time Signals & Systems CE 3303
+Core Curriculum Assessment UNIV 2020
+Electronic Circuits CE 3311
+Description Course No
+CE Elective Lab CE 420X
+Computer Architecture CE 4304
+Embedded Microprocessor Systems CE 4370
+6 hours CORE: Choices below
+Description Course No
+3 hour MATH Guided Elective
+Opera ting Sys tems  Concepts CE 4348
+Senior Design Project I CE 4388
+1 hours Free El ecti ve
+6 hours Core: Choices below
+Description Course No
+Senior Design Project II CE 4389
+6 hours CE Gudided Elective CE 43XX
+3 hours Free Elective
+3 hours CORE: Choices Below
+Recommended
+CORE
+CORE
+CORE
+CORE
+CORE
+CORE
+CORE
+Free 
+Elective 
+(3)
+ENGR 
+2300
+Math 2312 C or 
+better) or 70% 
+on ALEKS
+CE 1100
+UNIV 
+1010
+UNIV 
+2020
+CE 3201
+CE 3202
+CE 3320
+RHET 1302
+CE 420X
+ECS 3390
+Rhet 
+1302
+3 hours From:
+PHIL 1306
+Or
+See Advisor
+6 hours From:
+Hist 1301
+Hist 1302
+Hist 2301
+Hist 2330
+Hist 2332
+Govt 2305
+Govt 2306
+Core Choices
+3 hours From:
+Ahst 1303 or 1304
+Ahst 2331
+Arts1301
+Danc 1310
+Film 2332
+Musi 1306
+Thea 1310
+3 hours From:
+ECON 2301
+ECON 2302
+Or
+See Advisor
+CORE
+MATH 2420
+CE Guided 
+Elective
+OR
+OR
+CE 4348
+CS/SE 2340 
+& UNIX 
+Knowledge
+CE 2310 
+M Prerequisite: Junior level 
+standing 
+CE 3303 &
+CE 3161
+CE 3202

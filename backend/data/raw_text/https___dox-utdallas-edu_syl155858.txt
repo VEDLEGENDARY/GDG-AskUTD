@@ -1,0 +1,733 @@
+1 
+ 
+University of Texas at Dallas 
+Course Syllabus PA 6315 
+Summer 2025 – July 7 to August 12, 2025 
+Evaluating Program and Organizational performance 
+ 
+Professor:  Dr. Abraham David Benavides 
+Class Time:   Mondays & Tuesdays 6:00 - 9:45 pm 
+Class Location: Dallas City Hall L1EN Room E 
+Office:    Green Hall Room 3.804 
+Phone:   972-883-6475 UTD Office 
+Phone Cell:  (940) 367-6063 
+Email:   benavides@utdallas.edu 
+Office Hours:   Before and after class or by appointment 
+TA:     Moise Dzogolo moise.dzogolo@utdallas.edu and 
+    Chris Han chanyoung.han@utdallas.edu  
+___________________________________________________ 
+ 
+Course Description 
+ 
+Program evaluation is essential for designing and operating effective programs in public and 
+nonprofit organizations. It involves the systematic use of scientific methods to obtain and utilize 
+evidence that can assist decision makers to assess and improve their programs. This course will 
+introduce students to program evaluation theory and practice, including discussion about a) the 
+need and logic of evaluations, why do we need it and how do we use it?, b) the design and theory 
+of evaluation practices, c) its implementation and d) how to understand the outcomes and 
+impacts.  
+ 
+Upon successful completion of this course, students should: 1) Become familiar with the 
+concepts, theories, and methods of evaluation research; 2) Describe the purposes and logic of 
+program evaluation; 3) Raise concrete evaluation questions; 4) Apply principles of research 
+design to evaluation questions; 5) Propose an appropriate evaluation plan to assess the 
+implementation and effectiveness of a program; 6) Use evaluation results to propose ideas and 
+strategies to improve program performance. 
+ 
+The most agile organizations can be described as “learning organizations”—continually adapting 
+to new circumstances and information. Formal evaluation plays a pivotal role in helping 
+organizations learn. This course examines the practical aspects of program evaluation within 
+public policy in domestic and international contexts. Emphasis is placed on the design and 
+implementation of small-to medium-scale program evaluations under time and budget constraints 
+using ‘best feasible’ methods. Topics include the types and purposes of evaluation, theory-based 
+evaluation, evaluability and planning, measurement and construct validity, data collection, 
+evaluation design, estimation of program effects, experiments, qualitative and mixed methods, 
+evaluation resistance, building organizational capacity, ethics, cost-effectiveness, and reporting 
+and utilization. The course will be useful to students working in a variety of mission-driven 
+organizations, especially those who currently have, or expect to have in the future, program 
+evaluation responsibilities.
+
+2 
+ 
+________________________________________________________________ 
+Course Modality 
+This course is offered as an in-perosn intensive summer format on Monday and Tuesday night 
+with 4 hour class meetings. Various teaching methods will be used to keep students active 
+including inclass lectures, team work, projects, assignments, questions and answers, instructional 
+videos, guest lectures, etc.  
+Learning Objectives 
+• Develop an understanding of the tools for measuring performance and evaluating the 
+impact of a program or policy 
+• Critically evaluate the tools and strategies related to program evaluation 
+• Learn to develop meaningful evaluation questions 
+• Develop program logic models 
+• Design, collect, and analyze data for use in evaluation work 
+• Provide valuable insights and recommendations based on evaluation findings 
+• Gain ability to use evaluations to improve organizational processes 
+Textbooks and Other Readings and Materials 
+Wholey, J. S., Hatry, H. P., & Newcomer, K. E. (2015) 4th Edition. Handbook of Practical 
+Program Evaluation . John Wiley & Sons. 
+Other required readings will be available digitally through the eLearning course page. 
+(Note: Books are available, for free, as an e-book from the UTD library.) 
+Additionally, readings will be posted on eLearning. These will consist of various academic 
+articles, book chapters, professional reports, case studies, webpages, Ted Talks, and a number of 
+other items. Because of the increased cost of books, my attempt is to lessen this extra expense 
+while at the same time providing excellent content to provide appropriate context for the course. 
+Citation Style 
+For your papers, you should use APA style. Also, feel free to use the vast amount of resources on 
+the Internet. Mainly, I expect students to be consistent in regards to formatting, citations, and 
+references. For more information, please refer to the APA style manual. 
+American Psychological Association. (2009). Publication Manual of the American 
+Psychological Association, 6th Edition. 
+Limitations This course introduces you to a menu of evaluation methods and helps you learn to 
+select appropriate methods based on an evaluation question and available resources. The 
+application of a specific method, such as multivariate analysis or survey design, in a professional
+
+3 
+ 
+capacity is likely to require other additional training in that specific method. To the extent 
+practical, students with an interest in particular methods are encouraged to incorporate them into 
+their team projects or evaluation proposals.  
+ 
+Course Requirements and Grading:  
+ 
+The course involves lectures, group exercises, case studies, and class discussion. A typical class 
+will include a lecture, student presentations, general discussion of readings, and group work. We 
+often organize into groups to review and discuss a specific case study or a contemporary public 
+management situation for some portion of class time. The instructor challenges students to relate 
+theories to practical situations or to recommend managerial prescriptions.  
+ 
+There are 4 requirements for the course:  
+1) Examinations 40% –There will be two exams. Exams will cover material presented in the 
+assigned texts, supplemental readings and class discussions. Good answers provide purposeful, 
+justifiable and logical arguments, clear definitions for key concepts, and demonstrate knowledge 
+and command of the topic area. In addition, it is very important that answers specifically address 
+the question(s) asked in the exam. The Take Home exams will be administered on July 21 and 
+August 5.  
+ 
+2) Evaluation Proposal 20% –The evaluation proposal is an individual assignment but should 
+relate to the subject matter of your team’s project. You will select a published evaluation and 
+rewrite it in the form of a 1,000 –1,500 word proposal (3 pages) based on publicly available 
+information.  
+ 
+Select and read a published evaluation. This evaluation should relate to the subject area of your 
+team case project. By selecting a case in that subject area, it helps build knowledge within your 
+team about how that type of evaluation is conducted. The evaluation on which you base your 
+proposal can be in the form of a research report (gray literature, such as from a think tank or 
+consultancy) or a peer-reviewed journal article. For best results, base your proposal on a 
+document that has evaluation as its sole or primary purpose and includes a thoroughly 
+documented methods section. You are encouraged to consult with the instructor to confirm you 
+have chosen a suitable document on which to base your proposal. 
+ 
+Write your evaluation proposal through a process like “reverse engineering.” That is, you will 
+mentally go back in time to before this evaluation was conducted and write a proposal to carry 
+out the evaluation described in the publication. Example: If they report that they conducted a 
+randomized controlled trial with 50 participants, you will propose to conduct a randomized 
+controlled trial with 50 participants. Your proposal should not include any information about the 
+results of the evaluation.  
+ 
+Prepare the executive summary after writing the rest of the proposal. Summarize the key points 
+from the other parts of the proposal. An executive summary is not an introduction and should not 
+introduce any information not found elsewhere in the proposal. The idea behind an executive
+
+4 
+ 
+summary is that it should be able to take the place of the document if the executive is very 
+pressed for time. An executive summary is typically about 10% of the length of the document. 
+Manage expectations. It might be more accurate to describe this assignment as a draft or outline 
+of an evaluation proposal rather than a true proposal. You are not expected to carry out any data 
+collection or analysis. Research and sources cited probably do not need to go beyond the 
+published evaluation and the organization’s website. You are required to cite the evaluation on 
+which you base your proposal and any other sources used. 
+ 
+Submit your completed proposal through Blackboard 
+ 
+3) Logic Model 15% Understanding a program’s theory and being able to represent it in a logic 
+model is a conventional starting point in program evaluation. Complete a logic model for any 
+program you are familiar with and respond to the questions below. Any structure for the logic 
+model can be used, but it should include program processes and expected outcomes. 
+ 
+Remember, a logic model is a visual or graphic illustration or representation that outlines how a 
+program or initiative is expected to achieve its intended outcomes. It essentially maps out the 
+relationships between resources, activities, and the anticipated changes or results. It's a tool used 
+to clarify the “how” and “why” of a program's design and implementation, helping to identify 
+what needs to be done and what success looks like. Logic models clearly and concisely show 
+how interventions affect behavior and achieve a goal. Addiitonally, a logic model contains four 
+components: inputs, activities, outputs, and outcomes. Inputs: What the organization invests in 
+the program. (Examples: money, staff, volunteers, time, equipment, materials, technology, 
+partners, etc.) Basically, a logic model is a systematic and visual way to present and share your 
+understanding of the relationships among the resources you have to operate your program, the 
+activities you plan to do, and the changes or results you hope to achieve. 
+ 
+As soon as you have identified a program to evaluate, you can begin working on this assignment. 
+To accompany your logic model, provide a 3 page narrative that answers the questions 
+listed below.  
+ 
+• What are the goals and objectives of the program you will evaluate? 
+• Whom is the program designed to serve? Include as much demographic detail as possible 
+(age, gender, ethnicity, etc.) for each group impacted by the program (e.g., students, 
+parents, clients, etc.). Give your best estimate if precise demographic information is not 
+available. 
+• What are the means through which program goals and objectives are expected to be met 
+In other words, what activities does the program utilize to serve its clientele? 
+• What data/records currently exist relative to goals, objectives, and activities of this 
+program? 
+ 
+4) Program Evaluation Team Project Report & Presentation 20% – In teams of 
+approximately 3, you will develop a report that poses a program evaluation decision problem and 
+present your case to the class. Your case must feature real events, I would suggest doing a 
+proposed program evaluation on a city agency.
+
+5 
+ 
+Evaluation Protocol 
+In a total of 10 pages (not counting references/appendices), synthesize your logic model for the 
+program you intend to study and data collection instrument into the following sections, 
+addressing these questions: 
+ 
+• Evaluation Framework: What theoretical framework/orientation has guided your 
+program evaluation? How is this framework/orientation well-suited to the program you 
+have evaluated? Explicitly compare it to other options. 
+ 
+• Stakeholders: Who are your stakeholders and the readers of your evaluation report? 
+What are their needs and expectations? How do you intend for them to use your 
+evaluation report? What makes the evaluation framework you have chosen well-suited to 
+meet their needs? 
+ 
+• Existing Program Data: What data have you utilized in your evaluation? How have you 
+gained access to that data? What form was the data in when you received them? What are 
+the weaknesses of these data? 
+ 
+• Data Collection: What, if any, additional data have you collected for your evaluation? 
+How have you collected that data? Include any materials (e.g., surveys, tests, interview 
+questions, observation protocols) that you have used. How did you gain permission and 
+ensure cooperation for data collection? 
+ 
+• Data Analysis: How did you analyze your data? How do the results of each analysis 
+relate to specific program goals, objectives, and activities? 
+ 
+• Recommendations: Based on your findings, what choices will the stakeholders have to 
+initiate change? What are your recommendations (program should contract, expand, add, 
+delete, maybe even terminate if certain conditions are found)? Where in the logic model 
+is the focal point of your recommendations? For example, are more resources/inputs 
+needed? Do activities need to be adjusted? Are the outcomes realistic? Were there 
+sufficient data /records to conduct evaluation? 
+ 
+Evaluation Briefing 
+Each group will develop a short, professional presentation designed to convey and sell the 
+proposed protocol to stakeholders. Consider how to briefly, clearly, and convincingly convey 
+the 3-5 most important things stakeholders will learn from your results and the potential choices 
+they may be able to make based on the empirical data. This approximately 15-minute 
+presentation will be given in class. 
+ 
+5) Class Exercises and participation 20% – Throughout the semester, various in class exercises 
+will be distributed. The main purposes of these assignments are to help you summarize the 
+readings, think critically, engage and participate in the class discussions. Assignments will be 
+turned in online during class. Most of the students are active learners and learn best when they 
+can actively engage and discuss the material. The more you participate, the more engaging and 
+interesting the class will be. Your opinions and experiences matter so please share with the class.
+
+6 
+ 
+Students who pose questions and participate in the discussion sharpen their public presentation 
+skills and learn to think in a clear and critical manner in real time. Students benefit from hearing 
+the discussion and questions of other students. Multiple absences from class will affect this 
+portion of the grade. 
+Course Grading  
+• A: 90-100% (Outstanding, excellent work. The student performs well above the 
+minimum criteria). 
+• B: 80-89% (Good, impressive work. The student performs above the minimum criteria). 
+• C: 70-79% (Solid, college-level work. The student meets the criteria of the assignment).  
+• D: 60-69% (Below average work. The student fails to meet the minimum criteria).  
+• F: 59 and below (sub-par work. The student fails to complete the assignment). 
+Course Assignments 
+ 
+Activity Percentage of Final 
+Grade 
+Due Dates 
+Logic Model 15 Percent July 15 
+Midterm Examination 20 Percent July 21 
+Evaluation Proposal 15 Percent July 29 
+Final Examination  20 Percent August 5 
+Program Evaluation Project Presentations 20 Percent August 11 and        
+August 12 
+Class Exercises and Participation  10 Percent Various Dates  
+ 
+Course Expectations  
+ 
+General expectations  
+Students are expected to complete all required readings prior to class time, take some notes on 
+the lectures and presentations, participate in class discussions and complete the written 
+assignments and examinations. Case study materials will be either posted on eLearning in 
+advance or passed out in class. The instructor is strongly committed to maintaining a positive 
+learning environment based on open communication, mutual respect, and non-discrimination. 
+Please respect your instructor and fellow students. Our university does not discriminate on 
+the basis of race, gender, age, disability, veteran status, religion, sexual orientation, color, or 
+national origin. Any suggestions as to how to further such an environment will be appreciated 
+and given serious consideration.  
+ 
+Acceptable Student Behavior:  
+Student behavior that interferes with an instructor’s ability to conduct a class or other students' 
+opportunity to learn is unacceptable and disruptive and will not be tolerated in any instructional
+
+7 
+ 
+forum at UTD. Students engaging in unacceptable behavior will be directed to leave the 
+classroom and the instructor may refer the student to the Dean of Students to consider whether 
+the student's conduct violated the Code of Student Conduct. The university's expectations for 
+student conduct apply to all instructional forums, including university and electronic classroom, 
+labs, discussion groups, field trips, etc.  
+ 
+Policy on Cell Phone and Laptop in the Classroom  
+Students are allowed to take notes on personal laptop computers to enhance the learning process, 
+but they should not activate their internet browsers during class or use computers for 
+nonacademic purposes (as this diverts attention from the lecture/discussion for both the student 
+using it and others nearby). Please keep your cell phones on silent mode for the duration of our 
+class period. 
+ 
+Course Schedule, Detail 
+The descriptions and timelines contained in this syllabus are subject to change at the 
+discretion of the Professor.  
+    
+Monday July 7 – Evaluation Planning & Design  
+ 
+Introduction to the Course and Historical Context for Program Evaluation  
+ 
+Student Introductions  
+ 
+Chapter 1. Planning and Designing Useful Evaluations 7 
+ 
+Chapter 2 Analyzing and Engaging Stakeholders 36 
+ 
+Tuesday July 8 – Logic Models In Evaluations  
+ 
+Chapter 3 Using Logic Models 62 
+ 
+Chapter 4 Exploratory Evaluation 88 
+           
+Monday July 14 – Performance Measurement  
+ 
+Chapter 5 Performance Measurement 108 
+ 
+Chapter 6 Comparison Group Designs 137 
+ 
+Tuesday July 15 – Evaluation Practices 
+ 
+Chapter 7 Randomized Controlled Trials 158 
+ 
+Chapter 8 Conducting Case Studies 177
+
+8 
+ 
+Assignment: Logic Model Due 
+ 
+Monday July 21 – Mid-Term Examination 
+ 
+Mid-Term Examination 
+ 
+The exam will be provided 1 week before it is due. 
+ 
+Tuesday July 22 – Evaluation Methods  
+ 
+Chapter 9 Recruitment and Retention of Study Participants 197 
+ 
+Chapter 14 Using Surveys 344 
+ 
+Monday July 28 – Practical Data Collection Procedures  
+ 
+Chapter 17 Collecting Data in the Field 445 
+ 
+Chapter 20 Focus Group Interviewing 506 
+ 
+Tuesday July 29 – Data Analysis  
+ 
+Chapter 22 Qualitative Data Analysis 561 
+ 
+Chapter 25 Meta-Analyses, Systematic Reviews, and Evaluation Syntheses 673 
+ 
+Monday August 4 – Evaluation Challenges  
+ 
+Chapter 30 Use of Evaluation in Government 798 
+ 
+Chapter 31 Evaluation Challenges, Issues, and Trends 816 
+ 
+Tuesday August 5 – Final Examination   
+ 
+Final Examination 
+ 
+The exam will be provided 1 week before it is due. 
+ 
+Monday August 11 – Project Presentations  
+ 
+Student Program Evaluation Project Presentations 
+ 
+Tuesday August 12 – Project Presentations
+
+9 
+ 
+ 
+Student Program Evaluation Project Presentations 
+ 
+Written Evaluation Projects Due 
+ 
+ 
+ 
+ 
+ 
+Student Resources 
+ 
+Reporting Sexual Misconduct and Sharing Confidential InformationStudents considering sharing 
+personal information in email or in person should be aware that all University staff, faculty, 
+teaching assistants/associates, and graduate/research assistants are required by UT Dallas policy 
+to report information about sexual misconduct to the UT Dallas Title IX Coordinator. Per 
+university policy, Sexual Misconduct Policy - UTDBP3102, faculty have been informed that 
+they must identify the student to the UT Dallas Title IX Coordinator. Students who wish to have 
+confidential discussions of incidents related to sexual harassment or sexual misconduct should 
+contact the following confidential resources, including, but not limited to: 
+ 
+1. the Student Counseling Center (972-883-2575 or the 24/7 Crisis Hotline at 972-UTD-
+TALK or 972-883-8255), 
+2. a health care provider in the Student Health Center (972-883-2747), 
+3. a clergyperson (or other legally recognized religious advisor) of their choice, or 
+4. an off-campus resource (e.g., a rape crisis center, doctor, psychologist). 
+ 
+Students who are sexually assaulted, harassed, or are victims of sexual misconduct, domestic 
+violence, or stalking, are encouraged to directly report these incidents to the Title IX Coordinator 
+by making a report online or by calling the Title IX Coordinator at 972-883-2306. Students may 
+also contact the UTD Police Department (UTDPD) for emergency assistance; criminal reporting 
+and investigation; information or assistance regarding protective orders or forensic sexual assault 
+exams; or to request a police escort. In case of emergency, call 911. For non-emergency 
+situations, students can reach the UT Dallas Police Department by calling 972-883-2222. For 
+more information about available support and resources, students can visit the Office of 
+Institutional Compliance (Support Services & Resources) webpage.
+
+10 
+ 
+Pregnancy and Parenting 
+UT Dallas is committed to providing support and resources for pregnant and parenting students, 
+faculty, and staff in accordance with Title IX, Section 504 of the Rehabilitation Act, the 
+Americans with Disabilities Act (ADA), the Texas Education Code Section 51.982, and other 
+applicable federal and state laws.  Pregnant and parenting students are encouraged to complete 
+the Pregnant and Parenting Self-Identification Form located on the Office of Institutional 
+Compliance’s website. Submitting this form allows for a coordinated University effort to help 
+facilitate support for pregnant and parenting students, such as early registration for parenting 
+students and accommodations for pregnant students. For more information about the services 
+and resources available to pregnant and parenting students, visit the Pregnant & Parenting 
+Resources page and the Student Pregnancy and Parenting Nondiscrimination Policy. 
+Nondiscrimination 
+UT Dallas prohibits all forms of discrimination (including harassment) based on race, color, 
+religion, sex (including pregnancy), sexual orientation, gender identity, gender expression, age, 
+national origin, disability, genetic information, or veteran status. UT Dallas further prohibits all 
+forms of sex-based discrimination (including sex-based harassment). Students who believe they 
+have been discriminated against or harassed in violation of University policy, or who believe that 
+someone else has been discriminated against or harassed, are encouraged to directly report these 
+incidents to the Office of Institution Compliance by making a report online or by calling the 
+Office of Institution Compliance at 972-883-2306. For more information, see the University’s 
+Nondiscrimination Policy and Sexual Misconduct Policy. For additional information about 
+available support and resources, see the Office of Institutional Compliance (Support Services & 
+Resources) webpage. 
+ 
+Technical Support 
+If you experience any issues with your UT Dallas account, contact the UT Dallas Office of 
+Information Technology Help Desk or call 972-883-2911. 
+UT Dallas provides eLearning technical support 24 hours a day, 7 days a week through UTD 
+eLearning Helpdesk. The services include a toll-free telephone number, 1-866-588-3192, for 
+immediate assistance, Educational Technology Services (eLearning) is available by email to 
+request services. They also have an online chat service. 
+Field Trip Policies, Off-Campus Instruction and Course Activities 
+Off-campus, out-of-state, foreign instruction/travel, and course-related field trip activities are 
+subject to state law and university policies and procedures regarding travel and risk-related 
+activities. 
+Detailed information regarding this policy, in accordance to Texas Education Code, Section 
+51.950, can be accessed through the UT Dallas Policy UTDBP3023, and the Travel-Related Risk 
+Risks webpage. Additional information is also available from the office of the school dean by 
+telephone, 972-883-6391 or by email.
+
+11 
+ 
+Student Conduct and Discipline 
+The University of Texas System Regents' Rule 50101 and UT Dallas have rules and regulations 
+for the orderly and efficient conduct of their business. It is the responsibility of each student and 
+each student organization to be knowledgeable about the rules and regulations which govern 
+student conduct and activities. General information on student conduct and discipline is 
+contained in the Student Complaints Resources within the online UT Dallas Undergraduate 
+Catalog, and the Graduate Catalog. 
+UT Dallas administers student discipline within the procedures of recognized and established due 
+process. Procedures are defined and described in the (Student Code of Conduct, UTDSP5003). 
+Copies of these rules and regulations are available to students in the Office of Community 
+Standards and Conduct, where staff members are available to assist students in interpreting the 
+rules and regulations (SSB 4.400, 972-883-6330) and online at their webpage. 
+A student at the University neither loses their rights nor escapes the responsibilities of 
+citizenship. He or she is expected to obey federal, state, and local laws as well as the Regents' 
+Rules, university regulations, and administrative rules. Students are subject to discipline for 
+violating its standards of conduct whether such conduct takes place on or off campus, or whether 
+civil or criminal penalties are also imposed for such conduct. 
+ 
+Social Media Use 
+The Student Code of Conduct includes behaviors conducted via any digital platform. Students 
+may not use any digital platform to seek or provide unauthorized assistance for any assignment 
+done for academic credit. Students may not use any digital platform to impersonate or represent 
+any person other than themselves. Please consult with your instructor regarding authorized 
+assistance. 
+ 
+Academic Integrity 
+The faculty expects from its students a high-level of responsibility and academic honesty. 
+Because the value of an academic degree depends upon the absolute integrity of the work done 
+by the student for that degree, it is imperative that a student demonstrates a high standard of 
+individual honor in his or her scholastic work. Additional information is provided within their 
+website. 
+Academic Dishonesty: Academic dishonesty can occur in relation to any type of work submitted 
+for academic credit or as a requirement for a class. It can include individual work or a group 
+project. Academic dishonesty includes plagiarism, cheating, fabrication, and 
+collaboration/collusion. In order to avoid academic dishonesty, it is important for students to 
+fully understand the expectations of their professors. This is best accomplished through asking 
+clarifying questions if an individual does not completely understand the requirements of an 
+assignment.  
+Additional information related to academic dishonesty and tips on how to avoid dishonesty may 
+be found on their website.
+
+12 
+ 
+Copyright Notice 
+It is the policy of UT Dallas to adhere to the requirements of the United States Copyright Law of 
+1976, as amended, (Title 17, United States Code), including ensuring that the restrictions that 
+apply to the reproduction of software are adhered to and that the bounds of copying permissible 
+under the fair use doctrine are not exceeded. Copying, displaying, reproducing, or distributing 
+copyrighted material may infringe upon the copyright owner's rights. Unauthorized distribution 
+of copyrighted material, including unauthorized peer-to-peer file sharing, may subject students to 
+appropriate disciplinary action as well as civil and criminal penalties. Usage of such material is 
+only appropriate when that usage constitutes "fair use" under the Copyright Act. The fair use 
+exemption has more information. As a UT Dallas student, you are required to follow UT Dallas' 
+copyright policy, UTDPP1043 and the UT System's copyright policy, UTS107. 
+In accordance with Regents' Rule 90101, section 6, and federal copyright law, a student enrolled 
+in a course owns the intellectual property created by the student in the course. 
+Email Use 
+UT Dallas recognizes the value and efficiency of communication between faculty/staff and 
+students through electronic mail. At the same time, email raises some issues concerning security 
+and the identity of each individual in an email exchange. All official student email 
+correspondence will be sent only to a student's UT Dallas email address and UT Dallas will only 
+consider email requests originating from an official UT Dallas student email account. This 
+allows the University to maintain a high degree of confidence in the identity of each individual 
+corresponding via email and the security of the transmitted information. UT Dallas furnishes 
+each student with a free email account that is to be used in all communication with university 
+personnel. The Office of Information Technology provides a method for students to have their 
+UT Dallas mail forwarded to other email accounts. To activate a student UT Dallas computer 
+account and forward email to another account, access NetId Self-Service Portal to set it up. 
+ 
+Class Attendance 
+The University's attendance policy requirement is that individual faculty set their course 
+attendance requirements. Regular and punctual class attendance is expected regardless of course 
+modality. Students who fail to attend class regularly are inviting scholastic difficulty. In some 
+courses, instructors may have special attendance requirements; these should be made known to 
+students during the first week of classes. 
+ 
+Class Participation 
+Regular class participation is expected regardless of course modality. Students who fail to 
+participate in class regularly are inviting scholastic difficulty. A portion of the grade in the 
+course is directly tied to class participation. It also includes students' engagement in group or 
+other activities during class that solicit feedback on homework assignments, readings, and/or 
+materials covered in the lectures and/or labs. Class participation is documented by faculty. 
+Successful class participation is defined as consistently adhering to University requirements, as 
+presented in the syllabus. Failure to comply with these University requirements is a violation of 
+the Student Code of Conduct - UTSP5003.
+
+13 
+ 
+Military Affiliated Students 
+At the University of Texas at Dallas, we are committed to supporting our military and veteran 
+students and their spouses and dependents as they pursue their academic goals. Recognizing the 
+unique challenges faced by those who have served, we strive to create a welcoming and 
+supportive environment. Please contact your instructor if you are on active duty, called to serve, 
+or if any aspect of your current or past military service, or your family situation, makes it 
+challenging to meet the course requirements or affects your academic progress. Your instructor 
+is committed to supporting you and will work with you to address any complications. 
+The Military and Veteran Center (MVC) offers a range of resources and referrals to campus and 
+community partners, ensuring that our military and veteran students can access the assistance 
+they need. Whether it is academic advising, financial aid, or personal support, the MVC is 
+dedicated to helping our students succeed and thrive in their educational journey. 
+Credit/No Credit and Pass/Fail Grading Options 
+Students are encouraged to review the online catalogs regarding Credit/No Credit or Pass/Fail 
+courses. Students should consult their academic advisors to understand what it means for their 
+academic careers before completing the form prior to Census Day. 
+Undergraduate students: please review the Credit/No Credit Classes section in the Undergraduate 
+Catalog. 
+Graduate students: please review the Pass/Fail Grading section in the Graduate Catalog. 
+Withdrawal from Class 
+The administration at UT Dallas has established deadlines for withdrawal from any course. 
+These dates and times are published in the Comet Calendar and in the Academic Calendar. It is 
+the student's responsibility to handle withdrawal requirements from any class. In other words, a 
+professor or another instructor cannot drop or withdraw any student unless there is an 
+administrative drop such as the following: 
+• Not meeting the prerequisites for a specific course 
+• Not satisfying the academic probationary requirements, resulting in suspension 
+• An Office of Community Standards and Conduct request 
+• Not making appropriate tuition and fee payments 
+• Enrollment is in violation of academic policy 
+• Not admitted for the term in which they registered 
+It is the student's responsibility to complete and submit the appropriate forms to the Registrar's 
+Office and ensure that he or she will not receive a final grade of "F" in a course if he or she 
+chooses not to attend the class after being enrolled. 
+Undergraduate students: please review the Dropping and Withdrawing section in the catalog. 
+Graduate students: please review the Schedule Changes: Dropping, Adding and Withdrawing 
+from Courses section in the catalog.
+
+14 
+ 
+Student Grievance Procedures 
+Procedures for student grievances are found in the university policy UTDSP5005. In attempting 
+to resolve any student grievance regarding disputes over grades, application of degree plan, 
+graduation/degree program requirements, and thesis/and dissertation committee, adviser actions 
+and/or decisions, evaluations, and/or other fulfillments of academic responsibility, it is the 
+obligation of the student first to make a serious effort to resolve the matter with the instructor, 
+supervisor, administrator, or committee with whom the grievance originated. 
+Incomplete Grade Policy 
+As per university policy, incomplete grades may be given at the discretion of the instructor of 
+record for a course, when a student has completed at least 70% of the required course material 
+but cannot complete all requirements by the end of the semester. An incomplete course grade 
+(grade of 'I') must be completed within the time period specified by the instructor, not to exceed 
+eight (8) weeks from the first day of the subsequent long semester. Upon completion of the 
+required work, the grade of 'I' may be converted into a letter grade (A through F). If the grade of 
+Incomplete is not removed by the end of the specified period, it will automatically be changed to 
+a grade of F. The incomplete grade policy is included in the online UT Dallas Undergraduate 
+Catalog and the Graduate Catalog. 
+ 
+Accommodations for Students with Disabilities 
+The University of Texas at Dallas is committed to providing reasonable accommodations for all 
+persons with disabilities. The syllabus is available in alternate formats upon request. If you are 
+seeking classroom accommodations under the Americans with Disabilities Act (2008), you are 
+required to register with the AccessAbility Resource Center (ARC), located in the 
+Administration Building, Suite 2.224. They can be reached by email, calling 972-883-2098, or at 
+their website. To receive academic accommodations for this class, please register and request 
+services by completing the Request for Services form with the proper documentation and 
+meeting with the Director of ARC at the beginning of the semester. 
+ 
+Religious Holy Days 
+UT Dallas will excuse a student from class or other required activities, including examinations 
+and travel time, for the observance of a religious holy day for a religion whose places of worship 
+are exempt from property tax under Section 11.20, of the Texas Tax Code. 
+Students are encouraged to notify the instructor or activity sponsor as soon as possible regarding 
+the absence, preferably in advance of the assignment. 
+Excused students will be allowed to take missed exams or complete assignments within a 
+reasonable time after the absence: a period equal to the length of the absence, up to a maximum 
+of one week. A student who notifies the instructor and completes any missed exam or 
+assignment may not be penalized for the absence. A student who fails to complete the exam or 
+assignment within the prescribed period may receive a failing grade for that exam or assignment.
+
+15 
+ 
+If a student or an instructor disagrees about the nature of the absence [i.e., for the purpose of 
+observing a religious holy day] or if there is similar disagreement about whether the student has 
+been given a reasonable time to complete any missed assignments or examinations, either the 
+student or the instructor may request a ruling from the school's vice or associate dean, who serve 
+as the President's designees for these rules. The vice or associate deans must take into account 
+the legislative intent of Texas Education Code 51.911(b), and the student and instructor will 
+abide by the decision of the vice or associate dean. 
+This information is also included in the online UT Dallas Undergraduate Catalog, and the 
+Graduate Catalog. 
+ 
+Making a False Alarm or Report Involving a Public or Private Institution of a 
+Higher Education 
+Making a false threat at any Texas higher education institution is considered a State Jail Felony, 
+not a Class A misdemeanor, according to a law passed by the Texas Legislature. 
+This legislation was enacted in response to several threats in past years at several universities 
+across the U.S. that disrupted classes and prompted evacuation of campus property, even though 
+the reports turned out to be a hoax. 
+This law relates to the offense of making or causing a false alarm or report involving a public or 
+private institution of higher education. A person commits an offense under Section 42.06, Texas 
+Penal Code, if he or she knowingly initiates, communicates or circulates a report of a present, 
+past, or future bombing, fire, offense, or other emergency that he or she knows is false or 
+baseless and that would ordinarily: 
+1. Cause action by an official or volunteer agency organized to deal with emergencies; 
+2. Place a person in fear of imminent serious bodily injury; or 
+3. Prevent or interrupt the occupation of a building, room, place of assembly, place to which 
+the public has access, or aircraft, automobile, or other mode of conveyance. 
+An individual adjudged guilty of a state jail felony shall be punished by confinement in a state 
+jail for any term of not more than two years or less than 180 days and, in addition to 
+confinement, may be punished by a fine not to exceed $10,000. 
+UT Dallas students should be aware that the State of Texas takes these threats seriously, and the 
+legal consequences, which are severe, go beyond anything that the University's disciplinary 
+committee can address. 
+This information is also included in the online UT Dallas Undergraduate Catalog and in the 
+Graduate Catalog. 
+ 
+Interactive Campus Map - Locate Severe Weather Shelters, Elevators, and 
+Bathrooms
+
+16 
+ 
+The interactive campus map allows users to search for severe weather shelter areas in each 
+building. On the map, click on a building and select "Storm Shelters" from the "Find" drop-down 
+menu. Remember, a severe weather shelter area is usually any interior room without windows, 
+such as a restroom, hallway, conference room, or office. Try to find shelter on the lowest floor of 
+the building and stay away from large auditoriums or gyms. Users can also use the same map to 
+locate elevators and bathrooms. 
+ 
+Academic Support Resources/Resources to Help You Succeed 
+Please use the following Academic Support Resources permanent address when referring to this 
+section. 
+ 
+All Students 
+For help with a research assignment, such as finding journal articles or using a database, try 
+CHAT at McDermott Library. 
+The Center for Students in Recovery helps students seeking recovery from substance and alcohol 
+use, eating disorders, and other addictions and compulsive behaviors. They also help students 
+affected by these issues or individuals exploring the impact of addictions or compulsive 
+behaviors within their lives. Their mission is to provide a safe, supportive community to enable 
+students to thrive both socially and academically while living in recovery. They are located in 
+SSB 4.500, on the fourth floor of the Student Services Building. They can be contacted by 
+calling 972-883-7320 or they can be reached by email.  
+ 
+The Comet Cupboard is a UT Dallas food pantry initiative dedicated to helping students in need. 
+The Comet Cupboard is located in MC 1.604, on the first floor of the McDermott Library, and 
+can be contacted by calling 972-883-6613 or email.  
+ 
+Comet Cents provides financial literacy to students with the peer-to-peer model. This money 
+management center provides one-on-one appointments and workshops throughout the semester. 
+Comet Cents works to help students improve their financial situation with topics such budgeting, 
+credit card debit, investing and other personal finance areas.  
+ 
+Intercultural Programs provides a host of transition programs for international students and 
+intercultural competency trainings for all students. They are located in SSB 3.6, on the third floor 
+of the Student Services Building. Their phone number is 972-883-4528.  
+ 
+The Student Counseling Center offers confidential services to students either for individual 
+appointments or as part of groups. Initial appointments must be made in person in the Student 
+Counseling Center, which is located in SSB 4.600, on the fourth floor of the Student Services 
+Building. Their main number is 972-883-2575 and the 24/7 Crisis Hotline is 972-883-8255 (972-
+UTD-TALK).
+
+17 
+ 
+The Student Health Center (SHC) provides primary and preventative medical care to currently 
+enrolled students who have paid medical fees and are attending classes. Currently enrolled 
+students can obtain a wide variety of services, such as physicals, diagnosis and treatment of 
+acute illnesses and injuries, general medical problems, gynecological problems, treatment of 
+stabilized chronic illnesses, allergy injections, limited immunizations, x-rays, and ultrasound. 
+SHC staff of licensed medical providers is committed to keeping the UT Dallas community 
+healthy and believes that health and wellness information complement the academic success of 
+students. SHC is located on the fourth floor of the Student Services Building, SSB 4.700 and 
+they can be reached by telephone, 972-883-2747, fax, 877-769-7514, or by email.  
+ 
+The Testing Center, run by the Education Technology Services, offers a 300-seat computer lab, 
+providing UT Dallas students access to a comfortable and secure test environment for 
+online/paper exams, quizzes, instructional testing, and assessments. The Testing Center is 
+located in Room 11.175, the first floor of the Synergy Park North 2 (SP2) building and can be 
+contacted by calling 972-883-2460 or by email. If you experience issues taking an exam in 
+eLearning, please contact the UTD eLearning Helpdesk.  
+The Office of Graduate Education Fellowship Services offers workshops on fellowship and grant 
+writing, including a Grant Writing Certificate program. Students applying for external funding 
+can schedule appointments to find funding and to develop their applications. The Fellowship 
+Office is located in FA 3.104C, on the second floor of the Founders West Annex. The office's 
+phone number is 972-883-4568.  
+ 
+The Office of Graduate Education Writing Services offers workshops on writing as well as one-
+on-one appointments, writing groups, and writing retreats to help graduate students improve their 
+writing skills. The Writing Services Office is located in FA 3.104, on the second floor of the 
+Founders West Annex. Appointments can be made via email.  
+University Resources 
+ 
+Additional university resources, "Resources for Study and Campus Life" are listed in the online 
+Undergraduate Catalog and the Graduate Catalog. 
+Content of this document was last modified by the Office of Institutional Success and Decision 
+Support, 2024-11-08 Webpage updated by the Web Applications & Technology group, 2024-11-
+08

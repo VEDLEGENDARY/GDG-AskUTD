@@ -1,0 +1,72 @@
+B.S. in SOFTWARE ENGINEERING (2024-2025)  
+123 Hours (45 in residence, last semester at UTD) wih Min 2.0 Cumulative and Major GPA
+STUDENT: UTD ID:
+MAJOR INTRODUCTORY COURSES  (First Year in College Only, Transfer Students Sub with Upper Level Technical Elective)
+Lower 
+Division COURSE TITLE COURSE # GRADE SEM DONE NOTES
+1 Intro to Engineering and CS [First Year Only] ECS 1100
+2 Intro to CS and SE [First Year Only] CS 1200
+MAJOR PREPARATORY REQUIREMENTS (Major GPA)
+4 Programming Fundamentals CS 1436 [C]
+3 Computer Science I CS 1337 [C]
+3 Discrete Mathematics for Computing I CS 2305 [C]
+3 Computer Science II CS 2336 [C]
+3 CS 2337 [C]
+3 Computer Architecture CS 2340
+4 Differential Calculus or Calculus I MATH 2413 [C]
+4 MATH 2417 [C]
+4 Integral Calculus or Calculus II MATH 2414 [C]
+4 MATH 2419 [C]
+3 Math Elective click to view options
+4 Linear Algebra MATH 2418 [C]
+3 Mechanics PHYS 2325
+1 Physics Laboratory I PHYS 2125
+3 Electromagnetism and Waves PHYS 2326
+1 Physics Laboratory II PHYS 2126
+0
+Upper 
+Division MAJOR CORE REQUIREMENTS (Major GPA)
+1 Professional Responsibility in CS/SE SE 3162
+3 Mathematics Foundations of SE SE 3306
+3 Probability & Statistics in CS/SE SE 3341
+3 Data Structures & Intro to Algorithmic Analysis SE 3345
+3 Software Engineering SE 3354
+3 C/C++ Programming in a UNIX Envirn SE 3377
+3 Database Systems SE 4347
+3 Operating Systems Concepts SE 4348
+3 Requirements Engineering SE 4351
+3 Software Architecture & Design SE 4352
+3 Software Testing, Verif, Valid, QA SE 4367
+3 Software Project Planning & Mgmt. SE 4381
+4 Software Engineering Project SE 4485
+3 Professional & Technical Communication ECS 2390
+TECHNICAL ELECTIVES (Major GPA)
+4 SE Technical Elective SE/CS 4XXX
+3 SE Technical Elective SE/CS 4XXX
+3 SE Technical Elective SE/CS 4XXX
+3 SE Technical Elective SE/CS 4XXX
+0
+Lower 
+Division REMAINING STATE CORE CURRICULUM
+3 Communication (Core: 010) RHET 1302
+3 Government/ Political Science (Core: 070) GOVT 2305
+3 Government/ Political Science (Core: 070) GOVT 2306
+3 American History (Core: 060) click to view options
+3 American History (Core: 060) click to view options
+3 Language, Philosophy and Culture (Core: 040) click to view options
+3 Creative Arts (Core: 050) click to view options
+3 Social Behavioral Science (Core: 080) click to view options
+0
+ ELECTIVES (10 Hours ) 
+3 Free Elective
+1 Free Elective 
+0 0
+0
+0
+0
+8
+Total Lower Division Credit
+Total Upper Divison Credit (Must include 45)
+Free Elective Credit
+Total Hours Met (out of 123)
+Long Semesters Left (15 credit hour average)

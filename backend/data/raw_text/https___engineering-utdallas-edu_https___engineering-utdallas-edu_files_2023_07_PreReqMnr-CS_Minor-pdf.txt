@@ -1,0 +1,55 @@
+CS/CE/SE 
+3354
+Software 
+Engineering
+CS/CE/SE/TE 
+3345
+Data Structures 
+&Alg s
+CS/CE 2336
+Comp Sci II
+CS/CE 1337
+Comp Sci ICS/CE/TE 
+2305
+Discrete Math 
+I
+Computer Science Minor 
+Prerequisites  
+CS 1336/1136
+Programming 
+Fundamentals
+CS 1336 is required of students with no prior programming 
+experience 
+Not For Credit in ECS 
+C or better needed
+ECS 3390 
+Prof. & Tech. 
+Communication
+Any
+CS 43xx or 
+CS 4390
+Pre- or co-requisite Prerequisite
+RHET 1302
+Rhetoric
+Junior
+CS 3305
+Discrete 
+Math  lI
+CS/SE 3341 
+Probability & 
+Statistics in 
+CS
+Math 2417
+Calculus I
+Math 2413
+Differential 
+Calculus
+Math 2419
+Calculus II
+Math 2414
+Integral 
+Calculus
+Score of at least 75% 
+in ALEKS or MATH 
+2312 with a grade of C 
+or better.

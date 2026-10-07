@@ -1,0 +1,100 @@
+Revision Date:  5/29/24 
+OPTIONS FOR COMPUTER ENGINEERING MAJOR TECHNICAL ELECTIVES 
+(2024-2025) 
+ 
+Students are required to take 6 hours of major technical electives. 
+ 
+ 
+Technical Elective Options 
+ 
+Pre-Requisite Course 
+EE 4325 
+Introduction to VLSI Design 
+CE/EE 3320 
+EE 4330  
+Integrated Circuit Technology 
+CE/EE 3310 
+EE 4340  
+Analog Integrated Circuit Analysis and Design 
+CE/EE 3311 
+EE 4342 
+Introduction to Robotics 
+BMEN/EE/MECH 4310 or Equivalent (corequisite) 
+EE 4360  
+Digital Communications 
+ENGR 3341 and EE 3302 
+EE 4361 
+Introduction to Digital Signal Processing 
+EE 3302 
+EE 4363 
+Introduction to Power Electronics 
+EE 2301 
+EE 4365  
+Introduction to Wireless Communication 
+EE 3302 and ENGR 3341 
+EE 4367  
+Telecommunications Networks 
+(CE 3303 or EE 3302) (corequisite) 
+EE 4371  
+Introduction to MEMS 
+CE/EE 3310 
+CE 4331 
+Applied Machine Learning 
+(MATH 2414 or MATH 2417), ENGR 2300, and 
+ENGR 3341 
+CS 4332 
+Introduction to Programming Video Games 
+CE/CS/SE 3345 
+CS 4334 
+Numerical Analysis 
+ CE/CS 1337 and (MATH 2418 and MATH 2451 or 
+MATH 3351)   
+CS 4337  
+Programming Language Paradigms 
+ (CE/CS 2336 or CS 2337), CE/CS 2305 and 
+ CE/EE 4304 
+CS 4347  
+Database Systems 
+CE/CS/SE 3345 
+CS 4352 
+Introduction to Human-Computer Interaction 
+None 
+CS 4361 
+Computer Graphics 
+MATH 2418, (CE/CS/ 2336 or CS 2337) and 
+(CE/CS/SE 3345) or Equivalent 
+CS 4365 
+Artificial Intelligence 
+CE/CS/SE 3345 or Equivalent 
+CS 4371  
+Introduction to Bid Data Management and Analytics 
+(CS 2336 or CS 2337) and CS 4347 
+CS 4375 
+Introduction to Machine Learning 
+(CS/SE 3341) and (CE/CS/SE 3345) or Equivalent 
+CS 4384  
+Automata Theory 
+CS 2305 
+CS 4389 
+Data & Applications Security 
+CS/SE 4347 
+CS 4390 
+Computer Networks 
+CE/CS/SE 3345 or Equivalent 
+CS 4392 
+Computer Animation 
+Math 2418 and (CE/CS/SE 3345) or Equivalent 
+CS 4393 
+Computer and Network Security 
+(CE/CS/SE 4348 or Equivalent) and (CE/CS 4390 
+or Equivalent) 
+CS 4398 
+Digital Forensics 
+(CE/CS/SE 4348) and (CE/CS 4390) or Equivalent 
+CE 4V95 Undergraduate Topics in Computer Engineering may be used only if it is a scheduled special topics 
+class (not independent study). Independent Study in Computer Engineering (CE 4V97), Undergraduate 
+Research in Computer Engineering (CE 4V98), or Senior Honors in Computer Engineering (CE 4399) may be 
+used for up to 6 of these hours with consent of the department.  Please consult your Academic Advisor for 
+more information. 
+ 
+Course availability is not guaranteed in every semester.

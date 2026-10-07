@@ -1,0 +1,76 @@
+B.S. in COMPUTER ENGINEERING (2025-2026)  
+STUDENT: UTD ID:
+MAJOR INTRODUCTORY COURSES  (First Year in College Only, Transfer Students Sub with Upper Level Technical Elective)
+Lower Division COURSE TITLE COURSE # GRADE SEM DONE NOTES
+1 Intro to Engineering and CS [First Year Only] ECS 1100
+1 Intro to Computer Engineering I [First Year Only] CE 1100
+MAJOR PREPARATORY REQUIREMENTS (Major GPA)
+4 MATH 2413
+4 MATH 2417
+4 Programming Fundamentals CS 1436 [C]
+2 Intro to Computer Engineering II CE 1202
+3 Introduction to Digital Systems CE 2310
+3 Computer Science I CE 1337 [C]
+4 MATH 2414
+4 MATH 2419
+3 Mechanics PHYS 2325
+1 Physics Laboratory I PHYS 2125
+3 Linear Algebra for Engineers ENGR 2300
+4 Calculus of Several Variables (NOT needed if student 
+has completed MATH 2419) MATH 2415
+4 Differential Equations w/ Applications MATH 2420
+3 Electromagnetism and Waves PHYS 2326
+1 Physics Laboratory II PHYS 2126
+3 CE 2336 [C]
+3 CS 2337 [C]
+3 Discrete Mathematics for Computing I CE 2305 [C]
+0 of 37 or 41
+Lower/Upper 
+Division MAJOR CORE REQUIREMENTS (Major GPA)
+3 Probability Theory & Statistics ENGR 3341
+2 CE Fundamentals Lab I CE 3201
+3 Electrical Network Analysis CE 2301
+3 Data Structures & Intro to Algorithmic Analysis CE 3345
+3 Digital Circuits CE 3320
+2 CE Fundamentals Lab II CE 3202
+3 Electronic Circuits CE 3311
+3 Software Engineering CE 3354
+3 Signals and Systems CE 3303
+1 Social Issues and Ethics in Engineering CE 3161
+3 Prof & Tech Communication ECS 2390 
+3 Computer Architecture CE 4304
+3 Embedded Systems CE 4370
+3 Operating Systems Concepts CE 4348
+3 Senior Design Project I CE 4388
+3 Senior Design Project II CE 4389
+0 of 44
+TECHNICAL ELECTIVES (Major GPA)
+2 CE Elective Lab click to view options
+3 MATH Technical Elective click to view options
+3 Technical Elective EE/CE/CS 4XXX
+3 Technical Elective EE/CE/CS 4XXX
+0 of 11
+Lower Division REMAINING STATE CORE CURRICULUM
+3 Communication (Core: 010) RHET 1302
+3 Government/ Political Science (Core: 070) GOVT 2305
+3 Government/ Political Science (Core: 070) GOVT 2306
+3 American History (Core: 060) click to view options
+3 American History (Core: 060) click to view options
+3 Language, Philosophy and Culture (Core: 040) click to view options
+3 Creative Arts (Core: 050) click to view options
+3 Social Behavioral Science (Core: 080) click to view options
+0 of 24
+FREE ELECTIVES
+3 Free Elective (not needed if student has MATH 2413)
+1 Free Elective (not needed if student has MATH 2413)
+0
+0
+8
+Computer Science II (JAVA or C++)
+Total Hours Met (out of 126)
+Long Semesters Left (15 credit hour average)
+of 44
+126 Hours (45 in residence, last semester at UTD) with Min 2.0 GPA
+Differential Calculus OR Calculus I
+Integral Calculus OR Calculus II
+C or better is required in CS 1436, CE 1337, CE 2305, CE 2336 and a grade of C- or better in all others

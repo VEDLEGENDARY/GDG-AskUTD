@@ -1,0 +1,134 @@
+Senior
+Freshman
+Sophomore
+Junior
+Senior
+Freshman
+Sophomore
+Junior
+*Math 
+2417*Math 2413
+Math 2419Math 2414
+**CS 1337
+**CS 1336/1136
+ECS 
+1100
+**CS 2305
+Math 2418
+SE 
+3306
+SE 3340
+SE 3341 SE 3377
+ECS 3390
+SE 4351
+SE 43xx 
+Guided Elective
+See Advisor
+SE 4367
+SE 4381 SE 4352
+SE 4348
+ECS 
+2361
+j
+SE 4485  Free 
+Elective (2)
+Domains and Guided Electives (12hrs)
+Students should complete three courses from one  of the 
+application domains. See the document entitled 
+"Application Domains."
+Further guided electives can be selected from the CS/SE 
+43xx level classes.
+BS Software Engineering Suggested Four Year Plan
+ 2019 – 2020   Catalog
+DRAFT
+LEGEND
+Pre- or Co-requisite
+Pre-requisite
+Prereq Critical Path
+Courses may be taken in any order , as long 
+as prerequisites are met .
+At this point, you should choose a domain.
+At least two of 
+these 4 complete 
+to begin Project .
+Phys 2325
+Phys 2125
+Phys 2326
+Phys 2126
+SE 4347
+SE 43xx Guided 
+Elective
+See Advisor
+SE 43xx Guided 
+Elective
+See Advisor
+CS 1336 is required of 
+students with no prior 
+programming experience 
+Not For Credit in ECS 
+C or better needed
+Junior
+Rhet 1302
+SE 3345
+SE 3162
+SE 43xx Guided 
+Elective
+See Advisor
+SE 3354
+**CS 2305 & 
+**CS 2336
+Rhet 
+1302
+3 hours From:
+Ams 2300
+Ams 2341
+Huma 1301
+Lit 2331
+Phil 1301
+Phil 2316, 2317
+6 hours From:
+ Hist 1301
+Hist 1302
+Hist 2301
+Hist 2330
+Hist 2332
+Core Choices
+3 hours From:
+Ahst 1303, 1304, 2331
+Arts1301
+Danc 1310
+Film 2332
+Musi 1306
+Thea 1310
+Govt 2305
+Govt 2306
+CORECORE
+CORE
+CORE
+CORE
+CORE
+CORE
+ Free 
+Elective
+Science 
+Elective
+3 Hours
+ Free 
+Elective
+Math 2312 (C or better) 
+or 80% on ALEKS
+*A grade of C- or better is needed in Math 2413 or Math 2417 to move forward .
+**A grade of C or better is required for CS 1336, CS 1337, CS 2305, and CS 2336.
+CS 
+1200
+UNIV 
+1010
+UNIV 2020
+j Pre-Req. of  PHYS 2325, PHYS 2326 or any 
+other 030 science core 
+**CS 
+2336
+OR **CS 
+2337
+AP score of at 
+least 4

@@ -1,0 +1,182 @@
+Freshman
+Sophomore
+Junior
+Senior
+Freshman
+Sophomore
+Junior
+Senior
+*Math
+24
+17
+*Math
+24
+13
+Math 2419Math 
+2414
+**CS 1337
+**CS 1336 
+CS 1136
+Phys 2326 
+Phys 2126
+ECS 1100
+**CS 2305
+**CS 3305
+Math 2418 CS 3345
+CS 3354
+ECS 
+3390
+Three or more 
+CS 43xx courses
+CS  4349
+CS 4485
+BS Computer Science Suggested Four Year Plan
+ 2020 – 2021 Catalog
+LEGEND
+Pre- or Co-requisite
+Pre-requisite
+Prereq Critical Path
+Courses may 
+be taken in 
+any order, as 
+long as 
+prerequisites 
+are met.
+Phys 2325  
+Phys 2125
+CS 4384
+CS 4348
+CS 4341 
+CS 4141
+CS 4337
+CS 2340
+CS 3341 CS 3377
+**CS 2305
+**CS 2336
+CS Guided 
+Elective
+See Advisor
+Junior & 
+Rhet 1302
+CS 3162
+Description Course No
+Introduction  to CS&SE CS  1200
+Introduction  to Engr'g.  & CS ECS  1100
+Calculus  IM a th 2413 or 2417
+Co mpu te r Science  IC S 1337
+6 hours  CORE: Choi ce s below
+Freshman  Seminar UNIV  1010
+Description Course No
+Co mpu te r Science  II C S  2336 or 2337
+Discrete  Ma the ma ti cs IC S  2305
+Calculus  II M ath 2414 or 2419
+Me cha ni cs and  Heat Phys  2325
+Me cha ni cs and  Heat  La b Phys  2125
+3 hours  CORE: Choi ce s below
+Description Course No
+Discrete Math for Computing II CS  3305
+Computer Architecture CS  2340
+Electricity and Magnetism Phys  2326
+Electricity and Magnetism Lab Phys  2126
+6 hours CORE: Choices below
+Description Course No
+Probabilit y  & Statistics  in CS CS  3341
+Al gori thm Ana l ys i s & Data Struc CS  3345
+C/C++ Programmi ng in UNIX Envr. CS  3377
+Li nea r Al gebra Ma th 2418
+3 hours  CORE: Choices  below
+Description Course No
+Software Engi neeri ng CS 3354
+Organization  of Programmi ng La ng CS 4337
+Digital  Logi c and Computer Design CS  4341
+Digital  Systems Laboratory CS  4141
+Professional  & Technical  Comm ECS  3390
+3 hours  CORE: Choices  below
+Description Course No
+Prof. Re sponsibilit y in CS and SE CS  3162
+Operating  Systems Concepts CS   4348
+Adv Data Structures  & Al gori thms CS  4349
+3 hours  CORE: Choices  below
+1 hours  Free El ecti ve  See Advi s or
+Description Course No
+Automa ta Theory CS  4384
+CS Guided El ecti ve CS  43XX
+CS Guided El ecti ve CS  43XX
+Database  Systems CS 4347
+3 hours  Free El ecti ve See  Advi s or
+Description Course No
+Computer Science  Project CS  4485
+CS Guided El ecti ve CS  43XX
+6 hours  Free El ecti ve See  Advi s or
+Core Curriculum  A sse ssm e nt U N IV 2020
+CORECORE
+CORE
+CORE
+CORE
+CORE
+CORE
+Free 
+Elective 
+(1)
+CS 4347
+CS Guided 
+Elective
+See Advisor
+Free 
+Elective
+Free 
+Elective
+*A grade of C- or better is needed in Math 2413 or Math 2417 to move forward.
+**A grade of C or better is required for CS 1336, CS 1337, CS 2305, CS 2336, CS 2337 and CS 3305.
+Math 2312 (C or better) 
+or 80% on ALEKS
+Rhet 
+1302 6 hours From:
+ Hist 1301
+Hist 1302
+Hist 2301
+Hist 2330
+Hist 2332
+Govt 2305
+Govt 2306
+3 hours From:
+Ahst 1303 or 1304
+Ahst 2331
+Arts1301
+Film 2332
+Musi 1306
+Thea 1310
+3 hours From:
+Ams 2300
+Ams 2341
+Huma 1301
+Lit 2331
+Phil 1301
+Phil 2316
+Phil 2317
+CS 1200
+CS Guided 
+Elective
+See Advisor
+UNIV 
+1010
+UNIV 
+2020
+AP score of 
+at least 4
+**CS 
+2336
+OR **CS 
+2337
+OR
+OR
+3 hours From:
+ Crim 1301
+Econ 2301
+Econ 2302
+Geog 2303
+Psy 2301
+CORE
+Free 
+Elective
+Core Choices

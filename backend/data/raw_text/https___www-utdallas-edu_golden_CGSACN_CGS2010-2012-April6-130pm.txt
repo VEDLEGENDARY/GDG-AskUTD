@@ -1,0 +1,239 @@
+UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
+Home  >> Undergraduate Programs  >> School of Behavioral and Brain Sciences  >> Cognitive Science 
+Child Learning and Development (B.S.)  
+Cognitive Science (B.S.)  
+Neuroscience (B.S.)  
+Psychology  
+Speech-Language Pathology and Audiology  
+S c h o o l  o f  B e h a v i o r a l  a n d  B r a i n  S c i e n c e s  
+Cognit ive Science ( B.S.)  
+Cognitive science is the study of complex information processing in humans and machines and 
+includes the multidisciplinary study of biological and artificial systems. Important components of 
+cognitive science include areas of research such as: cognitive-neuroscience, brain-imaging studies 
+of cognitive and perceptual processing, situated cognition, human-computer interactions, 
+computational modeling, and artificial intelligence.  The field of cognitive science draws from diverse 
+approaches to understanding these processes, including research from experimental cognitive 
+psychology, experimental social and personality psychology, neuroscience, linguistics, computer 
+science, mathematics, and engineering. The Cognitive Science program at UTD consists of three 
+specialization areas: (1) Psychology/Human-Computer-Interactions, (2) Neuroscience, and  (3) 
+Computational Modeling. Cognitive Science Majors then select the majority of their upper-division 
+coursework from 2 of these 3 specialization areas in order to generate multidisciplinary areas of 
+focus such as: “cognitive-neuroscience”, “neuropsychology”, “computational neuroscience”, 
+“human-computers-interaction”, “bionics”, and “artificial intelligence”.  In addition to providing a 
+sound preparation for graduate work in Cognitive Science and related areas, the Cognitive Science 
+major is an ideal choice for students pursuing careers that combine interests in neuroscience, 
+cognition, mathematics, and computer science. There are exciting career prospects in both industry 
+and academics. For example, students whose focus area is cognitive-neuroscience will be well-
+prepared for careers such as: the evaluation of bionic and prosthetic technology (e.g., cochlear 
+implants and artificial limbs), pursuing career paths in neuropharmacological related fields, 
+intraoperative neurophysiological monitoring, brain-imaging technology areas, and clinical 
+neuropsychological settings. Students whose focus area is human-computer-interactions (also 
+known as usability engineering) will be prepared for pursuing careers involving the evaluation and 
+design of user-friendly software interfaces which arise, for example, in the area of website 
+development. Students whose focus area is artificial intelligence and computational models of brain 
+and behavior will acquire a specialized background in mathematical modeling, computer 
+programming, psychology, and neuroscience which can prepare students for careers associated 
+with the development and implementation of intelligent systems (e.g., web search engine design, 
+speech recognition technology, robotics, computer vision, and computer games) as well as bionic 
+and prosthetic technology development and evaluation (such as cochlear implant technology). 
+ B a c h e l o r  o f  S c i e n c e  i n  C o g n i t i v e  S c i e n c e   
+D e g r e e  R e q u i r e m e n t s  ( 1 2 0  h o u r s )   
+I .  C o r e  C u r r i c u l u m  R e q u i r e m e n t s1 :  4 2  h o u r s   
+A. Communication (6 hours) 
+3 hours Communication (RHET 1302) 
+3 hours Communication Elective (CGS 3340 or PSY 3393) 2  
+B. Social and Behavioral Sciences (15 hours) 
+6 hours Government (GOVT 2301 and 2302) 
+6 hours American History 
+3 hours Social and Behavioral Science Elective (PSY 2301) 2 
+C. Humanities and Fine Arts (6 hours) 
+3 hours Fine Arts (ARTS 1301) 
+3 hours Humanities (HUMA 1301) 
+D. Mathematics and Quantitative Reasoning (6 hours) 
+6 hours Calculus (MATH 2417 and 2419) 3
+
+UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
+E. Science (9 hours) 
+6 hours Science (NSC 3361 and CGS 2301) 2  
+3 hours Science Electives (including at least one course with a substantial laboratory 
+component) 
+1Â Curriculum Requirements can be fulfilled by other approved courses from accredited institutions of higher 
+education. The courses listed in parentheses are recommended as the most efficient way to satisfy both Core 
+Curriculum and Major Requirements at UT Dallas.  
+ 
+     II. Required Lower-Division Cognitive Science Major Preparatory Coursework (18 
+hours)  
+     A. Lower-Division Coursework required by all Cognitive Science Majors  
+CGS 2301 Cognitive Science 2 (also satisfies 3 hours part E of Core Curriculum)  
+CS 1337 Computer Science I 
+MATH 2417 Calculus I 3 (also satisfies 3 hours part D of Core Curriculum) 
+MATH 2419 Calculus II 3 (also satisfies 3 hours part D of Core Curriculum) 
+PSY 2301 Introduction to Psychology 2 (also satisfies 3 hours part B of Core Curriculum) 
+PSY 2317 Statistics for Psychology 
+or  CS/SE/EE 3341 Probability and Statistics in Computer Science and Software 
+Engineering 
+    (prerequisites: MATH 2419, CS 2305) 
+             or  STAT 4351 Probability (MATH 2451) 
+      B. Additional Lower-Division Coursework required for Cognitive Science Majors 
+who have 
+      chosen the Computational Modeling Specialization Area  
+       The following courses are only required for Cognitive Science Majors who intend to choose 
+“Computational Modeling” 
+     as one of their desired specialization areas. These courses are prerequisites for many of 
+the upper-division courses 
+     in the Cognitive Science Specialization Area.  
+CS 2305 Discrete Mathematics for Computing I (prerequisite: MATH 2417) 
+CS 2336  Computer Science II (prerequisite: CS1337) 
+MATH 2451 Multivariable Calculus with Applications (prerequisite: MATH 2419) 
+MATH 2418 Linear Algebra (prerequisite: MATH 2419) 
+ 
+III. Required Major Upper-Division Core Courses: 12 hours  
+CGS 3361 Cognitive Psychology (prerequisite: CGS 2301) 
+NSC 3361 Behavioral Neuroscience 2 (also satisfies 3 hours part E of Core Curriculum) 
+PSY 3392 Research Design and Analysis  
+CGS 3340 Empirical Methods in Cognitive Science 2 (also satisfies 3 hours part A of Core 
+Curriculum) 
+     or  PSY 3393 Experimental Projects in Psychology 2 (also satisfies 3 hours part A of Core 
+Curriculum) 
+ 
+IV. Required Multidisciplinary Specialization Area Course Requirement (24 upper-
+division hours) 
+Each Cognitive Science Major must select at least 4 courses from 2 of the following 
+specialization areas to fulfill the multidisciplinary specialization area course requirement. 
+For example, a student interested in fields such as: “cognitive-neuroscience”, “brain-
+imaging”, “intraoperative neurophysiological monitoring” should select the specialization 
+areas “Psychology/Human-Computer-Interactions” and “Neuroscience”. A student 
+interested in the field of “computational-neuroscience” should select the specialization 
+areas “Neuroscience” and “Computational Modeling”. A student interested in “cognitive 
+modeling” should select the specialization areas “Psychology/Human-Computer-
+Interactions” and “Computational Modeling”. A student interested in the field of “human-
+computer-interactions” should take at least one human-computer-interaction course 
+(CGS4351 Human Computer Interactions I, CGS4353 Human Computer Interactions II, 
+and/or CGS4354 Human Computer Interactions Lab) within the specialization area 
+“Psychology/Human-Computer-Interactions” and choose either the “Neuroscience” or 
+“Computational Modeling” specialization areas depending upon their background and 
+interests. A student interested in the field of “artificial intelligence” should select the
+
+UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
+specialization area of “Computational Modeling” and one of the other two specialization 
+areas to complete the multidisciplinary specialization area course requirement. 
+ 
+A.  Neuroscience Specialization Area (12 upper-division hours) 
+Select 4 of the following.  
+NSC 4352 Cellular Neuroscience (prerequisite: NSC 3361) 
+NSC 4354 Integrative Neuroscience (prerequisite: NSC 3361) 
+NSC 4356 Neurophysiology (prerequisite: NSC 3361) 
+NSC 4366 Neuroanatomy (prerequisite: NSC 3361) 
+NSC 4363 Neuropharmacology (prerequisite: NSC 3361) 
+NSC 4367 Developmental Neurobiology (prerequisite: NSC 3361) 
+NSC 4353 Neuroscience Laboratory Methods 2 (also satisfies 3 hours part A of 
+Core Curriculum) 
+ 
+ 
+B.  Psychology/Human-Computer-Interactions Specialization Area (12 
+upper-division hours) 
+Select 4 of the following. 
+CGS 3325 Historical Perspectives: Mind and Machines Since 1600 
+CGS 4359 Cognitive Neuroscience 
+CGS 4362 Perception 
+ 
+CGS 4352 Human Computer Interactions I 
+CGS 4353 Human Computer Interactions II 
+CGS 4354 Human Computer Interactions Lab 
+CGS XXXX Human Judgment and Decision Making 
+ 
+CGS 3331 Social Psychology 
+CGS 4343 Abnormal Psychology 
+CGS 4334 Lifespan Development 
+CGS 3310 Child Development 
+CGS 3362 Cognitive Development 
+ 
+C.  Computational Modeling Specialization (12 upper-division hours) 
+Select 4 of the following. 
+CGS 3342 Cognitive and Neural Modeling Lab  
+CGS 4312 Computational Models of Language Understanding 
+ 
+CGS 4313 Neural Net Mathematics (prerequisites: (MATH 2451 and MATH 2418) 
+or consent of instructor;       
+                     STAT 4351 is highly recommended as a corequisite or 
+prerequisite) 
+CGS 4314 Intelligent Systems Analysis (prerequisite: CGS 4313 or consent of 
+instructor) 
+CGS 4315 Intelligent Systems Design (prerequisite: CGS 4314 or consent of 
+instructor) 
+ 
+CS 3305 Discrete Mathematics for Computing II (prerequisite: CS2305) 
+CS 3345 Data Structures and Introduction to Algorithmic Analysis (prerequisites: 
+CS 2336, CS 3305) 
+           CS 4365 Artificial Intelligence (prerequisites: CS2336, CS 3345) 
+           CS 4375 Introduction to Machine Learning (prerequisites: CS2336, CS 3345) 
+           CS 4391 Introduction to Computer Vision (prerequisites: CS2336, CS 3345) 
+ 
+2Â A required Major course that also fulfills a Core Curriculum requirements 
+3 Six hours of Calculus are counted to fulfill the Mathematics Core Requirement  
+ 
+V. Free Electives (24 hours) 
+A. Upper-Division Free Elective Requirement (15 upper-division hours). Cognitive 
+Science Majors are required to take 15 hours of upper-division coursework. This upper-
+division coursework may include additional upper-division coursework in their chosen
+
+UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
+specialization areas, additional upper-division coursework in the specialization area which 
+they have not chosen, or additional upper-division coursework in other areas of interest to 
+the student.  
+B. Additional Free Electives Requirement (9 hours of some combination of upper-
+division and lower-division coursework). In addition to the 15 hours of upper-division 
+coursework, Cognitive Science Majors are required to take 9 additional hours of either 
+lower-division or upper-division coursework. These additional free electives can be used to 
+take courses in other areas of interest to the student or they may be used to fulfill required 
+lower-division course requirements for Cognitive Science Majors who have chosen the 
+Computational Modeling Specialization Area. 
+ 
+A d d i ti o n a l  A d v a n ce d  M a jo r  R e l a t ed  C G S  E l e c ti v e s  
+All School of Behavioral and Brain Science courses with a PSY (Psychology) or NSC (Neuroscience) 
+prefix are approved CGS electives. In addition, advanced CGS students in good academic standing 
+may request permission from the Cognitive Science Program Head to take graduate Applied 
+Cognition and Neuroscience coursework (ACN prefix) to fulfill the CGS elective course requirements. 
+In addition, the following advanced electives are associated with all specialization areas. Approval 
+from a Cognitive Science Faculty Advisor is required in order to take these electives. 
+CGS 4V90 Special Topics in Cognitive Science 
+CGS 4394 Internship in Cognitive Science 
+CGS 4397 Honors Thesis 
+CGS 4V98 Directed Research  
+CGS 4V99 Individual Study  
+M i n o r i n  C o g n i ti v e  S c i en ce  
+Students who are not majoring in Cognitive Science may complete the minor in Cognitive Science 
+by completing 18 semester credit hours.  In particular, the Cognitive Science Minor is required to 
+select 3 of the 4 Required Upper-Division Cognitive Science Major Core Courses, 1 upper-division 
+Cognitive Science course with the CGS prefix, and 2 additional lower-division or upper-division 
+courses which have been classified as Cognitive Science Major Preparatory Lower-Division Courses 
+or which satisfy the Cognitive Science Multidisciplinary Specialization Area Requirement.  No credit 
+hours may be used to satisfy both major and minor requirements; however, free elective hours or 
+major preparatory classes may be used to satisfy the minor. At least one-third of the hours for a 
+minor must be taken at UT Dallas.  
+F a s t  T ra ck  B a cc a l a u re a t e/ Ma s te r ' s  D e g r e es  
+UT Dallas undergraduate students with strong academic records who intend to pursue a master's 
+degree in Applied Cognition and Neuroscience at UTD may consider an accelerated undergraduate-
+graduate plan of study. When accepted into the program, students may take up to 12 hours of 
+graduate courses that may be used to complete the bachelor's degree and also to satisfy 
+requirements for the Master's degree. Students must maintain a 3.00 grade point average and earn 
+grades of B or better in the graduate courses taken. The Fast Track makes it possible for students to 
+complete upper-division undergraduate education and graduate training in three years. To qualify for 
+application, students must have completed at least 72 semester credit hours toward their bachelor 
+degree, including at least 18 semester credit hours in major core courses at UTD. Apply to the Fast 
+Track program through the Cognitive Science Program Office. Students should consult with a 
+graduate advisor regarding admissions criteria and plans of study at the beginning of their junior 
+year.
+
+UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
+The University of Texas at Dallas 2008-2010 Undergraduate Catalog 
+Volume 32, Number 1 
+Copyright © The University of Texas at Dallas 
+This catalog is a general information publication only. It is not intended to nor does it contain all regulations that relate to 
+students. The provisions of this catalog do not constitute a contract, express or implied, between any applicant, student or faculty 
+member and The University of Texas at Dallas or The University of Texas System. The University of Texas at Dallas reserves the 
+right to withdraw courses at any time, to change fees or tuition, calendar, curriculum, degree requirements, graduation 
+procedures, and any other requirements affecting students. Changes will become effective whenever the proper authorities so 
+determine and will apply to both prospective students and those already enrolled. 
+ 
+UTD

@@ -1,0 +1,20 @@
+OPTIONS FOR COMPUTER ENGINEERING MAJOR MATH TECHNICAL ELECTIVES 
+(2024-2025) 
+ 
+CE students following the 2024.2025 catalog must complete 1 math technical elective.  
+Technical Elective Options Pre-Requisite Course 
+ENGR 3300 
+Advanced Engineering Mathematics 
+(MATH 2415 or MATH 2419 or equivalent) and 
+ENGR 2300.  
+MATH 2420 (corequisite) 
+MATH 3323 
+Elementary Number Theory 
+C- or higher in MATH 2414 or MATH 2418 or MATH 
+2419 
+MATH 3397 
+Mathematical Problem Solving 
+MATH 2413 or MATH 2417 
+STAT 3355 
+Introduction to Data Analysis 
+MATH 2414 or MATH 2419 or equivalent.

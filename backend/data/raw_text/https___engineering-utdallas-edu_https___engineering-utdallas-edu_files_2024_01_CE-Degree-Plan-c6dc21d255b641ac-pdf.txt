@@ -1,0 +1,75 @@
+UTD ID
+LD UD NOTES COURSE TITLE COURSE # GRADE SEM INFO
+1 1,4,6 Intro to Engineering and CS ECS 1100
+1 1,4,6 Intro to Electrical and Computer Engineering CE 1100
+2 1,6 Intro to Computer Engineering II CE 1202
+4 2,6 Programming Fundamentals CS 1436
+3 2,6 Computer Science I CE 1337 
+3 2,6 Computer Science II CE 2336 or 2337
+3 1,6 Introduction to Digital Systems CE 2310
+3 2,6 Discrete Mathematics for Computing I CE 2305
+3 1,6 Linear Algebra for Engineers ENGR 2300
+4 1,3,6 Integral Calculus or Calculus I MATH 2414 or 2417
+4 1,3,6 Calculus of Several Variables or Calculus II MATH 2415 or 2419
+4 1,6 Differential Equations w/ Applications MATH 2420
+3 1,3,6 Mechanics PHYS 2325
+1 1,3,6 Physics Laboratory I PHYS 2125
+3 1,3,6 Electromagnetism and Waves PHYS 2326
+1 1,6 Physics Laboratory II PHYS 2126
+43 0
+1 1 Social Issues and Ethics in Engineering CE 3161
+2 1 CE Fundamentals Lab I CE 3201
+2 1 CE Fundamentals Lab II CE 3202
+2 1 CE Elective Lab click to view options
+3 1 Electrical Network Analysis CE 2301
+3 1 Discrete-Time Signals and Systems CE 3303
+3 1 Electronic Circuits CE 3311
+3 1 Digital Circuits CE 3320
+3 1 Probability Theory & Statistics ENGR 3341
+3 1 Data Structures & Intro to Algorithmic Analysis CE 3345
+3 1 Software Engineering CE 3354
+3 1 Computer Architecture CE 4304
+3 1 Operating Systems Concepts CE 4348
+3 1 Embedded Systems CE 4370
+3 1 Senior Design Project I CE 4388
+3 1 Senior Design Project II CE 4389
+3 1 MATH Guided Elective click to view options
+3 1 CE Guided Electives click to view options
+3 1 CE Guided Electives click to view options
+3 1,3 Professional & Technical Communication ECS 3390
+0 55
+3 6 Communication (Core: 010) RHET 1302
+3 6 Government/ Political Science (Core: 070) GOVT 2305
+3 6 Government/ Political Science (Core: 070) GOVT 2306
+3 6 American History (Core: 060) click to view options
+3 6 American History (Core: 060) click to view options
+3 6 Language, Philosophy and Culture (Core: 040) click to view options
+3 6 Creative Arts (Core: 050) click to view options
+3 6 Social Behavioral Science (Core: 080) click to view options
+24 0
+3 6 Free Elective or Math 2413 1, 3
+1 6 Free Elective  or Math 2413 1, 3
+0 4 Freshmen Seminar UNIV 1010
+0 5 Core Curriculum Assessment UNIV 2020
+4
+71 55
+ B.S. in COMPUTER ENGINEERING (2023-2024 Catalog) 
+MAJOR PREPARATORY REQUIREMENTS*
+ELECTIVES (0 hours with Math 2413 credit) ( 4 hours with  Math 2417 credit)
+Student
+1.Major requirement. Must earn C- or better to receive credit. l 2.Must earn a C or better to receive credit. l  3.Course meets both Major and CORE 
+requirement.
+Total Hours_________126 hours required for graduation. Must include minimum 51 hours as Upper Division.***
+MAJOR CORE REQUIREMENTS*
+REMAINING CORE CURRICULUM
+*** Must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate.  Students must 
+also complete 45 hours in residence and complete 24 of the last 30 hours at UTD.  No off-campus coursework in the last semester allowed.   
+N
+O
+T
+E
+S
+6. Most lower division (LD) coursework can be  taken at a community college and transferred.  See the online transfer plan for course equivlents.
+4.Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course. 
+Transfer students may be required to compelte an additional upper level (3000 or 4000) CE course substitution.  
+5. All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020. l   * Included in Major GPA

@@ -1,0 +1,71 @@
+B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027) 
+STUDENT: UTD ID:
+MAJOR INTRODUCTORY COURSES (First Year in College Only - Transfer Students See Advisor)
+Lower 
+Division COURSE TITLE COURSE NUMBER GRADE SEM DONE NOTES
+1 Intro to Engineering and CS [First Year Only] ECS 1100
+MAJOR PREPARATORY REQUIREMENTS (Major GPA)
+2 Foundations of Engineering and Computer Science I ECS 1210
+4 MATH 2413
+4 MATH 2417
+4 Programming Fundamentals CS 1436
+4 MATH 2414
+4 MATH 2419
+3 Computer Science I CS 1337
+3 Mechanics PHYS 2325
+1 Physics Laboratory I PHYS 2125
+3 Discrete Mathematics for Computing I CS 2305
+3 CS 2336
+3 CS 2337
+3 Computer Architecture CS 2340
+3 Electromagnetism and Waves PHYS 2326
+1 Physics Laboratory II PHYS 2126
+4 Linear Algebra MATH 2418
+0 of 39
+Upper 
+Division MAJOR CORE REQUIREMENTS (Major GPA)
+3 Probability & Statistics in CS/SE CS 3341
+3 Data Structures & Intro to Algorithmic Analysis CS 3345
+3 C/C++ Programming in a UNIX Envirn CS 3377
+3 Professional & Technical Communication ECS 2390
+3 Software Engineering CS 3354
+3  Programming Language Paradigms CS 4337
+3 Digital Logic and Computer Design CS 4341
+1 Digital Systems Laboratory CS 4141
+1 Professional Responsibility in CS/SE CS 3162
+3 Operating Systems Concepts CS 4348
+3 Adv Algorithm Design & Analysis CS 4349
+3 Automata Theory CS 4384
+3 Database Systems CS 4347
+4 Computer Science Project CS 4485
+0 of 39
+TECHNICAL ELECTIVES (Major GPA)
+3 CS Technical Elective CS 4XXX
+3 CS Technical Elective CS 4XXX
+3 CS Technical Elective CS 4XXX
+0 of 9
+Lower 
+Division REMAINING STATE CORE CURRICULUM (See Advisor for Grade Requirement)
+3 Communication (Core: 010) RHET 1302
+3 Government/ Political Science (Core: 070) GOVT 2305
+3 Government/ Political Science (Core: 070) GOVT 2306
+3 American History (Core: 060) click to view options
+3 American History (Core: 060) click to view options
+3 Language, Philosophy and Culture (Core: 040) click to view options
+3 Creative Arts (Core: 050) click to view options
+3 Social Behavioral Science (Core: 080) click to view options
+0 of 24
+FREE ELECTIVES (13 Hours)
+3 Free Elective
+3 Free Elective
+3 Free Elective 
+3 Free Elective
+1 Free Elective
+0 of 13
+Total Hours Met (out of 124) 0
+Long Semesters Left (15 credit hour average) 8.266666667
+124 Hours (45 in residence, last semester at UTD) with Min 2.0  Cumulative and Major GPA
+Computer Science II
+Differential Calculus OR Calculus I
+Integral Calculus OR Calculus II
+Grade of C or better required for Major Requirements and Prerequisites.

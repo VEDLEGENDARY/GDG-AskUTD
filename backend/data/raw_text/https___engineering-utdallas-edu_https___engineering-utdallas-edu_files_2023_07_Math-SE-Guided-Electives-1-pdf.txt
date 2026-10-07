@@ -1,0 +1,61 @@
+OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES 
+(2022-2023) 
+ 
+SE students following the 2022.2023 catalog must complete 1 math guided elective.  
+Guided Elective Option Pre-Requisite Course 
+MATH 2415 
+Calculus of Several Variables 
+A grade of C- or better in MATH 2414  
+MATH 2420 
+Differential Equations with Applications 
+A grade of at least a C- in either MATH 2415 or in 
+MATH 2419 or equivalent and a grade of at least a 
+C- in MATH 2418 or equivalent. 
+MATH 2451 
+Multivariable Calculus with Applications 
+A grade of at least a C- in either MATH 2415 or in 
+MATH 2419 or equivalent and a grade of at least a 
+C- in MATH 2418 or equivalent 
+MATH 3310 
+Theoretical Concepts of Calculus 
+A grade of at least a C- in either MATH 2415 or in 
+MATH 2419 or equivalent. 
+MATH 3311 
+Abstract Algebra I 
+A grade of at least a C- in either MATH 2415 or in 
+MATH 2419 or equivalent and a grade of at least C- 
+in MATH 2418 or equivalent. 
+MATH 3321 
+Geometry 
+A grade of at least a C- in either MATH 2306 or 
+MATH 2415 or MATH 2419 or equivalent. 
+MATH 3323 
+Elementary Number Theory 
+A grade of at least a C- in either MATH 2414 or in 
+MATH 2418 or MATH 2419 
+MATH 3351 
+Advanced Calculus 
+(A grade of at least a C- in either MATH 2415 or 
+MATH 2419 or equivalent) and a grade of at least a 
+C- in MATH 2418 or equivalent. 
+MATH 3397 
+Mathematical Problem Solving 
+MATH 2413 or MATH 2417 or MATH 3321. 
+MATH 4332 
+Scientific Math Computing 
+A grade of at least a C- in either MATH 2415 or in 
+MATH 2419 or equivalent and a grade of at least C- 
+in MATH 2418 or equivalent. 
+MATH 4334 
+Numerical Analysis 
+(MATH 2370 or CS 1324 or CS 1325 or CE 1337 or 
+CS 1337) and (MATH 2418 and (MATH 2451 or 
+MATH 3351). (Same as CS 4334) 
+MATH 4381 
+Structure of Modern Geometry 
+(MATH 2370 or CS 1324 or CS 1325 or CE 1337 or 
+CS 1337) and (MATH 2418 and (MATH 2451 or 
+MATH 3351). (Same as CS 4334) 
+STAT 3355 
+Introduction to Data Analysis 
+MATH 2415 or MATH 2419 or equivalent.

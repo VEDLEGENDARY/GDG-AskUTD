@@ -1,0 +1,76 @@
+Revision Date:  3/1/2016 
+ 
+B.S. in COMPUTER SCIENCE (2016 - 2018 Catalog)  
+Student  ____________________________________ Advisor  ___________________________________________________ 
+UTD ID Number   ______________________________ NET ID  _______________  Date of Review  ______________________ 
+MAJOR PREPARATORY REQUIREMENTS 
+LD UD NOTES COURSE TITLE COURSE # GRADE SEM INFO 
+1  7 Introduction to Engineering and CS ECS 1100    
+2   Introduction to CS and SE CS 1200    
+3  1 Computer Science I CS 1337    
+3  1 Discrete Mathematics for Computing I CS 2305    
+3  1 Computer Science II CS 2336    
+4  2,3 Calculus I Math 2413 or 2417    
+4  2,3 Calculus II Math 2414 or 2419    
+4   Linear Algebra Math 2418    
+3  2 Mechanics Phys 2325    
+1  2 Physics Laboratory I Phys 2125    
+3  2 Electromagnetism and Waves Phys 2326    
+1   Physics Laboratory II Phys 2126    
+3   Science Elective     
+35  
+MAJOR CORE REQUIREMENTS* 
+(*Courses in this block used to calculate major GPA) 
+ 1  Professional Responsibility in CS/SE CS 3162*    
+ 3 1 Discrete Math for Computing II CS 3305*    
+ 3  Computer Architecture CS 3340*    
+ 3  Probability & Statistics in CS/SE CS 3341*    
+ 3  Data Structures & Introduction to 
+Algorithmic Analysis 
+CS 3345*    
+ 3  Software Engineering CS 3354*    
+ 3  C/C++ Programming in a UNIX Envirn CS 3376*    
+ 3  Organization of Programming Lang CS 4337*    
+ 3  Digital Logic and Computer Design CS 4341*    
+ 1  Digital Systems Laboratory CS 4141*    
+ 3  Database Systems CS 4347*    
+ 3  Operating Systems Concepts CS 4348*    
+ 3  Adv Algorithm Design & Analysis CS 4349*    
+ 3  Automata Theory CS 4384*    
+ 4  Computer Science Project CS 4485*    
+ 3  CS Guided Elective CS 43XX*    
+ 3  CS Guided Elective CS 43XX*    
+ 3  CS Guided Elective CS 43XX*    
+ 3 2 Social Issues and Ethics in CS & E  ECS 3361*    
+ 3 2 Professional & Technical Comm ECS 3390*    
+ 57 
+REMAINING CORE CURRICULUM** 
+3   Rhetoric Rhet 1302    
+3   American National Government Govt 2305    
+3   State and Local Government Govt 2306    
+3  4 US History Survey to Civil War Hist 1301    
+3  4 US History Survey from Civil War Hist 1302    
+3  4 Exploration of the Humanities Huma 1301    
+3  4 Exploration of the Arts Arts 1301    
+21  
+ ELECTIVES (11 Hours - Requires Approval from Advisor) 
+ 
+ 
+NOTES 
+1.  Major Requirement:  Must earn a C or better to receive credit. 2.  Course meets both major and CORE requirement. 
+3.  Must take Math 2413/2414 or Math 2417/2419. 4.  Other course options available.  See Advisor for details. 
+5.  A maximum of 3 PHIN credits is allowed on any UTD degree plan. 6.  Lower or upper division courses may count as free electives. 
+7.  Incoming freshmen (FTIC) must enroll and complete requirements of 
+UNIV 1010 and the corresponding school-related freshmen seminar course. 
+**All students, including transfer students, who complete their core 
+curriculum at UT Dallas must take UNIV 2020. 
+*** Must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate.  Students must 
+also complete 45 hours in residence and complete 24 of the last 30 hours at UTD.  No off-campus courses in the last semester allowed. 
+ 
+3  5,6 Free Elective     
+3  5,6 Free Elective     
+3  5,6 Free Elective     
+2  5,6 Free Elective     
+0  7 Freshmen Seminar UNIV 1010    
+11   
+67 57  Total Hours______  124 hours required for graduation.  Must include 51 hours as Upper Division.***
