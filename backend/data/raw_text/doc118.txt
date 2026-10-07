@@ -1,5 +1,3 @@
-UNOFFICIAL PROPOSAL FOR NEW COGNITIVE SCIENCE DEGREE PLAN 
-Home  >> Undergraduate Programs  >> School of Behavioral and Brain Sciences  >> Cognitive Science 
 Child Learning and Development (B.S.)  
 Cognitive Science (B.S.)  
 Neuroscience (B.S.)  
@@ -187,7 +185,7 @@ coursework, Cognitive Science Majors are required to take 9 additional hours of 
 lower-division or upper-division coursework. These additional free electives can be used to 
 take courses in other areas of interest to the student or they may be used to fulfill required 
 lower-division course requirements for Cognitive Science Majors who have chosen the 
-Computational Modeling Specialization Area. 
+Computational Modeling Specialization Area.
  
 A d d i ti o n a l  A d v a n ce d  M a jo r  R e l a t ed  C G S  E l e c ti v e s  
 All School of Behavioral and Brain Science courses with a PSY (Psychology) or NSC (Neuroscience) 
