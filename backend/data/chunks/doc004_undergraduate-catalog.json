@@ -1,0 +1,119 @@
+[
+  {
+    "chunk_id": "doc004_p1_c1",
+    "doc_id": "doc004",
+    "text": "The University of Texas at Dallas Undergraduate Online Catalog is the document of authority for all students, faculty, and staff. The catalog intends to reflect current academic policies, procedures, degree offerings, course descriptions, and other information pertinent to undergraduate study at The University of Texas at Dallas. It is not intended to, nor does it, contain all regulations that relate to students.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 3,
+    "token_count": 104
+  },
+  {
+    "chunk_id": "doc004_p1_c2",
+    "doc_id": "doc004",
+    "text": "The provisions of this catalog do not constitute a contract, express or implied, between any applicant, student, or faculty member and The University of Texas at Dallas or The University of Texas System. Students are governed by the catalog under which they were enrolled or, at a student's option, the catalog of any subsequent year in which that student was in residence.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 2,
+    "token_count": 94
+  },
+  {
+    "chunk_id": "doc004_p1_c3",
+    "doc_id": "doc004",
+    "text": "The University of Texas at Dallas reserves the right to change the provisions of this catalog at any time, including, but not limited to, withdrawing courses, changing fees or tuition, the calendar, curriculum, course offerings, degree requirements, graduation procedures, and any other requirements affecting students as necessitated by university, legislative, or regental action. Changes will become effective whenever the proper authorities so determine and will apply to both prospective students and those already enrolled.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 2,
+    "token_count": 133
+  },
+  {
+    "chunk_id": "doc004_p1_c4",
+    "doc_id": "doc004",
+    "text": "Students normally are entitled to graduate under the degree provisions of the catalog in effect at the time of their first completed semester of enrollment. Students are held individually responsible for complying with all requirements of the rules and regulations of the University and the Board of Regents of The University of Texas System. Failure to read and comply with policies, regulations, and procedures will not exempt a student from whatever penalties the student may incur.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 3,
+    "token_count": 122
+  },
+  {
+    "chunk_id": "doc004_p1_c5",
+    "doc_id": "doc004",
+    "text": "Many departments and programs issue program manuals, procedures and policy manuals, handbooks, and other informational publications for students and faculty in their programs. These publications provide detailed and useful information; however, they are not statements of official policy or binding contracts of The University of Texas at Dallas or The University of Texas System.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 2,
+    "token_count": 95
+  },
+  {
+    "chunk_id": "doc004_p1_c6",
+    "doc_id": "doc004",
+    "text": "In all matters, the Rules and Regulations of the Board of Regents of The University of Texas System, the Handbook of Operating Procedures of The University of Texas at Dallas, and the Undergraduate Catalog of The University of Texas at Dallas shall supersede departmental, program, or college publications. The online version of The University of Texas at Dallas Undergraduate Catalog is the official version.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 2,
+    "token_count": 103
+  },
+  {
+    "chunk_id": "doc004_p1_c7",
+    "doc_id": "doc004",
+    "text": "The online catalog will be updated periodically and will contain all major policy changes that occur during the 2025-2026 catalog cycle. The official publication date of this catalog is June 2025.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "About the Undergraduate Catalog",
+    "n_sentences": 2,
+    "token_count": 49
+  },
+  {
+    "chunk_id": "doc004_p2_c8",
+    "doc_id": "doc004",
+    "text": "The University of Texas at Dallas (UT Dallas) is accredited by the Southern Association of Colleges and Schools Commission on Colleges (SACSCOC) to award baccalaureate, master's, and doctorate degrees. UT Dallas also offers credentials such as certificates at approved degree levels.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Accreditation",
+    "n_sentences": 2,
+    "token_count": 71
+  },
+  {
+    "chunk_id": "doc004_p2_c9",
+    "doc_id": "doc004",
+    "text": "Questions about the accreditation of UT Dallas may be directed in writing to the Southern Association of Colleges and Schools Commission on Colleges at 1866 Southern Lane, Decatur, GA 30033-4097, by calling (404) 679-4500, or by using information available on SACSCOC's website, www.sacscoc.org.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Accreditation",
+    "n_sentences": 1,
+    "token_count": 74
+  },
+  {
+    "chunk_id": "doc004_p2_c10",
+    "doc_id": "doc004",
+    "text": "The University of Texas at Dallas is committed to providing a welcoming, respectful, and inclusive educational, living, and working environment for all members of the University community. The University prohibits all forms of discrimination and harassment in accordance with federal and state laws, ensuring equal opportunities in employment, education, services, activities, and programs.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Equal Educational Opportunity",
+    "n_sentences": 2,
+    "token_count": 98
+  },
+  {
+    "chunk_id": "doc004_p2_c11",
+    "doc_id": "doc004",
+    "text": "Discrimination based on race, color, religion, sex (including pregnancy), sexual orientation, gender identity, gender expression, age, national origin, disability, genetic information, or veteran status is strictly prohibited. Retaliation for reporting, filing a complaint, participating in an investigation or proceeding, or opposing unlawful practices is also prohibited.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Equal Educational Opportunity",
+    "n_sentences": 2,
+    "token_count": 94
+  },
+  {
+    "chunk_id": "doc004_p2_c12",
+    "doc_id": "doc004",
+    "text": "No person will be excluded from participation in, denied the benefits of, or be subjected to discrimination under any University-sponsored program or activity.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Equal Educational Opportunity",
+    "n_sentences": 1,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc004_p2_c13",
+    "doc_id": "doc004",
+    "text": "The University of Texas at Dallas has been approved to participate in the National Council for State Authorization Reciprocity Agreements.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "NC-SARA Reciprocity Agreements",
+    "n_sentences": 1,
+    "token_count": 35
+  }
+]
