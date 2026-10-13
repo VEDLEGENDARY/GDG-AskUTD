@@ -1,14 +1,6 @@
 Revision Date:  05/15/2018 
-Advisor:_________   
-__Fast Track  
-__Minor_________ 
-__Dbl Major/Degree 
-_________________ 
-Other: 
- 
 B.S. in COMPUTER SCIENCE (2018-2019 Catalog)  
  
-Student  ____________________________________    UTD ID  __________________________ 
 MAJOR PREPARATORY REQUIREMENTS 
 LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO 
 1  7 Introduction to Engineering and CS ECS 1100    
