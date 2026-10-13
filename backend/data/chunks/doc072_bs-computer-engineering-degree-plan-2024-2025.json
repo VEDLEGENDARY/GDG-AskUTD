@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc072_p1_c1",
+    "doc_id": "doc072",
+    "text": "The B.S. in Computer Engineering (2024-2025) requires 126 hours (45 in residence, last semester at UTD) with a minimum 2.0 GPA. Total upper division credit must include 45 hours. A grade of C or better is required in CS 1436, CE 1337, CE 2305, and CE 2336, and a grade of C- or better is required in all other courses on the degree plan. Major Preparatory Requirements, Major Core Requirements, and Technical Electives count toward the Major GPA.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2024-2025)",
+    "section_heading": "B.S. in Computer Engineering (2024-2025): Graduation and Grade Requirements",
+    "n_sentences": 4,
+    "token_count": 112
+  },
+  {
+    "chunk_id": "doc072_p1_c2",
+    "doc_id": "doc072",
+    "text": "The B.S. in Computer Engineering (2024-2025) major introductory courses are taken in the first year in college only; transfer students substitute an upper level technical elective. They are ECS 1100 Intro to Engineering and CS (1 hour) and CE 1100 Intro to Computer Engineering I (1 hour). The lower-division Major Preparatory Requirements (Major GPA) are: CE 1202 Intro to Computer Engineering II (2 hours); CS 1436 Programming Fundamentals (4 hours, C or better); CE 1337 Computer Science I (3 hours, C or better); CE 2336 or CS 2337 Computer Science II (3 hours, C or better); CE 2310 Introduction to Digital Systems (3 hours); CE 2305 Discrete Mathematics for Computing I (3 hours, C or better); ENGR 2300 Linear Algebra for Engineers (3 hours); MATH 2413 or MATH 2417 Differential Calculus or Calculus I (4 hours); MATH 2414 or MATH 2419 Integral Calculus or Calculus II (4 hours); MATH 2415 Calculus of Several Variables (4 hours); MATH 2420 Differential Equations w/ Applications (4 hours); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); and PHYS 2126 Physics Laboratory II (1 hour).",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2024-2025)",
+    "section_heading": "Major Introductory Courses and Major Preparatory Requirements",
+    "n_sentences": 3,
+    "token_count": 291
+  },
+  {
+    "chunk_id": "doc072_p1_c3",
+    "doc_id": "doc072",
+    "text": "The B.S. in Computer Engineering (2024-2025) upper-division Major Core Requirements (Major GPA) are: CE 3161 Social Issues and Ethics in Engineering (1 hour); CE 3201 CE Fundamentals Lab I (2 hours); CE 3202 CE Fundamentals Lab II (2 hours); CE 2301 Electrical Network Analysis (3 hours); CE 3303 Signals and Systems (3 hours); CE 3311 Electronic Circuits (3 hours); CE 3320 Digital Circuits (3 hours); ENGR 3341 Probability Theory & Statistics (3 hours); CE 3345 Data Structures & Intro to Algorithmic Analysis (3 hours); CE 3354 Software Engineering (3 hours); CE 4304 Computer Architecture (3 hours); CE 4348 Operating Systems Concepts (3 hours); CE 4370 Embedded Systems (3 hours); CE 4388 Senior Design Project I (3 hours); CE 4389 Senior Design Project II (3 hours); and ECS 2390 Professional & Technical Communication (3 hours).",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2024-2025)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 1,
+    "token_count": 209
+  },
+  {
+    "chunk_id": "doc072_p1_c4",
+    "doc_id": "doc072",
+    "text": "The B.S. in Computer Engineering (2024-2025) Technical Electives (Major GPA) are: a MATH Technical Elective (3 hours, chosen from a list of options); a CE Elective Lab (2 hours, chosen from a list of options); and two Technical Electives at the EE/CE/CS 4XXX level (3 hours each). Free Electives are 0 hours with MATH 2413 and 4 hours with MATH 2417, and consist of a 3-hour and a 1-hour Free Elective or MATH 2413.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2024-2025)",
+    "section_heading": "Technical Electives and Free Electives",
+    "n_sentences": 2,
+    "token_count": 104
+  },
+  {
+    "chunk_id": "doc072_p1_c5",
+    "doc_id": "doc072",
+    "text": "The B.S. in Computer Engineering (2024-2025) lower-division Remaining State Core Curriculum consists of: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2024-2025)",
+    "section_heading": "Remaining State Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 127
+  }
+]

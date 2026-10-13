@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc067_p1_c1",
+    "doc_id": "doc067",
+    "text": "SE students following the 2004 and later catalogs must complete ONE APPLICATION DOMAIN, which consists of 3 courses as specified per group. Please see the Application Domain Information sheet for course groupings. The Software Engineering guided elective options (2023-2024) are choices for the remaining SE Guided Elective. Students may also use SE 4V98 Undergraduate Research in Software Engineering or SE 4399 Senior Honors in Software Engineering. Students must consult an Academic Advisor before registering in these options.",
+    "source_title": "Options for Software Engineering Major Guided Electives (2023-2024)",
+    "section_heading": "Options for Software Engineering Major Guided Electives: Requirements",
+    "n_sentences": 5,
+    "token_count": 133
+  },
+  {
+    "chunk_id": "doc067_p1_c2",
+    "doc_id": "doc067",
+    "text": "Software Engineering major guided elective options (2023-2024), CS 4301 through CS 4384, with their pre-requisite courses: CS 4301 Special Topics in Computer Science (pre-requisite CE/CS/SE/TE 3345); CS 4314 Intelligent Systems Analysis (CGS 4313 or consent of instructor); CS 4315 Intelligent Systems Design (CGS 4313 or consent of instructor); CS 4334 Numerical Analysis ((MATH 2370 or CE/CS 1337) and MATH 2418, MATH 2451); CS 4337 Programming Language Paradigms (CE/CS 2336 with a C or better, CE/CS 2305 with a C or better, and CS/SE 3340); CS 4341 and CS 4141 Digital Logic and Computer Design and Lab (CE/EE 2310 or CS/SE 2340, PHYS 2326); CS 4349 Advanced Algorithm Design and Analysis (CS 3305 with a C or better, CE/CS 3345); CS 4352 Introduction to Human-Computer Interaction (none); CS 4361 Computer Graphics (MATH 2418, CE/CS 2336, and CE/CS/SE/TE 3345 or equivalent); CS 4365 Artificial Intelligence (CE/CS/SE/TE 3345 or equivalent); CS 4375 Introduction to Machine Learning (CS/SE 3341 and CE/CS/SE/TE 3345 or equivalent); and CS 4384 Automata Theory (CS 3305 with a C or better).",
+    "source_title": "Options for Software Engineering Major Guided Electives (2023-2024)",
+    "section_heading": "Options for Software Engineering Major Guided Electives: CS 4301-CS 4384",
+    "n_sentences": 1,
+    "token_count": 274
+  },
+  {
+    "chunk_id": "doc067_p1_c3",
+    "doc_id": "doc067",
+    "text": "Software Engineering major guided elective options (2023-2024), CS 4386 and above plus EE and SE courses, with their pre-requisite courses: CS 4386 Compiler Design (pre-requisite CE/CS/SE/TE 3345 or equivalent); CS 4389 Data & Applications Security (CS/SE 4347); CS 4390 Computer Networks (CE/CS/SE/TE 3345 or equivalent); CS 4391 Intro to Computer Vision (CE/CS/SE/TE 3345 or equivalent); CS 4392 Computer Animation (MATH 2418 and CE/CS/SE/TE 3345 or equivalent); CS 4393 Computer and Network Security (CE/CS/SE/TE 4348 or equivalent and CE/CS 4390 or equivalent); CS 4394 Implementation of Modern Operating Systems (CE/CS/SE/TE 4348 and CS 3335, or equivalent programming experience); CS 4395 Human Language Technologies (CS/SE 3341 and CE/CS/SE/TE 3345 or equivalent); CS 4396 Networking Laboratory (CS 4390 or equivalent); CS 4397 Embedded Computer Systems (CE/CS/SE/TE 4348 or equivalent); CS 4398 Digital Forensics (CE/CS/SE/TE 4348 and CE/CS/TE 4390 or equivalent); CS 4485 Computer Science Project (CE/CS 3345 and CE/CS/SE 3354 or equivalent and at least three 43xx courses); CS 4V95 Undergraduate Topics in Computer Science (varies by course topic); EE 4325 Introduction to VLSI Design (CS 4341); and SE 4376 Object Oriented Design, same as CS 4376 (CE/CS 2336 or CS 2337 and CE/CS/SE 3354).",
+    "source_title": "Options for Software Engineering Major Guided Electives (2023-2024)",
+    "section_heading": "Options for Software Engineering Major Guided Electives: CS 4386-SE 4376",
+    "n_sentences": 1,
+    "token_count": 325
+  }
+]

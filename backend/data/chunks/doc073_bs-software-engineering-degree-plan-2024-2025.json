@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc073_p1_c1",
+    "doc_id": "doc073",
+    "text": "The B.S. in Software Engineering (2024-2025) requires 123 hours (45 in residence, last semester at UTD) with a minimum 2.0 cumulative and major GPA. Total upper division credit must include 45 hours. Major Preparatory Requirements, Major Core Requirements, and Technical Electives count toward the Major GPA. The major introductory courses are taken in the first year in college only, and transfer students substitute an upper level technical elective: ECS 1100 Intro to Engineering and CS (1 hour) and CS 1200 Intro to CS and SE (2 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2024-2025)",
+    "section_heading": "B.S. in Software Engineering (2024-2025): Graduation Requirements and Introductory Courses",
+    "n_sentences": 4,
+    "token_count": 135
+  },
+  {
+    "chunk_id": "doc073_p1_c2",
+    "doc_id": "doc073",
+    "text": "The B.S. in Software Engineering (2024-2025) lower-division Major Preparatory Requirements (Major GPA) are: CS 1436 Programming Fundamentals (4 hours, C or better); CS 1337 Computer Science I (3 hours, C or better); CS 2305 Discrete Mathematics for Computing I (3 hours, C or better); CS 2336 or CS 2337 Computer Science II (3 hours, C or better); CS 2340 Computer Architecture (3 hours); MATH 2413 or MATH 2417 Differential Calculus or Calculus I (4 hours, C or better); MATH 2414 or MATH 2419 Integral Calculus or Calculus II (4 hours, C or better); a Math Elective (3 hours, chosen from a list of options); MATH 2418 Linear Algebra (4 hours, C or better); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); and PHYS 2126 Physics Laboratory II (1 hour).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2024-2025)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 1,
+    "token_count": 206
+  },
+  {
+    "chunk_id": "doc073_p1_c3",
+    "doc_id": "doc073",
+    "text": "The B.S. in Software Engineering (2024-2025) upper-division Major Core Requirements (Major GPA) are: SE 3162 Professional Responsibility in CS/SE (1 hour); SE 3306 Mathematics Foundations of SE (3 hours); SE 3341 Probability & Statistics in CS/SE (3 hours); SE 3345 Data Structures & Intro to Algorithmic Analysis (3 hours); SE 3354 Software Engineering (3 hours); SE 3377 C/C++ Programming in a UNIX Environment (3 hours); SE 4347 Database Systems (3 hours); SE 4348 Operating Systems Concepts (3 hours); SE 4351 Requirements Engineering (3 hours); SE 4352 Software Architecture & Design (3 hours); SE 4367 Software Testing, Verification, Validation, QA (3 hours); SE 4381 Software Project Planning & Management (3 hours); SE 4485 Software Engineering Project (4 hours); and ECS 2390 Professional & Technical Communication (3 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2024-2025)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 1,
+    "token_count": 209
+  },
+  {
+    "chunk_id": "doc073_p1_c4",
+    "doc_id": "doc073",
+    "text": "The B.S. in Software Engineering (2024-2025) Technical Electives (Major GPA) are four SE Technical Electives at the SE/CS 4XXX level: one of 4 hours and three of 3 hours each. The Electives section of the degree plan is labeled 10 hours and lists a 3-hour Free Elective and a 1-hour Free Elective.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2024-2025)",
+    "section_heading": "Technical Electives and Free Electives",
+    "n_sentences": 2,
+    "token_count": 75
+  },
+  {
+    "chunk_id": "doc073_p1_c5",
+    "doc_id": "doc073",
+    "text": "The B.S. in Software Engineering (2024-2025) lower-division Remaining State Core Curriculum consists of: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2024-2025)",
+    "section_heading": "Remaining State Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 127
+  }
+]

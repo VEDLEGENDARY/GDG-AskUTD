@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc113_p1_c1",
+    "doc_id": "doc113",
+    "text": "To begin mobile registration, in your mobile browser go to the UT Dallas webpage and click on the hamburger menu, select Galaxy, select Orion, and log in with your NetID and password. Or, from the UTD Mobile App, select Galaxy and log in with your NetID and password. Then select Manage My Classes, select Schedule Planner, open Schedule Planner, and allow Schedule Planner to open a new window.",
+    "source_title": "Office of the Registrar: Mobile Registration",
+    "section_heading": "Mobile Registration: Opening Schedule Planner on a Mobile Device",
+    "n_sentences": 3,
+    "token_count": 99
+  },
+  {
+    "chunk_id": "doc113_p8_c2",
+    "doc_id": "doc113",
+    "text": "To build and register a schedule in Schedule Planner on a mobile device: (1) adjust filters if needed; (2) select courses; (3) add breaks; (4) click Schedule at the bottom and Generate; (5) click on view to see a detailed view; (6) when you find the schedule you want, click Shopping Cart; and (7) when ready, click \"Register.\" Before registering, you can \"Validate\" the schedule to see if there may be any registration issues. You can \"Edit\" the items in your cart to allow waitlisting, remove a class from the cart, select credit hours on a variable class or enter a permission number if given one for registration. You will get a confirmation letting you know that you were registered or letting you know if there were any issues.",
+    "source_title": "Office of the Registrar: Mobile Registration",
+    "section_heading": "Mobile Registration: Building and Registering a Schedule",
+    "n_sentences": 3,
+    "token_count": 184
+  },
+  {
+    "chunk_id": "doc113_p16_c3",
+    "doc_id": "doc113",
+    "text": "After mobile registration, your current schedule will be displayed. If you want to drop a class, click on the drop classes option, select the class you want to drop and click Save. You'll be asked to confirm that you want to make the change. For questions regarding the Schedule Planner, email records@utdallas.edu.",
+    "source_title": "Office of the Registrar: Mobile Registration",
+    "section_heading": "Mobile Registration: Dropping a Class",
+    "n_sentences": 4,
+    "token_count": 79
+  }
+]

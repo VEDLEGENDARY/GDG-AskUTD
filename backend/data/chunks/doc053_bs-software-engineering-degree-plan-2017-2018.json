@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc053_p1_c1",
+    "doc_id": "doc053",
+    "text": "The B.S. in Software Engineering (2017-2018 Catalog) major preparatory requirements total 35 lower-division hours: ECS 1100 Intro to Engineering and CS (1 credit hour; incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course); CS 1200 Intro to CS and SE (2 credit hours); CS 1337 Computer Science I (3 credit hours); CS 2305 Discrete Mathematics for Computing I (3 credit hours); CS 2336 Computer Science II (3 credit hours); MATH 2413 or 2417 Calculus I (4 credit hours); MATH 2414 or 2419 Calculus II (4 credit hours); MATH 2418 Linear Algebra (4 credit hours); PHYS 2325 Mechanics (3 credit hours); PHYS 2125 Physics Laboratory I (1 credit hour); PHYS 2326 Electromagnetism and Waves (3 credit hours); PHYS 2126 Physics Laboratory II (1 credit hour); and a Science Elective (3 credit hours). CS 1337, CS 2305, and CS 2336 are major requirements in which students must earn a C or better to receive credit. The calculus courses, PHYS 2325, PHYS 2125, and PHYS 2326 meet both major and core requirements. Students must take MATH 2413/2414 or MATH 2417/2419.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2017-2018 Catalog)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 285
+  },
+  {
+    "chunk_id": "doc053_p1_c2",
+    "doc_id": "doc053",
+    "text": "The B.S. in Software Engineering (2017-2018 Catalog) major core requirements total 59 upper-division hours, and all courses in this block are used to calculate the major GPA. The SE courses are: SE 3162 Professional Responsibility in CS/SE (1 credit hour); SE 3306 Mathematics Foundations of SE (3 credit hours); SE 3340 Computer Architecture (3 credit hours); SE 3341 Probability & Statistics in CS/SE (3 credit hours); SE 3345 Data Structures & Introduction to Algorithms (3 credit hours); SE 3354 Software Engineering (3 credit hours); SE 3377 C/C++ Programming in a UNIX Environment (3 credit hours); SE 4347 Database Systems (3 credit hours); SE 4348 Operating Systems Concepts (3 credit hours); SE 4351 Requirements Engineering (3 credit hours); SE 4352 Software Architecture & Design (3 credit hours); SE 4367 Software Testing, Verification, Validation, QA (3 credit hours); SE 4381 Software Project Planning & Management (3 credit hours); and SE 4485 Software Engineering Project (4 credit hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2017-2018 Catalog)",
+    "section_heading": "Major Core Requirements: SE Courses",
+    "n_sentences": 2,
+    "token_count": 252
+  },
+  {
+    "chunk_id": "doc053_p1_c3",
+    "doc_id": "doc053",
+    "text": "The B.S. in Software Engineering (2017-2018 Catalog) major core requirements (59 upper-division hours, used to calculate the major GPA) also include: four SE Guided Electives, SE/CS 43XX (3 credit hours each); ECS 3361 Social Issues & Ethics in CS & E (3 credit hours); and ECS 3390 Professional & Technical Communication (3 credit hours). For the SE Guided Electives, students must satisfy at least one Application Domain; see an advisor for details. ECS 3361 and ECS 3390 meet both major and core requirements.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2017-2018 Catalog)",
+    "section_heading": "Major Core Requirements: Guided Electives and ECS Courses",
+    "n_sentences": 3,
+    "token_count": 128
+  },
+  {
+    "chunk_id": "doc053_p1_c4",
+    "doc_id": "doc053",
+    "text": "The B.S. in Software Engineering (2017-2018 Catalog) remaining core curriculum totals 21 hours: RHET 1302 Rhetoric (3 credit hours); GOVT 2305 American National Government (3 credit hours); GOVT 2306 State and Local Government (3 credit hours); HIST 1301 US History Survey to Civil War (Core: 060, 3 credit hours); HIST 1302 US History Survey from Civil War (Core: 060, 3 credit hours); HUMA 1301 Exploration of the Humanities (Core: 040, 3 credit hours); and ARTS 1301 Exploration of the Arts (Core: 050, 3 credit hours). Other course options are available for HIST 1301, HIST 1302, HUMA 1301, and ARTS 1301; see an advisor for details. Electives total 8 hours and require approval from an advisor: two Free Electives (3 credit hours each), one Free Elective (2 credit hours), UNIV 1010 Freshman Seminar (0 credit hours), and UNIV 2020 Core Curriculum Assessment (0 credit hours). Lower or upper division courses may count as free electives, and a maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course. All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2017-2018 Catalog)",
+    "section_heading": "Remaining Core Curriculum and Electives",
+    "n_sentences": 6,
+    "token_count": 315
+  },
+  {
+    "chunk_id": "doc053_p1_c5",
+    "doc_id": "doc053",
+    "text": "The B.S. in Software Engineering (2017-2018 Catalog) degree plan totals 64 lower-division and 59 upper-division hours; 123 hours are required for graduation, and they must include a minimum of 51 upper-division hours. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester. The degree plan form also records the student's advisor and whether the student is pursuing Fast Track, a minor, or a double major/degree.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2017-2018 Catalog)",
+    "section_heading": "Graduation Requirements",
+    "n_sentences": 5,
+    "token_count": 161
+  }
+]

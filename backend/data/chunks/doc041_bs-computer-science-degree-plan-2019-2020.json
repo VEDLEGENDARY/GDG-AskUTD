@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc041_p1_c1",
+    "doc_id": "doc041",
+    "text": "The B.S. in Computer Science (2019-2020 Catalog, revision date 06/28/2019) Major Preparatory Requirements total 35 lower-division hours: ECS 1100 Introduction to Engineering and CS (1 hour); CS 1200 Introduction to CS and SE (2 hours); CS 1337 Computer Science I (3 hours, C or better required); CS 2305 Discrete Mathematics for Computing I (3 hours, C or better required); CS 2336 or 2337 Computer Science II (3 hours, C or better required); MATH 2413 or 2417 Calculus I (4 hours); MATH 2414 or 2419 Calculus II (4 hours); MATH 2418 Linear Algebra (4 hours); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); PHYS 2126 Physics Laboratory II (1 hour); and a Science Elective (3 hours; other course options available, see advisor). Students must take Math 2413/2414 or Math 2417/2419. The calculus courses, PHYS 2325, PHYS 2125, and PHYS 2326 meet both Major and CORE requirements.",
+    "source_title": "B.S. in Computer Science Degree Plan (2019-2020 Catalog)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 3,
+    "token_count": 238
+  },
+  {
+    "chunk_id": "doc041_p1_c2",
+    "doc_id": "doc041",
+    "text": "The B.S. in Computer Science (2019-2020 Catalog) Major Core Requirements total 3 lower-division and 54 upper-division hours, and courses in this block are used to calculate the major GPA: CS 3162 Professional Responsibility in CS/SE (1 hour); CS 3305 Discrete Math for Computing II (3 hours, C or better required); CS 3340 Computer Architecture (3 hours); CS 3341 Probability & Statistics in CS/SE (3 hours); CS 3345 Data Structures & Introduction to Algorithmic Analysis (3 hours); CS 3354 Software Engineering (3 hours); CS 3377 C/C++ Programming in a UNIX Environment (3 hours); CS 4337 Organization of Programming Languages (3 hours); CS 4341 Digital Logic and Computer Design (3 hours); CS 4141 Digital Systems Laboratory (1 hour); CS 4347 Database Systems (3 hours); CS 4348 Operating Systems Concepts (3 hours); CS 4349 Advanced Algorithm Design & Analysis (3 hours); CS 4384 Automata Theory (3 hours); CS 4485 Computer Science Project (4 hours); three CS Guided Electives CS 43XX (3 hours each); ECS 2361 Social Issues & Ethics in Science/Technology (3 lower-division hours); and ECS 3390 Professional & Technical Communication (3 hours). ECS 2361 and ECS 3390 meet both Major and CORE requirements.",
+    "source_title": "B.S. in Computer Science Degree Plan (2019-2020 Catalog)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 2,
+    "token_count": 302
+  },
+  {
+    "chunk_id": "doc041_p1_c3",
+    "doc_id": "doc041",
+    "text": "The B.S. in Computer Science (2019-2020 Catalog) Remaining Core Curriculum totals 21 hours: RHET 1302 Rhetoric (3 hours); GOVT 2305 American National Government (3 hours); GOVT 2306 State and Local Government (3 hours); HIST 1301 US History Survey to Civil War (Core: 060, 3 hours); HIST 1302 US History Survey from Civil War (Core: 060, 3 hours); HUMA 1301 Exploration of the Humanities (Core: 040, 3 hours); and ARTS 1301 Exploration of the Arts (Core: 050, 3 hours). Other course options are available for the history, humanities, and arts courses; see an advisor for details. All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020 Core Curriculum Assessment (0 hours).",
+    "source_title": "B.S. in Computer Science Degree Plan (2019-2020 Catalog)",
+    "section_heading": "Remaining Core Curriculum",
+    "n_sentences": 3,
+    "token_count": 182
+  },
+  {
+    "chunk_id": "doc041_p1_c4",
+    "doc_id": "doc041",
+    "text": "The B.S. in Computer Science (2019-2020 Catalog) requires 11 hours of electives, which require approval from an advisor: three Free Electives of 3 hours each and one Free Elective of 2 hours. Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll in and complete the requirements of UNIV 1010 Freshmen Seminar (0 hours) and the corresponding school-related freshmen seminar course.",
+    "source_title": "B.S. in Computer Science Degree Plan (2019-2020 Catalog)",
+    "section_heading": "Electives",
+    "n_sentences": 4,
+    "token_count": 122
+  },
+  {
+    "chunk_id": "doc041_p1_c5",
+    "doc_id": "doc041",
+    "text": "The B.S. in Computer Science (2019-2020 Catalog) requires 124 hours for graduation, which must include 51 hours as Upper Division; the plan totals 70 lower-division and 54 upper-division hours. Students must earn a C or better in major requirement courses to receive credit. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester. The degree plan form also records the student's advisor and options such as Fast Track, a Minor, or a Double Major/Degree.",
+    "source_title": "B.S. in Computer Science Degree Plan (2019-2020 Catalog)",
+    "section_heading": "Graduation Requirements",
+    "n_sentences": 6,
+    "token_count": 171
+  }
+]

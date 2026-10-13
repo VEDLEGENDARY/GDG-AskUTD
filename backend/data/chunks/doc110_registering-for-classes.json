@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_id": "doc110_p1_c1",
+    "doc_id": "doc110",
+    "text": "The steps for undergraduate students registering for classes are: (1) attend orientation (new students only); (2) meet with your academic advisor to register for, add, drop, or withdraw from your course(s); (3) locate your enrollment appointment, which during registration periods is your date and time slot you are able to register for the term, by going to your Orion Student Center, Manage My Class tile and selecting the appropriate term; (4) register for classes after your enrollment appointment begins for the term and before the published last day to add; and (5) pay online at EZPay by the published payment deadline. Non-degree seeking undergraduate students do not receive enrollment appointments and may register beginning with open enrollment. Online registration is available until the published last day of late registration (see the instruction Registering/Adding Classes Using Schedule Planner).",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Registering for Classes: Undergraduate Students",
+    "n_sentences": 3,
+    "token_count": 228
+  },
+  {
+    "chunk_id": "doc110_p1_c2",
+    "doc_id": "doc110",
+    "text": "The steps for graduate students registering for classes are: (1) attend orientation (new students only); (2) meet with your academic advisor; (3) locate your enrollment appointment, which during registration periods is your date and time slot you are able to register for the term, by going to your Orion Student Center, Manage My Class tile and selecting the appropriate term; (4) register for classes after your enrollment appointment begins for the term; and (5) pay online at EZPay by the published payment deadline. Online registration is available until the published last day of late registration (see the instruction Registering/Adding Classes Using Schedule Planner). Limitations for non-degree seeking graduate students: students admitted to UT Dallas as graduate non-degree seeking students limited to undergraduate courses can register for only undergraduate courses. To register for graduate courses, you must submit a new application for admission, and your file must be evaluated and approved by the graduate program prior to registration.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Registering for Classes: Graduate Students",
+    "n_sentences": 4,
+    "token_count": 264
+  },
+  {
+    "chunk_id": "doc110_p2_c3",
+    "doc_id": "doc110",
+    "text": "In addition to the undergraduate and graduate registration steps, international students should consult the International Student Services Office website. Since 2020, UT Dallas F-1 students have been following the SEVP temporary guidance for enrollment requirements due to COVID-19. The SEVP temporary guidance allowed F-1 students to apply more online courses towards their enrollment requirements than is usually allowed, but only as long as the school was not fully operational due to effects of the pandemic. As of Spring 2023, UT Dallas will have returned to pre-pandemic operations and F-1 students must follow the standard F-1 regulations for enrollment. This means only one hybrid or online course can count towards your full-time enrollment requirements each semester. For example, a graduate student who is required to take 9 credit hours to be full-time enrolled would need at least 6 credit hours of face-to-face coursework. Hybrid courses are considered online courses. Students with questions can contact the International Students and Scholars Office through the iComet \"Ask an Advisor\" eForm or during Live Chat hours.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "International Students: F-1 Enrollment Requirements Changing Spring 2023",
+    "n_sentences": 8,
+    "token_count": 284
+  },
+  {
+    "chunk_id": "doc110_p2_c4",
+    "doc_id": "doc110",
+    "text": "The University of Texas at Dallas is committed to creating an accessible and supportive environment for pregnant and parenting students in compliance with Title IX of the Education Amendments of 1972, Texas Education Code, Section 51.982, and other applicable federal and state laws. Parenting students are eligible for early registration for courses to the extent others have access to early registration of those same courses. To determine if you are eligible for early registration, complete the Pregnant and Parenting Self-Identification Form available on the Institutional Compliance website. For more information about resources and support available to pregnant and parenting students, see UTD's Pregnant and Parenting Resources. For additional questions, contact the Title IX Coordinator at 972-883-2306 or TitleIXCoordinator@utdallas.edu.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Pregnant and Parent Students",
+    "n_sentences": 5,
+    "token_count": 212
+  },
+  {
+    "chunk_id": "doc110_p3_c5",
+    "doc_id": "doc110",
+    "text": "Students may elect a class under the Credit/No Credit or Pass/Fail grading options. For more information on Credit/No Credit grading, please refer to the undergraduate catalog. For more information on Pass/Fail grading, please refer to the graduate catalog. The Pass/Fail or Credit/No Credit Request form can be found at the Registrar's Forms page. The full-term census day for a term is the deadline to elect Credit/No Credit (undergraduate courses) or Pass/Fail (graduate courses) on a course.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Electing a Class as Pass/Fail or Credit/No Credit",
+    "n_sentences": 5,
+    "token_count": 124
+  },
+  {
+    "chunk_id": "doc110_p3_c6",
+    "doc_id": "doc110",
+    "text": "For some classes, the department or instructor may provide a permission number. To complete your registration, follow the instructions for students to register using a permission number. For some special classes that do not show in the class schedule, the department or instructor may provide you with a class number for registration. To complete your registration with a class number, follow the instructions for students to register using a class number.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Registering with a Permission Number or Class Number",
+    "n_sentences": 4,
+    "token_count": 114
+  },
+  {
+    "chunk_id": "doc110_p3_c7",
+    "doc_id": "doc110",
+    "text": "You can search for CV Honors, Core Curriculum, Living Learning, or any other special program courses using the instructions for how to search by class attribute.",
+    "source_title": "Office of the Registrar: Registering for Classes",
+    "section_heading": "Searching for Classes using Class Attributes",
+    "n_sentences": 1,
+    "token_count": 41
+  }
+]

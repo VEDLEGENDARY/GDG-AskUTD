@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc061_p1_c1",
+    "doc_id": "doc061",
+    "text": "The BS Computer Science Suggested Four Year Plan (2023-2024 Catalog) shows a recommended course sequence; courses may be taken in any order, as long as prerequisites are met. The plan's legend distinguishes pre- or co-requisites, prerequisites, and the prerequisite critical path. Before Calculus I (MATH 2413 or MATH 2417), students need MATH 2312 with a C or better or a score of 80% on ALEKS. A grade of C- or better is needed in MATH 2413 or MATH 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, CS 2336, CS 2337 and CS 3305. CS 4485 Computer Science Project is offered Fall/Spring, and the chart notes three or more CS 43xx courses in connection with it.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 6,
+    "token_count": 175
+  },
+  {
+    "chunk_id": "doc061_p1_c2",
+    "doc_id": "doc061",
+    "text": "In the BS Computer Science Suggested Four Year Plan (2023-2024 Catalog), the freshman year includes the following. Freshman, first semester: CS 1200 Introduction to CS & SE; ECS 1100 Introduction to Engineering & CS; MATH 2413 or 2417 Calculus I; CS 1436 Programming Fundamentals; 6 hours of CORE (see core choices); and UNIV 1010 Freshman Seminar. Freshman, second semester: CS 1337 Computer Science I; CS 2305 Discrete Mathematics I; MATH 2414 or 2419 Calculus II; PHYS 2325 Mechanics and Heat; PHYS 2125 Mechanics and Heat Lab; and 3 hours of CORE. CS 2336 or CS 2337 Computer Science II is also shown as an option in the freshman second semester, with the chart noting an AP score of at least 4 alongside this option.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 4,
+    "token_count": 181
+  },
+  {
+    "chunk_id": "doc061_p1_c3",
+    "doc_id": "doc061",
+    "text": "In the BS Computer Science Suggested Four Year Plan (2023-2024 Catalog), the sophomore year includes the following. Sophomore, first semester: CS 3305 Discrete Math for Computing II; CS 2340 Computer Architecture; CS 2336 or 2337 Computer Science II; PHYS 2326 Electricity and Magnetism; and PHYS 2126 Electricity and Magnetism Lab. Sophomore, second semester: CS 3341 Probability & Statistics in CS; CS 3345 Algorithm Analysis & Data Structures; CS 3377 Systems Programming in UNIX and Other Environments; MATH 2418 Linear Algebra; and 3 hours of CORE.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 3,
+    "token_count": 139
+  },
+  {
+    "chunk_id": "doc061_p1_c4",
+    "doc_id": "doc061",
+    "text": "In the BS Computer Science Suggested Four Year Plan (2023-2024 Catalog), the junior year includes the following. Junior, first semester: CS 3354 Software Engineering; CS 4337 Programming Language Paradigms; CS 4341 Digital Logic and Computer Design; CS 4141 Digital Systems Laboratory; ECS 3390 Professional & Technical Communication; 3 hours of CORE; and UNIV 2020 Core Curriculum Assessment. Junior, second semester: CS 3162 Professional Responsibility in CS and SE; CS 4348 Operating Systems Concepts; CS 4349 Advanced Data Structures & Algorithms; 3 hours of CORE; and 3 hours of Free Elective (see advisor).",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Junior Year",
+    "n_sentences": 3,
+    "token_count": 153
+  },
+  {
+    "chunk_id": "doc061_p1_c5",
+    "doc_id": "doc061",
+    "text": "In the BS Computer Science Suggested Four Year Plan (2023-2024 Catalog), the senior year includes the following. Senior, first semester: CS 4384 Automata Theory; two CS Guided Electives (CS 43XX); CS 4347 Database Systems; and 1 hour of Free Elective (see advisor). Senior, second semester: CS 4485 Computer Science Project (offered Fall/Spring); a CS Guided Elective (CS 43XX); and 6 hours of Free Elective (see advisor).",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Senior Year",
+    "n_sentences": 3,
+    "token_count": 106
+  },
+  {
+    "chunk_id": "doc061_p1_c6",
+    "doc_id": "doc061",
+    "text": "Core choices in the BS Computer Science Suggested Four Year Plan (2023-2024 Catalog) include: RHET 1302; GOVT 2305 and GOVT 2306; 6 hours from HIST 1301, HIST 1302, HIST 2301, HIST 2330, or HIST 2332; 3 hours from AHST 1303 or 1304, AHST 2331, ARTS 1301, FILM 2332, MUSI 1306, or THEA 1310; 3 hours from AMS 2300, AMS 2341, HUMA 1301, LIT 2331, PHIL 1301, PHIL 2316, or PHIL 2317; and 3 hours from CRIM 1301, ECON 2301, ECON 2302, GEOG 2303, or PSY 2301.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2023-2024 Catalog)",
+    "section_heading": "Core Choices",
+    "n_sentences": 1,
+    "token_count": 114
+  }
+]

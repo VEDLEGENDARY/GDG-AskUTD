@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc077_p1_c1",
+    "doc_id": "doc077",
+    "text": "The B.S. in Software Engineering (2025-2026) requires 123 hours (45 in residence, last semester at UTD) with a minimum 2.0 cumulative and major GPA. A grade of D- or better is required if no required grade is shown in brackets; courses marked [C] require a C or better. The major introductory and preparatory courses total 42 hours, Major Core Requirements total 41 hours, and Technical Electives total 12 hours, all counting toward the Major GPA; the plan also includes 24 hours of Remaining State Core Curriculum and 4 hours of Free Electives (one 3-hour and one 1-hour Free Elective). The major introductory courses are taken in the first year in college only, and transfer students substitute an upper level technical elective: ECS 1100 Intro to Engineering and CS (1 hour) and CS 1200 Intro to CS and SE (2 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2025-2026)",
+    "section_heading": "B.S. in Software Engineering (2025-2026): Graduation Requirements and Introductory Courses",
+    "n_sentences": 4,
+    "token_count": 205
+  },
+  {
+    "chunk_id": "doc077_p1_c2",
+    "doc_id": "doc077",
+    "text": "The B.S. in Software Engineering (2025-2026) lower-division Major Preparatory Requirements (Major GPA) are: MATH 2413 or MATH 2417 Differential Calculus or Calculus I (4 hours, C or better); CS 1436 Programming Fundamentals (4 hours, C or better); MATH 2414 or MATH 2419 Integral Calculus or Calculus II (4 hours, C or better); CS 1337 Computer Science I (3 hours, C or better); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); CS 2305 Discrete Mathematics for Computing I (3 hours, C or better); CS 2336 or CS 2337 Computer Science II (3 hours, C or better); SE 2340 Computer Architecture (3 hours); a Math Elective (3 hours, chosen from a list of options); PHYS 2326 Electromagnetism and Waves (3 hours); PHYS 2126 Physics Laboratory II (1 hour); and MATH 2418 Linear Algebra (4 hours, C or better).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2025-2026)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 1,
+    "token_count": 206
+  },
+  {
+    "chunk_id": "doc077_p1_c3",
+    "doc_id": "doc077",
+    "text": "The B.S. in Software Engineering (2025-2026) upper-division Major Core Requirements (Major GPA) total 41 hours: SE 3306 Mathematics Foundations of SE (3 hours); SE 3341 Probability & Statistics in CS/SE (3 hours); SE 3345 Data Structures & Intro to Algorithmic Analysis (3 hours); SE 3377 C/C++ Programming in a UNIX Environment (3 hours); ECS 2390 Professional & Technical Communication (3 hours); SE 3354 Software Engineering (3 hours); SE 4348 Operating Systems Concepts (3 hours); SE 3162 Professional Responsibility in CS/SE (1 hour); SE 4347 Database Systems (3 hours); SE 4381 Software Project Planning & Management (3 hours); SE 4352 Software Architecture & Design (3 hours); SE 4351 Requirements Engineering (3 hours); SE 4367 Software Testing, Verification, Validation, QA (3 hours); and SE 4485 Software Engineering Project (4 hours). Technical Electives (Major GPA) are four SE Technical Electives at the SE/CS 4XXX level (3 hours each).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2025-2026)",
+    "section_heading": "Major Core Requirements and Technical Electives",
+    "n_sentences": 2,
+    "token_count": 238
+  },
+  {
+    "chunk_id": "doc077_p1_c4",
+    "doc_id": "doc077",
+    "text": "The B.S. in Software Engineering (2025-2026) lower-division Remaining State Core Curriculum totals 24 hours: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2025-2026)",
+    "section_heading": "Remaining State Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 128
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc037_p1_c1",
+    "doc_id": "doc037",
+    "text": "The BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog) is a flowchart of the courses for the Bachelor of Science in Computer Engineering arranged from the Freshman through the Senior year. A grade of C- or better is required in each class. A grade of C or better is required in CS 1336, CE 1337, CE 2305, CS 3377, CS 2337, and CE 2336. Courses may be taken in any order, as long as prerequisites are met. CS 1336 (with CS 1136) is required of students with no prior programming experience. The prerequisite for Calculus I (Math 2413 or 2417) is Math 2312 with a grade of C or better or a score of 80% on ALEKS. RHET 1302 is noted as a pre-requisite of PHYS 2325, PHYS 2326, or any other 030 science core course. ECS 3390 is shown with the prerequisite of Junior standing and Rhet 1302, and CE 4348 is shown with the prerequisite of C and UNIX knowledge. CE 4370 is offered in Spring only.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 9,
+    "token_count": 227
+  },
+  {
+    "chunk_id": "doc037_p1_c2",
+    "doc_id": "doc037",
+    "text": "Lower-division courses in the BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog) include: CE 1100; ECS 1100; UNIV 1010; UNIV 2020; Math 2413 or Math 2417; Math 2414 or Math 2419; Math 2415; Math 2420; CE 1337 (C or better); CS 1336 and CS 1136 (for students with no prior programming experience); CE 1202; CE 2310; ENGR 2300; Phys 2325 and Phys 2125; Phys 2326 and Phys 2126; CE 2305 (C or better); CE 2336 or CS 2337 (C or better); ECS 2361; RHET 1302; Govt 2305; and Govt 2306. The plan also includes CORE courses and Free Electives.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Lower-Division Courses",
+    "n_sentences": 2,
+    "token_count": 139
+  },
+  {
+    "chunk_id": "doc037_p1_c3",
+    "doc_id": "doc037",
+    "text": "Upper-division courses in the BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog) include: ENGR 3341; ENGR 3300; CE 3301; CE 3201; CE 3202; CE 3310; CE 3320; CE 3311; CE 3302; CE 3345; CE 3354; ECS 3390; CE 4304; CE 4390; CE 4337; CE 4348; CE 4370 (Spring only); CE 420X; CE 4388; and CE 4389. CE 2305 and CE 2336 (each with a grade of C or better) are prerequisites on the plan's critical path into upper-division coursework.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Upper-Division Courses",
+    "n_sentences": 2,
+    "token_count": 111
+  },
+  {
+    "chunk_id": "doc037_p1_c4",
+    "doc_id": "doc037",
+    "text": "Core choices for the BS Computer Engineering plan (2019-2020 Catalog): Rhet 1302 is recommended, and Govt 2305 and Govt 2306 appear on the plan. Students take 3 hours from: Ams 2300, Ams 2341, Huma 1301, Lit 2331, Phil 1301, or Phil 2316, 2317. Students take 6 hours from: Hist 1301, Hist 1302, Hist 2301, Hist 2330, or Hist 2332. Students take 3 hours from: Ahst 1303, 1304, 2331; Arts 1301; Danc 1310; Film 2332; Musi 1306; or Thea 1310.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Core Choices",
+    "n_sentences": 4,
+    "token_count": 110
+  }
+]

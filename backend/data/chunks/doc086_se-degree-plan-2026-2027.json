@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc086_p1_c1",
+    "doc_id": "doc086",
+    "text": "The B.S. in Software Engineering degree plan (2026-2027) requires 123 hours (45 in residence, last semester at UTD) with a minimum 2.0 cumulative and major GPA. A grade of C or better is required for Major Requirements and Prerequisites. The plan consists of: Major Introductory Courses (1 hour); Major Preparatory Requirements (42 hours, counted in the major GPA); Major Core Requirements (41 hours, major GPA); Technical Electives (9 hours, major GPA); Remaining State Core Curriculum (24 hours); and Free Electives (7 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2026-2027)",
+    "section_heading": "B.S. in Software Engineering Degree Plan: Overview",
+    "n_sentences": 3,
+    "token_count": 132
+  },
+  {
+    "chunk_id": "doc086_p1_c2",
+    "doc_id": "doc086",
+    "text": "Major Introductory Courses for the B.S. in Software Engineering (2026-2027), for first year in college only (transfer students see advisor): ECS 1100 Intro to Engineering and CS [First Year Only] (1 hour). Major Preparatory Requirements (lower division, major GPA, 42 hours): ECS 1210 Foundations of Engineering and Computer Science I (2); MATH 2413 Differential Calculus or MATH 2417 Calculus I (4); CS 1436 Programming Fundamentals (4); MATH 2414 Integral Calculus or MATH 2419 Calculus II (4); CS 1337 Computer Science I (3); PHYS 2325 Mechanics (3); PHYS 2125 Physics Laboratory I (1); CS 2305 Discrete Mathematics for Computing I (3); CS 2336 or CS 2337 Computer Science II (3); SE 2340 Computer Architecture (3); a Math Elective (3, see options); PHYS 2326 Electromagnetism and Waves (3); PHYS 2126 Physics Laboratory II (1); and MATH 2418 Linear Algebra (4).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2026-2027)",
+    "section_heading": "Major Introductory Courses and Major Preparatory Requirements",
+    "n_sentences": 2,
+    "token_count": 217
+  },
+  {
+    "chunk_id": "doc086_p1_c3",
+    "doc_id": "doc086",
+    "text": "Major Core Requirements for the B.S. in Software Engineering (2026-2027) (upper division, major GPA, 41 hours): SE 3306 Mathematics Foundations of SE (3); SE 3341 Probability & Statistics in CS/SE (3); SE 3345 Data Structures & Intro to Algorithmic Analysis (3); SE 3377 C/C++ Programming in a UNIX Envirn (3); ECS 2390 Professional & Technical Communication (3); SE 3354 Software Engineering (3); SE 4348 Operating Systems Concepts (3); SE 3162 Professional Responsibility in CS/SE (1); SE 4347 Database Systems (3); SE 4381 Software Project Planning & Mgmt. (3); SE 4352 Software Architecture & Design (3); SE 4351 Requirements Engineering (3); SE 4367 Software Testing, Verif, Valid, QA (3); and SE 4485 Software Engineering Project (4).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2026-2027)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 2,
+    "token_count": 185
+  },
+  {
+    "chunk_id": "doc086_p1_c4",
+    "doc_id": "doc086",
+    "text": "Technical Electives for the B.S. in Software Engineering (2026-2027) (major GPA, 9 hours): three SE Technical Electives at the SE/CS 4XXX level (3 hours each). Remaining State Core Curriculum (lower division, 24 hours; see advisor for grade requirement): RHET 1302 Communication (Core: 010) (3); GOVT 2305 Government/Political Science (Core: 070) (3); GOVT 2306 Government/Political Science (Core: 070) (3); two American History (Core: 060) courses (3 each); Language, Philosophy and Culture (Core: 040) (3); Creative Arts (Core: 050) (3); and Social Behavioral Science (Core: 080) (3). Free Electives (7 hours): two 3-hour Free Electives and one 1-hour Free Elective. The plan assumes a 15 credit hour average per long semester.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2026-2027)",
+    "section_heading": "Technical Electives, State Core Curriculum, and Free Electives",
+    "n_sentences": 4,
+    "token_count": 183
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc071_p1_c1",
+    "doc_id": "doc071",
+    "text": "Computer Science majors (2024-2025) are required to take 9 hours of major technical electives. In addition to the listed options, any other organized CS 4300-level course may be used (see the course description for specific prerequisites). Students may also use CS 4V98 Undergraduate Research in Computer Science or CS 4399 Senior Honors in Computer Science. Students must consult an Academic Advisor before registering in these options.",
+    "source_title": "Options for Computer Science Major Technical Electives (2024-2025)",
+    "section_heading": "Options for Computer Science Major Technical Electives: Requirements",
+    "n_sentences": 4,
+    "token_count": 110
+  },
+  {
+    "chunk_id": "doc071_p1_c2",
+    "doc_id": "doc071",
+    "text": "Computer Science major technical elective options (2024-2025), CS 4301 through CS/SE 4376, with their pre-requisite courses: CS 4301 Special Topics in Computer Science (pre-requisite CE/CS/SE 3345); CS 4314 Intelligent Systems Analysis ((MATH 2414 or MATH 2419) and (CS 3341 or SE 3341) and MATH 2418, or instructor consent required); CS 4315 Intelligent Systems Design (CGS 4314 or CS 4314); CS 4334 Numerical Analysis ((MATH 2370 or CE/CS 1337) and MATH 2418 and (MATH 2451 or MATH 3351)); CS 4336 Advanced JAVA (CE/CS 2336 or CS 2337 or equivalent); CS 4352 Introduction to Human-Computer Interaction (none); CS 4361 Computer Graphics (MATH 2418 and (CE/CS 2336 or CS 2337), and CE/CS/SE 3345 or equivalent); CS 4365 Artificial Intelligence (CE/CS/SE 3345 or equivalent); CS 4375 Introduction to Machine Learning (CS/SE 3341 and CE/CS/SE 3345 or equivalent); and CS/SE 4376 Object Oriented Programming Systems (CE/CS 2336 or CS 2337 with a C or better, or equivalent).",
+    "source_title": "Options for Computer Science Major Technical Electives (2024-2025)",
+    "section_heading": "Options for Computer Science Major Technical Electives: CS 4301-CS 4376",
+    "n_sentences": 1,
+    "token_count": 243
+  },
+  {
+    "chunk_id": "doc071_p1_c3",
+    "doc_id": "doc071",
+    "text": "Computer Science major technical elective options (2024-2025), CS 4386 through CS 4V95, with their pre-requisite courses: CS 4386 Compiler Design (pre-requisite CE/CS/SE 3345 or equivalent); CS 4389 Data & Applications Security (CS/SE 4347); CS 4390 Computer Networks (CE/CS/SE 3345 or equivalent); CS 4391 Intro to Computer Vision (CE/CS/SE 3345 or equivalent); CS 4392 Computer Animation (MATH 2418 and CE/CS/SE 3345 or equivalent); CS 4393 Computer and Network Security (CE/CS/SE 4348 or equivalent and CE/CS 4390 or equivalent); CS 4394 Implementation of Modern Operating Systems (CE/CS/SE 4348 or equivalent programming experience); CS 4395 Human Language Technologies (CS/SE 3341 and CE/CS/SE 3345 or equivalent); CS 4396 Networking Laboratory (CS 4390 or equivalent); CS 4397 Embedded Computer Systems (CE/CS/SE 4348 or equivalent); CS 4398 Digital Forensics (CE/CS/SE 4348 and CE/CS 4390 or equivalent); CS 4459 Cyber Attack and Defense Laboratory ((CS 2340 or SE 2340) and (CS 3345 or SE 3345) and (CS 3377 or SE 3377)); and CS 4V95 Undergraduate Topics in Computer Science (CE/CS/SE 3345 and instructor consent required).",
+    "source_title": "Options for Computer Science Major Technical Electives (2024-2025)",
+    "section_heading": "Options for Computer Science Major Technical Electives: CS 4386-CS 4V95",
+    "n_sentences": 1,
+    "token_count": 283
+  },
+  {
+    "chunk_id": "doc071_p1_c4",
+    "doc_id": "doc071",
+    "text": "EE and SE technical elective options for Computer Science majors (2024-2025), with their pre-requisite courses: EE 4325 Introduction to VLSI Design (pre-requisite CS 4341); SE 4351 Requirements Engineering (SE 3306 and CE/CS/SE 3354, or instructor consent required); SE 4352 Software Architecture and Design (SE 3306 and CE/CS/SE 3354, or instructor consent required); SE 4367 Software Testing, Verification, Validation and Quality Assurance (SE 3306 and CE/CS/SE 3354, or instructor consent required); and SE 4381 Software Project Planning and Management (CE/CS/SE 3354).",
+    "source_title": "Options for Computer Science Major Technical Electives (2024-2025)",
+    "section_heading": "Options for Computer Science Major Technical Electives: EE and SE Courses",
+    "n_sentences": 1,
+    "token_count": 143
+  }
+]

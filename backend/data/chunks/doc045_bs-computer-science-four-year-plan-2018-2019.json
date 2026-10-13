@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc045_p1_c1",
+    "doc_id": "doc045",
+    "text": "The BS Computer Science Suggested Four Year Plan (2018-2019 Catalog, dated 06/01/2018) lays out a suggested sequence of courses for the Bachelor of Science in Computer Science across eight semesters, from the Freshman through the Senior year. Courses may be taken in any order, as long as prerequisites are met. A grade of C- or better is needed in Math 2413 or Math 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, CS 2336, and CS 3305. CS 1336 (with CS 1136) is required of students with no prior programming experience. The prerequisite for Calculus I is Math 2312 with a grade of C or better or a score of 75% on ALEKS. The plan requires three or more CS 43xx courses (CS Guided Electives; see advisor) and a 3-credit Science Elective.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 7,
+    "token_count": 195
+  },
+  {
+    "chunk_id": "doc045_p1_c2",
+    "doc_id": "doc045",
+    "text": "BS Computer Science suggested plan (2018-2019 Catalog), Freshman year. First semester: CS 1200 Introduction to CS&SE; ECS 1100 Introduction to Engineering and CS; Math 2413 or 2417 Calculus I; CS 1337 Computer Science I; UNIV 1010 Freshman Seminar; and 6 hours of CORE. Second semester: CS 2336 Computer Science II; CS 2305 Discrete Mathematics I; Math 2414 or 2419 Calculus II; Phys 2325 Mechanics and Heat; Phys 2125 Mechanics and Heat Lab; and 3 hours of CORE.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 3,
+    "token_count": 116
+  },
+  {
+    "chunk_id": "doc045_p1_c3",
+    "doc_id": "doc045",
+    "text": "BS Computer Science suggested plan (2018-2019 Catalog), Sophomore year. First semester: CS 3305 Discrete Math for Computing II; CS/SE 3340 Computer Architecture; Phys 2326 Electricity and Magnetism; Phys 2126 Electricity and Magnetism Lab; and 6 hours of CORE. Second semester: CS 3341 Probability & Statistics in CS; CS 3345 Algorithm Analysis & Data Structures; CS 3377 C/C++ Programming in UNIX Environment; Math 2418 Linear Algebra; and 3 hours of CORE.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 3,
+    "token_count": 115
+  },
+  {
+    "chunk_id": "doc045_p1_c4",
+    "doc_id": "doc045",
+    "text": "BS Computer Science suggested plan (2018-2019 Catalog), Junior year. First semester: CS 3354 Software Engineering; CS 4337 Organization of Programming Languages; CS 4341 Digital Logic and Computer Design; CS 4141 Digital Systems Laboratory; ECS 3390 Professional & Technical Communication; and 3 hours of CORE. Second semester: CS 3162 Professional Responsibility in CS and SE; CS 4348 Operating Systems Concepts; CS 4349 Advanced Data Structures & Algorithms; ECS 3361 Social Issues and Ethics in ECS; 3 hours of Science Elective (see advisor); and 2 hours of Free Elective (see advisor).",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Junior Year",
+    "n_sentences": 3,
+    "token_count": 148
+  },
+  {
+    "chunk_id": "doc045_p1_c5",
+    "doc_id": "doc045",
+    "text": "BS Computer Science suggested plan (2018-2019 Catalog), Senior year. First semester: CS 4384 Automata Theory; two CS Guided Electives (CS 43XX); CS 4347 Database Systems; and 3 hours of Free Elective (see advisor). Second semester: CS 4485 Computer Science Project; one CS Guided Elective (CS 43XX); 6 hours of Free Elective (see advisor); and UNIV 2020 Core Curriculum Assessment.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Senior Year",
+    "n_sentences": 3,
+    "token_count": 96
+  },
+  {
+    "chunk_id": "doc045_p1_c6",
+    "doc_id": "doc045",
+    "text": "Core choices for the BS Computer Science plan (2018-2019 Catalog): Rhet 1302 is included. Students take 6 hours from: Hist 1301, Hist 1302, Hist 2301, Hist 2330, Hist 2332, Govt 2305, or Govt 2306. Students take 3 hours from: Ahst 1303 or 1304, Ahst 2331, Arts 1301, Film 2332, Musi 1306, or Thea 1310. Students take 3 hours from: Ams 2300, Ams 2341, Huma 1301, Lit 2331, Phil 1301, Phil 2316, or Phil 2317.",
+    "source_title": "BS Computer Science Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Core Choices",
+    "n_sentences": 4,
+    "token_count": 102
+  }
+]

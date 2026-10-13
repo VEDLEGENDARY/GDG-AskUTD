@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc082_p1_c1",
+    "doc_id": "doc082",
+    "text": "BS Computer Engineering Eight Semester Plan 2024-2025, Semester 1 and 2 (First Year). Semester 1: MATH 2413* or 2417* Calculus I (prerequisite: ALEKS 80% or MATH 2312); ECS 1100 Intro to Engr & CS (First Year only); CE 1100 Intro to Comp Eng (First Year only); CS 1436* Programming Fundamentals; and a Core course. Semester 2: ENGR 2300 Linear Algebra for Engineers (pre- or corequisite: MATH 2414 or 2419); MATH 2414 or 2419 Calculus II (prerequisite: MATH 2413 or 2417); PHYS 2325/2125 Mechanics and Lab (prerequisite: MATH 2413 or 2417; pre- or corequisite: MATH 2414 or 2419); CE 1337* Computer Science I (prerequisite: CS 1436); CE 1202 Intro to Computer Eng II (prerequisite: CE 1100); and CE 2310 Intro to Digital Systems. MATH 2415 Calculus of Several Variables (prerequisite: MATH 2414) is shown between Semester 2 and Semester 3. Courses marked * require a grade of C or better.",
+    "source_title": "BS Computer Engineering Eight Semester Plan 2024-2025",
+    "section_heading": "Semester 1 and 2",
+    "n_sentences": 5,
+    "token_count": 222
+  },
+  {
+    "chunk_id": "doc082_p1_c2",
+    "doc_id": "doc082",
+    "text": "BS Computer Engineering Eight Semester Plan 2024-2025, Semester 3 and 4. Semester 3: MATH 2420 Differential Equations (prerequisites: MATH 2415 or 2419, and ENGR 2300); PHYS 2326/2126 Electricity and Magnetism and Lab (prerequisites: MATH 2414 or 2419, and PHYS 2325/2125); ENGR 3341 Probability & Stats in CS and SE (prerequisite: MATH 2414 or 2419; pre- or corequisite: MATH 2420); CE 2336 (Java)* or CS 2337 (C++)* Computer Science II (prerequisite: CE 1337; pre- or corequisite: CE 2305); and CE 2305* Discrete Mathematics I (prerequisite: MATH 2413). Semester 4: CE 2301 Electrical Network Analysis (prerequisites: MATH 2420 and PHYS 2326/2126); CE 3201 Fundamentals I (prerequisites: CE 1202 and RHET 1302; pre- or corequisites: CE 3320 and CE 2301); CE 3320 Digital Circuits (prerequisite: CE 2310); CE 3345 Data Structures & Intro to Algorithmic Analysis (prerequisites: CE 2336 or CS 2337, and CE 2305; pre- or corequisite: ENGR 3341); and two Core courses. Courses marked * require a grade of C or better.",
+    "source_title": "BS Computer Engineering Eight Semester Plan 2024-2025",
+    "section_heading": "Semester 3 and 4",
+    "n_sentences": 4,
+    "token_count": 254
+  },
+  {
+    "chunk_id": "doc082_p1_c3",
+    "doc_id": "doc082",
+    "text": "BS Computer Engineering Eight Semester Plan 2024-2025, Semester 5 and 6. Semester 5: CE 3311 Electronic Circuits (prerequisite: CE 2301); CE 3161 Social Issues & Ethics in Eng. (pre- or corequisite: CE 2310); CE 3354 Software Engineering (prerequisites: CE 2336 or CS 2337, and CE 2305; pre- or corequisite: ECS 2390); ECS 2390 Prof & Tech Communication (prerequisite: RHET 1302); CE 3202 Fundamentals II (prerequisite: CE 3201; pre- or corequisite: ECS 2390); and CE 3303 Signals and Systems (prerequisite: MATH 2420). Semester 6: CE 42XX Elective Lab (prerequisite: CE 3202; see catalog); CE 4304 Computer Architecture (prerequisite: CE 3320); CE 4370 Embedded Systems (prerequisite: CE 3320); and three Core courses.",
+    "source_title": "BS Computer Engineering Eight Semester Plan 2024-2025",
+    "section_heading": "Semester 5 and 6",
+    "n_sentences": 4,
+    "token_count": 180
+  },
+  {
+    "chunk_id": "doc082_p1_c4",
+    "doc_id": "doc082",
+    "text": "BS Computer Engineering Eight Semester Plan 2024-2025, Semester 7 and 8. Semester 7: CE 4388 Senior Design Project I (prerequisites: ECS 2390, CE 3161, CE 3202, CE 3303, CE 3311, and CE 3320); *CE 4348 Operating Systems Concepts (prerequisites: CE 3345 and CE 4304); a MATH Technical Elective (see catalog); a Free Elective (1 SCH); and a Core course. Semester 8: CE 4389 Senior Design Project II (prerequisite: CE 4388); two CE Technical Electives (see catalog); a Free Elective; and a Core course.",
+    "source_title": "BS Computer Engineering Eight Semester Plan 2024-2025",
+    "section_heading": "Semester 7 and 8",
+    "n_sentences": 3,
+    "token_count": 125
+  },
+  {
+    "chunk_id": "doc082_p1_c5",
+    "doc_id": "doc082",
+    "text": "Grade requirements for the BS Computer Engineering Eight Semester Plan 2024-2025: C- or better is required unless noted by *; courses marked * require C or better. The critical path courses are MATH 2413 or 2417, ENGR 2300, MATH 2414 or 2419, MATH 2415, PHYS 2325/2125, MATH 2420, PHYS 2326/2126, CE 2301, CE 3311, CE 3161, CE 4388, and CE 4389. ECS 1100 and CE 1100 are First Year only courses; transfer students substitute a Technical Elective. The remaining core curriculum consists of RHET 1302, GOVT 2305, GOVT 2306, two American History (060) courses, Language, Philosophy and Culture (040), Creative Arts (050), and Social and Behavioral Sciences (080).",
+    "source_title": "BS Computer Engineering Eight Semester Plan 2024-2025",
+    "section_heading": "Grade Requirements, Critical Path, and Remaining Core Curriculum",
+    "n_sentences": 4,
+    "token_count": 165
+  }
+]
