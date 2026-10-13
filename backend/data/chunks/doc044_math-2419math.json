@@ -1,0 +1,191 @@
+[
+  {
+    "chunk_id": "doc044_p1_c1",
+    "doc_id": "doc044",
+    "text": "**CS 1337. **CS 1336. CS 1136 Phys 2326 Phys 2126. ECS 1100.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Math 2419Math",
+    "n_sentences": 4,
+    "token_count": 15
+  },
+  {
+    "chunk_id": "doc044_p1_c2",
+    "doc_id": "doc044",
+    "text": "**CS 2305. **CS 2336. **CS 3305. Math 2418 CS 3345.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Math 2419Math",
+    "n_sentences": 4,
+    "token_count": 13
+  },
+  {
+    "chunk_id": "doc044_p1_c3",
+    "doc_id": "doc044",
+    "text": "CS 3354. ECS 3390 Three or more CS 43xx courses. CS 4349. CS 4485.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Math 2419Math",
+    "n_sentences": 4,
+    "token_count": 17
+  },
+  {
+    "chunk_id": "doc044_p1_c4",
+    "doc_id": "doc044",
+    "text": "ECS 3361 BS Computer Science Suggested Four Year Plan 2017 - 2018 Catalog 6/1/2017.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Math 2419Math",
+    "n_sentences": 1,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc044_p1_c5",
+    "doc_id": "doc044",
+    "text": "Prereq Critical Path. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Prereq Critical Path",
+    "n_sentences": 2,
+    "token_count": 23
+  },
+  {
+    "chunk_id": "doc044_p1_c6",
+    "doc_id": "doc044",
+    "text": "CS 4384. CS 4348. CS 4341. CS 4141.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Phys 2125",
+    "n_sentences": 4,
+    "token_count": 9
+  },
+  {
+    "chunk_id": "doc044_p1_c7",
+    "doc_id": "doc044",
+    "text": "CS 4337. CS 3340. CS 3341 CS 3377. **CS 2305.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Phys 2125",
+    "n_sentences": 4,
+    "token_count": 12
+  },
+  {
+    "chunk_id": "doc044_p1_c8",
+    "doc_id": "doc044",
+    "text": "**CS 2336 CS Guided.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Phys 2125",
+    "n_sentences": 1,
+    "token_count": 5
+  },
+  {
+    "chunk_id": "doc044_p1_c9",
+    "doc_id": "doc044",
+    "text": "CS 1336 is required of students with no prior programming experience Not For Credit in ECS C or better needed. CS 3162 Description Course No. Introduction to CS&SE CS 1200. Introduction to Engr'g. & CS ECS 1100 Calculus I Math 2413 or 2417.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 4,
+    "token_count": 60
+  },
+  {
+    "chunk_id": "doc044_p1_c10",
+    "doc_id": "doc044",
+    "text": "Computer Science I CS 1337 6 hours CORE: Choices below. Freshman Seminar UNIV 1010 Description Course No. Computer Science II CS 2336. Discrete Mathematics I CS 2305 Calculus II Math 2414 or 2419 Mechanics and Heat Phys 2325 Mechanics and Heat Lab Phys 2125 3 hours CORE: Choices below Description Course No.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 3,
+    "token_count": 77
+  },
+  {
+    "chunk_id": "doc044_p1_c11",
+    "doc_id": "doc044",
+    "text": "Discrete Math for Computing II CS 3305. Computer Architecture CS/SE 3340 Electricity and Magnetism Phys 2326 Electricity and Magnetism Lab Phys 2126 6 hours CORE: Choices below Description Course No. Probability & Statistics in CS CS 3341. Algorithm Analysis & Data Struc CS 3345.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 3,
+    "token_count": 70
+  },
+  {
+    "chunk_id": "doc044_p1_c12",
+    "doc_id": "doc044",
+    "text": "C/C++ Programming in UNIX Envr. CS 3377 Linear Algebra Math 2418 3 hours CORE: Choices below Description Course No. Software Engineering CS 3354. Organization of Programming Lang CS 4337. Digital Logic and Computer Design CS 4341.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 4,
+    "token_count": 58
+  },
+  {
+    "chunk_id": "doc044_p1_c13",
+    "doc_id": "doc044",
+    "text": "Digital Systems Laboratory CS 4141. Professional & Technical Comm ECS 3390 3 hours CORE: Choices below Description Course No. Prof. Responsibility in CS and SE CS 3162. Operating Systems Concepts CS 4348.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 4,
+    "token_count": 51
+  },
+  {
+    "chunk_id": "doc044_p1_c14",
+    "doc_id": "doc044",
+    "text": "Adv Data Structures & Algorithms CS 4349. Social Issues and Ethics in ECS ECS 3361 3 hours Science Elective See Advisor 2 hours Free Elective See Advisor Description Course No. Automata Theory CS 4384 CS Guided Elective CS 43XX CS Guided Elective CS 43XX. Database Systems CS 4347 3 hours Free Elective See Advisor Description Course No.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 3,
+    "token_count": 85
+  },
+  {
+    "chunk_id": "doc044_p1_c15",
+    "doc_id": "doc044",
+    "text": "Computer Science Project CS 4485 CS Guided Elective CS 43XX 6 hours Free Elective See Advisor. Core Curriculum Assessment UNIV 2020.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 2,
+    "token_count": 33
+  },
+  {
+    "chunk_id": "doc044_p1_c16",
+    "doc_id": "doc044",
+    "text": "Junior Rhet 1302. CORECORE CORE CORE CORE CORE CORE Free Elective Free Elective(2)",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 2,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc044_p1_c17",
+    "doc_id": "doc044",
+    "text": "CS 4347 CS Guided.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Junior Rhet 1302",
+    "n_sentences": 1,
+    "token_count": 5
+  },
+  {
+    "chunk_id": "doc044_p1_c18",
+    "doc_id": "doc044",
+    "text": "See Advisor. Free Elective Free Elective *A grade of C- or better is needed in Math 2413 or Math 2417 to move forward. **A grade of C or better is required for CS 1336, CS 1337, CS 2305, CS 2336, and CS 3305.",
+    "source_title": "Math 2419Math",
+    "section_heading": "See Advisor",
+    "n_sentences": 3,
+    "token_count": 52
+  },
+  {
+    "chunk_id": "doc044_p1_c19",
+    "doc_id": "doc044",
+    "text": "Junior Math 2312 (C or better) or 75% on ALEKS Rhet 1302 6 hours From: Hist 1301 Hist 1302",
+    "source_title": "Math 2419Math",
+    "section_heading": "See Advisor",
+    "n_sentences": 1,
+    "token_count": 23
+  },
+  {
+    "chunk_id": "doc044_p1_c20",
+    "doc_id": "doc044",
+    "text": "CS 1200 CS Guided.",
+    "source_title": "Math 2419Math",
+    "section_heading": "Phil 2317",
+    "n_sentences": 1,
+    "token_count": 5
+  },
+  {
+    "chunk_id": "doc044_p1_c21",
+    "doc_id": "doc044",
+    "text": "UNIV 1010. UNIV 2020.",
+    "source_title": "Math 2419Math",
+    "section_heading": "See Advisor",
+    "n_sentences": 2,
+    "token_count": 6
+  }
+]

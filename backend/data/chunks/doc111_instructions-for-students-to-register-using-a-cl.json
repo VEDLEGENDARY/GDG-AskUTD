@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_id": "doc111_p1_c1",
+    "doc_id": "doc111",
+    "text": "Register Using a Class Number. Go to Galaxy, click on \"Orion\" and log in with your NetID and password. In your UTD Student Center, select the \"Manage My Classes\" Tile.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Register Using a Class Number",
+    "n_sentences": 3,
+    "token_count": 42
+  },
+  {
+    "chunk_id": "doc111_p1_c2",
+    "doc_id": "doc111",
+    "text": "Select 'Swap Classes' and then click on 'Add'.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Register Using a Class Number",
+    "n_sentences": 1,
+    "token_count": 12
+  },
+  {
+    "chunk_id": "doc111_p2_c3",
+    "doc_id": "doc111",
+    "text": "Select the term and click 'Continue'. Enter the class number or search to find the class.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 23
+  },
+  {
+    "chunk_id": "doc111_p3_c4",
+    "doc_id": "doc111",
+    "text": "If it is a variable class, select how many semester credit hours you are taking the class for and then click on 'Next'.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc111_p4_c5",
+    "doc_id": "doc111",
+    "text": "Once you are done adding classes, click on 'Proceed to Step 2 of 3'.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 17
+  },
+  {
+    "chunk_id": "doc111_p5_c6",
+    "doc_id": "doc111",
+    "text": "Confirm your enrollment and click on 'Finish Enrolling'.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 14
+  },
+  {
+    "chunk_id": "doc111_p6_c7",
+    "doc_id": "doc111",
+    "text": "You should receive a green check mark in the status field and message that the class was successfully added to your schedule.",
+    "source_title": "Instructions for Students to Register Using a Class Number",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 32
+  }
+]

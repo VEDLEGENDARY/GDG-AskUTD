@@ -1,0 +1,146 @@
+[
+  {
+    "chunk_id": "doc084_p1_c1",
+    "doc_id": "doc084",
+    "text": "STUDENT: UTD ID. MAJOR INTRODUCTORY COURSES (First Year in College Only - Transfer Students See Advisor) Lower",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "STUDENT: UTD ID",
+    "n_sentences": 2,
+    "token_count": 28
+  },
+  {
+    "chunk_id": "doc084_p1_c2",
+    "doc_id": "doc084",
+    "text": "1 Intro to Engineering and CS [First Year Only] ECS 1100.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "Division COURSE TITLE COURSE NUMBER GRADE SEM DONE NOTES",
+    "n_sentences": 1,
+    "token_count": 15
+  },
+  {
+    "chunk_id": "doc084_p1_c3",
+    "doc_id": "doc084",
+    "text": "2 Foundations of Engineering and Computer Science I ECS 1210. 4 MATH 2413. 4 MATH 2417. 4 Programming Fundamentals CS 1436.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc084_p1_c4",
+    "doc_id": "doc084",
+    "text": "4 MATH 2414. 4 MATH 2419. 3 Computer Science I CS 1337. 3 Mechanics PHYS 2325.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 20
+  },
+  {
+    "chunk_id": "doc084_p1_c5",
+    "doc_id": "doc084",
+    "text": "1 Physics Laboratory I PHYS 2125. 3 Discrete Mathematics for Computing I CS 2305. 3 CS 2336. 3 CS 2337.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc084_p1_c6",
+    "doc_id": "doc084",
+    "text": "3 Computer Architecture CS 2340. 3 Electromagnetism and Waves PHYS 2326. 1 Physics Laboratory II PHYS 2126. 4 Linear Algebra MATH 2418 0 of 39 Upper Division MAJOR CORE REQUIREMENTS (Major GPA).",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 49
+  },
+  {
+    "chunk_id": "doc084_p1_c7",
+    "doc_id": "doc084",
+    "text": "3 Probability & Statistics in CS/SE CS 3341. 3 Data Structures & Intro to Algorithmic Analysis CS 3345. 3 C/C++ Programming in a UNIX Envirn CS 3377. 3 Professional & Technical Communication ECS 2390.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 50
+  },
+  {
+    "chunk_id": "doc084_p1_c8",
+    "doc_id": "doc084",
+    "text": "3 Software Engineering CS 3354. 3 Programming Language Paradigms CS 4337. 3 Digital Logic and Computer Design CS 4341. 1 Digital Systems Laboratory CS 4141.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 39
+  },
+  {
+    "chunk_id": "doc084_p1_c9",
+    "doc_id": "doc084",
+    "text": "1 Professional Responsibility in CS/SE CS 3162. 3 Operating Systems Concepts CS 4348. 3 Adv Algorithm Design & Analysis CS 4349. 3 Automata Theory CS 4384.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 39
+  },
+  {
+    "chunk_id": "doc084_p1_c10",
+    "doc_id": "doc084",
+    "text": "3 Database Systems CS 4347.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 1,
+    "token_count": 7
+  },
+  {
+    "chunk_id": "doc084_p1_c11",
+    "doc_id": "doc084",
+    "text": "MAJOR PREPARATORY REQUIREMENTS (Major GPA). 4 Computer Science Project CS 4485 0 of 39 TECHNICAL ELECTIVES (Major GPA) 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 0 of 9 Lower",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 2,
+    "token_count": 57
+  },
+  {
+    "chunk_id": "doc084_p1_c12",
+    "doc_id": "doc084",
+    "text": "3 Communication (Core: 010) RHET 1302. 3 Government/ Political Science (Core: 070) GOVT 2305. 3 Government/ Political Science (Core: 070) GOVT 2306.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "Division REMAINING STATE CORE CURRICULUM (See Advisor for Grade Requirement)",
+    "n_sentences": 3,
+    "token_count": 37
+  },
+  {
+    "chunk_id": "doc084_p1_c13",
+    "doc_id": "doc084",
+    "text": "Division REMAINING STATE CORE CURRICULUM (See Advisor for Grade Requirement). 3 American History (Core: 060) click to view options 3 American History (Core: 060) click to view options 3 Language, Philosophy and Culture (Core: 040) click to view options 3 Creative Arts (Core: 050) click to view options 3 Social Behavioral Science (Core: 080) click to view options 0 of 24",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "Division REMAINING STATE CORE CURRICULUM (See Advisor for Grade Requirement)",
+    "n_sentences": 2,
+    "token_count": 93
+  },
+  {
+    "chunk_id": "doc084_p1_c14",
+    "doc_id": "doc084",
+    "text": "FREE ELECTIVES (13 Hours). 3 Free Elective 3 Free Elective 3 Free Elective 3 Free Elective 1 Free Elective 0 of 13",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "FREE ELECTIVES (13 Hours)",
+    "n_sentences": 2,
+    "token_count": 29
+  },
+  {
+    "chunk_id": "doc084_p1_c15",
+    "doc_id": "doc084",
+    "text": "Long Semesters Left (15 credit hour average) 8.266666667. 124 Hours (45 in residence, last semester at UTD) with Min 2.0 Cumulative and Major GPA",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "Long Semesters Left (15 credit hour average) 8.266666667",
+    "n_sentences": 2,
+    "token_count": 37
+  },
+  {
+    "chunk_id": "doc084_p1_c16",
+    "doc_id": "doc084",
+    "text": "Integral Calculus OR Calculus II. Grade of C or better required for Major Requirements and Prerequisites.",
+    "source_title": "B.S. in COMPUTER SCIENCE DEGREE PLAN (2026-2027)",
+    "section_heading": "Integral Calculus OR Calculus II",
+    "n_sentences": 2,
+    "token_count": 27
+  }
+]

@@ -1,0 +1,263 @@
+[
+  {
+    "chunk_id": "doc114_p1_c1",
+    "doc_id": "doc114",
+    "text": "Guide for Students. Schedule Planner is a tool that helps you put together your class schedule for the upcoming term. Along with your desired classes, you can also input the times when you are unable to take classes.",
+    "source_title": "Guide for Students",
+    "section_heading": "Guide for Students",
+    "n_sentences": 3,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc114_p1_c2",
+    "doc_id": "doc114",
+    "text": "Schedule Planner will use this information to generate schedules to meet your time preferences. NEW - You can complete your registration in Schedule Planner.",
+    "source_title": "Guide for Students",
+    "section_heading": "Guide for Students",
+    "n_sentences": 2,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc114_p1_c3",
+    "doc_id": "doc114",
+    "text": "This includes adding and dropping classes. Swapping classes will still need to be done in your student center in Orion.",
+    "source_title": "Guide for Students",
+    "section_heading": "Guide for Students",
+    "n_sentences": 2,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc114_p1_c4",
+    "doc_id": "doc114",
+    "text": "Please Note: To launch Schedule Planner, you may need to disable pop-up blocker on your internet browser. Go to Galaxy, click on \"Orion\" and log in with your NetID and password.",
+    "source_title": "Guide for Students",
+    "section_heading": "Guide for Students",
+    "n_sentences": 2,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc114_p1_c5",
+    "doc_id": "doc114",
+    "text": "In your UTD Student Center, select the \"Manage My Classes\" Tile.",
+    "source_title": "Guide for Students",
+    "section_heading": "Guide for Students",
+    "n_sentences": 1,
+    "token_count": 16
+  },
+  {
+    "chunk_id": "doc114_p2_c6",
+    "doc_id": "doc114",
+    "text": "Select \"Schedule Planner.\". Click the \"Open Schedule Planner\" button. Schedule Planner will open in a new browser window.",
+    "source_title": "Guide for Students",
+    "section_heading": "Select \"Schedule Planner.\"",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc114_p2_c7",
+    "doc_id": "doc114",
+    "text": "You may need to allow pop-ups on your internet browser. Select the term for which you want to register and click \"Save and Continue.",
+    "source_title": "Guide for Students",
+    "section_heading": "Select \"Schedule Planner.\"",
+    "n_sentences": 2,
+    "token_count": 33
+  },
+  {
+    "chunk_id": "doc114_p3_c8",
+    "doc_id": "doc114",
+    "text": "At the top of the page, you can change the default settings for Course Status, Locations, Academic Careers, Term, Sessions and Instruction Modes. Click \"Add Course\" to select the classes you want to take for the upcoming term.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 57
+  },
+  {
+    "chunk_id": "doc114_p3_c9",
+    "doc_id": "doc114",
+    "text": "You may have some courses already listed based on what your schools advising office requested to have preloaded as potential classes. Search courses by subject and course number.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc114_p3_c10",
+    "doc_id": "doc114",
+    "text": "Click \"Add Course\" to add to the list of classes.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 13
+  },
+  {
+    "chunk_id": "doc114_p4_c11",
+    "doc_id": "doc114",
+    "text": "You can also search by attribute if you are looking for a CV Honors or Core Curriculum course. Once you select the attribute, it will only give you subject and course option that have that attribute.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 50
+  },
+  {
+    "chunk_id": "doc114_p4_c12",
+    "doc_id": "doc114",
+    "text": "When you have added all the classes you want to take, click \"Done\" to return to the previous screen.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 25
+  },
+  {
+    "chunk_id": "doc114_p5_c13",
+    "doc_id": "doc114",
+    "text": "If you are unable to take classes at certain times of the week due to work schedule or other time conflicts, click \"Add Break. \" Add name of the break, start/end times and days of the week when you WILL NOT be able to take classes.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 58
+  },
+  {
+    "chunk_id": "doc114_p5_c14",
+    "doc_id": "doc114",
+    "text": "Click \"Add Break\" when you are finished.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 10
+  },
+  {
+    "chunk_id": "doc114_p6_c15",
+    "doc_id": "doc114",
+    "text": "The checkboxes allow you to select which courses and breaks will be included when you generate schedules. You will receive an error message if there are time conflicts or other problems with the requested schedule.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc114_p6_c16",
+    "doc_id": "doc114",
+    "text": "Please review the suggested tips to resolve the issue. Upon making changes to the courses and/or breaks, click \"Generate Schedule\" again.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 35
+  },
+  {
+    "chunk_id": "doc114_p6_c17",
+    "doc_id": "doc114",
+    "text": "Keep in mind that some common exams occur on weekends, and if you have a break set to block weekends this may cause no schedule to be returned. Click \"View\" to review suggested schedules.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 47
+  },
+  {
+    "chunk_id": "doc114_p7_c18",
+    "doc_id": "doc114",
+    "text": "Click the arrow buttons to view alternate schedules. Click. icon for detailed course information. When you lock a course/section, that specific section of the course will be constant on all suggested schedules.",
+    "source_title": "Guide for Students",
+    "section_heading": "Click the arrow buttons to view alternate schedules. Click",
+    "n_sentences": 4,
+    "token_count": 53
+  },
+  {
+    "chunk_id": "doc114_p7_c19",
+    "doc_id": "doc114",
+    "text": "You can lock multiple courses on the schedule. The weekly view of the schedule shows only those classes that have regular meeting times/places.",
+    "source_title": "Guide for Students",
+    "section_heading": "Click the arrow buttons to view alternate schedules. Click",
+    "n_sentences": 2,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc114_p7_c20",
+    "doc_id": "doc114",
+    "text": "For example, the online section of COMM 1311 which appeared on the term view, does not appear on.",
+    "source_title": "Guide for Students",
+    "section_heading": "Click the arrow buttons to view alternate schedules. Click",
+    "n_sentences": 1,
+    "token_count": 25
+  },
+  {
+    "chunk_id": "doc114_p7_c21",
+    "doc_id": "doc114",
+    "text": "Click the arrow buttons to view alternate schedules. Click. the weekly view. You can also see your breaks on the weekly view of the schedule.",
+    "source_title": "Guide for Students",
+    "section_heading": "Click the arrow buttons to view alternate schedules. Click",
+    "n_sentences": 4,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc114_p8_c22",
+    "doc_id": "doc114",
+    "text": "Also, if you have classes that will not run the full semester you will have a week view to show what weeks the class will run. Click on \"Validate\" to see if there will be any issues when you complete your enrollment.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc114_p9_c23",
+    "doc_id": "doc114",
+    "text": "When you complete building your schedule, click \"Send to Shopping Cart. \" If there are any courses that have variable credit hours, you will get prompted to enter how many credit you want for the class.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 51
+  },
+  {
+    "chunk_id": "doc114_p9_c24",
+    "doc_id": "doc114",
+    "text": "It will also allow you to enter a permission number if you have been given one.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 20
+  },
+  {
+    "chunk_id": "doc114_p10_c25",
+    "doc_id": "doc114",
+    "text": "Go to your Shopping Cart.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 7
+  },
+  {
+    "chunk_id": "doc114_p10_c26",
+    "doc_id": "doc114",
+    "text": "Review your selections. If all looks correct, click on \"Register.\". You will be asked to confirm that you want to register. If so, click on \"Continue.",
+    "source_title": "Guide for Students",
+    "section_heading": "Review your selections. If all looks correct, click on \"Register.\"",
+    "n_sentences": 5,
+    "token_count": 38
+  },
+  {
+    "chunk_id": "doc114_p11_c27",
+    "doc_id": "doc114",
+    "text": "You will receive a confirmation of any classes you were successfully registered for and any that you were not able to register for. Viewing your current schedule in Schedule Planner or your UTD Student Center to confirm your registration.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 60
+  },
+  {
+    "chunk_id": "doc114_p11_c28",
+    "doc_id": "doc114",
+    "text": "If you have questions regarding registration, please contact your Academic Advisor. For questions regarding the Schedule Planner, email records@utdallas.edu.",
+    "source_title": "Guide for Students",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc114_p12_c29",
+    "doc_id": "doc114",
+    "text": "Login to Intranet. © The University of Texas at Dallas",
+    "source_title": "Guide for Students",
+    "section_heading": "Login to Intranet",
+    "n_sentences": 2,
+    "token_count": 14
+  }
+]

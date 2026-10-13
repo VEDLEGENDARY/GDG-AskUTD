@@ -1,0 +1,776 @@
+[
+  {
+    "chunk_id": "doc089_p1_c1",
+    "doc_id": "doc089",
+    "text": "The University seeks to maintain salary and wage schedules for all non-teaching positions which: 1) Assures uniform treatment of comparable positions, 2) Affords opportunity for recognition of quality and length of service, 3) Recognizes the relative value of each position within the University structure,",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 77
+  },
+  {
+    "chunk_id": "doc089_p2_c2",
+    "doc_id": "doc089",
+    "text": "4) Considers pay practices applicable to comparable public and private employment, and 5) Reflects the general economic conditions effecting wage and salary policy. It is the policy of The University of Texas at Dallas (the University) to comply with the Fair Labor Standards Act (FLSA), as amended.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 75
+  },
+  {
+    "chunk_id": "doc089_p2_c3",
+    "doc_id": "doc089",
+    "text": "The FLSA establishes the federal minimum wage, overtime regulations, child labor regulations and related record keeping requirements for employers. The University will pay all employees, including student workers, at least the federal minimum wage required by the FLSA.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 68
+  },
+  {
+    "chunk_id": "doc089_p2_c4",
+    "doc_id": "doc089",
+    "text": "University employees employed in a bona fide executive, administrative or professional capacity, as defined by the Secretary of Labor, are exempt from the minimum wage and overtime provisions of the FLSA. 1) Subject to the following exceptions, an exempt employee will receive full salary for any week in which work is performed without regard to the days and number of hours worked.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 96
+  },
+  {
+    "chunk_id": "doc089_p2_c5",
+    "doc_id": "doc089",
+    "text": "Exempt employees need not be paid for any workweek in which they perform no work. a.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc089_p2_c6",
+    "doc_id": "doc089",
+    "text": "Deductions may be made when the employee absences himself or herself from work for one or more full days for personal reasons, other than sickness or disability or other circumstances for which leave with pay or release time is available. b.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 61
+  },
+  {
+    "chunk_id": "doc089_p2_c7",
+    "doc_id": "doc089",
+    "text": "Deductions may be made for absences of a day or more occasioned by sickness or disability (including work-related accidents) if the deduction is made after exhaustion of paid sick leave or workers' compensation benefits. c.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 56
+  },
+  {
+    "chunk_id": "doc089_p2_c8",
+    "doc_id": "doc089",
+    "text": "Deductions may be made for penalties imposed for infractions of significant safety rules relating to prevention of serious danger to the workplace or to other employees. d.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 43
+  },
+  {
+    "chunk_id": "doc089_p2_c9",
+    "doc_id": "doc089",
+    "text": "Deductions may be made for disciplinary suspensions of one or more full days imposed for infractions of workplace conduct rules.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 32
+  },
+  {
+    "chunk_id": "doc089_p3_c10",
+    "doc_id": "doc089",
+    "text": "e. Full salary is not necessary in the initial or terminal week of employment where a proportional part of the salary is paid for time actually worked.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 38
+  },
+  {
+    "chunk_id": "doc089_p3_c11",
+    "doc_id": "doc089",
+    "text": "2) Deductions may be made for absences of less than one day for personal reasons or due to sickness when accrued leave is not used because permission for its use has not been sought or has been denied, accrued sick leave and vacation have been exhausted, or the employee chooses to use leave without pay. 3) An exempt employee who believes his or her pay has been subject to improper deductions under this policy should immediately contact the Office of Human Resources.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 118
+  },
+  {
+    "chunk_id": "doc089_p3_c12",
+    "doc_id": "doc089",
+    "text": "The complaint will be investigated and resolved in accordance with the University grievance procedure, D8-140.0. 4) The University will reimburse exempt employees for any deductions in pay determined to be improper under the FLSA and take appropriate steps to ensure future compliance.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 72
+  },
+  {
+    "chunk_id": "doc089_p3_c13",
+    "doc_id": "doc089",
+    "text": "Non-exempt employees will be paid overtime in compliance with Federal and State regulations. The University complies with all child labor regulations, which are summarized below.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc089_p3_c14",
+    "doc_id": "doc089",
+    "text": "Departments wishing to employ youths under age 18 must contact Human Resources to be certain that the regulations are followed. 1) A youth 18 years or older may perform any job, whether hazardous or not, for unlimited hours.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 56
+  },
+  {
+    "chunk_id": "doc089_p3_c15",
+    "doc_id": "doc089",
+    "text": "2) A youth 16 or 17 years old may perform a non-hazardous job for unlimited hours. 3) A youth 14 or 15 years old may work outside school hours in various non-manufacturing, non-mining, non-hazardous jobs.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 51
+  },
+  {
+    "chunk_id": "doc089_p3_c16",
+    "doc_id": "doc089",
+    "text": "They cannot work: a. More than 3 hours a day on school days, b.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 16
+  },
+  {
+    "chunk_id": "doc089_p3_c17",
+    "doc_id": "doc089",
+    "text": "More than 18 hours per week in school weeks, c. More than 8 hours a day on non-school days, d.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 24
+  },
+  {
+    "chunk_id": "doc089_p3_c18",
+    "doc_id": "doc089",
+    "text": "More than 40 hours per week when school is not in session, and e. Not before 7:00 AM or after 7:00 PM, except from June 1 through Labor Day, when the hours may be extended to 9:00 PM.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 46
+  },
+  {
+    "chunk_id": "doc089_p4_c19",
+    "doc_id": "doc089",
+    "text": "Departments must maintain accurate, contemporary records of position classification, exemption status, hours worked by non-exempt employees and paid and un-paid leave. For more information about the federal minimum wage, overtime regulations, child labor regulations or record keeping requirements under the FLSA, please contact the Office of Human Resources.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 90
+  },
+  {
+    "chunk_id": "doc089_p4_c20",
+    "doc_id": "doc089",
+    "text": "It is the policy of The University of Texas at Dallas to comply with applicable federal and state statutes regarding hours of work. 1) A UT Dallas employee who is paid a full-time salary and whose position is exempt from the Fair Labor Standards Act shall work not less than 40 hours a week.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 73
+  },
+  {
+    "chunk_id": "doc089_p4_c21",
+    "doc_id": "doc089",
+    "text": "2) A UT Dallas employee who is paid a full-time salary and whose position is subject to the overtime provisions of the Fair Labor Standards Act shall work 40 hours a week. 3) Employees described by Procedure 2, above must have the advance written approval of their department head before working more than 40 hours in a FLSA work week, in accordance with the section \"Overtime Compensation\" in this policy.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 102
+  },
+  {
+    "chunk_id": "doc089_p4_c22",
+    "doc_id": "doc089",
+    "text": "Texas Government Code Section 658.002. The University of Texas at Dallas, as a component of the U. T.",
+    "source_title": "Pay Administration",
+    "section_heading": "Texas Government Code Section 658.002",
+    "n_sentences": 3,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc089_p4_c23",
+    "doc_id": "doc089",
+    "text": "System, is required to use definitions and standards applicable under the Fair Labor Standards Act to comply with the General Appropriations Act, Article IX, Section 2, concerning overtime compensation requirements. The schedule of activities should be organized such that employees are not required to work in excess of established work periods (see \"Hours of Work,\" this section) except when operating",
+    "source_title": "Pay Administration",
+    "section_heading": "Texas Government Code Section 658.002",
+    "n_sentences": 2,
+    "token_count": 101
+  },
+  {
+    "chunk_id": "doc089_p5_c24",
+    "doc_id": "doc089",
+    "text": "necessities demand it. Any overtime served which results in an employee being paid for his/her services must have the advance written approval of the President or his/her designee.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc089_p5_c25",
+    "doc_id": "doc089",
+    "text": "The President has delegated this authority to the department heads. Monthly records of payment for overtime shall be maintained by Payroll showing the number of employees compensated and total amount paid.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 52
+  },
+  {
+    "chunk_id": "doc089_p5_c26",
+    "doc_id": "doc089",
+    "text": "Employees in a non-exempt status required or permitted to work in excess of forty hours in a work week shall be compensated for such overtime either: 1) By receiving compensatory time off during the six (6) month period following the end of the work week in which the overtime was accrued at the rate of one and one-half (1 1/2) hours off for each hour of overtime, or; 2) By receiving pay for the overtime at the rate equal to one and one-half (1 1/2) the employee's regular rate of pay. NOTE: An employee who fails to utilize time off during the stated six month period does not remove the supervisor's responsibility to ensure paid time or time off.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 163
+  },
+  {
+    "chunk_id": "doc089_p5_c27",
+    "doc_id": "doc089",
+    "text": "Any paid leave or holidays taken are not counted as hours worked in determining overtime hours. In situations in which the employee has not worked more than 40 hours in a work week but the total hours worked and hours of paid leave or paid holidays exceeds 40 hours, the employee shall be allowed equivalent compensatory time off for the excess hours.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 88
+  },
+  {
+    "chunk_id": "doc089_p5_c28",
+    "doc_id": "doc089",
+    "text": "Employees who have accrued, but unused, compensatory time off shall be paid for such overtime upon termination, death or when the compensatory time balances: 480 hours for employees engaged in public safety or emergency response activities; 240 hours for all other categories of employees. (NOTE: The 480 hour limit represents 320 hours of actual overtime hours worked times the one-andone-half premium rate, and the 240 hour limit represents 160 hours of actual overtime worked times the one-and-one-half premium rate.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 130
+  },
+  {
+    "chunk_id": "doc089_p5_c29",
+    "doc_id": "doc089",
+    "text": ") The regular rate of pay shall include longevity pay, hazardous duty pay and housing emoluments.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 25
+  },
+  {
+    "chunk_id": "doc089_p6_c30",
+    "doc_id": "doc089",
+    "text": "Those employees who are not subject to the overtime provisions of the Fair Labor Standards Act may, at the discretion of the appropriate administrative official, be allowed compensatory time off for hours worked in excess of 40 hours in a work week in which the combination of hours worked, paid leave and holidays exceeds a total of 40 hours. Such compensatory time off may be allowed during the 12 month period following the end of the work week in which the overtime was accrued, at a rate not to exceed equivalent time.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 131
+  },
+  {
+    "chunk_id": "doc089_p6_c31",
+    "doc_id": "doc089",
+    "text": "The University of Texas at Dallas provides paid holiday leave in accordance with provisions of the Texas Government Code. This policy applies to any employee who is appointed to work at least twenty (20) hours per week for a period of at least four and one-half (4 1/2) continuous months.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 72
+  },
+  {
+    "chunk_id": "doc089_p6_c32",
+    "doc_id": "doc089",
+    "text": "Faculty must be appointed for at least fifty percent (50%) time for at least four and one-half (4 1/2) continuous months to be eligible for holidays. Students employed in positions that require student status as a condition of employment are not eligible for holidays.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 67
+  },
+  {
+    "chunk_id": "doc089_p6_c33",
+    "doc_id": "doc089",
+    "text": "Eligible employees appointed less than full-time will be granted holiday leave based on the percent of hours appointed. The number of holidays is authorized by the Legislature.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 44
+  },
+  {
+    "chunk_id": "doc089_p6_c34",
+    "doc_id": "doc089",
+    "text": "The University administration may rearrange the approved holiday schedule within the total number of days provided by the Legislature to the extent authorized by law. The schedule is distributed to employees annually.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 55
+  },
+  {
+    "chunk_id": "doc089_p7_c35",
+    "doc_id": "doc089",
+    "text": "At the discretion of the University, an annual holiday schedule may include some number of floating holiday hours that may be used by full-time, regular employees. Regular employees appointed for less than 40 hours receive floating holiday hour entitlement proportionate to the number of hours worked.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 76
+  },
+  {
+    "chunk_id": "doc089_p7_c36",
+    "doc_id": "doc089",
+    "text": "Use of floating holiday time may be scheduled at any time during the fiscal year with the prior approval of the employee's immediate supervisor. Unused floating holiday time carries over from one year to the next.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc089_p7_c37",
+    "doc_id": "doc089",
+    "text": "Employees are paid for any unused floating holiday time upon separation from the University. If a state or national holiday falls between the dates an employee transfers, without a break in service, from one state agency or institution of higher education to another, the agency to which the employee transfers is responsible for paying the employee for the holiday, regardless of whether the agency or institution of higher education that received the new employee recognizes the holiday.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 123
+  },
+  {
+    "chunk_id": "doc089_p7_c38",
+    "doc_id": "doc089",
+    "text": "When a holiday falls on an employee's day off or an employee is required to work on a holiday, the employee will be granted straight time holiday compensatory time in lieu of the holiday. Employees may be paid for holiday compensatory time hours on a straight time basis when the taking of the holiday compensatory time would be disruptive to normal teaching, research or other critical functions.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 100
+  },
+  {
+    "chunk_id": "doc089_p7_c39",
+    "doc_id": "doc089",
+    "text": "The holiday compensatory time must be taken or paid out during the 12-month period following the date of the holiday. The holiday compensatory time may also be used to observe any additional religious holiday or holidays, or state or national holiday that is not officially observed by the University.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 76
+  },
+  {
+    "chunk_id": "doc089_p7_c40",
+    "doc_id": "doc089",
+    "text": "This time off must be scheduled with the prior approval of the employee's immediate supervisor. Use of accrued holiday compensatory time must be scheduled with the prior approval of the employee's immediate supervisor.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 55
+  },
+  {
+    "chunk_id": "doc089_p7_c41",
+    "doc_id": "doc089",
+    "text": "The employee shall promptly and accurately record the use of leave.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 17
+  },
+  {
+    "chunk_id": "doc089_p8_c42",
+    "doc_id": "doc089",
+    "text": "The supervisor must review and approve the use of holiday compensatory time, verify that the employee has accurately recorded such leave, and sign the time report. Authority is hereby delegated to the department head or designee to determine holiday work schedules and approve use of holiday compensatory leave.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 78
+  },
+  {
+    "chunk_id": "doc089_p8_c43",
+    "doc_id": "doc089",
+    "text": "Questions regarding holiday leave should be directed to the Office of Human Resources",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 22
+  },
+  {
+    "chunk_id": "doc089_p8_c44",
+    "doc_id": "doc089",
+    "text": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011. Eligible law enforcement personnel of The University of Texas at Dallas are entitled to Hazardous Duty Pay in accordance with applicable law. Hazardous Duty Pay shall be in the amount of ten dollars per month for each year of service with the State of Texas.",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 3,
+    "token_count": 82
+  },
+  {
+    "chunk_id": "doc089_p8_c45",
+    "doc_id": "doc089",
+    "text": "This service must be in a position that requires the performance of hazardous duty. This policy applies to eligibility for Hazardous Duty Pay or Longevity Pay based on services performed by the employee on or after May 29, 1987.",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 2,
+    "token_count": 57
+  },
+  {
+    "chunk_id": "doc089_p8_c46",
+    "doc_id": "doc089",
+    "text": "1) All full-time commissioned law enforcement personnel are eligible for Hazardous Duty Pay.Fulltime is defined as employment of forty hours per week. 2) After completion of 12 months service, Hazardous Duty Pay commences on the first day of the next month at the specified rate and continues at that rate until the completion of another 12month increment.",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 2,
+    "token_count": 89
+  },
+  {
+    "chunk_id": "doc089_p8_c47",
+    "doc_id": "doc089",
+    "text": "3) Hazardous Duty Pay eligibility is determined by the employee's status on the first calendar day of the month. Hazardous Duty Pay shall not be prorated.",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 2,
+    "token_count": 39
+  },
+  {
+    "chunk_id": "doc089_p8_c48",
+    "doc_id": "doc089",
+    "text": "4) Example of Hazardous Duty Pay. Note: With the exception of the Department of Criminal Justice Correctional Officers, there is no cap on hazardous duty pay.",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 2,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc089_p8_c49",
+    "doc_id": "doc089",
+    "text": "For purposes of this example, the amount of hazardous duty pay has been calculated only through 5 years:",
+    "source_title": "Pay Administration",
+    "section_heading": "Source: Texas Government Code 662.004, 662.007, 662.0072, 662.011",
+    "n_sentences": 1,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc089_p9_c50",
+    "doc_id": "doc089",
+    "text": "More than 4 and fewer than 5 years $40. A State employee who has received Longevity Pay for service performed in a position that does not require the performance of hazardous duty and who transfers to a position for which the employee is eligible to receive Hazardous Duty Pay is entitled to continue to receive Longevity Pay for the service performed in the prior position. The employee is not entitled to additional Longevity Pay for the period in which the employee receives Hazardous Duty Pay but that period is included in computing the employee's total years of service as an employee of the State.",
+    "source_title": "Pay Administration",
+    "section_heading": "More than 4 and fewer than 5 years $40",
+    "n_sentences": 3,
+    "token_count": 151
+  },
+  {
+    "chunk_id": "doc089_p9_c51",
+    "doc_id": "doc089",
+    "text": "A State employee who is in a position that requires the performance of hazardous duty and transfers to a position that does not require the performance of hazardous duty is not entitled to a continuation of the Hazardous Duty Pay earned in the prior position. The employee is entitled to Longevity Pay based on each year of service as an employee of the State, including years of service in positions for which the employee was entitled to Hazardous Duty Pay.",
+    "source_title": "Pay Administration",
+    "section_heading": "More than 4 and fewer than 5 years $40",
+    "n_sentences": 2,
+    "token_count": 115
+  },
+  {
+    "chunk_id": "doc089_p9_c52",
+    "doc_id": "doc089",
+    "text": "Hazardous Duty Pay is considered a part of total compensation although the base salary rate of the employee is not effected by such payment. The inclusion of Hazardous Duty Pay as part of total compensation effects federal withholding, OASDI, the amount of group insurance and other benefit calculations, and retirement contributions.",
+    "source_title": "Pay Administration",
+    "section_heading": "More than 4 and fewer than 5 years $40",
+    "n_sentences": 2,
+    "token_count": 84
+  },
+  {
+    "chunk_id": "doc089_p9_c53",
+    "doc_id": "doc089",
+    "text": "Hazardous Duty Pay is not considered in making calculations for lump-sum payment of vacation upon termination. It is considered in making calculation for lump-sum payments of vacation and sick leave to the estate of a deceased employee.",
+    "source_title": "Pay Administration",
+    "section_heading": "More than 4 and fewer than 5 years $40",
+    "n_sentences": 2,
+    "token_count": 59
+  },
+  {
+    "chunk_id": "doc089_p9_c54",
+    "doc_id": "doc089",
+    "text": "Eligible employees of The University of Texas at Dallas are entitled to Longevity Pay.",
+    "source_title": "Pay Administration",
+    "section_heading": "More than 4 and fewer than 5 years $40",
+    "n_sentences": 1,
+    "token_count": 22
+  },
+  {
+    "chunk_id": "doc089_p10_c55",
+    "doc_id": "doc089",
+    "text": "Full-time non-academic employees, excluding law enforcement personnel eligible for hazardous duty pay, are eligible for Longevity Pay. Full-time is defined as employment of forty (40) hours per week.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 50
+  },
+  {
+    "chunk_id": "doc089_p10_c56",
+    "doc_id": "doc089",
+    "text": "\"Non-academic employee\" is defined as: 1) An employee whose appointment is within the classified service. 2) An employee who has an administrative or other staff appointment without regular teaching assignments.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 53
+  },
+  {
+    "chunk_id": "doc089_p10_c57",
+    "doc_id": "doc089",
+    "text": "For purposes of Longevity Pay, eligible service is calculated in the same manner as the basic state service calculation used to determine annual leave rate accrual. This calculation recognizes all service to the state including part-time, faculty, student employment and legislative service.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 73
+  },
+  {
+    "chunk_id": "doc089_p10_c58",
+    "doc_id": "doc089",
+    "text": "Effective September 1, 2005, Longevity Pay begins on the first day of the month following the completion of 2 years of service and continues at the specified rate until the completion of another 2-year increment of service. Longevity Pay cannot be prorated.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 65
+  },
+  {
+    "chunk_id": "doc089_p10_c59",
+    "doc_id": "doc089",
+    "text": "A change in status occurring during the month is effective the first day of the following month. For example, an employee appointed September 1 of a given year completes 2 years of service on August 31, two years later.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 55
+  },
+  {
+    "chunk_id": "doc089_p10_c60",
+    "doc_id": "doc089",
+    "text": "The longevity payment will commence on the first day of the next month, September 1) An employee appointed on September 2 of a given year will complete 2 years of service on September 1, two years later. The pay will commence on the first day of the next month, October 1) For transfers between institutions or agencies, the institution or agency employing an individual on the first day of the month is responsible for the Longevity Pay for that month.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 114
+  },
+  {
+    "chunk_id": "doc089_p10_c61",
+    "doc_id": "doc089",
+    "text": "Longevity Pay is paid in accordance with the schedule established by the Legislature. The schedule effective September 1, 2005, appears below.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc089_p11_c62",
+    "doc_id": "doc089",
+    "text": "Greater than 40 and less than 42 $400. Longevity Pay is considered a part of total compensation although the base salary rate of an employee is not effected by such payment. Separate lump-sum payments for Longevity Pay are not",
+    "source_title": "Pay Administration",
+    "section_heading": "Greater than 40 and less than 42 $400",
+    "n_sentences": 3,
+    "token_count": 57
+  },
+  {
+    "chunk_id": "doc089_p12_c63",
+    "doc_id": "doc089",
+    "text": "authorized -- such payment is included as part of regular payroll procedure. The inclusion of Longevity Pay as part of total compensation effects federal withholding, OASDI, the amount of group insurance and other benefit calculations, and retirement contributions.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 67
+  },
+  {
+    "chunk_id": "doc089_p12_c64",
+    "doc_id": "doc089",
+    "text": "Longevity Pay is not considered in making calculations for lump-sum payment of vacation upon termination. It is, however, considered in making calculations for lump-sum payments of vacation and sick leave to the estate of a deceased employee.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 61
+  },
+  {
+    "chunk_id": "doc089_p12_c65",
+    "doc_id": "doc089",
+    "text": "Payday for salaried employees will usually be the first day of the next month unless that day falls on a weekend or holiday, in which case the payday will then be the first workday following the weekend or holiday. This pay is for work performed in the preceding month.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 68
+  },
+  {
+    "chunk_id": "doc089_p12_c66",
+    "doc_id": "doc089",
+    "text": "New employees should not expect to receive their first paycheck until thirty (30) days after their employment date. Hourly employees will be paid on the 1st and 15th day of each month, unless that day is a holiday or weekend, in which case payday will be the first business day following the holiday or weekend.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 78
+  },
+  {
+    "chunk_id": "doc089_p12_c67",
+    "doc_id": "doc089",
+    "text": "Work performed the 1st - 15th will be paid on the 1st of the following month and work performed the 16th - end of the month will be paid on the 15th of the following month. (For example, payday for March 1st will cover work performed February 1st - February 15th) Certain payroll deductions are mandatory and include: 1) Federal Income Tax, 2) Social Security Tax, and 3) Optional Retirement Program or Teacher Retirement System contributions.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 111
+  },
+  {
+    "chunk_id": "doc089_p13_c68",
+    "doc_id": "doc089",
+    "text": "Other deductions are according to optional benefits an employee selects and are made as a service to the individual. These may include but are not limited to: 1) Insurance premiums, 2) Deferred compensation, 3) Tax-sheltered annuity, 4) Savings bonds (Payroll Savings Plan) and 5) State Employee Charitable Campaign Contribution.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 83
+  },
+  {
+    "chunk_id": "doc089_p13_c69",
+    "doc_id": "doc089",
+    "text": "Every employee should check all deductions and verify social security number for accuracy. If an error is found or if there are any questions regarding deductions, please contact the Payroll Office.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 50
+  },
+  {
+    "chunk_id": "doc089_p13_c70",
+    "doc_id": "doc089",
+    "text": "The Pay Plan for Classified Service consists of. 1) A schedule of appropriately descriptive class titles, 2) A schedule of pay ranges in monthly and annual amounts, 3) A schedule showing the range to which each class is assigned and 4) Policies regarding the interpretation and application of the above schedules. The Plan, which shows position titles and associated pay ranges, is maintained to reflect the duties, responsibilities, and work requirements of all Classified jobs by grouping substantially equivalent positions into the same classification.",
+    "source_title": "Pay Administration",
+    "section_heading": "The Pay Plan for Classified Service consists of",
+    "n_sentences": 3,
+    "token_count": 139
+  },
+  {
+    "chunk_id": "doc089_p13_c71",
+    "doc_id": "doc089",
+    "text": "A salary range, including a minimum and a maximum, is assigned to each job position, and substantially equivalent positions are grouped into the same classification. Recommendations for changes to the Plan may be presented at any time in letter form to the Human Resources Office by a supervisor via the appropriate Vice President.",
+    "source_title": "Pay Administration",
+    "section_heading": "The Pay Plan for Classified Service consists of",
+    "n_sentences": 2,
+    "token_count": 83
+  },
+  {
+    "chunk_id": "doc089_p13_c72",
+    "doc_id": "doc089",
+    "text": "The Pay Plan can be changed as",
+    "source_title": "Pay Administration",
+    "section_heading": "The Pay Plan for Classified Service consists of",
+    "n_sentences": 1,
+    "token_count": 8
+  },
+  {
+    "chunk_id": "doc089_p14_c73",
+    "doc_id": "doc089",
+    "text": "necessary upon approval by the Board of Regents. Beginning Rates: Normally, the minimum rate of pay for a classification will be paid an employee upon initial appointment to the classification.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 49
+  },
+  {
+    "chunk_id": "doc089_p14_c74",
+    "doc_id": "doc089",
+    "text": "However, under unusual circumstances, the employing administrative officer may recommend, in writing through Human Resources, and with the approval of the appropriate Vice President, that an employee begin at a rate of pay above the minimum. Across-the-Board Increases: When an across-the-board increase is declared for state employees, the relative position of an employee within a pay range does not change, but rather the entire pay range is adjusted to reflect the economic change.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 122
+  },
+  {
+    "chunk_id": "doc089_p14_c75",
+    "doc_id": "doc089",
+    "text": "Within Range Increase (Merit): When funds are available, the budget guidelines established by the Board of Regents provide for salary increases based upon individual merit. These guidelines vary from year to year; however, such increases in salary must be supported by a current Performance Appraisal on file in Human Resources.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 82
+  },
+  {
+    "chunk_id": "doc089_p14_c76",
+    "doc_id": "doc089",
+    "text": "Adjustments within an established range are not automatic but are dependent upon the specific recommendation by an administrative officer during the annual budget cycle. The beginning salary for an employee with the temporary status of \"trainee\" will not be more than 10% below the minimum for the class to which he/she is appointed.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 84
+  },
+  {
+    "chunk_id": "doc089_p14_c77",
+    "doc_id": "doc089",
+    "text": "Unless unusual circumstances dictate, the period of appointment in a \"trainee\" status will not exceed six (6) months. Consult the Human Resources Office as to what may constitute \"unusual circumstances.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 51
+  },
+  {
+    "chunk_id": "doc089_p14_c78",
+    "doc_id": "doc089",
+    "text": "\" Actions that may be taken at the end of the training period are noted under \"Appointments, Trainee Status,\" this Section. When an employee is transferred, promoted, or demoted, the rate of pay for the new position will be determined as follows: 1) If the rate of pay in the old position was less than the minimum rate for the new position, the rate of pay may be advanced to the minimum for the new position.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 103
+  },
+  {
+    "chunk_id": "doc089_p15_c79",
+    "doc_id": "doc089",
+    "text": "2) If the rate of pay in the old position was greater than or equal to the minimum rate, and less than the maximum rate, for the new position, the new rate of pay may either remain unchanged or be advanced 3.5% in the new classification. 3) If the rate of pay in the old position was more than the maximum rate for the new position, the rate of pay may be reduced to a point within the range of the new position as determined by the administrative officer.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 114
+  },
+  {
+    "chunk_id": "doc089_p15_c80",
+    "doc_id": "doc089",
+    "text": "4) If an employee is transferring within the same job class, but to another department, the rate of pay will remain unchanged. If it is determined by an administrative officer that payment of monthly rates for certain classes of employees within his/her jurisdiction is not feasible because of temporary or intermittent nature of the work, that administrative officer may request the payment of an hourly rate for those effected classes which are exceptions to the normal monthly payment schedule.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 125
+  },
+  {
+    "chunk_id": "doc089_p15_c81",
+    "doc_id": "doc089",
+    "text": "Such exceptions will be computed as follows:",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 11
+  },
+  {
+    "chunk_id": "doc089_p15_c82",
+    "doc_id": "doc089",
+    "text": "Hourly Rate =Class Annual Rate/2080. In any case, monthly or hourly employees whose titles fall under the Classified Pay Plan must be paid on a step noted in the appropriate table within the Pay Plan. The Human Resources Office will conduct wage and salary surveys to determine competitive job rates within the local labor market.",
+    "source_title": "Pay Administration",
+    "section_heading": "Hourly Rate =Class Annual Rate/2080",
+    "n_sentences": 3,
+    "token_count": 83
+  },
+  {
+    "chunk_id": "doc089_p15_c83",
+    "doc_id": "doc089",
+    "text": "Some positions will be surveyed on a national basis. Surveys are intended to: 1) Keep abreast of wage rate trends, 2) Establish a hiring rate comparable to local community (or national, if applicable), 3) Minimize personnel turnover caused by inadequate compensation practices, 4) Minimize employee dissatisfaction and improve morale by establishing equitable wage scales, and 5) Obtain information on current fringe benefit practices.",
+    "source_title": "Pay Administration",
+    "section_heading": "Hourly Rate =Class Annual Rate/2080",
+    "n_sentences": 2,
+    "token_count": 109
+  },
+  {
+    "chunk_id": "doc089_p16_c84",
+    "doc_id": "doc089",
+    "text": "The results of surveys are used to propose adjustments in the Classified Pay Plan to the Board of Regents during the annual budget cycle. Supplementary wage and salary surveys may be conducted whenever the inability to hire at the current minimum rates occurs.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 65
+  },
+  {
+    "chunk_id": "doc089_p16_c85",
+    "doc_id": "doc089",
+    "text": "The purpose of a job audit is to determine the equity of a Classified position with respect to pay, rating, duties, responsibilities, etc. The Human Resources Office, at the request of a supervisor, via the appropriate Vice President, may audit a particular Classified position or may audit either newly created or vacated positions to determine: 1) The need for such positions, 2) That equitable salary ranges have been established,and 3) That the position has been properly classified.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 122
+  },
+  {
+    "chunk_id": "doc089_p16_c86",
+    "doc_id": "doc089",
+    "text": "This policy should not be construed to mean that Human Resources will audit every existing, newly created or vacated Classified position. They will normally do so only at the request of a supervisor.",
+    "source_title": "Pay Administration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 50
+  }
+]

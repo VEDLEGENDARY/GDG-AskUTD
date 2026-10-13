@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc115_p1_c1",
+    "doc_id": "doc115",
+    "text": "Schedule Planner Validation. When preparing for registration, Schedule Planner will enable you to check if your registration will be successful prior to your registration appointment. To do so, once you have selected your desired schedule, click on the Validate box.",
+    "source_title": "Planner Validation",
+    "section_heading": "Schedule Planner Validation",
+    "n_sentences": 3,
+    "token_count": 67
+  },
+  {
+    "chunk_id": "doc115_p1_c2",
+    "doc_id": "doc115",
+    "text": "If you receive the following message, your registration should go through successfully. If you receive a warning message, you may need to seek assistance from your advisor for registration.",
+    "source_title": "Planner Validation",
+    "section_heading": "Schedule Planner Validation",
+    "n_sentences": 2,
+    "token_count": 48
+  },
+  {
+    "chunk_id": "doc115_p2_c3",
+    "doc_id": "doc115",
+    "text": "For questions regarding Schedule Planner, email records@utdallas.edu.",
+    "source_title": "Planner Validation",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 18
+  }
+]

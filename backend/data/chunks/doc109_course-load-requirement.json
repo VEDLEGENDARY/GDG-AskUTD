@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc109_p1_c1",
+    "doc_id": "doc109",
+    "text": "Course Load Requirement. Students may need to maintain a certain enrollment status (full-time status, for example) to comply with requirements set by a loan, insurance, scholarship, or other agreement. For information regarding enrollment status and course load requirements, see undergraduate course load or graduate course load.",
+    "source_title": "Course Load Requirement",
+    "section_heading": "Course Load Requirement",
+    "n_sentences": 3,
+    "token_count": 83
+  },
+  {
+    "chunk_id": "doc109_p1_c2",
+    "doc_id": "doc109",
+    "text": "If you have any questions concerning your course load or enrollment status, please contact us at records@utdallas.edu. University regulations also require teaching/research assistants and international students to enroll in the minimum number of hours indicated below.",
+    "source_title": "Course Load Requirement",
+    "section_heading": "Course Load Requirement",
+    "n_sentences": 2,
+    "token_count": 67
+  },
+  {
+    "chunk_id": "doc109_p1_c3",
+    "doc_id": "doc109",
+    "text": "Teaching/research assistants and international students who fail to comply with these registration requirements may be dropped from all classes.",
+    "source_title": "Course Load Requirement",
+    "section_heading": "Course Load Requirement",
+    "n_sentences": 1,
+    "token_count": 36
+  }
+]

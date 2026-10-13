@@ -1,0 +1,128 @@
+[
+  {
+    "chunk_id": "doc113_p1_c1",
+    "doc_id": "doc113",
+    "text": "Mobile Registration. In your mobile browse go to the UT Dallas webpage and click on the hamburger menu. Select Galaxy.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Mobile Registration",
+    "n_sentences": 3,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc113_p3_c2",
+    "doc_id": "doc113",
+    "text": "Log in with your NetID and password.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 9
+  },
+  {
+    "chunk_id": "doc113_p5_c3",
+    "doc_id": "doc113",
+    "text": "Select Manage My Classes.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 7
+  },
+  {
+    "chunk_id": "doc113_p6_c4",
+    "doc_id": "doc113",
+    "text": "Select Schedule Planner. Open Schedule Planner.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 12
+  },
+  {
+    "chunk_id": "doc113_p7_c5",
+    "doc_id": "doc113",
+    "text": "Allow Schedule Planner to open a new window.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 11
+  },
+  {
+    "chunk_id": "doc113_p8_c6",
+    "doc_id": "doc113",
+    "text": "Adjust filters if needed.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 7
+  },
+  {
+    "chunk_id": "doc113_p11_c7",
+    "doc_id": "doc113",
+    "text": "Click Schedule at the bottom and Generate.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 11
+  },
+  {
+    "chunk_id": "doc113_p12_c8",
+    "doc_id": "doc113",
+    "text": "Click on view to see a detailed view. When you find the schedule you want click Shopping Cart.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 24
+  },
+  {
+    "chunk_id": "doc113_p13_c9",
+    "doc_id": "doc113",
+    "text": "You can \"Validate\" the schedule to see if there may be any registration issues. You can \"Edit\" the items in your cart to allow waitlisting, remove a class from the cart, select credit hours on a variable class or enter a permission number if given one for registration.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 68
+  },
+  {
+    "chunk_id": "doc113_p15_c10",
+    "doc_id": "doc113",
+    "text": "You will get a confirmation letting you know that you were registered or letting you know if there were any issues.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 29
+  },
+  {
+    "chunk_id": "doc113_p16_c11",
+    "doc_id": "doc113",
+    "text": "Your current schedule will be displayed. If you want to drop a class, click on the drop classes.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 24
+  },
+  {
+    "chunk_id": "doc113_p17_c12",
+    "doc_id": "doc113",
+    "text": "Select the class you want to drop and click Save.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 13
+  },
+  {
+    "chunk_id": "doc113_p18_c13",
+    "doc_id": "doc113",
+    "text": "You'll be asked to confirm that you want to make the change. For questions regarding the Schedule Planner, email records@utdallas.edu.",
+    "source_title": "Mobile Registration",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc113_p19_c14",
+    "doc_id": "doc113",
+    "text": "Login to Intranet. © The University of Texas at Dallas",
+    "source_title": "Mobile Registration",
+    "section_heading": "Login to Intranet",
+    "n_sentences": 2,
+    "token_count": 14
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "chunk_id": "doc112_p1_c1",
+    "doc_id": "doc112",
+    "text": "for Classes Using Class Attributes",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 9
+  },
+  {
+    "chunk_id": "doc112_p1_c2",
+    "doc_id": "doc112",
+    "text": "Searching for Classes Using Class. Attributes Go to Galaxy, click on \"Orion\" and log in with your NetID and password. In your UTD Student Center, select the \"Manage My Classes\" Tile.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Searching for Classes Using Class",
+    "n_sentences": 3,
+    "token_count": 46
+  },
+  {
+    "chunk_id": "doc112_p2_c3",
+    "doc_id": "doc112",
+    "text": "Click the 'Open Schedule Planner' button. Schedule Planner will open in a new browser window.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 24
+  },
+  {
+    "chunk_id": "doc112_p2_c4",
+    "doc_id": "doc112",
+    "text": "(You may need to allow pop-ups on your internet browser. ) Select the term for which you want to register and click save and continue.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc112_p3_c5",
+    "doc_id": "doc112",
+    "text": "Click 'Add Course' to select the classes you want to take for the upcoming term. You can search by attribute if you are looking for a CV Honors, Core Curriculum, Living Learning, or any other special program courses.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc112_p3_c6",
+    "doc_id": "doc112",
+    "text": "Once you select the attribute, it will only give you subject and course option that have that attribute.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc112_p4_c7",
+    "doc_id": "doc112",
+    "text": "Complete your registration using the instructions for Registering/Adding Classes Using Schedule Planner.",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc112_p4_c8",
+    "doc_id": "doc112",
+    "text": "Searching for Special Classes in. CourseBook Go to CourseBook Search, check the box for include special classes and enter one of the following in the search box: note_llc = LLC Classes note_archer = Archer Classes note_cv = CV honors classes note_ppf = Personal Program in Finance",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Searching for Special Classes in",
+    "n_sentences": 2,
+    "token_count": 70
+  },
+  {
+    "chunk_id": "doc112_p5_c9",
+    "doc_id": "doc112",
+    "text": "Login to Intranet. © The University of Texas at Dallas",
+    "source_title": "Searching for Classes Using Class",
+    "section_heading": "Login to Intranet",
+    "n_sentences": 2,
+    "token_count": 14
+  }
+]
