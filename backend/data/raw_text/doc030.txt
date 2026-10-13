@@ -1,17 +1,3 @@
-Description Course No
-Probability & Statistics in CS SE 3341
-Algorithms Analysis & Data Struct SE 3345
-C/C++ Prog'ing in a UNIX Env. SE 3377
-Linear Algebra Math 2418
-3 hours CORE: Choices below
-Senior
-Freshman
-Sophomore
-Junior
-Senior
-Freshman
-Sophomore
-Junior
 *Math 
 2417*Math 2413
 Math 2419Math 2414

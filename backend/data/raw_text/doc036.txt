@@ -1,204 +1,153 @@
-Junior
-CE 3302/
-3102j
-Senior
-Freshman
-Sophomore
-Senior
-Sophomore
-Junior
-Freshman
-Calculus 
-Complete
-Math 
-2417
-Math 
-2413
-Math 
-2419
-Math 
-2415
-**CE 
-1337
-**CS 1336 
-CS 1136
-Phys 2326 
-Phys 2126
-ECS 
-1100
-**CE 2305
-Math 
-2420
-ENGR 
-3341
-**CE 
-2336
-CE 
-2310
-CE 3345
-CE 4304
-CE 
-4390
-CE 3311
-CE 3111
-j
-CE 4337
-CE 4388 ECS 
-3361
-CE 4389
-BS Computer Engineering Suggested Four Year Plan
- 2017 – 2018 Catalog
-6/1/2017
-A grade of C- or better is required in each class.
-**A grade of C or better is required in CS 1336, CE 1337, CE 2305, and CE 2336.
-LEGEND
-Pre- or Co-requisite
-Pre-requisite
-Prereq Critical Path
-Free 
-Elective 
-(1)
-CS 1336 is required of students 
-with no prior programming 
-experience
-Not For Credit in ECS
-C or better needed
-Courses may be taken in any order, 
-as long as prerequisites are met.
-Phys 2325  
-Phys 2125
-CE 4348
-CE 3310
-CE 3110 
-j
-CE 3320
- CE 3120 
-j
-CE 3301
-CE 3101 
-j
-ENGR 
-3300
-CE 4370
-(Spring Only )
-C & UNIX 
-Knowledge
-**CE 2305 & 
-**CE 2336
-CE 1202
-j RHET1302 Pre-Req.to 
-some Labs: TAKE BY 3RD 
-SEMESTER!
-Math 
-2414
-CE 3354ECS 
-3390
-Junior & 
-Rhet 1302
-**CE 2305 & 
-**CE 2336
-Free 
-Elective
-Description Course No
-Introduction to Comp Eng CE 1100
-Introduction to Engr'g. & CS ECS 1100
-Calculus I Math 2413 or 2417
-Computer Science I CE 1337
-6 hours CORE: Choices below
-Freshman Seminar UNIV 1010
-Description Course No
-Intro to Elec. Engineering CE 1202
-Calculus II Math 2414 or 2419
-Introduction to Digital Systems CE 2310
-Applied Linear Alegebra ENGR 2300
-Mechanics and Heat Phys 2325
-Mechanics and Heat Lab Phys 2125
-Multivariate Calculus 
-(Summer) MATH 2415
-Description Course No
-Differential Equations w/Applications Math 2420
-Computer Science II CE 2336
-Probability & Stats in CS and SE ENGR 3341
-Electricity and Magnetism Phys 2326
-Electricity and Magnetism Lab Phys 2126
-Discrete Mathematics I CE 2305
-Description Course No
-Electrical Network Analysis CE 3301
-Electrical Network Analysis Lab CE 3101
-Data Structures & Intro to 
-Algorithmic Analysis CE 3345
-Advanced Engineering Math ENGR 3300
-6 hours CORE: Choices below
-Description Course No
-Electronic Devices CE 3310
-Electronic Devices Lab CE  3110
-Software Engineering CE 3354
-Prof & Tech Communication ECS 3390
-Digital Circuits CE 3320
-Digital Circuits Lab CE 3120
- 3 hours CORE: Choices below
-Description Course No
-Electronic Circuits CE 3311
-Electronic Circuits Lab CE 3111
-Signals and Systems CE 3302
-Signals and Systems Lab CE 3102
-Computer Networks CE 4390
-6 hours CORE: Choices below
-Description Course No
-Senior Design Project I CE 4388
-Computer Architecture CE 4304
-Social Issues and Ethics in ECS ECS 3361
-6 hours Free Elective See Advisor
-Description Course No
-Senior Design Project II CE 4389
-Operating Systems Concepts CE 4348
-Embedded Microprocessor Sys. CE 4370
-Org. of Programming Lang. CE 4337
-1 hour Free Elective See Advisor
-Core Curriculum As sessment UNIV 2020
-Recommended
-Rhet 
-1302
-3 hours From:
-Ams 2300
-Ams 2341
-Huma 1301
-Lit 2331
-Phil 1301
-Phil 2316, 2317
-6 hours From:
- Hist 1301
-Hist 1302
-Hist 2301
-Hist 2330
-Hist 2332
-Govt 2305
-Govt 2306
-Core Choices
-3 hours From:
-Ahst 1303, 1304, 2331
-Arts1301
-Danc 1310
-Film 2332
-Musi 1306
-Thea 1310
- 
-CORE
-CORE
-CORE
-CORE
-CORE
-CORECORE
-Free 
-Elective
-ENGR 
-2300
-Math 2312 (C or 
-better) or 75% 
-on ALEKS
-Junior
-CE 1100
-UNIV 
-1010
-UNIV 
-2020
+The University of Texas at Dallas > Academics > Academic
+Calendar
+Academic Calendar
+See important dates in the UT Dallas academic calendar.
+Fall 2026
+VIEW THE FULL CALENDAR 
+Full-Term Session
+Key Events Date
+Last day for regular registration Aug. 20
+Classes begin Aug. 24
+End of late registration and last day to
+add/swap Aug. 31
+University closed: Labor Day Sept. 7
+Census Day; Last day to drop without a “W” Sept. 9
+Withdrawal period ends Nov. 9
+Fall break: No classes Nov. 23-25
+University closed: Thanksgiving Nov. 26-29
+Last day of classes Dec. 9
+Reading day Dec. 10
+Final exams Dec. 11-16
+Winter break Dec. 22-
+Jan.1
+First 8-Week Session
+Key Events Date
+Last day for regular registration Aug. 20
+Classes begin Aug. 24
+Related Pages
+9/29/26, 7:40 PM Academic Calendar - The University of Texas at Dallas
+https://www.utdallas.edu/academics/calendar/ 1/5
+
+Key Events Date
+End of late registration and last day to add/swap Aug. 31
+Census Day; End of late registration and last day to
+add/swap or drop without a “W” Aug. 31
+University closed: Labor Day Sept. 7
+Withdrawal period ends Sept.
+28
+Last day of classes Oct. 12
+Final exams Oct. 13-
+17
+Second 8-Week Session
+Key Events Date
+Last day for regular registration Oct. 15
+Classes begin Oct. 19
+End of late registration and last day to add/swap Oct. 26
+Census Day; End of late registration and last day to
+add/swap or drop without a “W” Oct. 26
+Fall break: No classes Nov. 23-
+25
+Withdrawal period ends Nov. 25
+University closed: Thanksgiving Nov. 26-
+29
+Last day of classes Dec. 9
+Reading day Dec. 10
+Final exams Dec. 11-
+16
+Winter break Dec. 22-
+Jan.1
+VIEW THE FULL CALENDAR 
+9/29/26, 7:40 PM Academic Calendar - The University of Texas at Dallas
+https://www.utdallas.edu/academics/calendar/ 2/5
+
+Future Terms
+ Spring 2027
+ Summer 2027
+ Fall 2027
+ Spring 2028
+ Summer 2028
+ Fall 2028
+ Spring, Summer and Fall 2029
+Quick Links
+ Registrar
+ CourseBook
+ Academic Advising
+ Bursar
+ Graduation Dates
+ Comet Calendar Events
+Past Terms
+ Summer 2026
+ Spring 2026
+ Fall 2025
+ Summer 2025
+ Spring 2025
+ Fall 2024
+ Summer 2024
+ Spring 2024
+ Fall 2023
+ Summer 2023
+ Spring 2023
+ Fall 2022
+ Summer 2022
+ Spring 2022
+ Fall 2021
+ Summer 2021
+ Spring 2021
+ Fall 2020
+ Summer 2020
+ Spring 2020
+ Fall 2019
+ Summer 2019
+ Spring 2019
+ Fall 2018
+ Summer 2018
+9/29/26, 7:40 PM Academic Calendar - The University of Texas at Dallas
+https://www.utdallas.edu/academics/calendar/ 3/5
+
+Spring 2018
+ Fall 2017
+ Summer 2017
+ Spring 2017
+ Fall 2016
+ Summer 2016
+ Spring 2016
+ Fall 2015
+ Summer 2015
+ Spring 2015
+800 W. Campbell Road
+Richardson, Texas 75080-3021
+972-883-2111
+Emergency Preparedness
+Forms
+Campus Carry
+Campus Health Promotion
+Campus Police
+Required links
+COPYRIGHT INFORMATION
+© The University of Texas at Dallas
+Questions or comments about this page?
+STAY CONNECTED WITH UT DALLAS
+RESOURCES
+9/29/26, 7:40 PM Academic Calendar - The University of Texas at Dallas
+https://www.utdallas.edu/academics/calendar/ 4/5
+
+Tobacco-Free Campus
+UT System
+Texas Veterans Portal
+Work at UT Dallas
+Parking
+Nondiscrimination Policy
+Title IX Initiatives
+Org. Chart
+A-Z Index
+Student Achievements
+HEERF Reporting
+Counseling/Mental Health
+Report Concern for a Student
+Safety
+Hazing Prevention
+Public Course and Syllabus Information
+Privacy Policy
+Institutional Resume
+9/29/26, 7:40 PM Academic Calendar - The University of Texas at Dallas
+https://www.utdallas.edu/academics/calendar/ 5/5
