@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc049_p1_c1",
+    "doc_id": "doc049",
+    "text": "Computer Science (CS) majors following the 2022-2023 catalog are required to take 9 hours of major guided electives. Guided elective options and their prerequisites include: CS 4301 Special Topics in Computer Science (prerequisite: CE/CS/SE 3345); CS 4314 Intelligent Systems Analysis (prerequisite: (MATH 2414 or MATH 2419) and (CS 3341 or SE 3341) and MATH 2418, or instructor consent required); CS 4315 Intelligent Systems Design (prerequisite: CGS 4314 or CS 4314, or instructor consent required); CS 4332 Introduction to Programming Video Games (prerequisite: CE/CS/SE 3345); CS 4334 Numerical Analysis (prerequisite: (MATH 2370 or CE/CS 1337) and MATH 2418 and (MATH 2451 or MATH 3351)); CS 4336 Advanced JAVA (prerequisite: CE/CS 2336 or CS 2337 or equivalent); CS 4352 Human Computer Interactions I (prerequisite: none); CS 4353 Human Computer Interactions II (prerequisite: CS 4352); CS 4361 Computer Graphics (prerequisite: MATH 2418 and (CE/CS 2336 or CS 2337), and CE/CS/SE 3345 or equivalent); CS 4365 Artificial Intelligence (prerequisite: CE/CS/SE 3345 or equivalent); and CS 4375 Introduction to Machine Learning (prerequisite: CS/SE 3341 and CE/CS/SE 3345 or equivalent).",
+    "source_title": "Options for Computer Science Major Guided Electives (2022-2023)",
+    "section_heading": "Computer Science Major Guided Elective Options: CS 4301 to CS 4375",
+    "n_sentences": 2,
+    "token_count": 297
+  },
+  {
+    "chunk_id": "doc049_p1_c2",
+    "doc_id": "doc049",
+    "text": "Additional Computer Science (CS) major guided elective options (2022-2023 catalog, 9 hours required) include: CS/SE 4376 Object Oriented Programming Systems (prerequisite: CE/CS 2336 or CS 2337 with a C or better, or equivalent); CS 4386 Compiler Design (prerequisite: CE/CS/SE 3345 or equivalent); CS 4389 Data & Applications Security (prerequisite: CS/SE 4347); CS 4390 Computer Networks (prerequisite: CE/CS/SE 3345 or equivalent); CS 4391 Intro to Computer Vision (prerequisite: CE/CS/SE 3345 or equivalent); CS 4392 Computer Animation (prerequisite: MATH 2418 and CE/CS/SE 3345 or equivalent); CS 4393 Computer and Network Security (prerequisite: CE/CS/SE 4348 or equivalent); CS 4394 Implementation of Modern Operating Systems (prerequisite: CE/CS/SE 4348 or equivalent programming experience); CS 4395 Human Language Technologies (prerequisite: CS/SE 3341 and CE/CS/SE 3345 or equivalent); CS 4396 Networking Laboratory (prerequisite: CS 4390 or equivalent); CS 4397 Embedded Computer Systems (prerequisite: CE/CS/SE 4348 or equivalent); CS 4398 Digital Forensics (prerequisite: CE/CS/SE 4348 and CE/CS 4390 or equivalent); and CS 4V95 Undergraduate Topics in Computer Science (prerequisite: CE/CS/SE 3345 and instructor consent required).",
+    "source_title": "Options for Computer Science Major Guided Electives (2022-2023)",
+    "section_heading": "Computer Science Major Guided Elective Options: CS 4376 to CS 4V95",
+    "n_sentences": 1,
+    "token_count": 312
+  },
+  {
+    "chunk_id": "doc049_p1_c3",
+    "doc_id": "doc049",
+    "text": "Computer Science (CS) major guided elective options (2022-2023 catalog, 9 hours required) outside the CS 4000-level list include: EE 4325 Introduction to VLSI Design (prerequisite: CS 4341); SE 4351 Requirements Engineering (prerequisite: SE 3306 and CE/CS/SE 3354, or instructor consent required); SE 4352 Software Architecture and Design (prerequisite: SE 3306 and CE/CS/SE 3354, or instructor consent required); SE 4367 Software Testing, Verification, Validation and Quality Assurance (prerequisite: SE 3306 and CE/CS/SE 3354, or instructor consent required); and SE 4381 Software Project Planning and Management (prerequisite: CE/CS/SE 3354). Students may also use CS 4V98 Undergraduate Research in Computer Science or CS 4399 Senior Honors in Computer Science as guided electives. Students must consult an Academic Advisor before registering in these options.",
+    "source_title": "Options for Computer Science Major Guided Electives (2022-2023)",
+    "section_heading": "Computer Science Major Guided Elective Options: EE, SE, Research, and Honors Options",
+    "n_sentences": 3,
+    "token_count": 216
+  }
+]

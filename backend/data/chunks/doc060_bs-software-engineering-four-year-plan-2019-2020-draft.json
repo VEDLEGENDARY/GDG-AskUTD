@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc060_p1_c1",
+    "doc_id": "doc060",
+    "text": "The BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, marked DRAFT) is a prerequisite flowchart; courses may be taken in any order, as long as prerequisites are met. The plan's legend distinguishes pre- or co-requisites, prerequisites, and the prerequisite critical path. Before Calculus I (MATH 2413 or MATH 2417), students need MATH 2312 with a C or better or a score of 80% on ALEKS. A grade of C- or better is needed in MATH 2413 or MATH 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, and CS 2336. CS 1336/1136 is required of students with no prior programming experience and is not for credit in ECS (Erik Jonsson School of Engineering and Computer Science).",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft)",
+    "section_heading": "Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 6,
+    "token_count": 181
+  },
+  {
+    "chunk_id": "doc060_p1_c2",
+    "doc_id": "doc060",
+    "text": "The lower-division courses shown in the BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft) flowchart are: CS 1200; ECS 1100; UNIV 1010; CS 1336/1136; CS 1337; CS 2305; CS 2336 or CS 2337 (the chart notes an AP score of at least 4 alongside this option); MATH 2413 or MATH 2417; MATH 2414 or MATH 2419; MATH 2418; PHYS 2325 and PHYS 2125; PHYS 2326 and PHYS 2126; ECS 2361; RHET 1302; a 3-hour Science Elective; and Free Electives. For ECS 2361, the chart notes: Pre-Req. of PHYS 2325, PHYS 2326 or any other 030 science core.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft)",
+    "section_heading": "Suggested Four Year Plan: Lower-Division Courses",
+    "n_sentences": 2,
+    "token_count": 138
+  },
+  {
+    "chunk_id": "doc060_p1_c3",
+    "doc_id": "doc060",
+    "text": "The upper-division courses shown in the BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft) flowchart are: SE 3162; SE 3306; SE 3340; SE 3341; SE 3345; SE 3354; SE 3377; ECS 3390; SE 4347; SE 4348; SE 4351; SE 4352; SE 4367; SE 4381; SE 43xx Guided Electives (see advisor); SE 4485; and UNIV 2020. The plan notes that at least two of four marked prerequisite courses must be complete to begin the Software Engineering Project (SE 4485). Domains and guided electives total 12 hours: students should complete three courses from one of the application domains (see the document entitled \"Application Domains\"), and further guided electives can be selected from the CS/SE 43xx level classes. The plan marks a point at which students should choose a domain.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft)",
+    "section_heading": "Suggested Four Year Plan: Upper-Division Courses and Guided Electives",
+    "n_sentences": 4,
+    "token_count": 194
+  },
+  {
+    "chunk_id": "doc060_p1_c4",
+    "doc_id": "doc060",
+    "text": "Core choices in the BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft) include: RHET 1302; GOVT 2305 and GOVT 2306; 3 hours from AMS 2300, AMS 2341, HUMA 1301, LIT 2331, PHIL 1301, or PHIL 2316, 2317; 6 hours from HIST 1301, HIST 1302, HIST 2301, HIST 2330, or HIST 2332; and 3 hours from AHST 1303, 1304, 2331, ARTS 1301, DANC 1310, FILM 2332, MUSI 1306, or THEA 1310.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2019-2020 Catalog, Draft)",
+    "section_heading": "Core Choices",
+    "n_sentences": 1,
+    "token_count": 99
+  }
+]

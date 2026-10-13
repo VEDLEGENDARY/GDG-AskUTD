@@ -1,0 +1,11 @@
+[
+  {
+    "chunk_id": "doc111_p1_c1",
+    "doc_id": "doc111",
+    "text": "The steps for students to register using a class number are: (1) go to Galaxy, click on \"Orion\" and log in with your NetID and password; (2) in your UTD Student Center, select the \"Manage My Classes\" tile; (3) select 'Swap Classes' and then click on 'Add'; (4) select the term and click 'Continue'; (5) enter the class number or search to find the class; (6) if it is a variable class, select how many semester credit hours you are taking the class for and then click on 'Next'; (7) once you are done adding classes, click on 'Proceed to Step 2 of 3'; and (8) confirm your enrollment and click on 'Finish Enrolling'. You should receive a green check mark in the status field and a message that the class was successfully added to your schedule.",
+    "source_title": "Office of the Registrar: Instructions for Students to Register Using a Class Number",
+    "section_heading": "Instructions for Students to Register Using a Class Number",
+    "n_sentences": 2,
+    "token_count": 186
+  }
+]

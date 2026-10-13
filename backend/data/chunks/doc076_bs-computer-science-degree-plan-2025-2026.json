@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc076_p1_c1",
+    "doc_id": "doc076",
+    "text": "The B.S. in Computer Science (2025-2026) requires 124 hours (45 in residence, last semester at UTD) with a minimum 2.0 cumulative and major GPA. A grade of D- or better is required if no required grade is shown in brackets; courses marked [C] require a C or better. Major Preparatory Requirements, Major Core Requirements (39 hours), and Technical Electives (12 hours) count toward the Major GPA; the plan also includes 24 hours of Remaining State Core Curriculum and 10 hours of Free Electives. The major introductory courses are taken in the first year in college only, and transfer students substitute an upper level technical elective: ECS 1100 Intro to Engineering and CS (1 hour) and CS 1200 Intro to CS and SE (2 hours).",
+    "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
+    "section_heading": "B.S. in Computer Science (2025-2026): Graduation Requirements and Introductory Courses",
+    "n_sentences": 4,
+    "token_count": 182
+  },
+  {
+    "chunk_id": "doc076_p1_c2",
+    "doc_id": "doc076",
+    "text": "The B.S. in Computer Science (2025-2026) lower-division Major Preparatory Requirements (Major GPA) are: MATH 2413 or MATH 2417 Differential Calculus or Calculus I (4 hours, C or better); CS 1436 Programming Fundamentals (4 hours, C or better); MATH 2414 or MATH 2419 Integral Calculus or Calculus II (4 hours, C or better); CS 1337 Computer Science I (3 hours, C or better); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); CS 2305 Discrete Mathematics for Computing I (3 hours, C or better); CS 2336 or CS 2337 Computer Science II (3 hours, C or better); CS 2340 Computer Architecture (3 hours); PHYS 2326 Electromagnetism and Waves (3 hours); PHYS 2126 Physics Laboratory II (1 hour); and MATH 2418 Linear Algebra (4 hours, C or better).",
+    "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 1,
+    "token_count": 191
+  },
+  {
+    "chunk_id": "doc076_p1_c3",
+    "doc_id": "doc076",
+    "text": "The B.S. in Computer Science (2025-2026) upper-division Major Core Requirements (Major GPA) total 39 hours: CS 3341 Probability & Statistics in CS/SE (3 hours); CS 3345 Data Structures & Intro to Algorithmic Analysis (3 hours); CS 3377 C/C++ Programming in a UNIX Environment (3 hours); ECS 2390 Professional & Technical Communication (3 hours); CS 3354 Software Engineering (3 hours); CS 4337 Organization of Programming Languages (3 hours); CS 4341 Digital Logic and Computer Design (3 hours); CS 4141 Digital Systems Laboratory (1 hour); CS 3162 Professional Responsibility in CS/SE (1 hour); CS 4348 Operating Systems Concepts (3 hours); CS 4349 Advanced Algorithm Design & Analysis (3 hours); CS 4384 Automata Theory (3 hours); CS 4347 Database Systems (3 hours); and CS 4485 Computer Science Project (4 hours).",
+    "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 1,
+    "token_count": 204
+  },
+  {
+    "chunk_id": "doc076_p1_c4",
+    "doc_id": "doc076",
+    "text": "The B.S. in Computer Science (2025-2026) Technical Electives (Major GPA) total 12 hours: four CS Technical Electives at the CS 4XXX level (3 hours each). Free Electives total 10 hours: three 3-hour Free Electives and one 1-hour Free Elective.",
+    "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
+    "section_heading": "Technical Electives and Free Electives",
+    "n_sentences": 2,
+    "token_count": 61
+  },
+  {
+    "chunk_id": "doc076_p1_c5",
+    "doc_id": "doc076",
+    "text": "The B.S. in Computer Science (2025-2026) lower-division Remaining State Core Curriculum totals 24 hours: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
+    "section_heading": "Remaining State Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 127
+  }
+]

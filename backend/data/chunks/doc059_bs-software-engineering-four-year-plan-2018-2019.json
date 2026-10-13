@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_id": "doc059_p1_c1",
+    "doc_id": "doc059",
+    "text": "The BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog, dated 06/01/2018) shows a recommended course sequence; courses may be taken in any order, as long as prerequisites are met. The plan's legend distinguishes pre- or co-requisites, prerequisites, and the prerequisite critical path. Before Calculus I (MATH 2413 or MATH 2417), students need MATH 2312 with a C or better or a score of 75% on ALEKS. A grade of C- or better is needed in MATH 2413 or MATH 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, and CS 2336. CS 1336/1136 is required of students with no prior programming experience and is not for credit in ECS (Erik Jonsson School of Engineering and Computer Science).",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 6,
+    "token_count": 184
+  },
+  {
+    "chunk_id": "doc059_p1_c2",
+    "doc_id": "doc059",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog), the freshman year includes the following. Freshman, first semester: CS 1200 Introduction to CS & SE; ECS 1100 Introduction to Engineering & CS; MATH 2413 or 2417 Calculus I; CS 1337 Computer Science I; 6 hours of CORE (see core choices); and UNIV 1010 Freshman Seminar. Freshman, second semester: CS 2336 Computer Science II; CS 2305 Discrete Mathematics I; MATH 2414 or 2419 Calculus II; PHYS 2325 Mechanics and Heat; PHYS 2125 Mechanics and Heat Lab; and 3 hours of CORE.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 3,
+    "token_count": 138
+  },
+  {
+    "chunk_id": "doc059_p1_c3",
+    "doc_id": "doc059",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog), the sophomore year includes the following. Sophomore, first semester: SE 3306 Mathematics Foundations of SE; SE 3340 Computer Architecture; PHYS 2326 Electricity and Magnetism; PHYS 2126 Electricity and Magnetism Lab; and 6 hours of CORE. Sophomore, second semester: SE 3341 Probability & Statistics in CS; SE 3345 Algorithms Analysis & Data Structures; SE 3377 C/C++ Programming in a UNIX Environment; MATH 2418 Linear Algebra; and 3 hours of CORE.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 3,
+    "token_count": 132
+  },
+  {
+    "chunk_id": "doc059_p1_c4",
+    "doc_id": "doc059",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog), the junior year includes the following. Junior, first semester: SE 3354 Software Engineering; SE 4348 Operating Systems; an SE Guided Elective (SE 43XX); ECS 3390 Professional & Technical Communication; and 3 hours of CORE. Junior, second semester: SE 4381 Software Project Planning & Management; SE 4352 Software Architecture & Design; 3 hours of SE Guided Elective (SE 43XX); ECS 3361 Social Issues & Ethics in ECS; SE 4347 Database Systems; and SE/CS 3162 Professional Responsibility in CS & SE.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Junior Year",
+    "n_sentences": 3,
+    "token_count": 144
+  },
+  {
+    "chunk_id": "doc059_p1_c5",
+    "doc_id": "doc059",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog), the senior year includes the following. Senior, first semester: SE 4367 Software Testing, Verification, Validation, QA; SE 4351 Requirements Engineering; 3 hours of SE Guided Elective (SE/CS 43XX); 3 hours of Free Elective (see advisor); and 3 hours of Science Elective (see advisor). Senior, second semester: SE 4485 Software Engineering Project; 3 hours of SE Guided Elective (SE 43XX); 5 hours of Free Elective (see advisor); and UNIV 2020 Core Curriculum Assessment. The plan notes that at least two of four marked prerequisite courses must be complete to begin the Software Engineering Project (SE 4485).",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Senior Year",
+    "n_sentences": 4,
+    "token_count": 172
+  },
+  {
+    "chunk_id": "doc059_p1_c6",
+    "doc_id": "doc059",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog), application domains and guided electives total 12 hours. Students should complete three courses from one of the application domains; see the document entitled \"Application Domains.\" Further guided electives can be selected from the CS/SE 43xx level classes. The plan marks a point at which students should choose a domain, and students should see an advisor about guided elective choices.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Domains and Guided Electives",
+    "n_sentences": 3,
+    "token_count": 117
+  },
+  {
+    "chunk_id": "doc059_p1_c7",
+    "doc_id": "doc059",
+    "text": "Core choices in the BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog) include: RHET 1302; GOVT 2305 and GOVT 2306; 3 hours from AMS 2300, AMS 2341, HUMA 1301, LIT 2331, PHIL 1301, or PHIL 2316, 2317; 6 hours from HIST 1301, HIST 1302, HIST 2301, HIST 2330, or HIST 2332; and 3 hours from AHST 1303, 1304, 2331, ARTS 1301, DANC 1310, FILM 2332, MUSI 1306, or THEA 1310.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan (2018-2019 Catalog)",
+    "section_heading": "Core Choices",
+    "n_sentences": 1,
+    "token_count": 97
+  }
+]

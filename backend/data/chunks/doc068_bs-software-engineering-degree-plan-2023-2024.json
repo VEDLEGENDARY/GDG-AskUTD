@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc068_p1_c1",
+    "doc_id": "doc068",
+    "text": "The B.S. in Software Engineering (2023-2024 Catalog) requires 123 hours for graduation, which must include 51 hours as Upper Division. The degree plan totals 70 lower-division hours and 53 upper-division hours, made up of 42 hours of Major Preparatory Requirements, 53 hours of Major Core Requirements, 24 hours of Remaining Core Curriculum, and 4 hours of Electives. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester. Major Preparatory Requirements and Major Core Requirements are included in the Major GPA.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Software Engineering (2023-2024 Catalog): Graduation Requirements",
+    "n_sentences": 6,
+    "token_count": 186
+  },
+  {
+    "chunk_id": "doc068_p1_c2",
+    "doc_id": "doc068",
+    "text": "Notes for the B.S. in Software Engineering (2023-2024 Catalog) degree plan: (1) major requirement, must earn a C or better to receive credit; (2) must earn a C- or better to receive credit; (3) must earn a D- or better to receive credit; (4) incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course; (5) all students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020; and (6) most lower division (LD) coursework can be taken at a community college and transferred (see the online transfer plan for course equivalents). Transfer students may be required to complete an additional upper level (3000 or 4000) CS/SE course substitution.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Software Engineering (2023-2024 Catalog): Degree Plan Notes",
+    "n_sentences": 2,
+    "token_count": 190
+  },
+  {
+    "chunk_id": "doc068_p1_c3",
+    "doc_id": "doc068",
+    "text": "The B.S. in Software Engineering (2023-2024 Catalog) Major Preparatory Requirements total 42 lower-division hours and are included in the Major GPA. Courses requiring a C or better (major requirements): CS 1436 Programming Fundamentals (4 hours); CS 1337 Computer Science I (3 hours); CS 2305 Discrete Mathematics for Computing I (3 hours); and CS 2336 or 2337 Computer Science II (3 hours). Course requiring a C- or better: MATH 2413 or 2417 Calculus I (4 hours). Courses requiring a D- or better: ECS 1100 Introduction to Engineering and CS (1 hour); CS 1200 Introduction to CS and SE (2 hours); SE 2340 Computer Architecture (3 hours); MATH 2414 or 2419 Calculus II (4 hours); a Math Guided Elective (3 hours, chosen from a list of options); MATH 2418 Linear Algebra (4 hours); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); and PHYS 2126 Physics Laboratory II (1 hour).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 237
+  },
+  {
+    "chunk_id": "doc068_p1_c4",
+    "doc_id": "doc068",
+    "text": "The B.S. in Software Engineering (2023-2024 Catalog) Major Core Requirements total 53 upper-division hours, each requiring a D- or better: SE 3162 Professional Responsibility in CS/SE (1 hour); SE 3306 Mathematics Foundations of SE (3 hours); SE 3341 Probability & Statistics in CS/SE (3 hours); SE 3345 Data Structures & Introduction to Algorithms (3 hours); SE 3354 Software Engineering (3 hours); SE 3377 Systems Programming in UNIX and Other (3 hours); SE 4347 Database Systems (3 hours); SE 4348 Operating Systems Concepts (3 hours); SE 4351 Requirements Engineering (3 hours); SE 4352 Software Architecture & Design (3 hours); SE 4367 Software Testing, Verification, Validation, QA (3 hours); SE 4381 Software Project Planning & Management (3 hours); SE 4485 Software Engineering Project (4 hours); four SE Guided Electives, SE/CS 43XX (3 hours each); and ECS 3390 Professional & Technical Communication (3 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 1,
+    "token_count": 230
+  },
+  {
+    "chunk_id": "doc068_p1_c5",
+    "doc_id": "doc068",
+    "text": "The B.S. in Software Engineering (2023-2024 Catalog) Remaining Core Curriculum totals 24 lower-division hours, each requiring a D- or better: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Remaining Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 136
+  },
+  {
+    "chunk_id": "doc068_p1_c6",
+    "doc_id": "doc068",
+    "text": "The B.S. in Software Engineering (2023-2024 Catalog) Electives total 4 hours: one 3-hour Free Elective and one 1-hour Free Elective, each requiring a D- or better. The plan also requires UNIV 1010 Freshmen Seminar (0 hours), which incoming freshmen (FTIC) must complete along with the corresponding school-related freshmen seminar course, and UNIV 2020 Core Curriculum Assessment (0 hours), which all students who complete their core curriculum at UT Dallas must take.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Electives",
+    "n_sentences": 2,
+    "token_count": 117
+  }
+]

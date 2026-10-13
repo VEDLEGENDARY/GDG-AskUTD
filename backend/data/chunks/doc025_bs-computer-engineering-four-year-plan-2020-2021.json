@@ -1,0 +1,65 @@
+[
+  {
+    "chunk_id": "doc025_p1_c1",
+    "doc_id": "doc025",
+    "text": "The BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog) lays out the Computer Engineering degree over eight semesters, from Freshman through Senior year. A grade of C- or better is required in each class. A grade of C or better is required in CS 1336, CE 1337, CE 2305, and CE 2336. CS 1336 is required of students with no prior programming experience. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 5,
+    "token_count": 110
+  },
+  {
+    "chunk_id": "doc025_p1_c2",
+    "doc_id": "doc025",
+    "text": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog), Freshman year. First semester: CE 1100 Introduction to Computer Engineering; ECS 1100 Introduction to Engineering & CS; Math 2413 or 2417 Calculus I; CE 1337 Computer Science I; 6 hours CORE (see core choices); and UNIV 1010 Freshman Seminar. Second semester: CE 1202 Intro to Electrical Engineering; Math 2414 or 2419 Calculus II; CE 2310 Introduction to Digital Systems; ENGR 2300 Applied Linear Algebra; Phys 2325 Mechanics and Heat; and Phys 2125 Mechanics and Heat Lab. MATH 2415 Calculus of Several Variables is recommended for the Summer.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 4,
+    "token_count": 154
+  },
+  {
+    "chunk_id": "doc025_p1_c3",
+    "doc_id": "doc025",
+    "text": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog), Sophomore year. First semester: Math 2420 Differential Equations w/Applications; CE 2336 Computer Science II (the flowchart shows CE 2336 or CS 2337); ENGR 3341 Probability & Stats in CS and SE; Phys 2326 Electricity and Magnetism; Phys 2126 Electricity and Magnetism Lab; and CE 2305 Discrete Mathematics I. Second semester: CE 3301 Electrical Network Analysis; CE 3201 Fundamentals I; CE 3345 Data Structures & Intro to Algorithmic Analysis; CE 3320 Digital Circuits; and 3 hours CORE (see core choices).",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 2,
+    "token_count": 144
+  },
+  {
+    "chunk_id": "doc025_p1_c4",
+    "doc_id": "doc025",
+    "text": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog), Junior year. First semester: CE 3202 Fundamentals II; CE 3310 Electronic Devices; CE 3354 Software Engineering; CE 3161 Social Issues & Ethics in Engineering; ECS 3390 Professional & Technical Communication; and CE 3303 Discrete-Time Signals & Systems. Second semester: CE 420X CE Elective Lab; CE 3311 Electronic Circuits; CE 4304 Computer Architecture; CE 4370 Embedded Microprocessor Systems; and 6 hours CORE (see core choices).",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Junior Year",
+    "n_sentences": 3,
+    "token_count": 126
+  },
+  {
+    "chunk_id": "doc025_p1_c5",
+    "doc_id": "doc025",
+    "text": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog), Senior year. First semester: 3 hours CE Guided Elective CE 43XX; CE 4348 Operating Systems Concepts; CE 4388 Senior Design Project I; 2 hours Free Elective (see advisor); and 6 hours Core (see core choices). Second semester: CE 4389 Senior Design Project II; CE Guided Elective CE 43XX; 3 hours Free Elective (see advisor); 3 hours CORE (see core choices); and UNIV 2020 Core Curriculum Assessment. CE Guided Electives are chosen with an advisor.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Senior Year",
+    "n_sentences": 4,
+    "token_count": 129
+  },
+  {
+    "chunk_id": "doc025_p1_c6",
+    "doc_id": "doc025",
+    "text": "Core choices in the BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog): Rhet 1302; Govt 2305 and Govt 2306; 6 hours from Hist 1301, Hist 1302, Hist 2301, Hist 2330, or Hist 2332; 3 hours from PHIL 1306, or see advisor; 3 hours from Ahst 1303 or 1304, Ahst 2331, Arts 1301, Danc 1310, Film 2332, Musi 1306, or Thea 1310; and 3 hours from ECON 2301 or ECON 2302, or see advisor.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Core Choices",
+    "n_sentences": 1,
+    "token_count": 99
+  },
+  {
+    "chunk_id": "doc025_p1_c7",
+    "doc_id": "doc025",
+    "text": "Prerequisite notes from the BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog) flowchart: Calculus I requires Math 2312 (C or better) or 75% on ALEKS; CE 4348 requires C & UNIX knowledge; and ECS 3390 requires Junior standing and Rhet 1302. The flowchart also shows CE 2305 and CE 2336 together (both needing a C or better) as a combined prerequisite for later courses, and notes a prerequisite of Junior level standing. The flowchart legend distinguishes pre- or co-requisites, prerequisites, the prerequisite critical path, courses not for credit in ECS, and courses needing a C or better.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2020-2021 Catalog)",
+    "section_heading": "Suggested Four Year Plan: Prerequisite Notes",
+    "n_sentences": 3,
+    "token_count": 153
+  }
+]

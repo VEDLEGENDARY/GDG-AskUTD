@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc035_p1_c1",
+    "doc_id": "doc035",
+    "text": "The BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog, dated 6/1/2016) lays out a suggested sequence of courses for the Bachelor of Science in Computer Engineering across eight semesters, from the Freshman through the Senior year. A grade of C- or better is required in each class. A grade of C or better is required in CS 1336, CE 1337, CE 2305, and CE 2336. Courses may be taken in any order, as long as prerequisites are met. CS 1336 (with CS 1136) is required of students with no prior programming experience. The prerequisite for Calculus I (Math 2413 or 2417) is Math 2312 with a grade of C or better or a score of 75% on ALEKS. RHET 1302 is a prerequisite to some labs, so students should take it by the 3rd semester. CE 4370 Embedded Microprocessor Systems is offered in Spring only.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Overview and Grade Requirements",
+    "n_sentences": 8,
+    "token_count": 202
+  },
+  {
+    "chunk_id": "doc035_p1_c2",
+    "doc_id": "doc035",
+    "text": "BS Computer Engineering suggested plan, Freshman year. First semester: CE 1100 Introduction to Computer Engineering; ECS 1100 Introduction to Engineering and Computer Science; Math 2413 or 2417 Calculus I; CE 1337 Computer Science I; and 6 hours of CORE. Second semester: CE 1202 Introduction to Electrical Engineering; Math 2414 or 2419 Calculus II; CE 2310 Introduction to Digital Systems; ENGR 2300 Applied Linear Algebra; Phys 2325 Mechanics and Heat; and Phys 2125 Mechanics and Heat Lab. MATH 2415 Multivariate Calculus is listed as a Summer option. RHET 1302 is recommended early because it is a prerequisite to some labs and should be taken by the 3rd semester.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 5,
+    "token_count": 168
+  },
+  {
+    "chunk_id": "doc035_p1_c3",
+    "doc_id": "doc035",
+    "text": "BS Computer Engineering suggested plan, Sophomore year. First semester: Math 2420 Differential Equations with Applications; CE 2336 Computer Science II; ENGR 3341 Probability and Statistics in CS and SE; Phys 2326 Electricity and Magnetism; Phys 2126 Electricity and Magnetism Lab; and CE 2305 Discrete Mathematics I. Second semester: CE 3301 Electrical Network Analysis; CE 3101 Electrical Network Analysis Lab; CE 3345 Data Structures and Introduction to Algorithmic Analysis; ENGR 3300 Advanced Engineering Math; and 6 hours of CORE. A grade of C or better is required in CE 2305 and CE 2336.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 3,
+    "token_count": 149
+  },
+  {
+    "chunk_id": "doc035_p1_c4",
+    "doc_id": "doc035",
+    "text": "BS Computer Engineering suggested plan, Junior year. First semester: CE 3310 Electronic Devices; CE 3110 Electronic Devices Lab; CE 3354 Software Engineering; ECS 3390 Professional and Technical Communication; CE 3320 Digital Circuits; CE 3120 Digital Circuits Lab; and 3 hours of CORE. Second semester: CE 3311 Electronic Circuits; CE 3111 Electronic Circuits Lab; CE 3302 Signals and Systems; CE 3102 Signals and Systems Lab; CE 4390 Computer Networks; and 6 hours of CORE.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Junior Year",
+    "n_sentences": 3,
+    "token_count": 119
+  },
+  {
+    "chunk_id": "doc035_p1_c5",
+    "doc_id": "doc035",
+    "text": "BS Computer Engineering suggested plan, Senior year. First semester: CE 4388 Senior Design Project I; CE 4304 Computer Architecture; ECS 3361 Social Issues and Ethics in ECS; and 6 hours of Free Elective (see advisor). Second semester: CE 4389 Senior Design Project II; CE 4348 Operating Systems Concepts; CE 4370 Embedded Microprocessor Systems (Spring only); CE 4337 Organization of Programming Languages; and 1 hour of Free Elective (see advisor).",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Senior Year",
+    "n_sentences": 3,
+    "token_count": 113
+  },
+  {
+    "chunk_id": "doc035_p1_c6",
+    "doc_id": "doc035",
+    "text": "Core choices for the BS Computer Engineering plan: Rhet 1302 is recommended. Students take 3 hours from: Ams 2300, Ams 2341, Huma 1301, Lit 2331, Phil 1301, or Phil 2316, 2317. Students take 6 hours from: Hist 1301, Hist 1302, Hist 2301, Hist 2330, Hist 2332, Govt 2305, or Govt 2306. Students take 3 hours from: Ahst 1303, 1304, 2331; Arts 1301; Danc 1310; Dram 1310; Film 2332; or Musi 1306.",
+    "source_title": "BS Computer Engineering Suggested Four Year Plan (2016-17 Catalog)",
+    "section_heading": "BS Computer Engineering Suggested Four Year Plan: Core Choices",
+    "n_sentences": 4,
+    "token_count": 99
+  }
+]

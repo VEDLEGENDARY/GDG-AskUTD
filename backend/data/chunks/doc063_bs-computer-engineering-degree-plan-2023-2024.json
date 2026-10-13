@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc063_p1_c1",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) degree plan requires 126 total hours for graduation, which must include a minimum of 51 hours of upper-division coursework. The plan totals 71 lower-division hours and 55 upper-division hours, made up of 43 hours of major preparatory requirements, 55 hours of upper-division major requirements, 24 hours of core curriculum courses, and 4 hours of electives. Grade notes used in the plan: note 1 marks a major requirement, for which students must earn a C- or better to receive credit; note 2 marks courses for which students must earn a C or better to receive credit; and note 3 marks a course that meets both a major and a CORE requirement.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Computer Engineering (2023-2024 Catalog): Hours and Grade Requirements",
+    "n_sentences": 3,
+    "token_count": 174
+  },
+  {
+    "chunk_id": "doc063_p1_c2",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) major preparatory requirements total 43 lower-division hours. Major requirements requiring a C- or better: ECS 1100 Intro to Engineering and CS (1 hour); CE 1100 Intro to Electrical and Computer Engineering (1 hour); CE 1202 Intro to Computer Engineering II (2 hours); CE 2310 Introduction to Digital Systems (3 hours); ENGR 2300 Linear Algebra for Engineers (3 hours); MATH 2414 Integral Calculus or MATH 2417 Calculus I (4 hours); MATH 2415 Calculus of Several Variables or MATH 2419 Calculus II (4 hours); MATH 2420 Differential Equations w/ Applications (4 hours); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); and PHYS 2126 Physics Laboratory II (1 hour). Courses requiring a C or better: CS 1436 Programming Fundamentals (4 hours); CE 1337 Computer Science I (3 hours); CE 2336 or 2337 Computer Science II (3 hours); and CE 2305 Discrete Mathematics for Computing I (3 hours). MATH 2414 or 2417, MATH 2415 or 2419, PHYS 2325, PHYS 2125, and PHYS 2326 meet both major and CORE requirements.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 281
+  },
+  {
+    "chunk_id": "doc063_p1_c3",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) upper-division major requirements total 55 hours, all of which are major requirements requiring a C- or better. Required lecture courses (3 hours each): CE 2301 Electrical Network Analysis; CE 3303 Discrete-Time Signals and Systems; CE 3311 Electronic Circuits; CE 3320 Digital Circuits; ENGR 3341 Probability Theory & Statistics; CE 3345 Data Structures & Intro to Algorithmic Analysis; CE 3354 Software Engineering; CE 4304 Computer Architecture; CE 4348 Operating Systems Concepts; and CE 4370 Embedded Systems.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Computer Engineering: Upper-Division Major Courses",
+    "n_sentences": 2,
+    "token_count": 142
+  },
+  {
+    "chunk_id": "doc063_p1_c4",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) upper-division major requirements also include the following labs, design, communication, and elective courses, each requiring a C- or better: CE 3161 Social Issues and Ethics in Engineering (1 hour); CE 3201 CE Fundamentals Lab I (2 hours); CE 3202 CE Fundamentals Lab II (2 hours); a CE Elective Lab (2 hours, chosen from a list of options); CE 4388 Senior Design Project I (3 hours); CE 4389 Senior Design Project II (3 hours); a MATH Guided Elective (3 hours, chosen from a list of options); two CE Guided Electives (3 hours each, chosen from a list of options); and ECS 3390 Professional & Technical Communication (3 hours), which meets both major and CORE requirements.",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Computer Engineering: Upper-Division Labs, Senior Design, and Guided Electives",
+    "n_sentences": 1,
+    "token_count": 182
+  },
+  {
+    "chunk_id": "doc063_p1_c5",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) degree plan includes 24 lower-division hours of core curriculum courses: RHET 1302 for Communication (Core: 010) (3 hours); GOVT 2305 and GOVT 2306 for Government/Political Science (Core: 070) (3 hours each); two American History (Core: 060) courses (3 hours each, chosen from a list of options); one Language, Philosophy and Culture (Core: 040) course (3 hours); one Creative Arts (Core: 050) course (3 hours); and one Social Behavioral Science (Core: 080) course (3 hours).",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "B.S. in Computer Engineering: Core Curriculum",
+    "n_sentences": 1,
+    "token_count": 132
+  },
+  {
+    "chunk_id": "doc063_p1_c6",
+    "doc_id": "doc063",
+    "text": "The B.S. in Computer Engineering (2023-2024 Catalog) degree plan includes 4 hours of electives: a 3-hour and a 1-hour Free Elective or MATH 2413. The elective requirement is 0 hours with MATH 2413 credit and 4 hours with MATH 2417 credit. The plan also requires UNIV 1010 Freshmen Seminar (0 hours) and UNIV 2020 Core Curriculum Assessment (0 hours).",
+    "source_title": "B.S. in Computer Engineering Degree Plan (2023-2024 Catalog)",
+    "section_heading": "Electives",
+    "n_sentences": 3,
+    "token_count": 88
+  }
+]

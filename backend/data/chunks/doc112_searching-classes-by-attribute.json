@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc112_p1_c1",
+    "doc_id": "doc112",
+    "text": "The steps for searching for classes using class attributes in Schedule Planner are: (1) go to Galaxy, click on \"Orion\" and log in with your NetID and password; (2) in your UTD Student Center, select the \"Manage My Classes\" tile; (3) select 'Add a Class'; (4) click the 'Open Schedule Planner' button, and Schedule Planner will open in a new browser window (you may need to allow pop-ups on your internet browser); (5) select the term for which you want to register and click save and continue; and (6) click 'Add Course' to select the classes you want to take for the upcoming term. You can search by attribute if you are looking for a CV Honors, Core Curriculum, Living Learning, or any other special program courses. Once you select the attribute, it will only give you subject and course options that have that attribute. Complete your registration using the instructions for Registering/Adding Classes Using Schedule Planner.",
+    "source_title": "Office of the Registrar: Searching for Classes Using Class Attributes",
+    "section_heading": "Searching for Classes Using Class Attributes",
+    "n_sentences": 4,
+    "token_count": 233
+  },
+  {
+    "chunk_id": "doc112_p4_c2",
+    "doc_id": "doc112",
+    "text": "To search for special classes in CourseBook, go to CourseBook Search, check the box for include special classes and enter one of the following in the search box: note_llc for LLC Classes; note_archer for Archer Classes; note_cv for CV honors classes; or note_ppf for Personal Program in Finance.",
+    "source_title": "Office of the Registrar: Searching for Classes Using Class Attributes",
+    "section_heading": "Searching for Special Classes in CourseBook",
+    "n_sentences": 1,
+    "token_count": 74
+  }
+]

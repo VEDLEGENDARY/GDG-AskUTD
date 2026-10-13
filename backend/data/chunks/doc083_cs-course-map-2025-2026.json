@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc083_p1_c1",
+    "doc_id": "doc083",
+    "text": "BS Computer Science Course Map 2025-2026, Semester 1 and 2 (First Year). Semester 1: CS 1436* Programming Fundamentals; MATH 2413* or 2417* Calculus I (prerequisite: ALEKS 80% or MATH 2312); ECS 1100 Intro to ENGR & CS (First Year only); CS 1200 Introduction to CS and SE (First Year only); and a Core course. Semester 2: CS 1337* Computer Science I (prerequisite: CS 1436); MATH 2414* or 2419* Calculus II (prerequisite: MATH 2413 or 2417); PHYS 2325/2125 Mechanics and Lab (prerequisite: MATH 2413 or 2417; pre- or corequisite: MATH 2414 or 2419); CS 2305* Discrete Mathematics (prerequisite: MATH 2413 or 2417); and a Core course. Courses marked * require a grade of C or better.",
+    "source_title": "BS Computer Science Course Map 2025-2026",
+    "section_heading": "Semester 1 and 2",
+    "n_sentences": 4,
+    "token_count": 171
+  },
+  {
+    "chunk_id": "doc083_p1_c2",
+    "doc_id": "doc083",
+    "text": "BS Computer Science Course Map 2025-2026, Semester 3 and 4. Semester 3: CS 2336 (Java)* or CS 2337 (C++)* Computer Science II (prerequisite: CS 1337); CS 2340 Computer Architecture (prerequisites: CS 1337 and CS 2305); PHYS 2326/2126 Electricity and Magnetism and Lab (prerequisites: PHYS 2325/2125 and MATH 2414 or 2419); MATH 2418* Linear Algebra (prerequisite: MATH 2413 or 2417); and a Core course. Semester 4: ECS 2390 Professional and Technical Comm. (prerequisite: RHET 1302); CS 3341 Probability & Statistics in CS & SE (prerequisites: MATH 2414 or 2419, CS 2305, and MATH 2418); CS 3345 Data Structures & Algorithms (prerequisites: CS 2336 or CS 2337, and CS 2305); CS 3377 Systems Programming (prerequisite: CS 2336 or 2337); and a Core course. Courses marked * require a grade of C or better.",
+    "source_title": "BS Computer Science Course Map 2025-2026",
+    "section_heading": "Semester 3 and 4",
+    "n_sentences": 5,
+    "token_count": 201
+  },
+  {
+    "chunk_id": "doc083_p1_c3",
+    "doc_id": "doc083",
+    "text": "BS Computer Science Course Map 2025-2026, Semester 5 and 6. Semester 5: CS 4337 Programming Language Paradigms (prerequisites: CS 2336, CS 2305, and CS 2340); CS 4341/4141 Digital Logic Computer Design and Lab (prerequisites: PHYS 2326/2126 and CS 2340); CS 3354 Software Engineering (prerequisites: CS 2336 or CS 2337, CS 2305, and ECS 2390); and two Core courses. Semester 6: CS 4349 Advanced Algorithm Design & Analysis (prerequisites: CS 2305 and CS 3345); CS 3162 Professional Responsibility (prerequisites: ECS 2390 and GOVT 2305); CS 4348 Operating Systems Concepts (prerequisites: CS 2340, CS 3377, and CS 3345); a Technical Elective (see catalog); a Free Elective; and a Core course.",
+    "source_title": "BS Computer Science Course Map 2025-2026",
+    "section_heading": "Semester 5 and 6",
+    "n_sentences": 3,
+    "token_count": 173
+  },
+  {
+    "chunk_id": "doc083_p1_c4",
+    "doc_id": "doc083",
+    "text": "BS Computer Science Course Map 2025-2026, Semester 7 and 8. Semester 7: CS 4384 Automata Theory (prerequisite: CS 2305); CS 4347 Database Systems (prerequisite: CS 3345); two Technical Electives (see catalog); and a Free Elective. Semester 8: CS 4485 Computer Science Project (prerequisites: CS 3345, CS 3354, and 3 CS 4XXX); a Technical Elective (see catalog); a Free Elective (1SCH); a Free Elective; and a Core course.",
+    "source_title": "BS Computer Science Course Map 2025-2026",
+    "section_heading": "Semester 7 and 8",
+    "n_sentences": 3,
+    "token_count": 106
+  },
+  {
+    "chunk_id": "doc083_p1_c5",
+    "doc_id": "doc083",
+    "text": "Grade requirements for the BS Computer Science Course Map 2025-2026: D- or better is required unless noted by *; C or better is required in CS 1436, CS 1337, CS 2305, CS 2336 or 2337, MATH 2413 or 2417, MATH 2414 or 2419, and MATH 2418. The critical path courses are CS 1337, MATH 2413 or 2417, CS 2305, CS 2336 or CS 2337, CS 3345, and CS 4348. ECS 1100 and CS 1200 are First Year Only courses (transfer students should see an advisor about a substitute). The core curriculum choices are RHET 1302, GOVT 2305, GOVT 2306, two American History (060) courses, Language, Philosophy and Culture (040), Creative Arts (050), and Social and Behavioral Sciences (080).",
+    "source_title": "BS Computer Science Course Map 2025-2026",
+    "section_heading": "Grade Requirements, Critical Path, and Core Curriculum Choices",
+    "n_sentences": 4,
+    "token_count": 165
+  }
+]

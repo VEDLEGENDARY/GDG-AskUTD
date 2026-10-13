@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc116_p1_c1",
+    "doc_id": "doc116",
+    "text": "Official Paper Transcripts will be printed and mailed at least once per week either on Monday or Thursday. Official Electronic Transcripts will be available for order and will continue to process as normal. For customer service regarding transcripts, please email transcripts@utdallas.edu.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "Official Transcript",
+    "n_sentences": 3,
+    "token_count": 73
+  },
+  {
+    "chunk_id": "doc116_p1_c2",
+    "doc_id": "doc116",
+    "text": "Current students who have access to Orion (need an active NetID) may place an order for an official transcript using the UTD Student Center. Login to Orion via the Galaxy webpage. Once logged in to Orion, choose the My Academics tile, then choose the \"Order Official Transcript\" link.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "Current Students – Login to Orion (need an Active NetID)",
+    "n_sentences": 3,
+    "token_count": 71
+  },
+  {
+    "chunk_id": "doc116_p1_c3",
+    "doc_id": "doc116",
+    "text": "To order an official transcript, an active NetID/Orion account is necessary. Former students, alumni and former employees who do not have an active NetID should follow these steps: (1) complete the Former Student Reactivation form; the email address you provide on the reactivation form will be added to your UTD account as the preferred email unless you have an active UTDallas.edu email address, and the preferred email address will be used to create your Parchment account (if you need help verifying your information or are receiving errors on submitting the form, contact Transcripts@utdallas.edu); (2) Monday through Saturday within 24 hours of submission, you should receive an email from NetIDService@utdallas.edu containing instructions on how to reset your NetID password, unless your account is already active (processing on Sundays may be intermittent due to normal system maintenance on those days); (3) if you encounter issues resetting your NetID password, contact the OIT Service Desk; (4) once your NetID is active and you have set your password, click Orion via the Galaxy webpage and sign in; and (5) once logged in to Orion, choose the My Academics tile, then choose the \"Order Official Transcript\" link. There is a known issue with the Firefox browser where the browser constantly refreshes after you click on the Former Student Reactivation form link; if you experience this issue, try another browser such as Chrome or Edge, or try right clicking on the link and copy/pasting it into the browser address window instead.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "Former Students, Alumni and Former Employees: Without an Active NetID",
+    "n_sentences": 3,
+    "token_count": 386
+  },
+  {
+    "chunk_id": "doc116_p2_c4",
+    "doc_id": "doc116",
+    "text": "Former students, alumni and former employees who have an active NetID do not need to fill out the Former Student Reactivation form. A simple check to see if your NetID account is active: were you enrolled in the past 2 terms, OR are you enrolled in a future term? If the answer is yes to either question, then you will not need to fill out the Former Student Reactivation form. Please note that the form is not for resetting your password. If you need to reset your password, visit netid.utdallas.edu. If you have a NetID and are not sure if it's active, contact the OIT Service Desk. Former employees or current employees that no longer have the UTD Student Center in Orion may reactivate their student role by filling out the Former Student Reactivation form.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "Former Students, Alumni and Former Employees: With an Active NetID",
+    "n_sentences": 7,
+    "token_count": 191
+  },
+  {
+    "chunk_id": "doc116_p2_c5",
+    "doc_id": "doc116",
+    "text": "The eTranscript processing fee is $10. Your official transcript will be delivered to any valid email address via secure certified PDF, or electronically (EDI) to Texas public colleges and universities that are members of the SPEEDE network. Attachments are accepted for most electronic transcripts according to delivery method, but EDI transcripts do not allow attachments to be sent. Current EDI partners include: Austin Community College, Blinn College, Texas State University San Marcos, Stephen F. Austin, Texas Tech, UT Arlington, UT Austin, Tarrant County Community College, Palo Alto College, Collin College, University of North Texas, Texas Tech Health Science Center and Galveston College.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "eTranscript: Fee and Delivery",
+    "n_sentences": 4,
+    "token_count": 175
+  },
+  {
+    "chunk_id": "doc116_p3_c6",
+    "doc_id": "doc116",
+    "text": "eTranscript orders for PDF are processed by an automated system, generally within 1 hour after you receive your order confirmation email. EDI orders are processed daily Monday through Friday. During periods of high volume, it may take longer to process your transcript order. If you have required attachments to be included with your official transcript, please make sure to attach your document to the eTranscript order at the time of your request. All documents must be completed prior to attaching to the transcript order. Attached documents will not be processed; they will simply be attached to the official electronic transcript.",
+    "source_title": "Office of the Registrar: Official Transcript",
+    "section_heading": "eTranscript: Processing Times and Attachments",
+    "n_sentences": 6,
+    "token_count": 159
+  }
+]

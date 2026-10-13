@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc081_p1_c1",
+    "doc_id": "doc081",
+    "text": "BS Software Engineering Course Map 2025-2026, Semester 1 and 2 (First Year). Semester 1: CS 1436* Programming Fundamentals; MATH 2413* or 2417* Calculus I (prerequisite: ALEKS 80% or MATH 2312); ECS 1100 Intro to ENGR & CS (First Year only); CS 1200 Intro to CS & SE (First Year only); and a Core course. Semester 2: CS 1337* Computer Science I (prerequisite: CS 1436); MATH 2414* or 2419* Calculus II (prerequisite: MATH 2413 or 2417); PHYS 2325/2125 Mechanics and Lab (prerequisite: MATH 2413 or 2417; pre- or corequisite: MATH 2414 or 2419); CS 2305* Discrete Mathematics I (prerequisite: MATH 2313 or 2417); and a Core course. Courses marked * require a grade of C or better.",
+    "source_title": "BS Software Engineering Course Map 2025-2026",
+    "section_heading": "Semester 1 and 2",
+    "n_sentences": 4,
+    "token_count": 170
+  },
+  {
+    "chunk_id": "doc081_p1_c2",
+    "doc_id": "doc081",
+    "text": "BS Software Engineering Course Map 2025-2026, Semester 3 and 4. Semester 3: CS 2336 (Java)* or CS 2337 (C++)* Computer Science II (prerequisite: CS 1337); SE 2340 Computer Architecture (prerequisites: CS 2305 and CS 1337); PHYS 2326/2126 Electromagnetism & Waves and Lab (prerequisites: PHYS 2325/2125 and MATH 2414 or 2419); MATH 2418* Linear Algebra (prerequisite: MATH 2413 or 2417); and a Core course. Semester 4: SE 3345 Data Structures & Algorithms (prerequisites: CS 2336 or 2337, and CS 2305); SE 3341 Probability & Statistics in CS & SE (prerequisites: CS 2305, MATH 2418, and MATH 2414 or 2419); SE 3306 Mathematics Foundations of SE (prerequisite: CS 2305); and two Core courses. Courses marked * require a grade of C or better.",
+    "source_title": "BS Software Engineering Course Map 2025-2026",
+    "section_heading": "Semester 3 and 4",
+    "n_sentences": 4,
+    "token_count": 185
+  },
+  {
+    "chunk_id": "doc081_p1_c3",
+    "doc_id": "doc081",
+    "text": "BS Software Engineering Course Map 2025-2026, Semester 5 and 6. Semester 5: SE 4347 Database Systems (prerequisite: SE 3345); SE 3354 Software Engineering (prerequisites: CS 2305, CS 2336, and ECS 2390); SE 3377 Systems Programming in UNIX (prerequisite: CS 2336 or 2337); ECS 2390 Professional and Technical Comm (prerequisite: RHET 1302); and a MATH Technical Elective. Semester 6: SE 4348 Operating Systems (prerequisites: SE 2340, SE 3345, and SE 3377); SE 3162 Prof Responsibility in CS & SE (prerequisites: ECS 2390 and GOVT 2305); SE 4381 Software Project Planning & Mgmt. (prerequisite: SE 3354); SE 4352 Software Architecture & Design (prerequisites: SE 3306 and SE 3354); and two Core courses.",
+    "source_title": "BS Software Engineering Course Map 2025-2026",
+    "section_heading": "Semester 5 and 6",
+    "n_sentences": 4,
+    "token_count": 176
+  },
+  {
+    "chunk_id": "doc081_p1_c4",
+    "doc_id": "doc081",
+    "text": "BS Software Engineering Course Map 2025-2026, Semester 7 and 8. Semester 7: two Technical Electives (see catalog); SE 4367 Software Testing, Verif, Valid, QA (prerequisites: SE 3306 and SE 3354); SE 4351 Requirements Engineering (prerequisites: SE 3306 and SE 3354); and a Core course. Semester 8: two Free Electives; SE 4485 Software Engineering Project (prerequisite: at least two of SE 4381/SE 4352/SE 4351/SE 4367); and two Technical Electives (see catalog).",
+    "source_title": "BS Software Engineering Course Map 2025-2026",
+    "section_heading": "Semester 7 and 8",
+    "n_sentences": 3,
+    "token_count": 116
+  },
+  {
+    "chunk_id": "doc081_p1_c5",
+    "doc_id": "doc081",
+    "text": "Grade requirements for the BS Software Engineering Course Map 2025-2026: D- or better is required unless noted by *; C or better is required in CS 1436, CS 1337, CS 2305, CS 2336 or 2337, MATH 2413 or 2417, MATH 2414 or 2419, and MATH 2418. The critical path courses are MATH 2413 or 2417, MATH 2414 or 2419, CS 2305, CS 2336 or CS 2337, SE 3345, SE 3341, SE 3306, ECS 2390, SE 4381, SE 4352, SE 4367, SE 4351, and SE 4485. ECS 1100 and CS 1200 are First Year Only courses (transfer students should see an advisor about a substitute). The remaining core curriculum consists of RHET 1302, GOVT 2305, GOVT 2306, two American History (060) courses, Language, Philosophy and Culture (040), Creative Arts (050), and Social and Behavioral Sciences (080).",
+    "source_title": "BS Software Engineering Course Map 2025-2026",
+    "section_heading": "Grade Requirements, Critical Path, and Remaining Core Curriculum",
+    "n_sentences": 4,
+    "token_count": 187
+  }
+]

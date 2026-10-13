@@ -2,7 +2,8 @@
 """Validate chunk JSON files and fill in ``n_sentences`` and ``token_count``.
 
 Token count is ceil(characters / 4). Sentences are split on ., ! or ? followed
-by whitespace and an uppercase letter, quote, or opening parenthesis.
+by whitespace and an uppercase letter, quote, or opening parenthesis, except
+after a single-letter initial such as "U. T. System".
 Run ``python fill_chunk_counts.py backend/data/chunks/doc006.json``.
 """
 
@@ -17,7 +18,7 @@ from pathlib import Path
 
 FIELDS = ["chunk_id", "doc_id", "text", "source_title", "section_heading", "n_sentences", "token_count"]
 LIGATURES = "\ufb00\ufb01\ufb02\ufb03\ufb04"
-SENTENCE_END = re.compile(r"(?<=[.!?])\s+(?=[A-Z\"'(])")
+SENTENCE_END = re.compile(r"(?<=[.!?])(?<!\b[A-Z]\.)\s+(?=[A-Z\"'(])")
 CHUNK_ID = re.compile(r"^(doc\d{3})_p\d+_c\d+$")
 
 
