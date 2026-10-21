@@ -16,6 +16,7 @@ import time
 import unicodedata
 
 ROOT = Path(__file__).resolve().parent
+REPO_ROOT = ROOT.parent
 
 
 @dataclass
@@ -44,9 +45,9 @@ class Settings:
             raise ValueError('candidate_pool >= top_k and max_chunk_words >= min_chunk_words required')
         for key in ('bm25_b', 'lexical_weight', 'metadata_weight', 'diversity_lambda', 'min_score'):
             value = getattr(self, key)
-            if not isinstance(value, (int, float)) or not math.isfinite(value) or not 0 <= value <= 1:
+            if type(value) not in (int, float) or not math.isfinite(value) or not 0 <= value <= 1:
                 raise ValueError(f'{key} must be between 0 and 1')
-        if not isinstance(self.bm25_k1, (int, float)) or not math.isfinite(self.bm25_k1) or self.bm25_k1 <= 0:
+        if type(self.bm25_k1) not in (int, float) or not math.isfinite(self.bm25_k1) or self.bm25_k1 <= 0:
             raise ValueError('bm25_k1 must be positive and finite')
 
 
@@ -64,7 +65,7 @@ def tokens(text):
 def read_chunks(directory):
     paths = sorted(directory.rglob('*.json'))
     if not paths:
-        raise ValueError(f'No chunk JSON found in {directory}. See README export command.')
+        raise ValueError(f'No chunk JSON found in {directory}. See evaluate/README.md for the export command.')
     chunks, seen = [], set()
     for path in paths:
         rows = json.loads(path.read_text(encoding='utf-8-sig'))
@@ -207,7 +208,7 @@ def summarize(rows):
 
 def export_branch(ref, output):
     # Read git objects without switching branches or overwriting existing files.
-    paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', ref, '--', 'backend/data/chunks'], text=True).splitlines()
+    paths = subprocess.check_output(['git', 'ls-tree', '-r', '--name-only', ref, '--', 'backend/data/chunks'], text=True, cwd=REPO_ROOT).splitlines()
     paths = [p for p in paths if p.endswith('.json')]
     if not paths:
         raise ValueError(f'No chunk JSON on {ref}')
@@ -217,7 +218,7 @@ def export_branch(ref, output):
     for path in paths:
         target = output / Path(path).relative_to('backend/data/chunks')
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(subprocess.check_output(['git', 'show', f'{ref}:{path}']))
+        target.write_bytes(subprocess.check_output(['git', 'show', f'{ref}:{path}'], cwd=REPO_ROOT))
     print(f'Exported {len(paths)} JSON files from {ref} to {output}')
 
 
