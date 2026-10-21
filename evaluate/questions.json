@@ -1,4 +1,20 @@
 [
+  // Lokesh questions:
+
+
+
+  // Shaju questions:
+
+
+
+  // Already have these questions:
+
+
+
+  // DEV questions: 32 tuning questions; NOT scored by --split test.
+
+
+
   {
     "id": "dev-hard-unfinished-course",
     "query": "I am passing but an emergency stopped me after three quarters of the coursework. What temporary grade could the instructor use, what is the normal completion limit, and what happens if I miss it?",
@@ -577,6 +593,85 @@
       }
     ]
   },
+  {
+    "id": "dev-hard-my-slot",
+    "query": "What exact date and time is my Orion enrollment appointment for next semester?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The corpus explains where to find appointments; it has no authenticated personal appointment data."
+  },
+  {
+    "id": "dev-hard-my-drop-count",
+    "query": "How many of my own six permitted course withdrawals have I already used, including my transfer school?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The six-drop rule is public, but this students withdrawal history is not in the corpus."
+  },
+  {
+    "id": "dev-hard-my-overload",
+    "query": "Has the Associate Dean already approved my request for a twenty-one-credit semester?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "An approval rule cannot establish the status of an individual request."
+  },
+  {
+    "id": "dev-hard-my-ferpa",
+    "query": "Which family members currently have my permission to inspect my protected education records?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No individual consent records are present."
+  },
+  {
+    "id": "dev-hard-my-petition-result",
+    "query": "Did my petition to move my third final exam to another day get accepted?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The petition option does not contain individual petition outcomes."
+  },
+  {
+    "id": "dev-hard-my-course-cr",
+    "query": "Is the course I am taking this semester one of the classes its instructor has excluded from credit/no credit?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The course and instructor are unspecified and their current designation is not supplied."
+  },
+  {
+    "id": "dev-hard-my-final-grade",
+    "query": "After my instructor fixes the clerical error, what will my corrected cumulative GPA be?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The transcript, corrected grade, credit hours and other grades needed for calculation are absent."
+  },
+  {
+    "id": "dev-hard-next-policy",
+    "query": "What will the 2035-2036 UT Dallas computer science degree plan require for technical elective hours?",
+    "split": "dev",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The requested future catalog version is absent; earlier plans do not establish its requirements."
+  },
+
+
+
+  // TEST questions: 32 evaluation questions; scored only by --split test.
+
+
+
   {
     "id": "test-hard-incomplete-extension",
     "query": "My temporary unfinished-course grade is still on record. May I register for the same course again, whose permission is needed to extend the completion limit, and who can evaluate the work if the original instructor has left?",
@@ -1180,78 +1275,6 @@
         ]
       }
     ]
-  },
-  {
-    "id": "dev-hard-my-slot",
-    "query": "What exact date and time is my Orion enrollment appointment for next semester?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The corpus explains where to find appointments; it has no authenticated personal appointment data."
-  },
-  {
-    "id": "dev-hard-my-drop-count",
-    "query": "How many of my own six permitted course withdrawals have I already used, including my transfer school?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The six-drop rule is public, but this students withdrawal history is not in the corpus."
-  },
-  {
-    "id": "dev-hard-my-overload",
-    "query": "Has the Associate Dean already approved my request for a twenty-one-credit semester?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "An approval rule cannot establish the status of an individual request."
-  },
-  {
-    "id": "dev-hard-my-ferpa",
-    "query": "Which family members currently have my permission to inspect my protected education records?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "No individual consent records are present."
-  },
-  {
-    "id": "dev-hard-my-petition-result",
-    "query": "Did my petition to move my third final exam to another day get accepted?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The petition option does not contain individual petition outcomes."
-  },
-  {
-    "id": "dev-hard-my-course-cr",
-    "query": "Is the course I am taking this semester one of the classes its instructor has excluded from credit/no credit?",
-    "split": "dev",
-    "category": "missing_context",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The course and instructor are unspecified and their current designation is not supplied."
-  },
-  {
-    "id": "dev-hard-my-final-grade",
-    "query": "After my instructor fixes the clerical error, what will my corrected cumulative GPA be?",
-    "split": "dev",
-    "category": "private_data",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The transcript, corrected grade, credit hours and other grades needed for calculation are absent."
-  },
-  {
-    "id": "dev-hard-next-policy",
-    "query": "What will the 2035-2036 UT Dallas computer science degree plan require for technical elective hours?",
-    "split": "dev",
-    "category": "unavailable_version",
-    "unanswerable": true,
-    "evidence": [],
-    "unanswerable_reason": "The requested future catalog version is absent; earlier plans do not establish its requirements."
   },
   {
     "id": "test-hard-my-aid",
