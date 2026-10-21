@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc034_p1_c1",
+    "doc_id": "doc034",
+    "text": "The B.S. in Computer Engineering (2020-2021 Catalog) Major Preparatory Requirements total 39 lower-division hours: Intro to Engineering and CS, ECS 1100 (1 hour); Intro to Electrical and Computer Engineering, CE 1100 (1 hour); Intro to Electrical Engineering II, CE 1202 (2 hours); Computer Science I, CE 1337 (3 hours); Computer Science II, CE 2336 or 2337 (3 hours); Introduction to Digital Systems, CE 2310 (3 hours); Discrete Mathematics for Computing I, CE 2305 (3 hours); Linear Algebra for Engineers, ENGR 2300 (3 hours); Calculus I, MATH 2414 or 2417 (4 hours); Calculus II, MATH 2415 or 2419 (4 hours); Differential Equations with Applications, MATH 2420 (4 hours); Mechanics, PHYS 2325 (3 hours); Physics Laboratory I, PHYS 2125 (1 hour); Electromagnetism and Waves, PHYS 2326 (3 hours); and Physics Laboratory II, PHYS 2126 (1 hour). All are major requirements requiring a C- or better to receive credit, except that CE 1337, CE 2336 or 2337, and CE 2305 are CS requirements that require a C or better. Calculus I, Calculus II, PHYS 2325, PHYS 2125, and PHYS 2326 meet both Major and CORE requirements. Students must take Math 2413/2414/2415 or Math 2417/2419.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2020-2021 Catalog",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 293
+  },
+  {
+    "chunk_id": "doc034_p1_c2",
+    "doc_id": "doc034",
+    "text": "The B.S. in Computer Engineering (2020-2021 Catalog) Major Core Requirements total 58 upper-division hours: Social Issues and Ethics in Engineering, CE 3161 (1); CE Fundamentals Lab I, CE 3201 (2); CE Fundamentals Lab II, CE 3202 (2); CE Elective Lab, CE 420x (2); Electrical Network Analysis, CE 3301 (3); Signals and Systems, CE 3303 (3); Electronic Devices, CE 3310 (3); Electronic Circuits, CE 3311 (3); Digital Circuits, CE 3320 (3); Probability Theory & Statistics, ENGR 3341 (3); Data Structures & Intro to Algorithmic Analysis, CE 3345 (3); Software Engineering, CE 3354 (3); Computer Architecture, CE 4304 (3); Operating Systems Concepts, CE 4348 (3); Embedded Systems, CE 4370 (3); Senior Design Project I, CE 4388 (3); Senior Design Project II, CE 4389 (3); three CE Guided Electives, EE/CS 43xx (3 each); and Professional & Technical Communication, ECS 3390 (3). All are major requirements requiring a C- or better to receive credit; ECS 3390 also meets a CORE requirement.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2020-2021 Catalog",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 2,
+    "token_count": 247
+  },
+  {
+    "chunk_id": "doc034_p1_c3",
+    "doc_id": "doc034",
+    "text": "The B.S. in Computer Engineering (2020-2021 Catalog) Remaining Core Curriculum totals 24 hours: Rhetoric, RHET 1302 (3); American National Government, GOVT 2305 (3); State and Local Government, GOVT 2306 (3); US History Survey to Civil War, HIST 1301 (Core: 060) (3); US History Survey from Civil War, HIST 1302 (Core: 060) (3); Exploration of the Humanities, HUMA 1301 (Core: 040) (3); Exploration of the Arts, ARTS 1301 (Core: 050) (3); and Social Behavioral Science, ECON 2301 (Core: 080) (3). For HIST 1301, HIST 1302, HUMA 1301, ARTS 1301, and ECON 2301, other course options are available; see advisor for details.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2020-2021 Catalog",
+    "section_heading": "Remaining Core Curriculum",
+    "n_sentences": 2,
+    "token_count": 155
+  },
+  {
+    "chunk_id": "doc034_p1_c4",
+    "doc_id": "doc034",
+    "text": "The B.S. in Computer Engineering (2020-2021 Catalog) requires 5 hours of Electives, which require approval from an advisor: Free Elective (3 hours) and Free Elective (2 hours), plus Freshmen Seminar UNIV 1010 (0 hours) and Core Curriculum Assessment UNIV 2020 (0 hours). Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course. All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2020-2021 Catalog",
+    "section_heading": "Electives",
+    "n_sentences": 5,
+    "token_count": 161
+  },
+  {
+    "chunk_id": "doc034_p1_c5",
+    "doc_id": "doc034",
+    "text": "The B.S. in Computer Engineering (2020-2021 Catalog) requires 126 hours for graduation, which must include a minimum of 51 hours as Upper Division. The degree plan totals 68 lower-division hours and 58 upper-division hours: 39 hours of Major Preparatory Requirements, 58 hours of Major Core Requirements, 24 hours of Remaining Core Curriculum, and 5 hours of Electives. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus coursework in the last semester allowed. Major requirements must be passed with a C- or better to receive credit, and CS requirements must be passed with a C or better to receive credit.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2020-2021 Catalog",
+    "section_heading": "Total Hours and Graduation Requirements",
+    "n_sentences": 6,
+    "token_count": 200
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc031_p1_c1",
+    "doc_id": "doc031",
+    "text": "The B.S. in Computer Engineering (2016-2018 Catalog) Major Preparatory Requirements total 39 lower-division hours: Introduction to Engineering and CS, ECS 1100 (1 hour); Introduction to Computer Engineering, CE 1100 (1 hour); Introduction to Electrical Engineering II, CE 1202 (2 hours); Computer Science I, CE 1337 (3 hours); Computer Science II, CE 2336 (3 hours); Introduction to Digital Systems, CE 2310 (3 hours); Discrete Mathematics for Computing I, CE 2305 (3 hours); Linear Algebra for Engineers, ENGR 2300 (3 hours); Calculus I, Math 2414 or 2417 (4 hours); Calculus II, Math 2415 or 2419 (4 hours); Differential Equations with Applications, Math 2420 (4 hours); Mechanics, Phys 2325 (3 hours); Physics Laboratory I, Phys 2125 (1 hour); Electromagnetism and Waves, Phys 2326 (3 hours); and Physics Laboratory II, Phys 2126 (1 hour). All are major requirements requiring a C- or better to receive credit, except that CE 1337, CE 2336, and CE 2305 are CS requirements that require a C or better. Calculus I, Calculus II, Phys 2325, Phys 2125, and Phys 2326 meet both major and CORE requirements. Students must take Math 2413/2414/2415 or Math 2417/2419.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 291
+  },
+  {
+    "chunk_id": "doc031_p1_c2",
+    "doc_id": "doc031",
+    "text": "The B.S. in Computer Engineering (2016-2018 Catalog) Major Core Requirements total 59 upper-division hours, and courses in this block are used to calculate the major GPA: Advanced Engineering Math, ENGR 3300 (3); Electrical Network Analysis, CE 3301 (3); Electrical Network Analysis Lab, CE 3101 (1); Signals and Systems, CE 3302 (3); Signals and Systems Lab, CE 3102 (1); Electronic Devices, CE 3310 (3); Electronic Devices Lab, CE 3110 (1); Electronic Circuits, CE 3311 (3); Electronic Circuits Lab, CE 3111 (1); Digital Circuits, CE 3320 (3); Digital Circuits Lab, CE 3120 (1); Probability Theory & Statistics, ENGR 3341 (3); Data Structures & Intro to Algorithmic Analysis, CE 3345 (3); Software Engineering, CE 3354 (3); Computer Architecture, CE 4304 (3); Organization of Programming Languages, CE 4337 (3); Operating Systems Concepts, CE 4348 (3); Embedded Microprocessor Systems, CE 4370 (3); Computer Networks, CE 4390 (3); Senior Design Project I, CE 4388 (3); Senior Design Project II, CE 4389 (3); Social Issues and Ethics in CS & E, ECS 3361 (3); and Professional & Technical Communication, ECS 3390 (3). All are major requirements requiring a C- or better to receive credit; ECS 3361 and ECS 3390 also meet CORE requirements.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 2,
+    "token_count": 310
+  },
+  {
+    "chunk_id": "doc031_p1_c3",
+    "doc_id": "doc031",
+    "text": "The B.S. in Computer Engineering (2016-2018 Catalog) Remaining Core Curriculum totals 21 hours: Rhetoric, Rhet 1302 (3 hours, a major requirement requiring a C- or better); American National Government, Govt 2305 (3); State and Local Government, Govt 2306 (3); US History Survey to Civil War, Hist 1301 (3); US History Survey from Civil War, Hist 1302 (3); Exploration of the Humanities, Huma 1301 (3); and Exploration of the Arts, Arts 1301 (3). For Hist 1301, Hist 1302, Huma 1301, and Arts 1301, other course options are available; see advisor for details.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+    "section_heading": "Remaining Core Curriculum",
+    "n_sentences": 2,
+    "token_count": 140
+  },
+  {
+    "chunk_id": "doc031_p1_c4",
+    "doc_id": "doc031",
+    "text": "The B.S. in Computer Engineering (2016-2018 Catalog) requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour), plus Freshmen Seminar UNIV 1010 (0 hours). Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+    "section_heading": "Electives",
+    "n_sentences": 4,
+    "token_count": 127
+  },
+  {
+    "chunk_id": "doc031_p1_c5",
+    "doc_id": "doc031",
+    "text": "The B.S. in Computer Engineering (2016-2018 Catalog, revision date 3/1/2016) requires 126 hours for graduation, which must include a minimum of 51 hours as Upper Division. The degree plan totals 67 lower-division hours and 59 upper-division hours: 39 hours of Major Preparatory Requirements, 59 hours of Major Core Requirements, 21 hours of Remaining Core Curriculum, and 7 hours of Electives. Major requirements must be passed with a C- or better to receive credit, and CS requirements must be passed with a C or better to receive credit.",
+    "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+    "section_heading": "Total Hours and Graduation Requirements",
+    "n_sentences": 3,
+    "token_count": 135
+  }
+]

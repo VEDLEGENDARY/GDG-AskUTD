@@ -1,1154 +1,263 @@
 [
   {
-    "chunk_id": "doc018_p1_c1",
+    "chunk_id": "doc018_p3_c1",
     "doc_id": "doc018",
-    "text": "Online/Blended Teaching Handbook. Introduction Online/Blended education is becoming commonplace in colleges and universities throughout the world. It is the goal of this manual to facilitate a smooth entrance into online/blended teaching by outlining processes and procedures for creating and teaching your course.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online/Blended Teaching Handbook",
+    "text": "Online/Blended education is becoming commonplace in colleges and universities throughout the world. It is the goal of the UT Dallas Online/Blended Teaching Handbook to facilitate a smooth entrance into online/blended teaching by outlining processes and procedures for creating and teaching your course. Topics covered include: Organizational Information, Philosophy, Course Development, Technology, Faculty, Staff, Students, and Legal Issues.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Introduction",
     "n_sentences": 3,
-    "token_count": 79
+    "token_count": 111
   },
   {
-    "chunk_id": "doc018_p1_c2",
+    "chunk_id": "doc018_p3_c2",
     "doc_id": "doc018",
-    "text": "Topics covered include: Organizational Information, Philosophy, Course Development, Technology, Faculty, Staff, Students, and Legal Issues. TOP",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online/Blended Teaching Handbook",
-    "n_sentences": 2,
-    "token_count": 36
-  },
-  {
-    "chunk_id": "doc018_p1_c3",
-    "doc_id": "doc018",
-    "text": "Organizational Information. Programs. The fully online degree programs at the University of Texas at Dallas are extensions of campus programs.",
-    "source_title": "Online/Blended Teaching Handbook",
+    "text": "The fully online degree programs at the University of Texas at Dallas are extensions of campus programs. Internet-based programs have been available since 1999. The programs are managed by the program heads. Courses are developed by faculty with support from the UTD eLearning Team.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
     "section_heading": "Organizational Information",
-    "n_sentences": 3,
-    "token_count": 36
-  },
-  {
-    "chunk_id": "doc018_p1_c4",
-    "doc_id": "doc018",
-    "text": "Internet-based programs have been available since 1999. Administration.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 18
-  },
-  {
-    "chunk_id": "doc018_p1_c5",
-    "doc_id": "doc018",
-    "text": "The programs are managed by the program heads. Course Development.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 17
-  },
-  {
-    "chunk_id": "doc018_p1_c6",
-    "doc_id": "doc018",
-    "text": "Courses are developed by faculty with support from the UTD eLearning Team. TOP Philosophy Definition of Distance Education.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 31
-  },
-  {
-    "chunk_id": "doc018_p1_c7",
-    "doc_id": "doc018",
-    "text": "Distance education is defined as planned learning that normally occurs in a different place from teaching and as a result requires special techniques of course design, special instructional techniques, special methods of communication by electronic and other technology, as well as special organizational and administrative arrangements (Moore & Kearsley, 1996). Title 19, Texas Administrative Code, Part 1, Chapter 2, Subchapter J, Rule §2.202, states that a 100-percent online course is \"A distance education course in which 100 percent of instructional activity takes place when the student(s) and instructor(s) are in separate physical locations.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 163
-  },
-  {
-    "chunk_id": "doc018_p1_c8",
-    "doc_id": "doc018",
-    "text": "Requirements for on-campus or in-person orientation, testing, academic support services, internships/fieldwork, or other non-instructional activities do not exclude a course from this category. \" Generally speaking, online courses at UT Dallas are 100% online and do not require face-to-face sessions.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 76
-  },
-  {
-    "chunk_id": "doc018_p1_c9",
-    "doc_id": "doc018",
-    "text": "A \"hybrid\" or \"blended\" course is \"A distance education course in which more than 50 percent but less than 100 percent of instructional activity takes place when the student(s) and instructor(s) are in separate physical locations. \" TOP Effectiveness of Online Instruction.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 69
-  },
-  {
-    "chunk_id": "doc018_p1_c10",
-    "doc_id": "doc018",
-    "text": "Many have questioned if distance education is as effective as traditional education. A compilation of research findings entitled The No",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Organizational Information",
-    "n_sentences": 2,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c11",
-    "doc_id": "doc018",
-    "text": "Significant Difference Phenomenon (NSDP) explores the effective use of technology,. chiefly distance learning, compared to alternative methods or techniques of teaching. The annotated studies in the original article are arranged chronologically.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Significant Difference Phenomenon (NSDP) explores the effective use of technology,",
-    "n_sentences": 3,
-    "token_count": 62
-  },
-  {
-    "chunk_id": "doc018_p1_c12",
-    "doc_id": "doc018",
-    "text": "There are 355 research reports, summaries, and papers cited in which no significant difference was reported between the variables compared (Russell, 1999). The US Department of Education conducted a meta-analysis comparing online, blended, and face-to-face effectiveness.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Significant Difference Phenomenon (NSDP) explores the effective use of technology,",
-    "n_sentences": 2,
-    "token_count": 68
-  },
-  {
-    "chunk_id": "doc018_p1_c13",
-    "doc_id": "doc018",
-    "text": "It was found that \". blended instruction has been more effective, providing a rationale for the effort required to design and implement blended approaches.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Significant Difference Phenomenon (NSDP) explores the effective use of technology,",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc018_p1_c14",
-    "doc_id": "doc018",
-    "text": "When used by itself, online learning appears to be as effective as conventional classroom instruction, but not more so. \" (Means, Toyama, Murphy, Bakia, Jones, 2010).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Significant Difference Phenomenon (NSDP) explores the effective use of technology,",
-    "n_sentences": 2,
-    "token_count": 42
-  },
-  {
-    "chunk_id": "doc018_p1_c15",
-    "doc_id": "doc018",
-    "text": "Mission of Online/Blended Learning Programs. The mission of online/blended. programs at The University of Texas at Dallas is to provide high quality educational opportunities to students who may be at a geographic disadvantage, have employer travel and other conflicts which prevent on-campus class attendance, have course conflicts, or have personal circumstances that require scheduling flexibility. TOP Online/Blended Course Standards.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Mission of Online/Blended Learning Programs. The mission of online/blended",
     "n_sentences": 4,
-    "token_count": 110
+    "token_count": 71
   },
   {
-    "chunk_id": "doc018_p1_c16",
+    "chunk_id": "doc018_p3_c3",
     "doc_id": "doc018",
-    "text": "The University of Texas at Dallas' standards for online/blended courses are as follows. Online/Blended courses will: • adhere to the same rigorous standards as traditional courses.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Mission of Online/Blended Learning Programs. The mission of online/blended",
-    "n_sentences": 2,
-    "token_count": 45
-  },
-  {
-    "chunk_id": "doc018_p1_c17",
-    "doc_id": "doc018",
-    "text": "• result in learning outcomes appropriate to the credit awarded. • comply with the \"Texas Higher Education Coordinating Board Distance",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Mission of Online/Blended Learning Programs. The mission of online/blended",
-    "n_sentences": 2,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c18",
-    "doc_id": "doc018",
-    "text": "Practice into Electronically-Based Courses.\". • utilize the best available technology and pedagogy to create and provide a high quality educational experience to students. • be taught by academically qualified faculty.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Practice into Electronically-Based Courses.\"",
+    "text": "Distance education is defined as planned learning that normally occurs in a different place from teaching and as a result requires special techniques of course design, special instructional techniques, special methods of communication by electronic and other technology, as well as special organizational and administrative arrangements (Moore & Kearsley, 1996). Title 19, Texas Administrative Code, Part 1, Chapter 2, Subchapter J, Rule §2.202, states that a 100-percent online course is \"A distance education course in which 100 percent of instructional activity takes place when the student(s) and instructor(s) are in separate physical locations. Requirements for on-campus or in-person orientation, testing, academic support services, internships/fieldwork, or other non-instructional activities do not exclude a course from this category.\" Generally speaking, online courses at UT Dallas are 100% online and do not require face-to-face sessions. A \"hybrid\" or \"blended\" course is \"A distance education course in which more than 50 percent but less than 100 percent of instructional activity takes place when the student(s) and instructor(s) are in separate physical locations.\"",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Philosophy: Definition of Distance Education",
     "n_sentences": 4,
-    "token_count": 55
+    "token_count": 296
   },
   {
-    "chunk_id": "doc018_p1_c19",
+    "chunk_id": "doc018_p3_c4",
     "doc_id": "doc018",
-    "text": "• include regular communication and feedback to students. • be regularly updated.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Practice into Electronically-Based Courses.\"",
-    "n_sentences": 2,
-    "token_count": 21
+    "text": "Many have questioned if distance education is as effective as traditional education. A compilation of research findings entitled The No Significant Difference Phenomenon (NSDP) explores the effective use of technology, chiefly distance learning, compared to alternative methods or techniques of teaching. The annotated studies in the original article are arranged chronologically. There are 355 research reports, summaries, and papers cited in which no significant difference was reported between the variables compared (Russell, 1999). The US Department of Education conducted a meta-analysis comparing online, blended, and face-to-face effectiveness. It was found that \"…blended instruction has been more effective, providing a rationale for the effort required to design and implement blended approaches. When used by itself, online learning appears to be as effective as conventional classroom instruction, but not more so.\" (Means, Toyama, Murphy, Bakia, Jones, 2010).",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Philosophy: Effectiveness of Online Instruction",
+    "n_sentences": 7,
+    "token_count": 244
   },
   {
-    "chunk_id": "doc018_p1_c20",
+    "chunk_id": "doc018_p4_c5",
     "doc_id": "doc018",
-    "text": "Online/Blended courses follow the same academic calendar as face-to-face sections. The faculty member responsible for conducting each course is required to develop all content and a corresponding syllabus which will include assignments, texts, due dates, grading rubrics, and other relevant information.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Practice into Electronically-Based Courses.\"",
-    "n_sentences": 2,
-    "token_count": 76
+    "text": "The mission of online/blended programs at The University of Texas at Dallas is to provide high quality educational opportunities to students who may be at a geographic disadvantage, have employer travel and other conflicts which prevent on-campus class attendance, have course conflicts, or have personal circumstances that require scheduling flexibility.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Philosophy: Mission of Online/Blended Learning Programs",
+    "n_sentences": 1,
+    "token_count": 89
   },
   {
-    "chunk_id": "doc018_p1_c21",
+    "chunk_id": "doc018_p4_c6",
     "doc_id": "doc018",
-    "text": "Course Development. The instructor is responsible for designing and building the course, but is encouraged to contact instructional designers as needed for training, technical support, and pedagogical assistance. Services such as the recording studio are available on a first-come, first-served basis.",
-    "source_title": "Online/Blended Teaching Handbook",
+    "text": "The University of Texas at Dallas' standards for online/blended courses are as follows. Online/Blended courses will: adhere to the same rigorous standards as traditional courses; result in learning outcomes appropriate to the credit awarded; comply with the \"Texas Higher Education Coordinating Board Distance Education Advisory Committee Guide for Incorporating The Principles of Good Practice into Electronically-Based Courses\"; utilize the best available technology and pedagogy to create and provide a high quality educational experience to students; be taught by academically qualified faculty; include regular communication and feedback to students; and be regularly updated. Online/Blended courses follow the same academic calendar as face-to-face sections. The faculty member responsible for conducting each course is required to develop all content and a corresponding syllabus which will include assignments, texts, due dates, grading rubrics, and other relevant information.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Philosophy: Online/Blended Course Standards",
+    "n_sentences": 4,
+    "token_count": 247
+  },
+  {
+    "chunk_id": "doc018_p5_c7",
+    "doc_id": "doc018",
+    "text": "For online/blended course development, the instructor is responsible for designing and building the course, but is encouraged to contact instructional designers as needed for training, technical support, and pedagogical assistance. Services such as the recording studio are available on a first-come, first-served basis. The instructor should review and follow the Texas Higher Education Coordinating Board's Principles of Good Practice (PGP) (Approved Oct 2023) and will need to complete the UT Dallas Principle of Good Practice Form.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
     "section_heading": "Course Development",
     "n_sentences": 3,
-    "token_count": 76
+    "token_count": 134
   },
   {
-    "chunk_id": "doc018_p1_c22",
+    "chunk_id": "doc018_p5_c8",
     "doc_id": "doc018",
-    "text": "The instructor should review and follow the Texas Higher Education Coordinating Board's Principles of Good Practice (PGP) (Approved Oct 2023) a nd will need to complete the UT Dallas Principle of Good Practice Form. TOP",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Course Development",
-    "n_sentences": 2,
-    "token_count": 55
+    "text": "The eLearning Team offers Online Teaching Certifications to faculty (full-time and adjunct) and Graduate Teaching Assistants (including Post-Doctoral associates) who have instructional responsibilities. The program is online, self-paced, and allows instructors to experience the online tools and educational environment as students prior to teaching. The learning materials focus on pedagogy, University policies and processes, eLearning LMS functionality, and other educational technology tools.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Online Teaching Certification",
+    "n_sentences": 3,
+    "token_count": 124
   },
   {
-    "chunk_id": "doc018_p1_c23",
+    "chunk_id": "doc018_p5_c9",
     "doc_id": "doc018",
-    "text": "Online Teaching Certification. The eLearning Team offers Online Teaching. Certifications to faculty (full- time and adjunct) and Graduate Teaching Assistants (including Post-Doctoral associates) who have instructional responsibilities. The program is online, self-paced, and allows instructors to experience the online tools and educational environment as students prior to teaching.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
+    "text": "The following procedures should be followed for the preparation of online/blended course materials. The instructor should: schedule a course design consultation with an instructional designer as needed; and make arrangements with instructional designers to receive technology training as needed. The development of course materials is time consuming. Sufficient time must be allocated to this process to ensure the course is complete prior to the start of the semester. Examples of course materials used in distance education courses include text-based lectures, multimedia presentations, interactive web-based exercises, case studies, and instructor videos. The instructional design staff is committed to supporting faculty, but content and the creation of course materials is ultimately the responsibility of the instructor. 60 hours is a good estimate of how much time you will spend preparing a course. Additionally, professors are encouraged to seek advice and assistance from the UT Dallas eLearning team for face-to-face courses that utilize the university's learning management system or other educational technologies.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Procedures",
+    "n_sentences": 7,
+    "token_count": 282
+  },
+  {
+    "chunk_id": "doc018_p5_c10",
+    "doc_id": "doc018",
+    "text": "The syllabus is the roadmap to the course. A rough draft of the syllabus should be created very early in the course development process. The syllabus will ultimately contain all of the information students will need for the course including textbook information, due dates, special instructions, etc. An Online/Blended Course Syllabus Template can be found on the Office of the Provost's Syllabus Templates website.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Syllabus",
     "n_sentences": 4,
-    "token_count": 96
+    "token_count": 104
   },
   {
-    "chunk_id": "doc018_p1_c24",
+    "chunk_id": "doc018_p6_c11",
     "doc_id": "doc018",
-    "text": "The learning materials focus on pedagogy, University policies and processes, eLearning LMS functionality, and other educational technology tools. TOP Procedures.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 41
+    "text": "Like courses taught in the traditional classroom, distance education courses should be based on objectives. The instructor should develop a list of objectives for the course as a whole, as well as for each section (or module/unit). Instructional designers are available should the instructor need assistance writing objectives. Example course objectives: after completing Strategic Management 101, the student will explain core concepts and provide examples of their relevance and use by actual companies; and after completing Strategic Management 101, the student will present explanations of analytical tools used in the managerial process of crafting and executing strategy. Example module objectives: after completing Module 1, the student will list the components of Porter's Five Forces; and after completing Module 1, the student will define key success factors (KSF's).",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Learning Objectives",
+    "n_sentences": 5,
+    "token_count": 220
   },
   {
-    "chunk_id": "doc018_p1_c25",
+    "chunk_id": "doc018_p6_c12",
     "doc_id": "doc018",
-    "text": "The following procedures should be followed for the preparation of materials. The instructor should: • schedule a course design consultation with an instructional designer as needed.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 46
+    "text": "The instructor should select textbooks/case studies and communicate this information to the area administrative assistant (who will pass it on to the bookstore at least four weeks prior to the start of each semester to provide ample time for ordering and shipment). Please contact the bookstore and the publisher if you are interested in creating a custom textbook or an eBook. Many textbooks come with supplemental online course material. Please contact an instructional designer if you would like assistance importing this material into your course.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Textbook Selection",
+    "n_sentences": 4,
+    "token_count": 138
   },
   {
-    "chunk_id": "doc018_p1_c26",
+    "chunk_id": "doc018_p6_c13",
     "doc_id": "doc018",
-    "text": "• make arrangements with instructional designers to receive technology training as needed. The development of course materials is time consuming.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 37
+    "text": "Activities for assessing students in an online course can be as dynamic as in traditional face-to-face classes. Instructors have the options of incorporating graded activities such as discussions (threaded, blogs, journals), group presentations, papers, and online or proctored exams. A common question is, \"How much recorded lecture should go into an online course?\" Credit hour calculation in online courses is not necessarily as clear cut as in the face-to-face setting. For instance, in a class taught in the traditional format, a three-credit course might require 45 hours of classroom time, plus two hours of homework time per each hour of classroom time, totaling 135 hours. It is recommended that instructors DO NOT record 45 hours of lecture, but instead meet the 135 total hours in the online environment by calculating the student's time on task. There are many academic activities in which students can participate to achieve this. An example week might include a student viewing a recorded lecture (1 hour), working on a discussion board assignment (2 hours), reading (2 hours), taking an online quiz (1 hour), contributing to group work (2 hours), and participating in a team web conference (1 hour). Instructional designers are available for assistance/consultation on course design and best practices to help transition a course from the traditional classroom to the online environment.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Course Activities/Assessments",
+    "n_sentences": 8,
+    "token_count": 351
   },
   {
-    "chunk_id": "doc018_p1_c27",
+    "chunk_id": "doc018_p7_c14",
     "doc_id": "doc018",
-    "text": "Sufficient time must be allocated to this process to ensure the course is complete prior to the start of the semester. Examples of course materials used in distance education courses include text-based lectures, multimedia presentations, interactive web-based exercises, case studies, and instructor videos.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 77
+    "text": "Communication tools for online/blended courses include: Announcement: post reminders, news and updates to the entire class; Discussion: questions or discussion topics are posted on the discussion board in threaded, blog or journal format, and the amount and quality of student interaction can be graded; Email: instructor and students can use Course Messages or UTD email tool to exchange information and address any issues and concerns; Web conference: web conferences provide various methods of synchronous communication, including audio, voice-chat, text chat, and desktop and application sharing, and these can be recorded and viewed asynchronously as well; and Group tools: groups can use group communication and collaboration tools for group assignments.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Communication",
+    "n_sentences": 1,
+    "token_count": 190
   },
   {
-    "chunk_id": "doc018_p1_c28",
+    "chunk_id": "doc018_p7_c15",
     "doc_id": "doc018",
-    "text": "The instructional design staff is committed to supporting faculty, but content and the creation of course materials is ultimately the responsibility of the instructor. 60 hours is a good estimate of how much time you will spend preparing a course.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 62
+    "text": "Group presentations in online/blended courses can be done in several ways. Student presentations: in the Group Discussion area in eLearning, students may be given a private venue to post discussions and files (such as Word documents, PowerPoint presentations and Excel spreadsheets); the instructor has the option to make these files available when the work is complete, and the work can be graded by the instructor and critiqued by students. Class Discussion Forum: groups can present in the designated class discussion forum for feedback and comments. Group presentations via web conference: student presenters can upload PowerPoints (or any other type of document) and conduct a web-based presentation using audio, text chat, and desktop/application sharing; content, delivery, and attendance can be recorded.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Group Presentations",
+    "n_sentences": 4,
+    "token_count": 203
   },
   {
-    "chunk_id": "doc018_p1_c29",
+    "chunk_id": "doc018_p7_c16",
     "doc_id": "doc018",
-    "text": "Additionally, professors are encouraged to seek advice and assistance from the UT Dallas eLearning team for face-to-face courses that utilize the university's learning management system or other educational technologies. TOP Syllabus.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 59
+    "text": "Assignments may be submitted electronically via the eLearning Assignment tool. Notes can be made on the submission and returned electronically if desired. As in the traditional classroom, plagiarism is a concern. Turn-it-in is a software program that can scan a student's paper and compare it to millions of previously submitted papers and literary works in a database. A report is then displayed that flags potentially plagiarized sections. This tool is available for use in all eLearning courses.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Assignments",
+    "n_sentences": 6,
+    "token_count": 125
   },
   {
-    "chunk_id": "doc018_p1_c30",
+    "chunk_id": "doc018_p8_c17",
     "doc_id": "doc018",
-    "text": "The syllabus is the roadmap to the course. A rough draft of this document should be created very early in the course development process.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 35
+    "text": "A test can be created within eLearning that can be automatically scored and entered into the Grade Book. At the instructor's discretion, results can be made available to the student. It is recommended that the instructor write questions that test higher levels of learning as opposed to rote knowledge; for background on this, please see Bloom's Taxonomy. To address the issue of test security, the instructor should set up the test as follows: randomize questions from the test bank to ensure that students do not receive identical tests; randomize the answers so that if students do receive the same question, the answer order will not coincide between tests (do not do this with questions that have answer options such as \"all of the above, none of the above, etc.\" as when answers are randomized it will cause confusion); adjust settings so one question appears at a time to discourage students from printing test questions; set a time limit on the test to minimize the possibility of students looking up several answers in the textbook; shorten the test availability time window; use the Testing Center, which can host proctored exams (students at a distance can make arrangements to take proctored exams at an approved testing facility); use the online proctored exam service Honorlock; and limit the amount of time and details when test results are released.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Online Tests",
+    "n_sentences": 4,
+    "token_count": 342
   },
   {
-    "chunk_id": "doc018_p1_c31",
+    "chunk_id": "doc018_p8_c18",
     "doc_id": "doc018",
-    "text": "This document will ultimately contain all of the information students will need for the course including textbook information, due dates, special instructions, etc. An Online/Blended Course Syllabus Template can be found on the Office of the Provost's Syllabus Templates website.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 70
+    "text": "Once the course materials are created, they must be uploaded to eLearning. The instructor with assistance from an instructional designer should develop an intuitive course structure to ensure ease of navigation for the student. The instructor is responsible for reviewing all aspects of the course for accuracy. Once the course meets the instructor's approval, the instructor must sign off on the Texas Higher Education Coordinating Board Distance Education Advisory Committee's Guide for Incorporating The Principles of Good Practice into Electronically Based Courses by submitting the UT Dallas Principle of Good Practice Form. The course will also be reviewed by a faculty peer review. Finally, the course is to be approved by the program head.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Course Development: Uploading Course Materials and Course Review",
+    "n_sentences": 6,
+    "token_count": 187
   },
   {
-    "chunk_id": "doc018_p1_c32",
+    "chunk_id": "doc018_p9_c19",
     "doc_id": "doc018",
-    "text": "TOP Learning Objectives. Like courses taught in the traditional classroom, distance education courses should be based on objectives.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 33
+    "text": "To ensure access and proper functioning of online course materials, the following steps should be taken. Access: ensure there are no issues with the instructor's NetID or password; if issues exist, contact the UTD Helpdesk at 972-883-2911 or assist@utdallas.edu. Browsers and Operating Systems: view Blackboard's Browser and OS Requirements. Software: Microsoft Office (install the latest supported version; contact the help desk at 972-883-2911 to install this at no charge); virus detection/protection software; and plug-ins that may be required to view media in your eLearning class, such as Adobe Acrobat Reader. Then login to your eLearning account. Note: If you have problems logging in, see a wrong course listed, or do not see a course listed, contact the eLearning Help Desk or 1-866-588-3192. To customize your eLearning course, contact the eLearning Team at elearning@utdallas.edu.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Technology: Getting Started",
+    "n_sentences": 7,
+    "token_count": 223
   },
   {
-    "chunk_id": "doc018_p1_c33",
+    "chunk_id": "doc018_p9_c20",
     "doc_id": "doc018",
-    "text": "The instructor should develop a list of objectives for the course as a whole, as well as for each section (or module/unit)*. Here is an example of course/module objectives:",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Online Teaching Certification. The eLearning Team offers Online Teaching",
-    "n_sentences": 2,
-    "token_count": 43
+    "text": "In an Internet-based course, the teacher and learner can be in different places at different times. Just as in the traditional classroom, communication is essential for a course to be successful. The instructor and students may maintain constant contact via announcements, discussion boards, web conferences, and emails. By using a combination of asynchronous and synchronous tools, the barriers of space and time are eliminated. In addition to the communication tools mentioned, information may be conveyed to students in several ways such as text, audio, multimedia, synchronized slide presentations with audio, and simulations. Technologies used in distance education courses include: eLearning: a course management tool (or container) where all materials/communication tools, grade book, etc. reside; Streaming video: allows students to access video clips via the Internet without any files being downloaded to their computers; PowerPoint: a component of Microsoft Office that facilitates computer-based slide presentations; and Camtasia: allows the creation of multimedia presentations for viewing via computer, and translates presentations into streaming multimedia presentations.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Technology: Course Development Tools",
+    "n_sentences": 6,
+    "token_count": 297
   },
   {
-    "chunk_id": "doc018_p1_c34",
+    "chunk_id": "doc018_p10_c21",
     "doc_id": "doc018",
-    "text": "Course Objectives. • After completing Strategic Management 101, the student will explain core concepts and provide examples of their relevance and use by actual companies. • After completing Strategic Management 101, the student will present explanations of analytical tools used in the managerial process of crafting and executing strategy.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Course Objectives",
-    "n_sentences": 3,
-    "token_count": 86
+    "text": "Other technologies used in distance education courses include: Respondus: enhances the functionality and usability of eLearning's quiz, survey, and self-test tools, and saves considerable time developing tests by allowing the creation of all questions in a single text file and importing them directly into the eLearning test bank (this can be downloaded for free); Adobe Acrobat: a cross-platform (any computer can open it) program that can convert Word Documents, Excel Spreadsheets, and PowerPoint Presentations into a file that is very difficult to alter, and PDF files tend to be much smaller, therefore taking less time to download; Microsoft Word: a program for generating text documents; Microsoft Excel: a program used to generate spreadsheets; Tablet PC recording: allows graphic illustration of any computer application; Library for Distance Students: distance students may access UTD Library resources including a chat-based reference service, a document delivery service (books, articles, and media are sent via mail), and connection to the UTD Catalog; Web conferencing: a tool used for synchronous class meetings and small group discussions, with capabilities including file sharing, audio/voice chat, video, desktop/application sharing, and interactive features; and Recording studio: this facility may be scheduled to record and edit audio/video material, which can then be produced and uploaded into the learning management system for students to access.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Technology: Course Development Tools (continued)",
+    "n_sentences": 1,
+    "token_count": 368
   },
   {
-    "chunk_id": "doc018_p1_c35",
+    "chunk_id": "doc018_p10_c22",
     "doc_id": "doc018",
-    "text": "Module Objectives. • After completing Module 1, the student will list the components of Porter's Five Forces. • After completing Module 1, the student will define key success factors (KSF's).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 3,
-    "token_count": 48
-  },
-  {
-    "chunk_id": "doc018_p1_c36",
-    "doc_id": "doc018",
-    "text": "*Instructional designers are available should the instructor need assistance writing objectives. TOP Textbook Selection.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 30
-  },
-  {
-    "chunk_id": "doc018_p1_c37",
-    "doc_id": "doc018",
-    "text": "The instructor should select textbooks/case studies and communicate this information to the area administrative assistant (who will pass it on to the bookstore at least four weeks prior to the start of each semester to provide ample time for ordering and shipment). Please contact the bookstore and the publisher if you are interested in creating a custom textbook or an eBook.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
+    "text": "In order to get help as quickly as possible, please direct your question to the proper contact: NetID issues: assist@utdallas.edu or 972-883-2911; eLearning course issues: eLearning Help Desk or 1-866-588-3192; assistance developing/uploading materials, creating tests, general eLearning questions: elearning@utdallas.edu; and training requests: eLearning Faculty Training Site.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Technology: Training/Tech Support",
+    "n_sentences": 1,
     "token_count": 95
   },
   {
-    "chunk_id": "doc018_p1_c38",
+    "chunk_id": "doc018_p11_c23",
     "doc_id": "doc018",
-    "text": "Many textbooks come with supplemental online course material. Please contact an instructional designer if you would like assistance importing this material into your course.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 44
+    "text": "Once the online/blended course is complete, the instructor is responsible for managing it throughout the semester. This management includes monitoring the course, communicating regularly with students, grading assignments and assessments in a timely manner, updating the grade book, etc. Faculty responsibilities prior to course offering are: attend a course development meeting with an instructional designer if needed; request training as needed; schedule studio recording time if needed; ensure course is available in eLearning; ensure all course materials are in compliance with accessibility standards; prepare course materials (syllabus, lectures, quizzes, etc.) in accordance to the course development timeline; communicate textbook/case studies to be used with bookstore; keep course materials up to date; obtain clearance for copyrighted materials; review course in its entirety at least two weeks prior to course offering; make needed corrections/updates; and ensure the course is complete prior to the start of the semester.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Faculty: Responsibilities Prior to Course Offering",
+    "n_sentences": 3,
+    "token_count": 259
   },
   {
-    "chunk_id": "doc018_p1_c39",
+    "chunk_id": "doc018_p11_c24",
     "doc_id": "doc018",
-    "text": "TOP Course Activities/Assessments. Activities for assessing students in an online course can be as dynamic as in traditional face-to-face classes.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
+    "text": "Faculty responsibilities during an online/blended course offering are: respond to student questions within 48 hours; regular communication with students (announcement, discussion board, email, web conference, etc.); schedule and communicate times for synchronous communication (web conference/chat) with students if needed; and maintain online course throughout the semester (discussions, group formation, grade book, assignment submissions, calendar, course material uploads after course release). Faculty responsibilities after course offering are: review course evaluations; reflect on experiences in the course; and determine necessary changes for the next offering.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Faculty: Responsibilities During and After Course Offering",
     "n_sentences": 2,
-    "token_count": 37
+    "token_count": 168
   },
   {
-    "chunk_id": "doc018_p1_c40",
+    "chunk_id": "doc018_p12_c25",
     "doc_id": "doc018",
-    "text": "Instructors have the options of incorporating graded activities such as discussions (threaded, blogs, journals), group presentations, papers, and online or proctored exams. A common question is, \"How much recorded lecture should go into an online course?",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 64
-  },
-  {
-    "chunk_id": "doc018_p1_c41",
-    "doc_id": "doc018",
-    "text": "\" Credit hour calculation in online courses is not necessarily as clear cut as in the face-toface setting. For instance, in a class taught in the traditional format, a three -credit course might require 45 hours of classroom time, plus two hours of homework time per each hour of classroom time, totaling 135 hours.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 79
-  },
-  {
-    "chunk_id": "doc018_p1_c42",
-    "doc_id": "doc018",
-    "text": "It is recommended that instructors DO NOT record 45 hours of lecture, but instead meet the 135 total hours in the online environment by calculating the student's time on task. There are many academic activities in which students can participate to achieve this.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 66
-  },
-  {
-    "chunk_id": "doc018_p1_c43",
-    "doc_id": "doc018",
-    "text": "An example week might include a student viewing a recorded lecture (1 hour), working on a discussion board assignment (2 hours), reading (2 hours), taking an online quiz (1 hour), contributing to group work (2 hours), and participating in a team web conference (1 hour) . Instructional designers are available for assistance/consultation on course design and best practices to help transition a course from the traditional classroom to the online environment.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 115
-  },
-  {
-    "chunk_id": "doc018_p1_c44",
-    "doc_id": "doc018",
-    "text": "Communication. • Announcement: Post reminders, news and updates to the entire class.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 21
-  },
-  {
-    "chunk_id": "doc018_p1_c45",
-    "doc_id": "doc018",
-    "text": "• Discussion: Questions or discussion topics are posted on the discussion board in threaded, blog or journal format. The amount and quality of student interaction can be graded.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 45
-  },
-  {
-    "chunk_id": "doc018_p1_c46",
-    "doc_id": "doc018",
-    "text": "• Email: Instructor and students can use Course Messages or UTD email tool to exchange information and address any issues and concerns. • Web conference: Web conferences provide various methods of synchronous communication, including audio, voice-chat, text chat, and desktop and application sharing.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 75
-  },
-  {
-    "chunk_id": "doc018_p1_c47",
-    "doc_id": "doc018",
-    "text": "These can be recorded and viewed asynchronously as well. • Group tools: Groups can use group communication and collaboration tools for group assignments.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc018_p1_c48",
-    "doc_id": "doc018",
-    "text": "TOP Group Presentations. • Student presentations: In the Group Discussion area in eLearning, students may be given a private venue to post discussions and files (such as Word documents, PowerPoint presentations and Excel spreadsheets).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 59
-  },
-  {
-    "chunk_id": "doc018_p1_c49",
-    "doc_id": "doc018",
-    "text": "The instructor has the option to make these files available when the work is complete. The work can be graded by the instructor and critiqued by students.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc018_p1_c50",
-    "doc_id": "doc018",
-    "text": "• Class Discussion Forum: Groups can present in the designated class discussion forum for feedback and comments. • Group presentations via web conference: Student presenters can upload PowerPoints (or any other type of document) and conduct a web-based presentation using audio, text chat, and desktop/application sharing.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 81
-  },
-  {
-    "chunk_id": "doc018_p1_c51",
-    "doc_id": "doc018",
-    "text": "Content, delivery, and attendance can be recorded. TOP Assignments.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 17
-  },
-  {
-    "chunk_id": "doc018_p1_c52",
-    "doc_id": "doc018",
-    "text": "Assignments may be submitted electronically via the eLearning Assignment tool. Notes can be made on the submission and returned electronically if desired.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc018_p1_c53",
-    "doc_id": "doc018",
-    "text": "As in the traditional classroom, plagiarism is a concern. Turn-it-in is a software program that can scan a student's paper and compare it to millions of previously submitted papers and literary works in a database.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 54
-  },
-  {
-    "chunk_id": "doc018_p1_c54",
-    "doc_id": "doc018",
-    "text": "A report is then displayed that flags potentially plagiarized sections. This tool is available for use in all eLearning courses.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 32
-  },
-  {
-    "chunk_id": "doc018_p1_c55",
-    "doc_id": "doc018",
-    "text": "TOP Online Tests. A test can be created within eLearning that can be automatically scored and entered into the Grade Book.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 31
-  },
-  {
-    "chunk_id": "doc018_p1_c56",
-    "doc_id": "doc018",
-    "text": "At the instructor's discretion, results can be made available to the student. It is recommended that the instructor write questions that test higher levels of learning as opposed to rote knowledge.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 50
-  },
-  {
-    "chunk_id": "doc018_p1_c57",
-    "doc_id": "doc018",
-    "text": "For background on this, please see Bloom's Taxonomy. To address the issue of test security, the instructor should set up the test as follows: • Randomize questions from the test bank to ensure that students do not receive identical tests.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 60
-  },
-  {
-    "chunk_id": "doc018_p1_c58",
-    "doc_id": "doc018",
-    "text": "• Randomize the answers so that if students do receive the same question, the answer order will not coincide between tests. *Do not do this with questions that have answer options such as \"all of the above, none of the above, etc.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 58
-  },
-  {
-    "chunk_id": "doc018_p1_c59",
-    "doc_id": "doc018",
-    "text": "\" as when answers are randomized it will cause confusion. • Adjust settings so one question appears at a time to discourage students from printing test questions.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 41
-  },
-  {
-    "chunk_id": "doc018_p1_c60",
-    "doc_id": "doc018",
-    "text": "• Set a time limit on the test to minimize the possibility of students looking up several answers in the textbook. • Shorten the test availability time window.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 40
-  },
-  {
-    "chunk_id": "doc018_p1_c61",
-    "doc_id": "doc018",
-    "text": "• The Testing Center can host proctored exams. Students at a distance can make arrangements to take proctored exams at an approved testing facility.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 37
-  },
-  {
-    "chunk_id": "doc018_p1_c62",
-    "doc_id": "doc018",
-    "text": "• The online proctored exam service Honorlock can be used. • Limit the amount of time and details when test results are released.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 33
-  },
-  {
-    "chunk_id": "doc018_p1_c63",
-    "doc_id": "doc018",
-    "text": "TOP Uploading Course Materials. Once the course materials are created, they must be uploaded to eLearning.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 27
-  },
-  {
-    "chunk_id": "doc018_p1_c64",
-    "doc_id": "doc018",
-    "text": "The instructor with assistance from an instructional designer should develop an intuitive course structure to ensure ease of navigation for the student. TOP Course Review.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 43
-  },
-  {
-    "chunk_id": "doc018_p1_c65",
-    "doc_id": "doc018",
-    "text": "The instructor is responsible for reviewing all aspects of the course for accuracy. Once the course meets the instructor's approval, the instructor must sign off on the Texas Higher Education Coordinating Board Distance Education Advisory Committee's Guide for Incorporating The Principles of Good Practice into Electronically Based Courses by submitting the UT Dallas Principle of Good Practice Form.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 101
-  },
-  {
-    "chunk_id": "doc018_p1_c66",
-    "doc_id": "doc018",
-    "text": "The course will also be reviewed by a faculty peer review. Finally, the course is to be approved by the program head.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 30
-  },
-  {
-    "chunk_id": "doc018_p1_c67",
-    "doc_id": "doc018",
-    "text": "TOP Technology Getting Started. To ensure access and proper functioning of course materials, the following steps should be taken: Access • Ensure there are no issues with the instructor's NetID or password.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
-    "n_sentences": 2,
-    "token_count": 52
-  },
-  {
-    "chunk_id": "doc018_p1_c68",
-    "doc_id": "doc018",
-    "text": "If issues exist, contact the UTD Helpdesk at 972-883-2911 or assist@utdallas.edu.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Module Objectives",
+    "text": "For online/blended courses, instructional designers will: conduct workshops for faculty and TAs; conduct individualized training sessions for faculty and TAs; assist with media selection, design, and development; provide guidance on copyright clearance; provide guidance on accessibility issues; provide technical assistance; and evaluate and offer suggestions for course revisions.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Staff",
     "n_sentences": 1,
-    "token_count": 21
+    "token_count": 96
   },
   {
-    "chunk_id": "doc018_p1_c69",
+    "chunk_id": "doc018_p12_c26",
     "doc_id": "doc018",
-    "text": "Browsers and Operating Systems. • View Blackboard's Browser and OS Requirements. Software • Microsoft Office (install the latest supported version).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 3,
-    "token_count": 37
+    "text": "For online students, admission requirements and tuition are the same as for traditional students. The fees are comparable to traditional classes (there is a distance learning fee, but students are exempt from fees such as student union, recreational facility and medical service). Students can take online courses and traditional classroom courses simultaneously. Online students will: have regular access to a computer that meets the specifications outlined; have regular access to a reliable Internet connection; and access eLearning three times per week (minimum).",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Students: Admission, Fees, and Requirements",
+    "n_sentences": 4,
+    "token_count": 142
   },
   {
-    "chunk_id": "doc018_p1_c70",
+    "chunk_id": "doc018_p12_c27",
     "doc_id": "doc018",
-    "text": "Contact the help desk at 972-883-2911 to install this at no charge. • Virus detection/protection software.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 27
+    "text": "The online student must be: proficient using a computer; disciplined to complete projects by deadlines; a self-starter with intrinsic motivation to read, write, and participate fully in class activities; able to manage time effectively; able/willing to work independently and in virtual teams; willing to devote approximately 9-10 hours a week to a 3-credit course; committed to academic honesty; willing to contact the instructor immediately should course content issues arise; and willing to contact technical support immediately should a technical issue arise.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Students: Knowledge/Attitude/Skills",
+    "n_sentences": 1,
+    "token_count": 141
   },
   {
-    "chunk_id": "doc018_p1_c71",
+    "chunk_id": "doc018_p13_c28",
     "doc_id": "doc018",
-    "text": "• Plug-ins may be required to view media in or your eLearning class, such as Adobe Acrobat Reader. • Login to your eLearning account.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 34
+    "text": "The instructor may not use copyrighted material without proper clearance. Obtaining clearance to use copyrighted material is the responsibility of the instructor. To determine if clearance needs to be obtained, the following four factors should be considered: (1) the purpose and character of the use, including whether use is of a commercial nature or is for nonprofit educational purposes; (2) the nature of the copyrighted work; (3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and (4) the effect of the use upon the potential market for or value of the copyrighted work. It is recommended that the instructor reviews the UT System's Crash Course in Copyright.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Legal Issues: Copyrighted Material",
+    "n_sentences": 4,
+    "token_count": 179
   },
   {
-    "chunk_id": "doc018_p1_c72",
+    "chunk_id": "doc018_p13_c29",
     "doc_id": "doc018",
-    "text": "Note: If you have problems logging in, see a wrong course listed, or do not see a course listed, contact the eLearning Help Desk or 1-866-588-3192. • To customize your eLearning course, contact the eLearning Team at elearning@utdallas.edu.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 60
-  },
-  {
-    "chunk_id": "doc018_p1_c73",
-    "doc_id": "doc018",
-    "text": "TOP Course Development Tools. In an Internet-based course, the teacher and learner can be in different places at different times.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 33
-  },
-  {
-    "chunk_id": "doc018_p1_c74",
-    "doc_id": "doc018",
-    "text": "Just as in the traditional classroom, communication is essential for a course to be successful. The instructor and students may maintain constant contact via announcements, discussion boards, web conferences, and emails.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 55
-  },
-  {
-    "chunk_id": "doc018_p1_c75",
-    "doc_id": "doc018",
-    "text": "By using a combination of asynchronous and synchronous tools, the barriers of space and time are eliminated. In addition to the communication tools mentioned, information may be conveyed to students in several ways such as text, audio, multimedia, synchronized slide presentations with audio, and simulations.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 78
-  },
-  {
-    "chunk_id": "doc018_p1_c76",
-    "doc_id": "doc018",
-    "text": "Listed below are brief descriptions of some technologies used in distance education courses: • eLearning: A course management tool (or container) where all materials/communication tools, grade book, etc. reside.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 53
-  },
-  {
-    "chunk_id": "doc018_p1_c77",
-    "doc_id": "doc018",
-    "text": "• Streaming video: Allows students to access video clips via the Internet without any files being downloaded to their computers. • PowerPoint: A component of Microsoft Office that facilitates computer-based slide presentations.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 57
-  },
-  {
-    "chunk_id": "doc018_p1_c78",
-    "doc_id": "doc018",
-    "text": "• Camtasia: Allows the creation of multimedia presentations for viewing via computer. Translates presentations into to streaming multimedia presentations.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc018_p1_c79",
-    "doc_id": "doc018",
-    "text": "• Respondus: Enhances the functionality and usability of eLearning's quiz, survey, and self-test tools. This tool saves considerable time developing tests by allowing the creation of all questions in a single text file and importing them directly into the eLearning test bank.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 69
-  },
-  {
-    "chunk_id": "doc018_p1_c80",
-    "doc_id": "doc018",
-    "text": "This can be downloaded for free. • Adobe Acrobat: A cross-platform (any computer can open it) program that can convert Word Documents, Excel Spreadsheets, and PowerPoint Presentations into a file that is very difficult to alter.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 57
-  },
-  {
-    "chunk_id": "doc018_p1_c81",
-    "doc_id": "doc018",
-    "text": "PDF files tend to be much smaller, therefore taking less time to download. • Microsoft Word: A program for generating text documents.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c82",
-    "doc_id": "doc018",
-    "text": "• Microsoft Excel: A program used to generate spreadsheets. • Tablet PC recording: Allows graphic illustration of any computer application.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 35
-  },
-  {
-    "chunk_id": "doc018_p1_c83",
-    "doc_id": "doc018",
-    "text": "• Library for Distance Students: Distance students may access UTD Library resources including a chat-based reference service, a document delivery service (books, articles, and media are sent via mail), and connection to the UTD Catalog. • Web conferencing: A tool used for synchronous class meetings and small group discussions.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 82
-  },
-  {
-    "chunk_id": "doc018_p1_c84",
-    "doc_id": "doc018",
-    "text": "Capabilities include file sharing, audio/voice chat, video, desktop/application sharing, and interactive features. • Recording studio: This facility may be scheduled to record and edit audio/video material.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 52
-  },
-  {
-    "chunk_id": "doc018_p1_c85",
-    "doc_id": "doc018",
-    "text": "The material can then be produced and uploaded into the learning management system for students to access. TOP Training/Tech Support: In order to get help as quickly as possible, please direct your question to the proper contact.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 58
-  },
-  {
-    "chunk_id": "doc018_p1_c86",
-    "doc_id": "doc018",
-    "text": "• NetID issues: assist@utdallas.edu or 972-883-2911. • eLearning course issues: eLearning Help Desk or 1-866-588-3192.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 30
-  },
-  {
-    "chunk_id": "doc018_p1_c87",
-    "doc_id": "doc018",
-    "text": "• Assistance developing/uploading materials, creating tests, general eLearning questions: elearning@utdallas.edu. • Training Requests: eLearning Faculty Training Site.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 42
-  },
-  {
-    "chunk_id": "doc018_p1_c88",
-    "doc_id": "doc018",
-    "text": "TOP Faculty Once the course is complete, the instructor is responsible for managing it throughout the semester. This management includes monitoring the course, communicating regularly with students, grading assignments and assessments in a timely manner, updating the grade book, etc.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 71
-  },
-  {
-    "chunk_id": "doc018_p1_c89",
-    "doc_id": "doc018",
-    "text": "A breakdown of the responsibilities of faculty, staff, and teaching assistants follows. Responsibilities.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Browsers and Operating Systems",
-    "n_sentences": 2,
-    "token_count": 27
-  },
-  {
-    "chunk_id": "doc018_p1_c90",
-    "doc_id": "doc018",
-    "text": "Prior to. Course Offering • Attend a course development meeting with an instructional designer if needed. • Request training as needed.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 3,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c91",
-    "doc_id": "doc018",
-    "text": "• Schedule studio recording time if needed. • Ensure course is available in eLearning.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 22
-  },
-  {
-    "chunk_id": "doc018_p1_c92",
-    "doc_id": "doc018",
-    "text": "• Ensure all course materials are in compliance with accessibility standards. • Prepare course materials (syllabus, lectures, quizzes, etc.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 35
-  },
-  {
-    "chunk_id": "doc018_p1_c93",
-    "doc_id": "doc018",
-    "text": ") in accordance to the course development timeline. • Communicate textbook/case studies to be used with bookstore.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 29
-  },
-  {
-    "chunk_id": "doc018_p1_c94",
-    "doc_id": "doc018",
-    "text": "• Keep course materials up to date. • Obtain clearance for copyrighted materials.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 21
-  },
-  {
-    "chunk_id": "doc018_p1_c95",
-    "doc_id": "doc018",
-    "text": "• Review course in its entirety at least two weeks prior to course offering. • Make needed corrections/updates.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 28
-  },
-  {
-    "chunk_id": "doc018_p1_c96",
-    "doc_id": "doc018",
-    "text": "• Ensure the course is complete prior to the start of the semester. During Course Offering • Respond to student questions within 48 hours.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 35
-  },
-  {
-    "chunk_id": "doc018_p1_c97",
-    "doc_id": "doc018",
-    "text": "• Regular communication with students (announcement, discussion board, email, web conference, etc. ).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 26
-  },
-  {
-    "chunk_id": "doc018_p1_c98",
-    "doc_id": "doc018",
-    "text": "• Schedule and communicate times for synchronous communication (web conference/chat) with students if needed. • Maintain online course throughout the semester (discussions, group formation, grade book, assignment submissions, calendar, course material uploads after course release).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Prior to",
-    "n_sentences": 2,
-    "token_count": 71
-  },
-  {
-    "chunk_id": "doc018_p1_c99",
-    "doc_id": "doc018",
-    "text": "After Course. Offering • Review course evaluations. • Reflect on experiences in the course.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 3,
-    "token_count": 23
-  },
-  {
-    "chunk_id": "doc018_p1_c100",
-    "doc_id": "doc018",
-    "text": "• Determine necessary changes for the next offering. TOP Staff Instructional designers will: • conduct workshops for faculty and TAs.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c101",
-    "doc_id": "doc018",
-    "text": "• conduct individualized training sessions for faculty and TAs. • assist with media selection, design, and development.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 30
-  },
-  {
-    "chunk_id": "doc018_p1_c102",
-    "doc_id": "doc018",
-    "text": "• provide guidance on copyright clearance. • provide guidance on accessibility issues.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 22
-  },
-  {
-    "chunk_id": "doc018_p1_c103",
-    "doc_id": "doc018",
-    "text": "• provide technical assistance. • evaluate and offer suggestions for course revisions.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 22
-  },
-  {
-    "chunk_id": "doc018_p1_c104",
-    "doc_id": "doc018",
-    "text": "TOP Students Admission requirements and tuition are the same as for traditional students. The fees are comparable to traditional classes (there is a distance learning fee, but students are exempt from fees such as student union, recreational facility and medical service).",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 68
-  },
-  {
-    "chunk_id": "doc018_p1_c105",
-    "doc_id": "doc018",
-    "text": "Students can take online courses and traditional classroom courses simultaneously. Requirements.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 24
-  },
-  {
-    "chunk_id": "doc018_p1_c106",
-    "doc_id": "doc018",
-    "text": "Students will: • have regular access to a computer that meets the specifications outlined. • have regular access to a reliable Internet connection.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 37
-  },
-  {
-    "chunk_id": "doc018_p1_c107",
-    "doc_id": "doc018",
-    "text": "• access eLearning three times per week (minimum). TOP Knowledge/Attitude/Skills.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 21
-  },
-  {
-    "chunk_id": "doc018_p1_c108",
-    "doc_id": "doc018",
-    "text": "The online student must be: • proficient using a computer. • disciplined to complete projects by deadlines.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 27
-  },
-  {
-    "chunk_id": "doc018_p1_c109",
-    "doc_id": "doc018",
-    "text": "• a self-starter with intrinsic motivation to read, write, and participate fully in class activities. • able to manage time effectively.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 34
-  },
-  {
-    "chunk_id": "doc018_p1_c110",
-    "doc_id": "doc018",
-    "text": "• able/willing to work independently and in virtual teams. • willing to devote approximately 9-10 hours a week to a 3-credit course.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 33
-  },
-  {
-    "chunk_id": "doc018_p1_c111",
-    "doc_id": "doc018",
-    "text": "• committed to academic honesty. • willing to contact the instructor immediately should course content issues arise.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 29
-  },
-  {
-    "chunk_id": "doc018_p1_c112",
-    "doc_id": "doc018",
-    "text": "• willing to contact technical support immediately should a technical issue arise. TOP",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "After Course",
-    "n_sentences": 2,
-    "token_count": 22
-  },
-  {
-    "chunk_id": "doc018_p1_c113",
-    "doc_id": "doc018",
-    "text": "Legal Issues. Copyrighted Material. The instructor may not use copyrighted material without proper clearance.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 3,
-    "token_count": 28
-  },
-  {
-    "chunk_id": "doc018_p1_c114",
-    "doc_id": "doc018",
-    "text": "Obtaining clearance to use copyrighted material is the responsibility of the instructor. To determine if clearance needs to be obtained, the following four factors should be considered: 1) The purpose and character of the use, including whether use is of a commercial nature or is for nonprofit educational purposes.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 79
-  },
-  {
-    "chunk_id": "doc018_p1_c115",
-    "doc_id": "doc018",
-    "text": "2) The nature of the copyrighted work. 3) The amount and substantiality of the portion used in relation to the copyrighted work as a whole.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 35
-  },
-  {
-    "chunk_id": "doc018_p1_c116",
-    "doc_id": "doc018",
-    "text": "4) The effect of the use upon the potential market for or value of the copyrighted work. It is recommended that the instructor reviews the UT System's Crash Course in Copyright.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 45
-  },
-  {
-    "chunk_id": "doc018_p1_c117",
-    "doc_id": "doc018",
-    "text": "TOP Accessibility. Course materials should be accessible to students, regardless of disability.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 24
-  },
-  {
-    "chunk_id": "doc018_p1_c118",
-    "doc_id": "doc018",
-    "text": "A text equivalent for every non-text element should be included for all course materials. This includes images, graphics, video, and audio files.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 37
-  },
-  {
-    "chunk_id": "doc018_p1_c119",
-    "doc_id": "doc018",
-    "text": "A detailed set of guidelines can be found at the World Wide Web Consortium (W3C) website. A student identifying him/herself as having a disability should be directed to the UTD AccessAbility Resource Center.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 52
-  },
-  {
-    "chunk_id": "doc018_p1_c120",
-    "doc_id": "doc018",
-    "text": "Phone: 972-883-2098. TOP References Means, B.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 12
-  },
-  {
-    "chunk_id": "doc018_p1_c121",
-    "doc_id": "doc018",
-    "text": ", Toyama, Y. , Murphy, R.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 7
-  },
-  {
-    "chunk_id": "doc018_p1_c122",
-    "doc_id": "doc018",
-    "text": ", (2010). Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 31
-  },
-  {
-    "chunk_id": "doc018_p1_c123",
-    "doc_id": "doc018",
-    "text": "U.S. Department of Education Office of Planning, Evaluation, and Policy Development Policy and Program Studies Service. Moore, M.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 33
-  },
-  {
-    "chunk_id": "doc018_p1_c124",
-    "doc_id": "doc018",
-    "text": "Distance Education: A Systems View. California: Wadsworth Publishing Company.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 20
-  },
-  {
-    "chunk_id": "doc018_p1_c125",
-    "doc_id": "doc018",
-    "text": "(1999). The No Significant Difference Phenomenon.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 13
-  },
-  {
-    "chunk_id": "doc018_p1_c126",
-    "doc_id": "doc018",
-    "text": "Raleigh, North Carolina: North Carolina State University. Schlosser, L.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 18
-  },
-  {
-    "chunk_id": "doc018_p1_c127",
-    "doc_id": "doc018",
-    "text": "(2002). Distance Education: Definition and Glossary of Terms.",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 16
-  },
-  {
-    "chunk_id": "doc018_p1_c128",
-    "doc_id": "doc018",
-    "text": "Bloomington, IN: Association for Educational Communication and Technology. TOP",
-    "source_title": "Online/Blended Teaching Handbook",
-    "section_heading": "Legal Issues",
-    "n_sentences": 2,
-    "token_count": 20
+    "text": "Course materials should be accessible to students, regardless of disability. A text equivalent for every non-text element should be included for all course materials. This includes images, graphics, video, and audio files. A detailed set of guidelines can be found at the World Wide Web Consortium (W3C) website. A student identifying him/herself as having a disability should be directed to the UTD AccessAbility Resource Center. Phone: 972-883-2098.",
+    "source_title": "UT Dallas Online/Blended Teaching Handbook",
+    "section_heading": "Legal Issues: Accessibility",
+    "n_sentences": 6,
+    "token_count": 113
   }
 ]

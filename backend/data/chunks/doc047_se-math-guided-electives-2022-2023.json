@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc047_p1_c1",
+    "doc_id": "doc047",
+    "text": "Software Engineering (SE) students following the 2022-2023 catalog must complete 1 math guided elective. Math guided elective options and their prerequisites include: MATH 2415 Calculus of Several Variables (prerequisite: a grade of C- or better in MATH 2414); MATH 2420 Differential Equations with Applications (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent and a grade of at least a C- in MATH 2418 or equivalent); MATH 2451 Multivariable Calculus with Applications (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent and a grade of at least a C- in MATH 2418 or equivalent); MATH 3310 Theoretical Concepts of Calculus (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent); MATH 3311 Abstract Algebra I (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent and a grade of at least C- in MATH 2418 or equivalent); MATH 3321 Geometry (prerequisite: a grade of at least a C- in either MATH 2306 or MATH 2415 or MATH 2419 or equivalent); and MATH 3323 Elementary Number Theory (prerequisite: a grade of at least a C- in either MATH 2414 or MATH 2418 or MATH 2419).",
+    "source_title": "Options for Software Engineering Major Guided Electives (2022-2023)",
+    "section_heading": "Software Engineering Math Guided Elective Options: MATH 2415 to MATH 3323",
+    "n_sentences": 2,
+    "token_count": 301
+  },
+  {
+    "chunk_id": "doc047_p1_c2",
+    "doc_id": "doc047",
+    "text": "Additional math guided elective options for Software Engineering (SE) students following the 2022-2023 catalog (1 math guided elective required) include: MATH 3351 Advanced Calculus (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent, and a grade of at least a C- in MATH 2418 or equivalent); MATH 3397 Mathematical Problem Solving (prerequisite: MATH 2413 or MATH 2417 or MATH 3321); MATH 4332 Scientific Math Computing (prerequisite: a grade of at least a C- in either MATH 2415 or MATH 2419 or equivalent and a grade of at least C- in MATH 2418 or equivalent); MATH 4334 Numerical Analysis, same as CS 4334 (prerequisite: (MATH 2370 or CS 1324 or CS 1325 or CE 1337 or CS 1337) and (MATH 2418 and (MATH 2451 or MATH 3351))); MATH 4381 Structure of Modern Geometry (prerequisite as listed: (MATH 2370 or CS 1324 or CS 1325 or CE 1337 or CS 1337) and (MATH 2418 and (MATH 2451 or MATH 3351))); and STAT 3355 Introduction to Data Analysis (prerequisite: MATH 2415 or MATH 2419 or equivalent).",
+    "source_title": "Options for Software Engineering Major Guided Electives (2022-2023)",
+    "section_heading": "Software Engineering Math Guided Elective Options: MATH 3351 to STAT 3355",
+    "n_sentences": 1,
+    "token_count": 257
+  }
+]

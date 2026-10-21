@@ -1,0 +1,47 @@
+[
+  {
+    "chunk_id": "doc030_p1_c1",
+    "doc_id": "doc030",
+    "text": "BS Software Engineering Suggested Four Year Plan (2022-2023 Catalog), Freshman Year. Freshman first semester: Introduction to CS & SE (CS 1200); Introduction to Engineering & CS (ECS 1100); Calculus I (Math 2413 or 2417); Programming Fundamentals (CS 1336); Computer Science Lab (CS 1136); 6 hours CORE; and Freshman Seminar (UNIV 1010). Freshman second semester: Computer Science I (CS 1337); Discrete Mathematics I (CS 2305); Calculus II (Math 2414 or 2419); Mechanics and Heat (Phys 2325); Mechanics and Heat Lab (Phys 2125); and 3 hours CORE. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan, 2022-2023 Catalog",
+    "section_heading": "BS Software Engineering Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 4,
+    "token_count": 154
+  },
+  {
+    "chunk_id": "doc030_p1_c2",
+    "doc_id": "doc030",
+    "text": "BS Software Engineering Suggested Four Year Plan (2022-2023 Catalog), Sophomore Year. Sophomore first semester: Mathematics Foundations of SE (SE 3306); Computer Architecture (SE 2340); Electricity and Magnetism (Phys 2326); Electricity and Magnetism Lab (Phys 2126); and 6 hours CORE. Other sophomore-level courses shown on the plan's flowchart are CS 2336 or CS 2337, SE 3341, SE 3345, SE 3377, Math 2418, and CORE. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan, 2022-2023 Catalog",
+    "section_heading": "BS Software Engineering Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 4,
+    "token_count": 122
+  },
+  {
+    "chunk_id": "doc030_p1_c3",
+    "doc_id": "doc030",
+    "text": "BS Software Engineering Suggested Four Year Plan (2022-2023 Catalog), Junior and Senior Years. Junior first semester: Software Engineering (SE 3354); Operating Systems (SE 4348); SE Guided Elective (SE 43XX); Professional & Technical Communication (ECS 3390); and 3 hours CORE. The two middle upper-division semesters (junior second semester and senior first semester) consist of one semester of Software Project Planning & Management (SE 4381), Software Architecture & Design (SE 4352), 3 hours SE Guided Elective (SE 43XX), Database Systems (SE 4347), and Professional Responsibility in CS & SE (SE/CS 3162), and another semester of Software Testing, Verification, Validation, QA (SE 4367), Requirements Engineering (SE 4351), 3 hours SE Guided Elective (SE/CS 43XX), 3 hours Math Guided Elective, and 3 hours CORE. Senior final semester: Software Engineering Project (SE 4485); 3 hours SE Guided Elective (SE 43XX); and 4 hours Free Elective (see advisor). The plan also includes the Core Curriculum Assessment (UNIV 2020). At least two of four of the upper-division SE courses marked on the flowchart must be complete to begin the Project.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan, 2022-2023 Catalog",
+    "section_heading": "BS Software Engineering Suggested Four Year Plan: Junior and Senior Years",
+    "n_sentences": 6,
+    "token_count": 286
+  },
+  {
+    "chunk_id": "doc030_p1_c4",
+    "doc_id": "doc030",
+    "text": "In the BS Software Engineering Suggested Four Year Plan (2022-2023 Catalog), a grade of C- or better is needed in Math 2413 or Math 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, and CS 2336. Math 2312 (C or better) or 80% on ALEKS is listed as the prerequisite for starting Calculus I. The flowchart also shows CS 1337 alongside CS 1336 and CS 1136, and Math 2417/2419 alongside Math 2413/2414, in the freshman year. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan, 2022-2023 Catalog",
+    "section_heading": "BS Software Engineering Suggested Four Year Plan: Grade and Prerequisite Requirements",
+    "n_sentences": 4,
+    "token_count": 132
+  },
+  {
+    "chunk_id": "doc030_p1_c5",
+    "doc_id": "doc030",
+    "text": "The core choices for the BS Software Engineering Suggested Four Year Plan (2022-2023 Catalog) are: Rhet 1302; 6 hours from Hist 1301, Hist 1302, Hist 2301, Hist 2330, or Hist 2332; Govt 2305 and Govt 2306; 3 hours from Ahst 1303, 1304, 2331, Arts 1301, Danc 1310, Film 2332, Musi 1306, or Thea 1310; 3 hours from Ams 2300, Ams 2341, Huma 1301, Lit 2331, Phil 1301, or Phil 2316, 2317; and 3 hours from Crim 1301, Econ 2301, Econ 2302, Geog 2303, or Psy 2301.",
+    "source_title": "BS Software Engineering Suggested Four Year Plan, 2022-2023 Catalog",
+    "section_heading": "BS Software Engineering Suggested Four Year Plan: Core Choices",
+    "n_sentences": 1,
+    "token_count": 115
+  }
+]

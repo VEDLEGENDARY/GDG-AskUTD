@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": "doc024_p1_c1",
+    "doc_id": "doc024",
+    "text": "The B.S. in Computer Science degree plan (2022-2023 Catalog) requires 124 total hours for graduation, which must include 51 hours as Upper Division. The plan totals 73 lower-division hours and 51 upper-division hours: Major Preparatory Requirements (39 lower-division hours, included in Major GPA); Major Core Requirements (51 upper-division hours, included in Major GPA); Remaining Core Curriculum (24 lower-division hours); and Electives (10 hours). Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses in the last semester are allowed.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "B.S. in Computer Science: Degree Totals and Graduation Requirements",
+    "n_sentences": 5,
+    "token_count": 184
+  },
+  {
+    "chunk_id": "doc024_p1_c2",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) degree plan notes: (1) Must earn a C or better to receive credit. (2) Must earn a C- or better to receive credit. (3) Must earn a D- or better to receive credit. (4) Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course; transfer students may be required to complete an additional upper level (3000 or 4000) CS/SE course substitution. (5) All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020. (6) Most lower division (LD) coursework can be taken at a community college and transferred; see the online transfer plan for course equivalents. Courses in the Major Preparatory Requirements and Major Core Requirements are included in the Major GPA.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "B.S. in Computer Science: Degree Plan Notes",
+    "n_sentences": 7,
+    "token_count": 208
+  },
+  {
+    "chunk_id": "doc024_p1_c3",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Major Preparatory Requirements (39 lower-division hours), computing courses: ECS 1100 Intro to Engineering and CS (1 hour); CS 1200 Intro to CS and SE (2 hours); CS 1336 Programming Fundamentals (3 hours); CS 1136 Computer Science Laboratory (1 hour); CS 1337 Computer Science I (3 hours); CS 2305 Discrete Mathematics for Computing I (3 hours); CS 2336 or 2337 Computer Science II (3 hours); and CS 2340 Computer Architecture (3 hours). CS 1336, CS 1337, CS 2305, and CS 2336/2337 require a C or better; ECS 1100, CS 1200, CS 1136, and CS 2340 require a D- or better. ECS 1100 and CS 1200 are tied to the FTIC freshman seminar requirement. Most lower division coursework, including these courses, can be taken at a community college and transferred; see the online transfer plan for course equivalents.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Major Preparatory Requirements: Computing Courses",
+    "n_sentences": 4,
+    "token_count": 212
+  },
+  {
+    "chunk_id": "doc024_p1_c4",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Major Preparatory Requirements, mathematics and physics courses: MATH 2413 or 2417 Calculus I (4 hours; C- or better); MATH 2414 or 2419 Calculus II (4 hours); MATH 2418 Linear Algebra (4 hours); PHYS 2325 Mechanics (3 hours); PHYS 2125 Physics Laboratory I (1 hour); PHYS 2326 Electromagnetism and Waves (3 hours); and PHYS 2126 Physics Laboratory II (1 hour). All of these except Calculus I require a D- or better. The Major Preparatory Requirements total 39 lower-division hours, and most of this lower division coursework can be taken at a community college and transferred.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Major Preparatory Requirements: Mathematics and Physics Courses",
+    "n_sentences": 3,
+    "token_count": 156
+  },
+  {
+    "chunk_id": "doc024_p1_c5",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Major Core Requirements (51 upper-division hours total), part 1: CS 3162 Professional Responsibility in CS/SE (1 hour); CS 3305 Discrete Math for Computing II (3 hours; C or better); CS 3341 Probability & Statistics in CS/SE (3 hours); CS 3345 Data Structures & Intro to Algorithmic Analysis (3 hours); CS 3354 Software Engineering (3 hours); CS 3377 C/C++ Programming in a UNIX Environment (3 hours); CS 4337 Organization of Programming Languages (3 hours); CS 4341 Digital Logic and Computer Design (3 hours); and CS 4141 Digital Systems Laboratory (1 hour). All of these except CS 3305 require a D- or better.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Major Core Requirements: Foundations and Systems",
+    "n_sentences": 2,
+    "token_count": 165
+  },
+  {
+    "chunk_id": "doc024_p1_c6",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Major Core Requirements (51 upper-division hours total), part 2: CS 4347 Database Systems (3 hours); CS 4348 Operating Systems Concepts (3 hours); CS 4349 Advanced Algorithm Design & Analysis (3 hours); CS 4384 Automata Theory (3 hours); CS 4485 Computer Science Project (4 hours); three CS Guided Electives CS 43XX (3 hours each, 9 hours total); and ECS 3390 Professional & Technical Communication (3 hours). All of these require a D- or better to receive credit.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Major Core Requirements: Advanced Courses, Project, and Guided Electives",
+    "n_sentences": 2,
+    "token_count": 128
+  },
+  {
+    "chunk_id": "doc024_p1_c7",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Remaining Core Curriculum (24 lower-division hours): RHET 1302 Communication (Core: 010) (3 hours); GOVT 2305 Government/Political Science (Core: 070) (3 hours); GOVT 2306 Government/Political Science (Core: 070) (3 hours); two American History (Core: 060) courses (3 hours each); Language, Philosophy and Culture (Core: 040) (3 hours); Creative Arts (Core: 050) (3 hours); and Social Behavioral Science (Core: 080) (3 hours). The American History, Language, Philosophy and Culture, Creative Arts, and Social Behavioral Science courses are chosen from a list of options. All require a D- or better, and most lower division coursework can be taken at a community college and transferred; see the online transfer plan for course equivalents.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Remaining Core Curriculum",
+    "n_sentences": 3,
+    "token_count": 196
+  },
+  {
+    "chunk_id": "doc024_p1_c8",
+    "doc_id": "doc024",
+    "text": "B.S. in Computer Science (2022-2023 Catalog) Electives (10 hours): Free Elective (3 hours); Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour), each requiring a D- or better. The plan also lists two 0-hour courses: UNIV 1010 Freshmen Seminar, which incoming freshmen (FTIC) must enroll in and complete along with the corresponding school-related freshmen seminar course; and UNIV 2020 Core Curriculum Assessment, which all students, including transfer students, who complete their core curriculum at UT Dallas must take.",
+    "source_title": "B.S. in Computer Science Degree Plan (2022-2023 Catalog)",
+    "section_heading": "Electives and University Requirements",
+    "n_sentences": 2,
+    "token_count": 137
+  }
+]

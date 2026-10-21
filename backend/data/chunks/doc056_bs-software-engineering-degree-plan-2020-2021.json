@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc056_p1_c1",
+    "doc_id": "doc056",
+    "text": "The B.S. in Software Engineering (2020-2021 Catalog) major preparatory requirements total 39 lower-division hours: ECS 1100 Introduction to Engineering and CS (1 credit hour); CS 1200 Introduction to CS and SE (2 credit hours); CS 1336 Programming Fundamentals (3 credit hours); CS 1136 Computer Science Laboratory (1 credit hour); CS 1337 Computer Science I (3 credit hours); CS 2305 Discrete Mathematics for Computing I (3 credit hours); CS 2336 or 2337 Computer Science II (3 credit hours); SE 2340 Computer Architecture (3 credit hours); MATH 2413 or 2417 Calculus I (4 credit hours); MATH 2414 or 2419 Calculus II (4 credit hours); MATH 2418 Linear Algebra (4 credit hours); PHYS 2325 Mechanics (3 credit hours); PHYS 2125 Physics Laboratory I (1 credit hour); PHYS 2326 Electromagnetism and Waves (3 credit hours); and PHYS 2126 Physics Laboratory II (1 credit hour). CS 1336, CS 1337, CS 2305, and CS 2336/2337 are major requirements in which students must earn a C or better to receive credit. The calculus courses, PHYS 2325, and PHYS 2125 meet both major and core requirements. Students must take MATH 2413/2414 or MATH 2417/2419.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2020-2021 Catalog)",
+    "section_heading": "Major Preparatory Requirements",
+    "n_sentences": 4,
+    "token_count": 285
+  },
+  {
+    "chunk_id": "doc056_p1_c2",
+    "doc_id": "doc056",
+    "text": "The B.S. in Software Engineering (2020-2021 Catalog) major core requirements total 53 upper-division hours: SE 3162 Professional Responsibility in CS/SE (1 credit hour); SE 3306 Mathematics Foundations of SE (3 credit hours); SE 3341 Probability & Statistics in CS/SE (3 credit hours); SE 3345 Data Structures & Introduction to Algorithms (3 credit hours); SE 3354 Software Engineering (3 credit hours); SE 3377 C/C++ Programming in a UNIX Environment (3 credit hours); SE 4347 Database Systems (3 credit hours); SE 4348 Operating Systems Concepts (3 credit hours); SE 4351 Requirements Engineering (3 credit hours); SE 4352 Software Architecture & Design (3 credit hours); SE 4367 Software Testing, Verification, Validation, QA (3 credit hours); SE 4381 Software Project Planning & Management (3 credit hours); SE 4485 Software Engineering Project (4 credit hours); four SE Guided Electives, SE/CS 43XX (3 credit hours each); and ECS 3390 Professional & Technical Communication (3 credit hours). For the SE Guided Electives, students must satisfy at least one Application Domain; see an advisor for details. ECS 3390 meets both major and core requirements.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2020-2021 Catalog)",
+    "section_heading": "Major Core Requirements",
+    "n_sentences": 3,
+    "token_count": 290
+  },
+  {
+    "chunk_id": "doc056_p1_c3",
+    "doc_id": "doc056",
+    "text": "The B.S. in Software Engineering (2020-2021 Catalog) remaining core curriculum totals 24 hours: RHET 1302 Rhetoric (3 credit hours); GOVT 2305 American National Government (3 credit hours); GOVT 2306 State and Local Government (3 credit hours); HIST 1301 US History Survey to Civil War (Core: 060, 3 credit hours); HIST 1302 US History Survey from Civil War (Core: 060, 3 credit hours); HUMA 1301 Exploration of the Humanities (Core: 040, 3 credit hours); ARTS 1301 Exploration of the Arts (Core: 050, 3 credit hours); and ECON 2301 Social Behavioral Science (Core: 080, 3 credit hours). Other course options are available for HIST 1301, HIST 1302, HUMA 1301, ARTS 1301, and ECON 2301; see an advisor for details. Electives total 7 hours and require approval from an advisor: two Free Electives (3 credit hours each), one Free Elective (1 credit hour), UNIV 1010 Freshmen Seminar (0 credit hours), and UNIV 2020 Core Curriculum Assessment (0 credit hours). Lower or upper division courses may count as free electives, and a maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course. All students, including transfer students, who complete their core curriculum at UT Dallas must take UNIV 2020.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2020-2021 Catalog)",
+    "section_heading": "Remaining Core Curriculum and Electives",
+    "n_sentences": 6,
+    "token_count": 334
+  },
+  {
+    "chunk_id": "doc056_p1_c4",
+    "doc_id": "doc056",
+    "text": "The B.S. in Software Engineering (2020-2021 Catalog) degree plan totals 70 lower-division and 53 upper-division hours; 123 hours are required for graduation, and they must include 51 hours as upper division. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester.",
+    "source_title": "B.S. in Software Engineering Degree Plan (2020-2021 Catalog)",
+    "section_heading": "Graduation Requirements",
+    "n_sentences": 4,
+    "token_count": 123
+  }
+]

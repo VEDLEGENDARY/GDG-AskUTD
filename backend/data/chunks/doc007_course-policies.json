@@ -2,523 +2,154 @@
   {
     "chunk_id": "doc007_p1_c1",
     "doc_id": "doc007",
-    "text": "Course Offerings. UT Dallas offers many courses in a wide range of subject disciplines. Course offerings may include some online or blended (online and face-to-face) courses, which are listed in the CourseBook schedule.",
-    "source_title": "Course Policies",
+    "text": "UT Dallas offers many courses in a wide range of subject disciplines. Course offerings may include some online or blended (online and face-to-face) courses, which are listed in the CourseBook schedule. There are also additional offerings through the UT Online Consortium. However, the University does not offer correspondence courses.",
+    "source_title": "2025-2026 Undergraduate Catalog",
     "section_heading": "Course Offerings",
-    "n_sentences": 3,
-    "token_count": 55
+    "n_sentences": 4,
+    "token_count": 84
   },
   {
     "chunk_id": "doc007_p1_c2",
     "doc_id": "doc007",
-    "text": "There are also additional offerings through the UT Online Consortium. However, the University does not offer correspondence courses.",
-    "source_title": "Course Policies",
-    "section_heading": "Course Offerings",
-    "n_sentences": 2,
-    "token_count": 33
+    "text": "Auditing allows a student to observe the instruction of a course without earning credit. The following courses may not be audited: Computer Science and Engineering courses; Geoscience courses; Physical Education courses; Creative Writing courses; Foreign Language courses; Studio/Ensemble courses; online courses; and any course for which there is a lab fee. Participation, discussion and access to online materials is at the discretion of the instructor. Auditing does not grant credit, but does grant the privilege of hearing and observing course information. Beginning the first day of classes through Census Day, a student may obtain an audit form at the Office of the Registrar in the Student Services Building, first floor customer service area. Please consult the Office of the Registrar's FAQ for more detailed audit procedures and associated non-refundable fees.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Auditing Courses",
+    "n_sentences": 6,
+    "token_count": 218
   },
   {
     "chunk_id": "doc007_p1_c3",
     "doc_id": "doc007",
-    "text": "Auditing Courses. Auditing allows a student to observe the instruction of a course without earning credit. The following courses may not be audited: Computer Science and Engineering courses, Geoscience courses, Physical Education courses, Creative Writing courses, Foreign Language courses, Studio/Ensemble courses, online courses, and any course for which there is a lab fee.",
-    "source_title": "Course Policies",
-    "section_heading": "Auditing Courses",
+    "text": "The standard undergraduate course load is 15 semester credit hours for a long semester and 12 semester credit hours in the summer. Students wishing to register for more than 19 and up to 21 semester credit hours in a long semester or 15 semester credit hours in the summer must have the permission of the Associate Dean of their school; undergraduates with an exploratory major or pre-major may seek that permission from the Dean of Undergraduate Education. Students authorized to enroll in more than 19 up to 21 semester credit hours in a long semester or 15 semester credit hours in the summer may not withdraw from any class without permission of the Associate Dean of their school or the Dean of Undergraduate Education for those students without declared majors. Failure to secure that permission before withdrawing from a class will limit the student to a maximum of 19 semester credit hours in future semesters.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Course Load: Standard Load and Overloads",
+    "n_sentences": 4,
+    "token_count": 230
+  },
+  {
+    "chunk_id": "doc007_p2_c4",
+    "doc_id": "doc007",
+    "text": "In considering course load, students must be sensitive to special considerations such as degree requirements, financial aid, visa status, and family health insurance, which typically require registration in a minimum number of semester credit hours per term in order to maintain eligibility. For certification purposes, UT Dallas uses the following criteria for undergraduate students: full-time status is 12 semester credit hours; three quarter-time status is 9 semester credit hours; and half-time status is 6 semester credit hours. Summer semester status is determined by total official enrolled semester credit hours for all the summer sessions.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Course Load: Full-Time and Part-Time Enrollment Status",
     "n_sentences": 3,
-    "token_count": 94
+    "token_count": 163
   },
   {
-    "chunk_id": "doc007_p1_c4",
+    "chunk_id": "doc007_p2_c5",
     "doc_id": "doc007",
-    "text": "Participation, discussion and access to online materials is at the discretion of the instructor. Auditing does not grant credit, but does grant the privilege of hearing and observing course information.",
-    "source_title": "Course Policies",
-    "section_heading": "Auditing Courses",
-    "n_sentences": 2,
-    "token_count": 51
-  },
-  {
-    "chunk_id": "doc007_p1_c5",
-    "doc_id": "doc007",
-    "text": "Beginning the first day of classes through Census Day, a student may obtain an audit form at the Office of the Registrar in the Student Services Building, first floor customer service area. Please consult the Office of the Registrar's FAQ for more detailed audit procedures and associated non-refundable fees.",
-    "source_title": "Course Policies",
-    "section_heading": "Auditing Courses",
-    "n_sentences": 2,
-    "token_count": 78
-  },
-  {
-    "chunk_id": "doc007_p1_c6",
-    "doc_id": "doc007",
-    "text": "Course Load. The standard course load is 15 semester credit hours for a long semester and 12 semester credit hours in the summer. Students wishing to register for more than 19 and up to 21 semester credit hours in a long semester or 15 semester credit hours in the summer must have the permission of the Associate Dean of their school; undergraduates with an exploratory major or pre-major may seek that permission from the Dean of Undergraduate Education.",
-    "source_title": "Course Policies",
-    "section_heading": "Course Load",
-    "n_sentences": 3,
-    "token_count": 114
-  },
-  {
-    "chunk_id": "doc007_p1_c7",
-    "doc_id": "doc007",
-    "text": "Students authorized to enroll in more than 19 up to 21 semester credit hours in a long semester or 15 semester credit hours in the summer may not withdraw from any class without permission of the Associate Dean of their school or the Dean of Undergraduate Education for those students without declared majors. Failure to secure that permission before withdrawing from a class will limit the student to a maximum of 19 semester credit hours in future semesters.",
-    "source_title": "Course Policies",
-    "section_heading": "Course Load",
-    "n_sentences": 2,
-    "token_count": 115
-  },
-  {
-    "chunk_id": "doc007_p2_c8",
-    "doc_id": "doc007",
-    "text": "In considering course load, students must be sensitive to special considerations such as degree requirements, financial aid, visa status, and family health insurance, which typically require registration in a minimum number of semester credit hours per term in order to maintain eligibility. For certification purposes, UT Dallas uses the following criteria for undergraduate students:",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 97
-  },
-  {
-    "chunk_id": "doc007_p2_c9",
-    "doc_id": "doc007",
-    "text": "Half-time status - 6 semester credit hours. Summer semester status is determined by total official enrolled semester credit hours for all the summer sessions.",
-    "source_title": "Course Policies",
-    "section_heading": "Half-time status - 6 semester credit hours",
-    "n_sentences": 2,
-    "token_count": 40
-  },
-  {
-    "chunk_id": "doc007_p2_c10",
-    "doc_id": "doc007",
-    "text": "Guidelines for Course Numbering. To guide students in the selection of courses and proper sequencing over their college career, the following guidelines should be considered: 1) Lower-division undergraduate courses 1xxx courses are considered to be primarily taken in the freshman year, and are introductory courses. These courses may generally be taken by any student.",
-    "source_title": "Course Policies",
+    "text": "To guide students in the selection of courses and proper sequencing over their college career, the following course numbering guidelines should be considered. Lower-division undergraduate courses: 1xxx courses are considered to be primarily taken in the freshman year, and are introductory courses that may generally be taken by any student; 2xxx courses are considered to be primarily taken in the sophomore year, and provide a foundation in a discipline area, and some are major specific, though most can be taken by any student. Upper-division undergraduate courses may require prerequisites, recommended course sequencing, and/or faculty or department permissions. The University and some majors have minimum requirements for the number of upper-division semester credit hours. Programs may require major prep course completion prior to taking upper-division courses. Programs and instructors will assure that the content and prerequisites of independent study, research, and topics classes are appropriate for the level of the class. 3xxx courses are considered to be primarily taken in the junior year; they are designed to refine the skills and knowledge gained in the lower-division courses, are generally specific to a major field of study, and some may be restricted to specific majors and/or to junior level standing. 4xxx courses are considered to be taken primarily in the senior year; they are designed to provide mastery in the field of study and more depth and specificity than the 3xxx courses, and some may be restricted to specific majors and/or to senior level standing.",
+    "source_title": "2025-2026 Undergraduate Catalog",
     "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 3,
-    "token_count": 93
+    "n_sentences": 6,
+    "token_count": 398
   },
   {
-    "chunk_id": "doc007_p2_c11",
+    "chunk_id": "doc007_p2_c6",
     "doc_id": "doc007",
-    "text": "2xxx courses are considered to be primarily taken in the sophomore year, and provide a foundation in a discipline area. Some courses are major specific, though most can be taken by any student.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 2,
-    "token_count": 49
+    "text": "UT Dallas courses are assigned an abbreviation of the name of the subject area followed by a four-digit course number. The first digit of the course number defines the general level of the course, i.e., a 1 or 2 indicates that the course is of undergraduate freshman or sophomore level respectively, and a 3 or 4 indicates that the course is of undergraduate junior or senior level, respectively. Graduate courses begin with the digits 5 through 8. The second digit of the course number indicates the semester credit hour value of the course. A course is given semester credit hour values according to the number of hours per week the course meets; the typical course is three semester credit hours. The type of course (for example, lecture, laboratory, or seminar) and its meeting times determine the number of meetings per week and the length of each meeting. For additional information on semester credit hours, see policy.utdallas.edu/utdpp1090. A \"V\" in the second position of the course number denotes a variable semester credit hour course. The online class schedule may specify the semester credit hours available for a variable course during any given semester. The final two digits give the course a unique number within a subject area.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Course Numbering System",
+    "n_sentences": 10,
+    "token_count": 312
   },
   {
-    "chunk_id": "doc007_p2_c12",
+    "chunk_id": "doc007_p3_c7",
     "doc_id": "doc007",
-    "text": "2) Upper-division undergraduate courses Upper-division courses may require prerequisites, recommended course sequencing, and/or faculty or department permissions. The University and some majors have minimum requirements for the number of upper-division semester credit hours.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 2,
-    "token_count": 69
+    "text": "In some instances of undergraduate course descriptions, a second course prefix and number in parentheses follows the first. The second course prefix and number designate the State of Texas Common Course Numbering System (TCCNS) equivalents when available. TCCNS is a standard set of designations for academic courses. Most Texas community colleges and universities have adopted this system to facilitate the transfer of academic credit from one institution to another. Wherever possible, UT Dallas course numbers match the TCCNS number, although the subject designation may differ (for example, BA versus BUSI for the Business Administration prefix). For more information and UT Dallas' TCCNS matrix, see the TCCNS website.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Course Numbering System: Texas Common Course Numbering System (TCCNS)",
+    "n_sentences": 6,
+    "token_count": 181
   },
   {
-    "chunk_id": "doc007_p2_c13",
+    "chunk_id": "doc007_p3_c8",
     "doc_id": "doc007",
-    "text": "Programs may require major prep course completion prior to taking upper-division courses. Programs and instructors will assure that the content and prerequisites of independent study, research, and topics classes are appropriate for the level of the class.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
+    "text": "In all cases, a UT Dallas course description is followed by an indication of the approximate number of contact hours per week in a semester for any lecture and/or laboratory components of the course; for example, (2-4) indicates 2 contact hours of lecture and 4 contact hours of laboratory per week. At the end of each course description, a frequency of course offering code is available: S = Course is offered at least once each long semester; Y = Course is offered at least once a year; T = Course is offered at least once every two years; R = Course is offered based on student interest and instructor availability; P = Course is typically offered in the Spring; F = Course is typically offered in the Fall; and U = Course is typically offered in the Summer.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Course Numbering System: Contact Hours and Course Offering Frequency Codes",
     "n_sentences": 2,
-    "token_count": 64
+    "token_count": 191
   },
   {
-    "chunk_id": "doc007_p2_c14",
+    "chunk_id": "doc007_p3_c9",
     "doc_id": "doc007",
-    "text": "3xxx courses are considered to be primarily taken in the junior year. These courses are designed to refine the skills and knowledge gained in the lower-division courses, and are generally specific to a major field of study.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 2,
-    "token_count": 56
+    "text": "The credit/no credit option is intended to encourage students to take courses in topics outside of their major area. The credit/no credit option gives students the opportunity to broaden their education with less emphasis on grade points. A course may be designated by the instructor as unavailable to students on a credit/no credit basis. Conversely, some courses may only be available for credit/no credit. A student will receive credit for C (2.000 on a 4.000 point scale) work or better. No credit will be given for work that is below C (2.000 on a 4.000 point scale). A grade of 'CR' denotes credit earned. A grade of 'NC' denotes no credit earned. Courses taken on a credit/no credit basis will not be used in the calculation of a student's GPA. Students should select courses for the credit/no credit option carefully, as this option may affect eligibility for honors (see \"Graduation with Honors\").",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Credit/No Credit Classes",
+    "n_sentences": 10,
+    "token_count": 227
   },
   {
-    "chunk_id": "doc007_p2_c15",
+    "chunk_id": "doc007_p4_c10",
     "doc_id": "doc007",
-    "text": "Some courses may be restricted to specific majors and/or to junior level standing. 4xxx courses are considered to be taken primarily in the senior year.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 2,
+    "text": "For baccalaureate degree requirements, the credit/no credit option is limited to 12 semester credit hours or 20% of UT Dallas upper-division coursework, whichever is smaller. Courses in a student's major that are designated as credit/no credit are not included in this limit. Complete a credit/no credit form with the appropriate academic advisor before Census Day for the semester. A student must submit the completed credit/no credit form to the Office of the Registrar no later than Census Day for the semester. A student cannot repeat a letter grade course using the credit/no credit grading option. A student may not take any course used to satisfy a Core Curriculum requirement, any course in the major or minor that is listed as a major and related course on the student's degree plan, or major prerequisite, on a credit/no credit basis if a letter grade is normally awarded in those courses. Students in the Interdisciplinary Studies program may not exercise a credit/no credit option in their foundations or concentration.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Credit/No Credit Classes: Limits, Deadlines, and Restrictions",
+    "n_sentences": 7,
+    "token_count": 258
+  },
+  {
+    "chunk_id": "doc007_p4_c11",
+    "doc_id": "doc007",
+    "text": "An undergraduate student may take a maximum of 20 percent of the total semester credit hours of coursework undertaken at UT Dallas as Independent Study.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Independent Study",
+    "n_sentences": 1,
     "token_count": 38
   },
   {
-    "chunk_id": "doc007_p2_c16",
+    "chunk_id": "doc007_p4_c12",
     "doc_id": "doc007",
-    "text": "These courses are designed to provide mastery in the field of study and more depth and specificity that the 3xxx courses. Some courses may be restricted to specific majors and /or to senior level standing.",
-    "source_title": "Course Policies",
-    "section_heading": "Guidelines for Course Numbering",
-    "n_sentences": 2,
-    "token_count": 52
-  },
-  {
-    "chunk_id": "doc007_p2_c17",
-    "doc_id": "doc007",
-    "text": "Course Numbering System. UT Dallas courses are assigned an abbreviation of the name of the subject area followed by a four-digit course number. The first digit of the course number defines the general level of the course, i.e., a 1 or 2 indicates that the course is of undergraduate freshman or sophomore level respectively, and a 3 or 4",
-    "source_title": "Course Policies",
-    "section_heading": "Course Numbering System",
-    "n_sentences": 3,
-    "token_count": 85
-  },
-  {
-    "chunk_id": "doc007_p3_c18",
-    "doc_id": "doc007",
-    "text": "indicates that the course is of undergraduate junior or senior level, respectively. Graduate courses begin with the digits 5 through 8) The second digit of the course number indicates the semester credit hour value of the course.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 58
-  },
-  {
-    "chunk_id": "doc007_p3_c19",
-    "doc_id": "doc007",
-    "text": "A course is given semester credit hour values according to the number of hours per week the course meets; the typical course is three semester credit hours. The type of course (for example, lecture, laboratory, or seminar) and its meeting times determine the number of meetings per week and the length of each meeting.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 80
-  },
-  {
-    "chunk_id": "doc007_p3_c20",
-    "doc_id": "doc007",
-    "text": "For additional information on semester credit hours, see policy.utdallas.edu/utdpp1090. A \"V\" in the second position of the course number denotes a variable semester credit hour course. The online class schedule may specify the semester credit hours available for a variable course during any given semester.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 77
-  },
-  {
-    "chunk_id": "doc007_p3_c21",
-    "doc_id": "doc007",
-    "text": "The final two digits give the course a unique number within a subject area. In some instances of undergraduate course descriptions, a second course prefix and number in parentheses follows the first.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 50
-  },
-  {
-    "chunk_id": "doc007_p3_c22",
-    "doc_id": "doc007",
-    "text": "The second course prefix and number designate the State of Texas Common Course Numbering System (TCCNS) equivalents when available. TCCNS is a standard set of designations for academic courses.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 49
-  },
-  {
-    "chunk_id": "doc007_p3_c23",
-    "doc_id": "doc007",
-    "text": "Most Texas community colleges and universities have adopted this system to facilitate the transfer of academic credit from one institution to another. Wherever possible, UT Dallas course numbers match the TCCNS number, although the subject designation may differ (for example, BA versus BUSI for the Business Administration prefix).",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 83
-  },
-  {
-    "chunk_id": "doc007_p3_c24",
-    "doc_id": "doc007",
-    "text": "For more information and UT Dallas' TCCNS matrix, see TCCNS website. In all cases, the course description is followed by an indication of the approximate number of contact hours per week in a semester for any lecture and/or laboratory components of the course; for example, (2-4) indicates 2 contact hours of lecture and 4 contact hours of laboratory per week.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 90
-  },
-  {
-    "chunk_id": "doc007_p3_c25",
-    "doc_id": "doc007",
-    "text": "At the end of each course description, a frequency of course offering code is available: S = Course is offered at least once each long semester Y = Course is offered at least once a year T = Course is offered at least once every two years R = Course is offered based on student interest and instructor availability P = Course is typically offered in the Spring F = Course is typically offered in the Fall U = Course is typically offered in the Summer",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 1,
-    "token_count": 113
-  },
-  {
-    "chunk_id": "doc007_p3_c26",
-    "doc_id": "doc007",
-    "text": "Credit/No Credit Classes. The credit/no credit option is intended to encourage students to take courses in topics outside of their major area. The credit/no credit option gives students the opportunity to broaden their education with less emphasis on grade points.",
-    "source_title": "Course Policies",
-    "section_heading": "Credit/No Credit Classes",
-    "n_sentences": 3,
-    "token_count": 66
-  },
-  {
-    "chunk_id": "doc007_p3_c27",
-    "doc_id": "doc007",
-    "text": "A course may be designated by the instructor as unavailable to students on a credit/no credit basis. Conversely, some courses may only be available for credit/no credit.",
-    "source_title": "Course Policies",
-    "section_heading": "Credit/No Credit Classes",
-    "n_sentences": 2,
-    "token_count": 43
-  },
-  {
-    "chunk_id": "doc007_p3_c28",
-    "doc_id": "doc007",
-    "text": "A student will receive credit for C (2.000 on a 4.000 point scale) work or better. No credit will be given for work that is below C (2.000 on a 4.000 point scale).",
-    "source_title": "Course Policies",
-    "section_heading": "Credit/No Credit Classes",
-    "n_sentences": 2,
-    "token_count": 41
-  },
-  {
-    "chunk_id": "doc007_p3_c29",
-    "doc_id": "doc007",
-    "text": "A grade of 'CR' denotes credit earned. A grade of",
-    "source_title": "Course Policies",
-    "section_heading": "Credit/No Credit Classes",
-    "n_sentences": 2,
-    "token_count": 13
-  },
-  {
-    "chunk_id": "doc007_p4_c30",
-    "doc_id": "doc007",
-    "text": "'NC' denotes no credit earned. Courses taken on a credit/no credit basis will not be used in the calculation of a student's GPA.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 32
-  },
-  {
-    "chunk_id": "doc007_p4_c31",
-    "doc_id": "doc007",
-    "text": "Students should select courses for the credit/no credit option carefully, as this option may affect eligibility for honors. (See \"Graduation with Honors\") For baccalaureate degree requirements, the credit/no credit option is limited to 12 semester credit hours or 20% of UT Dallas upper-division coursework, whichever is smaller.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 83
-  },
-  {
-    "chunk_id": "doc007_p4_c32",
-    "doc_id": "doc007",
-    "text": "Courses in a student's major that are designated as credit/no credit are not included in this limit. Complete a credit/no credit form with the appropriate academic advisor before Census Day for the semester.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 52
-  },
-  {
-    "chunk_id": "doc007_p4_c33",
-    "doc_id": "doc007",
-    "text": "A student must submit the completed credit/no credit form to the Office of the Registrar no later than Census Day for the semester. A student cannot repeat a letter grade course using the credit/no credit grading option.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 55
-  },
-  {
-    "chunk_id": "doc007_p4_c34",
-    "doc_id": "doc007",
-    "text": "A student may not take any course used to satisfy a Core Curriculum requirement, any course in the major or minor that is listed as a major and related course on the student's degree plan, or major prerequisite, on a credit/no credit basis if a letter grade is normally awarded in those courses. Students in the Interdisciplinary Studies program may not exercise a credit/no credit option in their foundations or concentration.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 107
-  },
-  {
-    "chunk_id": "doc007_p4_c35",
-    "doc_id": "doc007",
-    "text": "Independent Study. A student may take a maximum of 20 percent of the total semester credit hours of coursework undertaken at UT Dallas as Independent Study.",
-    "source_title": "Course Policies",
-    "section_heading": "Independent Study",
-    "n_sentences": 2,
-    "token_count": 39
-  },
-  {
-    "chunk_id": "doc007_p4_c36",
-    "doc_id": "doc007",
-    "text": "Internship Program. The Internship Program provides students with opportunities to work in assignments related directly to their fields of study. The experience provides students with the opportunity to apply what they learn in the classroom to practical settings.",
-    "source_title": "Course Policies",
+    "text": "The Internship Program provides students with opportunities to work in assignments related directly to their fields of study. The experience provides students with the opportunity to apply what they learn in the classroom to practical settings. The primary focus of internships is educational in nature. In addition, students are able to stay in school and possibly earn money to defray college expenses, while clarifying academic interests, and targeting specific job markets. Internships may be taken using the credit/no credit grading option depending on the student's degree program requirements. Internship coordinators at the Career Center can assist students with determining internship credit options and eligibility. The University of Texas at Dallas has a flexible internship program and arrangements include: Parallel (full-time or part-time internship and full-time or part-time school); Summer (full-time or part-time internship); and Alternating Semesters (full-time internship alternating with semesters of full-time school). For more information about the program, contact the Career Center: telephone 972-883-2943; website career.utdallas.edu.",
+    "source_title": "2025-2026 Undergraduate Catalog",
     "section_heading": "Internship Program",
+    "n_sentences": 8,
+    "token_count": 290
+  },
+  {
+    "chunk_id": "doc007_p5_c13",
+    "doc_id": "doc007",
+    "text": "There are certain courses in which students may repeat the course(s) for credit and may satisfy degree requirements. In other instances, students may repeat the course to improve their grades. Courses transferred for credit to UT Dallas from another institution of higher education may not be repeated for additional credit. Before repeating any course, students should contact their academic advisor to determine the application of such course credit toward graduation. Students are also advised to check with the Office of Financial Aid to determine how and if grades earned in repeated coursework impact their financial aid eligibility status. Unlimited repeatable courses are courses that students may repeat for credit; these courses in the catalog will have the statement of \"may be repeated for credit\" and are considered non-duplicated courses. All semester credit hours and grade points earned from each of these courses count in a student's earned hours and cumulative grade point average (GPA). Students should review their degree program for application towards degree requirements.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Repeating Coursework: Taking Unlimited Repeatable Courses",
+    "n_sentences": 8,
+    "token_count": 274
+  },
+  {
+    "chunk_id": "doc007_p5_c14",
+    "doc_id": "doc007",
+    "text": "There are certain courses that students may repeat for credit with a limit on repeatability, for example, courses with the course description that states, \"may be repeated for credit (9 semester credit hours maximum).\" For limited repeatable courses, a student is limited to repeating the course to the maximum hours stated in the course description including course attempts resulting in non passing grades like withdrawals. The limited semester credit hours and grade points earned from each of these courses count in a student's earned hours and cumulative GPA. Students should review their degree program for application towards degree requirements. NOTE: Registrations beyond the repeatable limit of the class will not count in a student's earned hours, cumulative GPA, and degree requirements.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Repeating Coursework: Taking Limited Repeatable Courses",
+    "n_sentences": 4,
+    "token_count": 200
+  },
+  {
+    "chunk_id": "doc007_p5_c15",
+    "doc_id": "doc007",
+    "text": "Undergraduate students may repeat a course to improve their grades; however, if the course is not designated as a repeatable course, then any single course can contribute only once to the number of semester credit hours required for graduation. An undergraduate student may repeat the same course to improve his/her grades based on the following rules: (1) an undergraduate student may repeat a course for an improved grade only if the grade is C- or below; (2) an undergraduate student is limited to three grade-bearing enrollment attempts for any specific class, and the student cannot repeat the same course for a fourth time regardless of the grade earned; (3) according to Texas Education Code 54.014, a resident undergraduate student attempting the same class, excluding designated repeatable courses, for the third time will be charged tuition at the nonresident undergraduate student rate for the same number of semester credit hours; (4) courses cross-listed under more than one course prefix are considered the same course for repeat counting; and (5) all withdrawals (academic and non-academic withdrawals) are counted as grade-bearing enrollment attempts. Undergraduate students who are Texas residents should be aware that state law limits the number of semester credit hours an undergraduate Texas resident may attempt while paying tuition at the rate provided for Texas residents (see Excessive Undergraduate Hours).",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Repeating Coursework: Repeating Courses to Improve Grades",
     "n_sentences": 3,
-    "token_count": 66
+    "token_count": 358
   },
   {
-    "chunk_id": "doc007_p4_c37",
+    "chunk_id": "doc007_p6_c16",
     "doc_id": "doc007",
-    "text": "The primary focus of internships is educational in nature. In addition, students are able to stay in school and possibly earn money to defray college expenses, while clarifying academic interests, and targeting specific job markets.",
-    "source_title": "Course Policies",
-    "section_heading": "Internship Program",
-    "n_sentences": 2,
-    "token_count": 58
+    "text": "When an undergraduate repeats a course to improve a grade, the grade from the first attempt will not be used in computing a student's grade point average. All further repeats will be used in computing the student's GPA (see Grade Point Average and Transfer Credit). All grades will appear on the student's transcript. A notation beside the first grade will indicate that the course has been repeated. Courses that were originally taken for a letter grade may not be repeated for credit/no credit or pass/fail in lieu of a letter grade.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Repeating Coursework: How Repeated Grades Affect GPA and Transcripts",
+    "n_sentences": 5,
+    "token_count": 134
   },
   {
-    "chunk_id": "doc007_p4_c38",
+    "chunk_id": "doc007_p6_c17",
     "doc_id": "doc007",
-    "text": "Internships may be taken using the credit/no credit grading option depending on the student's degree program requirements. Internship coordinators at the Career Center can assist students with determining internship credit options and eligibility.",
-    "source_title": "Course Policies",
-    "section_heading": "Internship Program",
-    "n_sentences": 2,
-    "token_count": 62
-  },
-  {
-    "chunk_id": "doc007_p4_c39",
-    "doc_id": "doc007",
-    "text": "The University of Texas at Dallas has a flexible internship program and arrangements include the following: Parallel: full-time or part-time internship and full-time or part-time school. Summer: full-time or part-time internship.",
-    "source_title": "Course Policies",
-    "section_heading": "Internship Program",
-    "n_sentences": 2,
-    "token_count": 58
-  },
-  {
-    "chunk_id": "doc007_p4_c40",
-    "doc_id": "doc007",
-    "text": "Alternating Semesters: full-time internship alternating with semesters of full-time school. For more information about the program, contact the Career Center.",
-    "source_title": "Course Policies",
-    "section_heading": "Internship Program",
-    "n_sentences": 2,
-    "token_count": 40
-  },
-  {
-    "chunk_id": "doc007_p5_c41",
-    "doc_id": "doc007",
-    "text": "There are certain courses in which students may repeat the course(s) for credit and may satisfy degree requirements. In other instances, students may repeat the course to improve their grades.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 48
-  },
-  {
-    "chunk_id": "doc007_p5_c42",
-    "doc_id": "doc007",
-    "text": "Courses transferred for credit to UT Dallas from another institution of higher education may not be repeated for additional credit. Before repeating any course, students should contact their academic advisor to determine the application of such course credit toward graduation.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 70
-  },
-  {
-    "chunk_id": "doc007_p5_c43",
-    "doc_id": "doc007",
-    "text": "Students are also advised to check with the Office of Financial Aid to determine how and if grades earned in repeated coursework impact their financial aid eligibility status. The University of Texas at Dallas' policy for repeating coursework is stated below.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 65
-  },
-  {
-    "chunk_id": "doc007_p5_c44",
-    "doc_id": "doc007",
-    "text": "Taking Unlimited Repeatable Courses. There are certain courses that students may repeat the course(s) for credit. These courses in the catalog will have the statement of \"may be repeated for credit\" and considered non-duplicated courses.",
-    "source_title": "Course Policies",
-    "section_heading": "Taking Unlimited Repeatable Courses",
-    "n_sentences": 3,
-    "token_count": 60
-  },
-  {
-    "chunk_id": "doc007_p5_c45",
-    "doc_id": "doc007",
-    "text": "All semester credit hours and grade points earned from each of these courses count in a student's earned hours and cumulative grade point average (GPA). Students should review their degree program for application towards degree requirements.",
-    "source_title": "Course Policies",
-    "section_heading": "Taking Unlimited Repeatable Courses",
-    "n_sentences": 2,
-    "token_count": 61
-  },
-  {
-    "chunk_id": "doc007_p5_c46",
-    "doc_id": "doc007",
-    "text": "Taking Limited Repeatable Courses. There are certain courses that students may repeat for credit with a limit on repeatability. For example, courses with the course description that states, \"may be repeated for credit (9 semester credit hours maximum).",
-    "source_title": "Course Policies",
-    "section_heading": "Taking Limited Repeatable Courses",
-    "n_sentences": 3,
-    "token_count": 63
-  },
-  {
-    "chunk_id": "doc007_p5_c47",
-    "doc_id": "doc007",
-    "text": "\" For limited repeatable courses, a student is limited to repeating the course to the maximum hours stated in the course description including course attempts resulting in non passing grades like withdrawals. The limited semester credit hours and grade points earned from each of these courses count in a student's earned hours and cumulative GPA.",
-    "source_title": "Course Policies",
-    "section_heading": "Taking Limited Repeatable Courses",
-    "n_sentences": 2,
-    "token_count": 87
-  },
-  {
-    "chunk_id": "doc007_p5_c48",
-    "doc_id": "doc007",
-    "text": "Students should review their degree program for application towards degree requirements. NOTE: Registrations beyond the repeatable limit of the class will not count in a student's earned hours, cumulative GPA, and degree requirements.",
-    "source_title": "Course Policies",
-    "section_heading": "Taking Limited Repeatable Courses",
-    "n_sentences": 2,
-    "token_count": 59
-  },
-  {
-    "chunk_id": "doc007_p5_c49",
-    "doc_id": "doc007",
-    "text": "Repeating Courses to Improve Grades. Undergraduate students may repeat the course to improve their grades; however, if the course is not designated as a repeatable course, then any single course can contribute only once to the number of semester credit hours required for graduation. An undergraduate student may repeat the same course to improve his/her grades based on following: An undergraduate student may repeat a course for an improved grade only if the grade is C- or below.",
-    "source_title": "Course Policies",
-    "section_heading": "Repeating Courses to Improve Grades",
-    "n_sentences": 3,
-    "token_count": 121
-  },
-  {
-    "chunk_id": "doc007_p5_c50",
-    "doc_id": "doc007",
-    "text": "An undergraduate student is limited to three grade-bearing enrollment attempts for any specific class. The student cannot repeat the same course for a fourth time regardless of the grade earned.",
-    "source_title": "Course Policies",
-    "section_heading": "Repeating Courses to Improve Grades",
-    "n_sentences": 2,
-    "token_count": 49
-  },
-  {
-    "chunk_id": "doc007_p5_c51",
-    "doc_id": "doc007",
-    "text": "According to Texas Education Code 54.014, a resident undergraduate student attempting the same class, excluding designated repeatable courses, for the third time will be charged tuition at the nonresident undergraduate student rate for the same number of semester credit hours.",
-    "source_title": "Course Policies",
-    "section_heading": "Repeating Courses to Improve Grades",
-    "n_sentences": 1,
-    "token_count": 70
-  },
-  {
-    "chunk_id": "doc007_p6_c52",
-    "doc_id": "doc007",
-    "text": "Courses cross-listed under more than one course prefix are considered the same course for repeat counting. All withdrawals (academic and non-academic withdrawals) are counted as grade-bearing enrollment attempts.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 53
-  },
-  {
-    "chunk_id": "doc007_p6_c53",
-    "doc_id": "doc007",
-    "text": "Undergraduate students who are Texas residents should be aware that state law limits the number of semester credit hours an undergraduate Texas resident may attempt while paying tuition at the rate provided for Texas residents. See Excessive Undergraduate Hours.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 66
-  },
-  {
-    "chunk_id": "doc007_p6_c54",
-    "doc_id": "doc007",
-    "text": "The grade from the first attempt will not be used in computing a student's grade point average. All further repeats will be used in computing the student's GPA.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 40
-  },
-  {
-    "chunk_id": "doc007_p6_c55",
-    "doc_id": "doc007",
-    "text": "See Grade Point Average and Transfer Credit. All grades will appear on the student's transcript.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 24
-  },
-  {
-    "chunk_id": "doc007_p6_c56",
-    "doc_id": "doc007",
-    "text": "A notation beside the first grade will indicate that the course has been repeated. Courses that were originally taken for a letter grade may not be repeated for credit/no credit or pass/fail in lieu of a letter grade.",
-    "source_title": "Course Policies",
-    "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 55
-  },
-  {
-    "chunk_id": "doc007_p6_c57",
-    "doc_id": "doc007",
-    "text": "Undergraduate Coursework from Other Institutions of Higher. Education Undergraduate students who fail a course in residence at UT Dallas may repeat the course at another institution of higher education. An undergraduate student may not transfer an equivalent course if that course was taken at UT Dallas with a passing grade (D's included).",
-    "source_title": "Course Policies",
-    "section_heading": "Undergraduate Coursework from Other Institutions of Higher",
-    "n_sentences": 3,
-    "token_count": 85
-  },
-  {
-    "chunk_id": "doc007_p6_c58",
-    "doc_id": "doc007",
-    "text": "Upon successful completion of the repeated course with a grade of at least C (2.000 on a 4.000 scale), the course may be transferred to UT Dallas where it will meet the content requirements of the course failed in residence and contribute semester credit hours toward graduation. However, the grade of F earned at UT Dallas will remain a part of the student's academic record and will be computed as a part of the cumulative GPA.",
-    "source_title": "Course Policies",
-    "section_heading": "Undergraduate Coursework from Other Institutions of Higher",
-    "n_sentences": 2,
-    "token_count": 108
+    "text": "Undergraduate students who fail a course in residence at UT Dallas may repeat the course at another institution of higher education. An undergraduate student may not transfer an equivalent course if that course was taken at UT Dallas with a passing grade (D's included). Upon successful completion of the repeated course with a grade of at least C (2.000 on a 4.000 scale), the course may be transferred to UT Dallas where it will meet the content requirements of the course failed in residence and contribute semester credit hours toward graduation. However, the grade of F earned at UT Dallas will remain a part of the student's academic record and will be computed as a part of the cumulative GPA.",
+    "source_title": "2025-2026 Undergraduate Catalog",
+    "section_heading": "Undergraduate Coursework from Other Institutions of Higher Education",
+    "n_sentences": 4,
+    "token_count": 175
   }
 ]

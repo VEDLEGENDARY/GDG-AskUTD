@@ -1,0 +1,56 @@
+[
+  {
+    "chunk_id": "doc027_p1_c1",
+    "doc_id": "doc027",
+    "text": "BS Computer Science Suggested Four Year Plan (2021-2022 Catalog), Freshman Year. Freshman first semester: Introduction to CS&SE (CS 1200); Introduction to Engineering & CS (ECS 1100); Calculus I (Math 2413 or 2417); Computer Science I (CS 1337); 6 hours CORE; and Freshman Seminar (UNIV 1010). Freshman second semester: Computer Science II (CS 2336 or 2337); Discrete Mathematics I (CS 2305); Calculus II (Math 2414 or 2419); Mechanics and Heat (Phys 2325); Mechanics and Heat Lab (Phys 2125); and 3 hours CORE. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Freshman Year",
+    "n_sentences": 4,
+    "token_count": 145
+  },
+  {
+    "chunk_id": "doc027_p1_c2",
+    "doc_id": "doc027",
+    "text": "BS Computer Science Suggested Four Year Plan (2021-2022 Catalog), Sophomore Year. Sophomore first semester: Discrete Math for Computing II (CS 3305); Computer Architecture (CS 2340); Electricity and Magnetism (Phys 2326); Electricity and Magnetism Lab (Phys 2126); and 6 hours CORE. Sophomore second semester: Probability & Statistics in CS (CS 3341); Algorithm Analysis & Data Structures (CS 3345); C/C++ Programming in UNIX Environment (CS 3377); Linear Algebra (Math 2418); and 3 hours CORE. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Sophomore Year",
+    "n_sentences": 4,
+    "token_count": 141
+  },
+  {
+    "chunk_id": "doc027_p1_c3",
+    "doc_id": "doc027",
+    "text": "BS Computer Science Suggested Four Year Plan (2021-2022 Catalog), Junior Year. Junior first semester: Software Engineering (CS 3354); Organization of Programming Languages (CS 4337); Digital Logic and Computer Design (CS 4341); Digital Systems Laboratory (CS 4141); Professional & Technical Communication (ECS 3390); and 3 hours CORE. Junior second semester: Professional Responsibility in CS and SE (CS 3162); Operating Systems Concepts (CS 4348); Advanced Data Structures & Algorithms (CS 4349); 3 hours CORE; and 1 hour Free Elective (see advisor). Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Junior Year",
+    "n_sentences": 4,
+    "token_count": 155
+  },
+  {
+    "chunk_id": "doc027_p1_c4",
+    "doc_id": "doc027",
+    "text": "BS Computer Science Suggested Four Year Plan (2021-2022 Catalog), Senior Year. Senior first semester: Automata Theory (CS 4384); CS Guided Elective (CS 43XX); CS Guided Elective (CS 43XX); Database Systems (CS 4347); and 3 hours Free Elective (see advisor). Senior second semester: Computer Science Project (CS 4485); CS Guided Elective (CS 43XX); 6 hours Free Elective (see advisor); and Core Curriculum Assessment (UNIV 2020). The plan calls for three or more CS 43xx courses as CS Guided Electives; see an advisor for guided and free elective choices.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Senior Year",
+    "n_sentences": 4,
+    "token_count": 139
+  },
+  {
+    "chunk_id": "doc027_p1_c5",
+    "doc_id": "doc027",
+    "text": "In the BS Computer Science Suggested Four Year Plan (2021-2022 Catalog), a grade of C- or better is needed in Math 2413 or Math 2417 to move forward. A grade of C or better is required for CS 1336, CS 1337, CS 2305, CS 2336, CS 2337 and CS 3305. Math 2312 (C or better) or 80% on ALEKS is listed as the prerequisite for starting Calculus I. The flowchart also shows CS 1336 and CS 1136 alongside CS 1337 and Math 2413/2414 alongside Math 2417/2419 in the freshman year. Courses may be taken in any order, as long as prerequisites are met.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Grade and Prerequisite Requirements",
+    "n_sentences": 4,
+    "token_count": 135
+  },
+  {
+    "chunk_id": "doc027_p1_c6",
+    "doc_id": "doc027",
+    "text": "The core choices for the BS Computer Science Suggested Four Year Plan (2021-2022 Catalog) are: Rhet 1302; 6 hours from Hist 1301, Hist 1302, Hist 2301, Hist 2330, or Hist 2332; Govt 2305 and Govt 2306; 3 hours from Ahst 1303 or 1304, Ahst 2331, Arts 1301, Film 2332, Musi 1306, or Thea 1310; 3 hours from Ams 2300, Ams 2341, Huma 1301, Lit 2331, Phil 1301, Phil 2316, or Phil 2317; and 3 hours from Crim 1301, Econ 2301, Econ 2302, Geog 2303, or Psy 2301.",
+    "source_title": "BS Computer Science Suggested Four Year Plan, 2021-2022 Catalog",
+    "section_heading": "BS Computer Science Suggested Four Year Plan: Core Choices",
+    "n_sentences": 1,
+    "token_count": 114
+  }
+]
