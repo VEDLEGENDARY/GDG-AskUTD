@@ -1,130 +1,1328 @@
 [
   {
-    "id": "dev-drop-nonpayment",
-    "query": "Will I be automatically dropped from my courses for non-payment?",
+    "id": "dev-hard-unfinished-course",
+    "query": "I am passing but an emergency stopped me after three quarters of the coursework. What temporary grade could the instructor use, what is the normal completion limit, and what happens if I miss it?",
     "split": "dev",
-    "category": "registration",
+    "category": "policy_exceptions",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc108", "any_of": ["Students should not assume that they will be automatically dropped"]}]
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "at the discretion of the instructor",
+          "completed at least 75%"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "not to exceed eight weeks",
+          "automatically be changed to F"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-withdrawal-census",
-    "query": "What is dropping a course after Census Day considered?",
+    "id": "dev-hard-repeat-arithmetic",
+    "query": "I have already taken a class twice for a letter grade and want a third attempt. What is the enrollment cap, and how does the GPA treatment of the first repeat differ from the second?",
     "split": "dev",
-    "category": "registration",
+    "category": "policy_exceptions",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc108", "any_of": ["To drop a course(s) after Census Day is considered a withdrawal"]}]
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "limited to three grade-bearing enrollment attempts",
+          "first repeat will substitute",
+          "both repeats being included"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-ferpa-purpose",
-    "query": "What does FERPA protect?",
+    "id": "dev-hard-honors-second-degree",
+    "query": "I am pursuing another bachelors degree and took twelve graded hours this spring with excellent results. Explain the normal school-level semester honors criteria and the rule that could still exclude me.",
     "split": "dev",
-    "category": "privacy",
+    "category": "policy_exceptions",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc009", "any_of": ["to protect the privacy of student education records"]}]
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "top ten percent",
+          "12 or more UT Dallas semester credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "second baccalaureate degree",
+          "not eligible for the Dean"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-ferpa-directory",
-    "query": "Can I withhold the release of my directory information?",
+    "id": "dev-hard-exam-collision",
+    "query": "I have three finals on one day and want to contest a resulting final grade. What scheduling relief may I request, and what initial discussion deadline does UTDSP5005 impose on my grievance?",
     "split": "dev",
-    "category": "privacy",
+    "category": "multi_document",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc009", "any_of": ["A student may choose to withhold release of directory information"]}]
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "three or more final exams",
+          "petition to take the additional final exams on different days"
+        ]
+      },
+      {
+        "doc_id": "doc105",
+        "all_of": [
+          "discussion with the instructor",
+          "sixty (60) calendar days"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-graduation-application",
-    "query": "What must I do before completing the online application for graduation, and where are its deadlines listed?",
+    "id": "dev-hard-arriving-with-credit",
+    "query": "I transferred in with 48 credits. When must I file a degree plan, and does my previous experiential learning automatically earn undergraduate credit here?",
     "split": "dev",
-    "category": "graduation",
+    "category": "policy_exceptions",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc010", "any_of": ["Students must complete the online application for graduation after meeting with their academic advisor"]}]
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc005",
+          "doc006"
+        ],
+        "all_of": [
+          "45 or more semester credit hours",
+          "end of the student"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc005",
+          "doc006"
+        ],
+        "all_of": [
+          "nor does it grant credit for prior experiential learning"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-course-load-contact",
-    "query": "Who can I email about course load or enrollment status?",
+    "id": "dev-hard-overload-drop",
+    "query": "An exploratory undergraduate wants twenty credits in a regular semester, then wants to leave one class. Who approves the overload, and what permission and future limit apply if the student withdraws?",
     "split": "dev",
-    "category": "registration",
+    "category": "policy_exceptions",
     "unanswerable": false,
-    "evidence": [{"doc_id": "doc109", "any_of": ["please contact us at records@utdallas.edu"]}]
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "more than 19 and up to 21",
+          "Dean of Undergraduate Education"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "may not withdraw",
+          "maximum of 19 semester credit hours"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-weather",
-    "query": "Will it rain in Tokyo tomorrow?",
+    "id": "dev-hard-sit-in-lab",
+    "query": "I only want to observe an online course with a lab fee. What auditing restrictions apply, and would being allowed to observe a different course entitle me to its online materials?",
     "split": "dev",
-    "category": "out_of_scope",
-    "unanswerable": true,
-    "evidence": []
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "online courses",
+          "any course for which there is a lab fee"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "access to online materials is at the discretion of the instructor"
+        ]
+      }
+    ]
   },
   {
-    "id": "dev-private-balance",
-    "query": "What is my personal tuition account balance right now?",
+    "id": "dev-hard-cr-cap-and-deadline",
+    "query": "For an undergraduate using the non-letter-grade option to broaden their studies, what is the smaller-of cap, what designated major courses are exempt, and when must the completed form reach the Registrar?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "12 semester credit hours or 20%",
+          "whichever is smaller"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "Courses in a student",
+          "not included in this limit"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "Office of the Registrar no later than Census Day"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-withdrawal-versus-failure",
+    "query": "If I stop attending without paying, will that remove my enrollment? Explain my responsibility and how a course removal after the census cutoff is classified.",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "all_of": [
+          "not assume",
+          "automatically dropped",
+          "non-payment"
+        ]
+      },
+      {
+        "doc_id": "doc108",
+        "all_of": [
+          "after Census Day is considered a withdrawal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-privacy-and-public-work",
+    "query": "Can I keep directory details from public release while also claiming FERPA prevents anyone from reading my student-authored thesis? Give the rule and procedure for the first request and the exception for the second.",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc009",
+        "all_of": [
+          "choose to withhold release of directory information"
+        ]
+      },
+      {
+        "doc_id": "doc009",
+        "all_of": [
+          "Request for Confidentiality instructions",
+          "registrar.utdallas.edu/forms"
+        ]
+      },
+      {
+        "doc_id": "doc009",
+        "all_of": [
+          "does not extend to research papers and theses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-last-term-transcript",
+    "query": "I am applying to graduate and still have a hold on my account. What advising step precedes the online graduation application, and what must be cleared before I request an official transcript?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "application for graduation after meeting with their academic advisor"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "All university holds must be cleared"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-grievance-first-escalation",
+    "query": "Under UTDSP5005, the original decision-maker and I could not settle my academic dispute. Where does the next written appeal go, what must it specify, and by which numbered day must I submit it?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc105",
+        "all_of": [
+          "department/program head with a copy to the respondent",
+          "basis of the appeal",
+          "sixty-fifth day"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-uncertain-behavior-route",
+    "query": "For BAIT referrals, distinguish witnessing behavior that threatens people from merely being unsure where to send a concerning situation. Who receives each type of report?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc106",
+        "all_of": [
+          "behavior threatening to others",
+          "Police Department",
+          "immediately"
+        ]
+      },
+      {
+        "doc_id": "doc106",
+        "all_of": [
+          "unsure of where to refer",
+          "BAIT chair or any BAIT member"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-reporting-vs-self-report",
+    "query": "An employee reports their own wrongdoing in good faith and then claims total immunity from discipline. Does the non-retaliation policy support that, and what ordinary filing period applies to a written retaliation complaint?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc092",
+        "all_of": [
+          "does not extend to disciplinary action for self-reported violations"
+        ]
+      },
+      {
+        "doc_id": "doc092",
+        "all_of": [
+          "within 180 calendar days"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-holiday-overtime",
+    "query": "A non-exempt employee counts a paid holiday toward a forty-hour week and asks for the overtime premium. Explain which hours count toward overtime and the usual premium when actual work exceeds forty hours.",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "paid leave or holidays taken are not counted as hours worked"
+        ]
+      },
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "in excess of forty hours",
+          "one and one-half"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-time-off-window",
+    "query": "Contrast the time-off windows and rates for non-exempt overtime and discretionary exempt compensatory time, rather than assuming they use the same rule.",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "six (6) month period",
+          "one and one-half"
+        ]
+      },
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "12 month period",
+          "not to exceed equivalent time"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-minor-on-diploma",
+    "query": "I want proof of my minor and concentration. Contrast what the transcript can record with what the diploma omits, and identify the responsible university official for the notation policy.",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc098",
+        "all_of": [
+          "minor, concentration",
+          "official transcript"
+        ]
+      },
+      {
+        "doc_id": "doc098",
+        "all_of": [
+          "Diplomas will not display minors, concentrations"
+        ]
+      },
+      {
+        "doc_id": "doc098",
+        "all_of": [
+          "Responsible University Official",
+          "University Registrar"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-consent-and-silence",
+    "query": "According to the hazing awareness document, does a pledge agreeing to the activity excuse it, and what reporting conduct and good-faith condition are relevant to someone who learns about the incident?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc014",
+        "all_of": [
+          "consented to or acquiesced",
+          "not a defense",
+          "report, in writing"
+        ]
+      },
+      {
+        "doc_id": "doc014",
+        "all_of": [
+          "good faith and without malice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-citizen-and-classroom",
+    "query": "Contrast a faculty member discussing controversial matters unrelated to the course with the same person speaking publicly as a citizen. What limits or clarification does the academic freedom policy describe?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc100",
+        "all_of": [
+          "not to introduce",
+          "no relation to his or her subject"
+        ]
+      },
+      {
+        "doc_id": "doc100",
+        "all_of": [
+          "not an institutional spokesperson"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-cs-year-electives",
+    "query": "Compare the CS degree plans for 2025-2026 and 2026-2027: how many technical-elective hours and free-elective hours does each list? Keep the two catalog years separate.",
+    "split": "dev",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc076",
+        "all_of": [
+          "TECHNICAL ELECTIVES",
+          "0 of 12"
+        ]
+      },
+      {
+        "doc_id": "doc076",
+        "all_of": [
+          "FREE ELECTIVES (10 Hours)"
+        ]
+      },
+      {
+        "doc_id": "doc084",
+        "all_of": [
+          "TECHNICAL ELECTIVES",
+          "0 of 9"
+        ]
+      },
+      {
+        "doc_id": "doc084",
+        "all_of": [
+          "FREE ELECTIVES (13 Hours)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-ce-calculus-exemption",
+    "query": "In the 2025-2026 computer engineering plan, what prior math course removes the need for multivariable calculus, and which specific courses still require a C or better?",
+    "split": "dev",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc075",
+        "all_of": [
+          "NOT needed if student",
+          "MATH 2419",
+          "MATH 2415"
+        ]
+      },
+      {
+        "doc_id": "doc075",
+        "all_of": [
+          "C or better is required",
+          "CS 1436, CE 1337, CE 2305, CE 2336"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-same-year-different-major",
+    "query": "For 2025-2026 only, compare the computer science and software engineering plans for total hours and the computer architecture prefix. Do not substitute the computer engineering plan.",
+    "split": "dev",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc076",
+        "all_of": [
+          "124 Hours"
+        ]
+      },
+      {
+        "doc_id": "doc077",
+        "all_of": [
+          "123 Hours"
+        ]
+      },
+      {
+        "doc_id": "doc076",
+        "all_of": [
+          "Computer Architecture CS 2340"
+        ]
+      },
+      {
+        "doc_id": "doc077",
+        "all_of": [
+          "Computer Architecture SE 2340"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-hybrid-status",
+    "query": "Under the registration guidance effective Spring 2023, can a graduate F-1 student count a hybrid course as face-to-face in a nine-hour full-time schedule? State the online-course allowance and the in-person example.",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "only one hybrid or online course"
+        ]
+      },
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "at least 6 credit hours of face-to-face",
+          "Hybrid courses are considered online"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-cart-is-not-enrollment",
+    "query": "On my phone I found a schedule but want to check it before my enrollment slot. What cart action checks possible registration problems, and what does the validation guide tell me to do if it warns me?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc113",
+        "all_of": [
+          "Validate",
+          "registration issues"
+        ]
+      },
+      {
+        "doc_id": "doc115",
+        "all_of": [
+          "warning message",
+          "assistance from your advisor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-incomplete-extension",
+    "query": "My temporary unfinished-course grade is still on record. May I register for the same course again, whose permission is needed to extend the completion limit, and who can evaluate the work if the original instructor has left?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "permission of the instructor",
+          "Associate Dean",
+          "may not re-enroll"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "Associate Dean",
+          "committee of appropriate faculty"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-late-clerical-fix",
+    "query": "Contrast correcting a recorded grade before and after the eighth week of the following semester: what instructor approval applies to a clerical correction and what extra approvals does a late change require?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "clerical error requires the written approval of the instructor"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "after the eighth week",
+          "Dean of Undergraduate Education"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-transfer-gpa-and-record",
+    "query": "Does accepted coursework from another college enter the UT Dallas GPA, and can undergraduate and graduate history be requested as separate official transcripts under the notation policy?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "Only grades received in UT Dallas classes",
+          "transfer credit"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc005",
+          "doc098"
+        ],
+        "all_of": [
+          "undergraduate and graduate transcripts are issued together"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-retention-versus-school",
+    "query": "I am in poor academic standing and already have a school advisor. Is the retention-office advising optional for me, and how does that differ from a student in good standing?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "not in good standing are required to meet with a SOAR advisor"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "not required of students in good standing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-exam-credit-proof",
+    "query": "I have examination credit on another colleges transcript and am approaching my graduating term. What is the petition cutoff, and what evidence must come from the testing organization instead?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc005",
+          "doc006"
+        ],
+        "all_of": [
+          "not later than the first day of the student"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "official score report from the testing agency",
+          "does not accept examination credit from other"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-transfer-denial-escalation",
+    "query": "A lower-division transfer course was denied. What written explanation must the receiving institution send, and after how long without resolution can the sending institution request Commissioner involvement?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "reasons for denying the credit",
+          "procedures for resolution"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "within 45 days",
+          "notify the Commissioner"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-decode-course-entry",
+    "query": "Decode a catalog listing with V in the second position, a parenthesized second prefix and number, and a frequency code of T. What distinct information does each convey?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "V",
+          "variable semester credit hour course"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "Common Course Numbering System",
+          "equivalents"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "T = Course is offered at least once every two years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-core-cr-restriction",
+    "query": "I want to take a normally letter-graded core requirement without a letter grade and later repeat a previously letter-graded class that way. Explain both restrictions and the minimum performance needed to earn CR in an eligible course.",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "Core Curriculum requirement",
+          "if a letter grade is normally awarded"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "cannot repeat a letter grade course"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "credit for C (2.000 on a 4.000 point scale) work or better"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-midterm-versus-nc",
+    "query": "Distinguish an unsatisfactory midterm progress report from a final NC in a credit/no-credit class: will the midterm appear on the permanent transcript, and does the final CR/NC enter GPA calculations?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "not a part of the permanent record",
+          "will not appear on academic transcripts"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "will not be used in the calculation of a student"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-nondegree-two-levels",
+    "query": "Compare non-degree students at the two levels: when can a non-degree undergraduate register without an enrollment appointment, and what must a graduate non-degree student restricted to undergraduate classes do before taking graduate courses?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "do not receive enrollment appointments",
+          "open enrollment"
+        ]
+      },
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "new application for admission",
+          "approved by the graduate program"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-parent-early-registration",
+    "query": "I am parenting a child and want an earlier enrollment slot. What eligibility caveat does the registration page give, and which self-identification step should I complete to determine eligibility?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "Parenting students are eligible for early registration",
+          "to the extent others have access"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc019",
+          "doc110"
+        ],
+        "all_of": [
+          "Pregnant and Parenting Self-Identification Form"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-graduate-after-census",
+    "query": "A graduate student wants to leave a course after census but before the withdrawal deadline. What submission routes are listed, and how should the student check that the change actually happened?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "all_of": [
+          "Email the academic advisor",
+          "Registration form"
+        ]
+      },
+      {
+        "doc_id": "doc108",
+        "all_of": [
+          "logging into Orion and verifying the changes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-ferpa-access-and-complaint",
+    "query": "A seventeen-year-old already attending a university asks whether FERPA student rights apply and how long they have to complain about a violation. Retrieve the eligibility rule and the complaint time limit.",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc009",
+        "all_of": [
+          "18 years of age or is attending an institution of postsecondary education"
+        ]
+      },
+      {
+        "doc_id": "doc009",
+        "all_of": [
+          "file a complaint",
+          "within 180 days"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-graduation-no-reversal",
+    "query": "After filing to graduate, I want to undo the application and leave an in-progress course without a final grade while my degree is posted. What rules address those two requests?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "cannot withdraw the online application for graduation"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "All in-progress courses",
+          "final grades prior to certification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-appeal-panel-endpoint",
+    "query": "After the department rejects my academic appeal under UTDSP5005, how quickly must I approach the school dean, how long does the panel have to respond while classes meet, and is its recommendation appealable under that policy?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc105",
+        "all_of": [
+          "within ten business days",
+          "dean of the school"
+        ]
+      },
+      {
+        "doc_id": "doc105",
+        "all_of": [
+          "within twenty business days while classes are in session"
+        ]
+      },
+      {
+        "doc_id": "doc105",
+        "all_of": [
+          "findings and recommendation of the appeals panel are final"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-bait-record-access",
+    "query": "Does a BAIT review automatically open a students counseling records to the team? Contrast the authorization rule with the stated FERPA health-and-safety emergency exception.",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc106",
+        "all_of": [
+          "may not be obtained",
+          "without written authorization"
+        ]
+      },
+      {
+        "doc_id": "doc106",
+        "all_of": [
+          "health and safety emergencies",
+          "necessary to protect"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-retaliation-oral-vs-appeal",
+    "query": "Under the suspected-unlawful-activity policy, will an anonymous oral allegation count as a retaliation complaint? If an investigation is declined, what form and deadline apply to appealing that decision?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc092",
+        "all_of": [
+          "Oral allegations",
+          "Anonymous communications",
+          "do not constitute"
+        ]
+      },
+      {
+        "doc_id": "doc092",
+        "all_of": [
+          "10 working days",
+          "in writing and signed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-youth-work-limits",
+    "query": "Using the pay-administration text, compare the job restrictions for a sixteen-year-old with the school-week and summer-evening limits for a fifteen-year-old.",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "16 or 17 years old",
+          "non-hazardous job for unlimited hours"
+        ]
+      },
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "More than 18 hours per week in school weeks"
+        ]
+      },
+      {
+        "doc_id": "doc089",
+        "all_of": [
+          "June 1 through Labor Day",
+          "9:00 PM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-state-transcript-diploma",
+    "query": "Which three Texas-law notations appear on an undergraduate official transcript, what happens to earlier graduate history when transcripts are issued, and are academic certificates shown on the diploma?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc098",
+        "all_of": [
+          "Texas Success Initiative status",
+          "Core Curriculum Completion notation and Six Drop notation"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc005",
+          "doc098"
+        ],
+        "all_of": [
+          "Undergraduate and graduate transcripts are issued together"
+        ]
+      },
+      {
+        "doc_id": "doc098",
+        "all_of": [
+          "Diplomas will not display",
+          "academic certificates"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-paraphrase-and-sanctions",
+    "query": "I changed some words and rearranged sentences from another authors composition. Does that create original work, what attribution is required when borrowing is necessary, and what sanction range does the dishonesty guide state?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc015",
+        "all_of": [
+          "Changing a few words",
+          "does not constitute original composition"
+        ]
+      },
+      {
+        "doc_id": "doc015",
+        "all_of": [
+          "source must be scrupulously indicated by footnotes"
+        ]
+      },
+      {
+        "doc_id": "doc015",
+        "all_of": [
+          "range from an",
+          "dismissal from the University"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-sharing-and-reuse",
+    "query": "Under the dishonesty guide, distinguish giving a classmate your completed solution to duplicate from submitting much of your own prior work again. What examples or permission rules address each?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc015",
+        "all_of": [
+          "copy of a completed assignment",
+          "duplicated and submitted for credit"
+        ]
+      },
+      {
+        "doc_id": "doc015",
+        "all_of": [
+          "same academic work more than once",
+          "prior written authorization"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-ce-two-designs",
+    "query": "In the 2024-2025 computer engineering plan, identify both senior design course numbers and give the technical elective lab hours. Retrieve the second project too, even though it is split from the first.",
+    "split": "test",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc072",
+        "all_of": [
+          "Senior Design Project I CE 4388"
+        ]
+      },
+      {
+        "doc_id": "doc072",
+        "all_of": [
+          "Senior Design Project II CE 4389"
+        ]
+      },
+      {
+        "doc_id": "doc072",
+        "all_of": [
+          "2 CE Elective Lab"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-se-intro-year-change",
+    "query": "Compare the introductory two-credit course in the software engineering plans for 2024-2025 and 2026-2027. Give its title and code for each year, rather than pulling a neighboring CS plan.",
+    "split": "test",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc073",
+        "all_of": [
+          "2 Intro to CS and SE",
+          "CS 1200"
+        ]
+      },
+      {
+        "doc_id": "doc086",
+        "all_of": [
+          "2 Foundations of Engineering and Computer Science I ECS 1210"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "test-hard-faculty-versus-student-route",
+    "query": "Distinguish a faculty members academic-freedom grievance route from a students challenge to an academic decision: what faculty committee or policy is named, and what must the student first attempt under UTDSP5005?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc097",
+          "doc100"
+        ],
+        "all_of": [
+          "Committee on Faculty Standing"
+        ]
+      },
+      {
+        "doc_id": "doc100",
+        "all_of": [
+          "Faculty Grievance Procedure UTDPP 1050"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc005",
+          "doc105"
+        ],
+        "all_of": [
+          "serious and prompt effort",
+          "discussion with the instructor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dev-hard-my-slot",
+    "query": "What exact date and time is my Orion enrollment appointment for next semester?",
     "split": "dev",
     "category": "private_data",
     "unanswerable": true,
-    "evidence": []
+    "evidence": [],
+    "unanswerable_reason": "The corpus explains where to find appointments; it has no authenticated personal appointment data."
   },
   {
-    "id": "test-drop-advisor",
-    "query": "As an international student receiving financial aid, who should I contact before dropping a class?",
-    "split": "test",
-    "category": "registration",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc108", "any_of": ["contact your financial aid or international student advisor BEFORE dropping"]}]
-  },
-  {
-    "id": "test-drop-verify",
-    "query": "How do I verify that my requested schedule changes have been made?",
-    "split": "test",
-    "category": "registration",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc108", "any_of": ["logging into Orion and verifying the changes have been made"]}]
-  },
-  {
-    "id": "test-ferpa-eligible",
-    "query": "Who qualifies as an eligible student under FERPA?",
-    "split": "test",
-    "category": "privacy",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc009", "any_of": ["a student who has reached 18 years of age or is attending an institution of postsecondary education"]}]
-  },
-  {
-    "id": "test-ferpa-theses",
-    "query": "Does FERPA extend to research papers and theses authored by students?",
-    "split": "test",
-    "category": "privacy",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc009", "any_of": ["FERPA does not extend to research papers and theses authored by students"]}]
-  },
-  {
-    "id": "test-graduation-withdraw",
-    "query": "Can I withdraw my online graduation application once it has been submitted?",
-    "split": "test",
-    "category": "graduation",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc010", "any_of": ["Students cannot withdraw the online application for graduation once it has been submitted"]}]
-  },
-  {
-    "id": "test-course-load-consequence",
-    "query": "What can happen if teaching or research assistants fail to comply with registration requirements?",
-    "split": "test",
-    "category": "registration",
-    "unanswerable": false,
-    "evidence": [{"doc_id": "doc109", "any_of": ["who fail to comply with these registration requirements may be dropped from all classes"]}]
-  },
-  {
-    "id": "test-recipe",
-    "query": "How do I bake a chocolate souffle?",
-    "split": "test",
-    "category": "out_of_scope",
+    "id": "dev-hard-my-drop-count",
+    "query": "How many of my own six permitted course withdrawals have I already used, including my transfer school?",
+    "split": "dev",
+    "category": "private_data",
     "unanswerable": true,
-    "evidence": []
+    "evidence": [],
+    "unanswerable_reason": "The six-drop rule is public, but this students withdrawal history is not in the corpus."
   },
   {
-    "id": "test-private-grade",
-    "query": "What grade did I personally receive on my most recent exam?",
+    "id": "dev-hard-my-overload",
+    "query": "Has the Associate Dean already approved my request for a twenty-one-credit semester?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "An approval rule cannot establish the status of an individual request."
+  },
+  {
+    "id": "dev-hard-my-ferpa",
+    "query": "Which family members currently have my permission to inspect my protected education records?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No individual consent records are present."
+  },
+  {
+    "id": "dev-hard-my-petition-result",
+    "query": "Did my petition to move my third final exam to another day get accepted?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The petition option does not contain individual petition outcomes."
+  },
+  {
+    "id": "dev-hard-my-course-cr",
+    "query": "Is the course I am taking this semester one of the classes its instructor has excluded from credit/no credit?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The course and instructor are unspecified and their current designation is not supplied."
+  },
+  {
+    "id": "dev-hard-my-final-grade",
+    "query": "After my instructor fixes the clerical error, what will my corrected cumulative GPA be?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The transcript, corrected grade, credit hours and other grades needed for calculation are absent."
+  },
+  {
+    "id": "dev-hard-next-policy",
+    "query": "What will the 2035-2036 UT Dallas computer science degree plan require for technical elective hours?",
+    "split": "dev",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The requested future catalog version is absent; earlier plans do not establish its requirements."
+  },
+  {
+    "id": "test-hard-my-aid",
+    "query": "If I withdraw from my current class today, exactly how many dollars of my financial aid will I have to repay?",
     "split": "test",
     "category": "private_data",
     "unanswerable": true,
-    "evidence": []
+    "evidence": [],
+    "unanswerable_reason": "No personal award, enrollment or withdrawal-date calculation data is available."
+  },
+  {
+    "id": "test-hard-my-panel-outcome",
+    "query": "What did the academic appeals panel decide about the grievance I submitted last month?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Procedure and response deadlines do not reveal a personal case decision."
+  },
+  {
+    "id": "test-hard-my-transfer-map",
+    "query": "Will the unspecified course on my old colleges transcript satisfy the major requirement I still need?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Neither the course, major nor individual articulation decision is given."
+  },
+  {
+    "id": "test-hard-my-bait",
+    "query": "Which counseling notes did BAIT receive in my individual case last week?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The corpus contains confidentiality rules, not personal health records or case-access logs."
+  },
+  {
+    "id": "test-hard-my-comp-balance",
+    "query": "How many unused compensatory hours are in my payroll account this morning?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Accrual rules cannot establish an employees live time balance."
+  },
+  {
+    "id": "test-hard-my-permission-number",
+    "query": "What permission number did the department issue for my restricted class registration?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Registration instructions contain no student-specific permission numbers."
+  },
+  {
+    "id": "test-hard-my-certification",
+    "query": "Has the Registrar finished certifying my degree and posted my final graduation status yet?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Certification requirements do not provide an individual students status."
+  },
+  {
+    "id": "test-hard-unpublished-se",
+    "query": "For the 2035-2036 software engineering plan, give the required introductory course number and its minimum passing grade.",
+    "split": "test",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "This future catalog is absent; a similar older plan is not evidence for that year."
   }
 ]

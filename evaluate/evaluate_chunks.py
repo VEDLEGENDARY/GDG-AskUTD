@@ -153,15 +153,19 @@ class Retriever:
 
 
 def supports(chunk, evidence):
-    return chunk['doc_id'] == evidence['doc_id'] and any(
-        normalize(phrase) in normalize(chunk['text']) for phrase in evidence['any_of'])
+    documents = evidence.get('doc_ids', [evidence.get('doc_id')])
+    text = normalize(chunk['text'])
+    return (chunk['doc_id'] in documents
+            and all(normalize(phrase) in text for phrase in evidence.get('all_of', []))
+            and (not evidence.get('any_of') or any(
+                normalize(phrase) in text for phrase in evidence['any_of'])))
 
 
 def read_questions(path, chunks):
     questions = json.loads(path.read_text(encoding='utf-8-sig'))
     if not isinstance(questions, list) or not questions:
         raise ValueError('Questions must be a nonempty array')
-    seen = set()
+    seen, seen_queries = set(), set()
     for q in questions:
         if not isinstance(q, dict) or any(not isinstance(q.get(k), str) or not q[k].strip()
                                           for k in ('id', 'query', 'split', 'category')):
@@ -169,16 +173,87 @@ def read_questions(path, chunks):
         if q['id'] in seen or q['split'] not in ('dev', 'test'):
             raise ValueError('Question IDs must be unique; split must be dev or test')
         seen.add(q['id'])
+        query = normalize(q['query'])
+        if not tokens(q['query']) or query in seen_queries:
+            raise ValueError(f"{q['id']}: empty or duplicate normalized query (including across splits)")
+        seen_queries.add(query)
         if type(q.get('unanswerable')) is not bool or not isinstance(q.get('evidence'), list):
             raise ValueError('Question needs boolean unanswerable and evidence array')
         if q['unanswerable'] == bool(q['evidence']):
             raise ValueError(f"{q['id']}: answerable questions require evidence; unanswerable require none")
+        groups = set()
         for e in q['evidence']:
-            if not isinstance(e, dict) or not isinstance(e.get('doc_id'), str) or not e.get('any_of') or not isinstance(e['any_of'], list) or any(not isinstance(p, str) or not normalize(p) for p in e['any_of']):
+            if not isinstance(e, dict):
                 raise ValueError(f"{q['id']}: invalid evidence group")
+            documents = e.get('doc_ids', [e.get('doc_id')])
+            if (('doc_id' in e) == ('doc_ids' in e) or not isinstance(documents, list)
+                    or not documents or any(not isinstance(d, str) or not d.strip() for d in documents)
+                    or len(set(documents)) != len(documents)):
+                raise ValueError(f"{q['id']}: evidence requires doc_id or a unique nonempty doc_ids list")
+            if not e.get('any_of') and not e.get('all_of'):
+                raise ValueError(f"{q['id']}: evidence requires any_of or all_of phrases")
+            for key in ('any_of', 'all_of'):
+                if key in e and (not isinstance(e[key], list) or not e[key]
+                                 or any(not isinstance(p, str) or not normalize(p) for p in e[key])):
+                    raise ValueError(f"{q['id']}: invalid {key} phrases")
+            signature = (tuple(sorted(documents)),
+                         tuple(sorted(set(map(normalize, e.get('any_of', []))))),
+                         tuple(sorted(set(map(normalize, e.get('all_of', []))))))
+            if signature in groups:
+                raise ValueError(f"{q['id']}: duplicate evidence group")
+            groups.add(signature)
             if not any(supports(c, e) for c in chunks):
                 raise ValueError(f"{q['id']}: evidence missing in corpus: {e}. Review labels before scoring this corpus.")
     return questions
+
+
+def evidence_feasible(question, chunks, settings):
+    """Can an oracle cover all groups within the configured context constraints?"""
+    evidence = question['evidence']
+    if not evidence:
+        return True
+    goal = (1 << len(evidence)) - 1
+    candidates = []
+    for chunk in chunks:
+        mask = sum(1 << i for i, group in enumerate(evidence) if supports(chunk, group))
+        if mask and cost(chunk) <= settings.context_budget:
+            candidates.append((mask, chunk['doc_id'], cost(chunk)))
+    # Equivalent chunks need only their cheapest representative for oracle coverage.
+    cheapest = {}
+    for mask, document, size in candidates:
+        key = (mask, document)
+        cheapest[key] = min(size, cheapest.get(key, size))
+    candidates = [(mask, doc, size) for (mask, doc), size in cheapest.items()]
+
+    def search(covered, remaining, budget, counts):
+        if covered == goal:
+            return True
+        if not remaining:
+            return False
+        missing = next(1 << i for i in range(len(evidence)) if not covered & (1 << i))
+        for mask, document, size in candidates:
+            if mask & missing and size <= budget and counts[document] < settings.max_per_document:
+                counts[document] += 1
+                found = search(covered | mask, remaining - 1, budget - size, counts)
+                counts[document] -= 1
+                if found:
+                    return True
+        return False
+
+    return search(0, settings.top_k, settings.context_budget, Counter())
+
+
+def benchmark_audit(questions, chunks, settings):
+    return {
+        'questions': len(questions),
+        'answerable': sum(not q['unanswerable'] for q in questions),
+        'unanswerable': sum(q['unanswerable'] for q in questions),
+        'multi_evidence': sum(len(q['evidence']) > 1 for q in questions),
+        'evidence_documents': len({d for q in questions for e in q['evidence']
+                                   for d in e.get('doc_ids', [e.get('doc_id')])}),
+        'infeasible_question_ids': [q['id'] for q in questions
+                                    if not evidence_feasible(q, chunks, settings)],
+    }
 
 
 def grade(q, hits):
@@ -232,6 +307,7 @@ def main():
     p.add_argument('--output', type=Path, default=ROOT/'runs/latest.json')
     p.add_argument('--export-branch', help='Export backend/data/chunks from this local git ref and exit')
     p.add_argument('--query', help='Inspect a single query without benchmark scoring')
+    p.add_argument('--validate-only', action='store_true', help='Validate labels and oracle context feasibility, then exit')
     args = p.parse_args()
     try:
         if args.export_branch:
@@ -254,13 +330,19 @@ def main():
         questions = [q for q in read_questions(args.questions, chunks) if q['split'] == args.split]
         if not questions:
             raise ValueError('No questions in selected split')
+        validation = benchmark_audit(questions, retriever.chunks, s)
+        if args.validate_only:
+            print(json.dumps({'settings': asdict(s), 'benchmark': validation}, indent=2))
+            return int(bool(validation['infeasible_question_ids']))
         rows = []
         for q in questions:
             hits = retriever.retrieve(q['query'])
-            rows.append({'question': q, 'metrics': grade(q, hits), 'retrieved': hits})
+            rows.append({'question': q, 'metrics': grade(q, hits),
+                         'evidence_covered': [any(supports(c, e) for c in hits) for e in q['evidence']],
+                         'retrieved': hits})
         fingerprint = lambda obj: hashlib.sha256(json.dumps(obj, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
         texts = Counter(normalize(c['text']) for c in chunks)
-        report = {'settings': asdict(s), 'split': args.split,
+        report = {'settings': asdict(s), 'split': args.split, 'benchmark': validation,
                   'corpus_sha256': fingerprint(chunks), 'questions_sha256': fingerprint(questions),
                   'audit': {'total_chunks': len(chunks), 'eligible_chunks': len(retriever.chunks),
                             'documents': len(set(c['doc_id'] for c in chunks)),
@@ -272,7 +354,8 @@ def main():
                   'elapsed_seconds': time.perf_counter()-started, 'results': rows}
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(report, indent=2, ensure_ascii=False)+'\n', encoding='utf-8')
-        print(json.dumps({'audit': report['audit'], 'summary': report['summary']}, indent=2))
+        print(json.dumps({'settings': report['settings'], 'benchmark': validation,
+                          'audit': report['audit'], 'summary': report['summary']}, indent=2))
         print(f'Per-question evidence and retrieved text: {args.output}')
         return 0
     except (ValueError, TypeError, OSError, subprocess.CalledProcessError) as exc:
