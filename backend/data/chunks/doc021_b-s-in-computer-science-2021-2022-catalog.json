@@ -1,0 +1,173 @@
+[
+  {
+    "chunk_id": "doc021_p1_c1",
+    "doc_id": "doc021",
+    "text": "1 7 Intro to Engineering and CS ECS 1100. 2 Intro to CS and SE CS 1200. 3 1 Programming Fundamentals CS 1336. 1 Computer Science Laboratory CS 1136.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 37
+  },
+  {
+    "chunk_id": "doc021_p1_c2",
+    "doc_id": "doc021",
+    "text": "3 1 Computer Science I CS 1337. 3 1 Discrete Mathematics for Computing I CS 2305. 3 1 Computer Science II CS 2336 or 2337. 3 Computer Architecture CS 2340.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 39
+  },
+  {
+    "chunk_id": "doc021_p1_c3",
+    "doc_id": "doc021",
+    "text": "4 2,3 Calculus I MATH 2413 or 2417. 4 2,3 Calculus II MATH 2414 or 2419. 4 Linear Algebra MATH 2418. 3 2 Mechanics PHYS 2325.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 32
+  },
+  {
+    "chunk_id": "doc021_p1_c4",
+    "doc_id": "doc021",
+    "text": "1 2 Physics Laboratory I PHYS 2125. 3 2 Electromagnetism and Waves PHYS 2326. 1 Physics Laboratory II PHYS 2126 39 0. 1 Professional Responsibility in CS/SE CS 3162.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 3,
+    "token_count": 42
+  },
+  {
+    "chunk_id": "doc021_p1_c5",
+    "doc_id": "doc021",
+    "text": "3 1 Discrete Math for Computing II CS 3305. 3 Probability & Statistics in CS/SE CS 3341. 3 Data Structures & Intro to Algorithmic Analysis CS 3345. 3 Software Engineering CS 3354.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc021_p1_c6",
+    "doc_id": "doc021",
+    "text": "3 C/C++ Programming in a UNIX Envirn CS 3377. 3 Organization of Programming Lang CS 4337. 3 Digital Logic and Computer Design CS 4341. 1 Digital Systems Laboratory CS 4141.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 43
+  },
+  {
+    "chunk_id": "doc021_p1_c7",
+    "doc_id": "doc021",
+    "text": "3 Database Systems CS 4347. 3 Operating Systems Concepts CS 4348. 3 Adv Algorithm Design & Analysis CS 4349. 3 Automata Theory CS 4384.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc021_p1_c8",
+    "doc_id": "doc021",
+    "text": "4 Computer Science Project CS 4485 3 CS Guided Elective CS 43XX 3 CS Guided Elective CS 43XX 3 CS Guided Elective CS 43XX. 3 2 Professional & Technical Communication ECS 3390. 3 Rhetoric RHET 1302. 3 American National Government GOVT 2305.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 60
+  },
+  {
+    "chunk_id": "doc021_p1_c9",
+    "doc_id": "doc021",
+    "text": "3 State and Local Government GOVT 2306. 3 4 US History Survey to Civil War (Core: 060) HIST 1301. 3 4 US History Survey from Civil War (Core: 060) HIST 1302. 3 4 Exploration of the Humanities (Core: 040) HUMA 1301.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc021_p1_c10",
+    "doc_id": "doc021",
+    "text": "3 4 Exploration of the Arts (Core: 050) ARTS 1301. 3 4 Social Behavioral Science (Core: 080) PSY 2301 3 5,6 Free Elective 3 5,6 Free Elective 3 5,6 Free Elective 1 5,6 Free Elective. 0 7 Freshmen Seminar UNIV 1010. 0 8 Core Curriculum Assessment UNIV 2020 73 51.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 4,
+    "token_count": 66
+  },
+  {
+    "chunk_id": "doc021_p1_c11",
+    "doc_id": "doc021",
+    "text": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO. Total Hours______ 124 hours required for graduation. Must include 51 hours as Upper Division.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 3,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc021_p1_c12",
+    "doc_id": "doc021",
+    "text": "*** 1) Major Requirement: Must earn a C or better to receive credit. 3) Must take Math 2413/2414 or Math 2417/2419.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 2,
+    "token_count": 29
+  },
+  {
+    "chunk_id": "doc021_p1_c13",
+    "doc_id": "doc021",
+    "text": "2) Course meets both Major and CORE requirement. 4) Other course options available.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "LD UD NTS COURSE TITLE COURSE # GRADE SEM INFO",
+    "n_sentences": 2,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc021_p1_c14",
+    "doc_id": "doc021",
+    "text": "MAJOR CORE REQUIREMENTS. 6) Lower or upper division courses may count as free electives. 8) All students, including transfer students, who complete their core curriculum at UT",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 3,
+    "token_count": 44
+  },
+  {
+    "chunk_id": "doc021_p1_c15",
+    "doc_id": "doc021",
+    "text": "Dallas must take UNIV 2020.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 1,
+    "token_count": 7
+  },
+  {
+    "chunk_id": "doc021_p1_c16",
+    "doc_id": "doc021",
+    "text": "MAJOR CORE REQUIREMENTS. 5) A maximum of 3 PHIN credits is allowed on any UTD degree plan. 7) Incoming freshmen (FTIC) must enroll and complete requirements of",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 3,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc021_p1_c17",
+    "doc_id": "doc021",
+    "text": "UNIV 1010 and the corresponding school-related freshmen seminar course.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 1,
+    "token_count": 18
+  },
+  {
+    "chunk_id": "doc021_p1_c18",
+    "doc_id": "doc021",
+    "text": "MAJOR CORE REQUIREMENTS. *** Must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 3,
+    "token_count": 62
+  },
+  {
+    "chunk_id": "doc021_p1_c19",
+    "doc_id": "doc021",
+    "text": "No off-campus courses in the last semester allowed.",
+    "source_title": "B.S. in COMPUTER SCIENCE (2021-2022 Catalog)",
+    "section_heading": "MAJOR CORE REQUIREMENTS",
+    "n_sentences": 1,
+    "token_count": 13
+  }
+]

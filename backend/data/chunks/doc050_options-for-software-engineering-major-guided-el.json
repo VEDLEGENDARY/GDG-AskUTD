@@ -1,0 +1,164 @@
+[
+  {
+    "chunk_id": "doc050_p1_c1",
+    "doc_id": "doc050",
+    "text": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES. (2022-2023) SE students following the 2004 and later catalogs must complete ONE APPLICATION DOMAIN which consists of 3 courses as specified per group. Please see the Application Domain Information sheet for course groupings.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "n_sentences": 3,
+    "token_count": 71
+  },
+  {
+    "chunk_id": "doc050_p1_c2",
+    "doc_id": "doc050",
+    "text": "The following courses are choices for the remaining SE Guided Elective.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "n_sentences": 1,
+    "token_count": 18
+  },
+  {
+    "chunk_id": "doc050_p1_c3",
+    "doc_id": "doc050",
+    "text": "CS 4301 Special Topics in Computer Science. CE/CS/SE/TE 3345. CS 4314 Intelligent Systems Analysis. CGS 4313 or consent of Instructor.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc050_p1_c4",
+    "doc_id": "doc050",
+    "text": "CS 4315 Intelligent Systems Design. CGS 4313 or consent of Instructor. CS 4332 Introduction to Programming Video Games. CE/CS/SE/TE 3345.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 35
+  },
+  {
+    "chunk_id": "doc050_p1_c5",
+    "doc_id": "doc050",
+    "text": "CS 4334 Numerical Analysis. (Math 2370 or CE/CS 1337) and Math 2418, Math 2451. CS 4336 Advanced JAVA. CE/CS 2336 or Equivalent.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 32
+  },
+  {
+    "chunk_id": "doc050_p1_c6",
+    "doc_id": "doc050",
+    "text": "CS 4337 Organization of Programming Languages. CE/CS 2336 with a C or better, CE/CS 2305 with a. C or better, and CS/SE 3340. CS 4341 and CS 4141 Digital Logic and Computer Design and Lab.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 47
+  },
+  {
+    "chunk_id": "doc050_p1_c7",
+    "doc_id": "doc050",
+    "text": "CE/EE 2310 or CS/SE 3340, PHYS 2326. CS 4349 Advanced Algorithm Design and Analysis. CS 3305 with a C or better, CE/CS 3345. CS 4352 Human Computer Interactions I None.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 42
+  },
+  {
+    "chunk_id": "doc050_p1_c8",
+    "doc_id": "doc050",
+    "text": "CS 4353 Human Computer Interactions II. CS 4325. CS 4361 Computer Graphics. Math 2418, CE/CS 2336,.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 25
+  },
+  {
+    "chunk_id": "doc050_p1_c9",
+    "doc_id": "doc050",
+    "text": "and CE/CS/SE/TE 3345 or Equivalent. CS 4365 Artificial Intelligence. CE/CS/SE/TE 3345 or Equivalent. CS 4375 Introduction to Machine Learning.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc050_p1_c10",
+    "doc_id": "doc050",
+    "text": "CS/SE 3341 and CE/CS/SE/TE 3345 or Equivalent. CS/SE 4376 Object Oriented Programming Systems. CE/CS 2336 with a C or better or Equivalent. CS 4384 Automata Theory.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 41
+  },
+  {
+    "chunk_id": "doc050_p1_c11",
+    "doc_id": "doc050",
+    "text": "CS 3305 with a C or better. CS 4386 Compiler Design. CE/CS/SE/TE 3345 or Equivalent. CS 4389 Data & Applications Security.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc050_p1_c12",
+    "doc_id": "doc050",
+    "text": "CS/SE 4347. CS 4390 Computer Networks. CE/CS/SE/TE 3345 or Equivalent. CS 4391 Intro to Computer Vision.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc050_p1_c13",
+    "doc_id": "doc050",
+    "text": "CE/CS/SE/TE 3345 or Equivalent. CS 4392 Computer Animation. Math 2418 and CE/CS/SE/TE 3345 or Equivalent. CS 4393 Computer and Network Security.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc050_p1_c14",
+    "doc_id": "doc050",
+    "text": "CE/CS/SE/TE 4348 or Equivalent. CS 4394 Implementation of Modern Operating Systems. CE/CS/SE/TE 4348 and CS 3335 or Equivalent Programming experience. CS 4395 Human Language Technologies.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 47
+  },
+  {
+    "chunk_id": "doc050_p1_c15",
+    "doc_id": "doc050",
+    "text": "CS/SE 3341 and CE/CS/SE/TE 3345 or Equivalent. CS 4396 Networking Laboratory. CS 4390 or Equivalent. CS 4397 Embedded Computer Systems.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc050_p1_c16",
+    "doc_id": "doc050",
+    "text": "CE/CS/SE/TE 4348 or Equivalent. CS 4398 Digital Forensics. CE/CS/SE/TE 4348 and CE/CS/TE 4390 or Equivalent.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Guided Elective Option Pre-Requisite Course",
+    "n_sentences": 3,
+    "token_count": 27
+  },
+  {
+    "chunk_id": "doc050_p1_c17",
+    "doc_id": "doc050",
+    "text": "EE 4325 Introduction to VLSI Design. CS 4341 Revision Date: 5/10/22. Students may also use SE 4V98 Undergraduate Research in Software Engineering or SE 4399 Senior Honors.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Varies by course topic",
+    "n_sentences": 3,
+    "token_count": 43
+  },
+  {
+    "chunk_id": "doc050_p1_c18",
+    "doc_id": "doc050",
+    "text": "Varies by course topic. in Software Engineering. Students must consult an Academic Advisor before registering in these options.",
+    "source_title": "OPTIONS FOR SOFTWARE ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Varies by course topic",
+    "n_sentences": 3,
+    "token_count": 32
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "chunk_id": "doc080_p1_c1",
+    "doc_id": "doc080",
+    "text": "RHET 1302. GOVT 2305. GOVT 2306 American History (060) American History (060) Language, Philosophy and Culture (040) Creative Arts (050) Social and Behavioral Sciences (080).",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Semester 1 and 2 Semester 3 and 4",
+    "n_sentences": 3,
+    "token_count": 44
+  },
+  {
+    "chunk_id": "doc080_p1_c2",
+    "doc_id": "doc080",
+    "text": "ECS 1100 Intro to ENGR & CS. CS 1200 Intro to CS & SE. MATH 2413 or 2417.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Semester 5 and 6 Semester 7 and 8",
+    "n_sentences": 3,
+    "token_count": 19
+  },
+  {
+    "chunk_id": "doc080_p1_c3",
+    "doc_id": "doc080",
+    "text": "CS 2336 (Java)* or. CS 2337 (C++)* Computer Science II. CS 1337* Computer Science I. CS 2305.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "ALEKS 80%",
+    "n_sentences": 4,
+    "token_count": 24
+  },
+  {
+    "chunk_id": "doc080_p1_c4",
+    "doc_id": "doc080",
+    "text": "ECS 2390 Professional and Technical Comm. RHET 1302. SE 4347 Database Systems. SE 3162 Prof Responsibility in.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "ALEKS 80%",
+    "n_sentences": 4,
+    "token_count": 28
+  },
+  {
+    "chunk_id": "doc080_p1_c5",
+    "doc_id": "doc080",
+    "text": "MATH 2312.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Technical Elective",
+    "n_sentences": 1,
+    "token_count": 3
+  },
+  {
+    "chunk_id": "doc080_p1_c6",
+    "doc_id": "doc080",
+    "text": "MATH 2414* or 2419* Calculus II. PHYS 2325/2125. MATH 2414 or 2419 Technical Elective Technical Elective First Year only; Transfer sub with Technical Elective First Year.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Critical Path",
+    "n_sentences": 3,
+    "token_count": 43
+  },
+  {
+    "chunk_id": "doc080_p1_c7",
+    "doc_id": "doc080",
+    "text": "C or better is required in CS 1436, CS 1337, CS. 2305, CS 2336 or 2337, MATH 2413 or 2417,. MATH 2414 or 2419, MATH 2418. SE 4381 Software Project Planning & Mgmt.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "D- or better required unless noted by *",
+    "n_sentences": 4,
+    "token_count": 41
+  },
+  {
+    "chunk_id": "doc080_p1_c8",
+    "doc_id": "doc080",
+    "text": "PHYS 2325/2125 Mechanics and Lab See catalog See catalog.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "D- or better required unless noted by *",
+    "n_sentences": 1,
+    "token_count": 15
+  },
+  {
+    "chunk_id": "doc080_p1_c9",
+    "doc_id": "doc080",
+    "text": "MATH 2418* Linear Algebra. PHYS 2326/2126 Electromagnetism & Waves and Lab. SE 3306 Mathematics Foundations of SE. SE 2340 Computer Architecture.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Core Core Core",
+    "n_sentences": 4,
+    "token_count": 37
+  },
+  {
+    "chunk_id": "doc080_p1_c10",
+    "doc_id": "doc080",
+    "text": "CS 1337. MATH 2413 or 2417. SE 3341 Probability & Statistics in CS.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Core Core Core",
+    "n_sentences": 3,
+    "token_count": 17
+  },
+  {
+    "chunk_id": "doc080_p1_c11",
+    "doc_id": "doc080",
+    "text": "SE 3377 Systems Programming in UNIX. CS 2336 or 2337. SE 3345 Algorithms Analysis & Data Struct. MATH 2414 or 2419.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Core Core Core",
+    "n_sentences": 4,
+    "token_count": 29
+  },
+  {
+    "chunk_id": "doc080_p1_c12",
+    "doc_id": "doc080",
+    "text": "CS 2336 or 2337.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Core Core Core",
+    "n_sentences": 1,
+    "token_count": 4
+  },
+  {
+    "chunk_id": "doc080_p1_c13",
+    "doc_id": "doc080",
+    "text": "SE 4348 Operating Systems. SE 2340 SE 3345. SE 3377. SE 3354 Software Engineering.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "See catalog",
+    "n_sentences": 4,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc080_p1_c14",
+    "doc_id": "doc080",
+    "text": "SE 4352 Software Architecture & Design. SE 3306. SE 3345. SE 3354.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "See catalog",
+    "n_sentences": 4,
+    "token_count": 17
+  },
+  {
+    "chunk_id": "doc080_p1_c15",
+    "doc_id": "doc080",
+    "text": "SE 3354 See catalog MATH Technical.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "See catalog",
+    "n_sentences": 1,
+    "token_count": 9
+  },
+  {
+    "chunk_id": "doc080_p1_c16",
+    "doc_id": "doc080",
+    "text": "SE 4367 Software Testing, Verif, Valid, QA. SE 4351 Requirements Engineering. SE 4485 Software Engineering Project. SE 3306.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc080_p1_c17",
+    "doc_id": "doc080",
+    "text": "SE 3354. SE 3306. SE 3354 Free Elective. CS 1436.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 13
+  },
+  {
+    "chunk_id": "doc080_p1_c18",
+    "doc_id": "doc080",
+    "text": "CS 1436* Programming Fundamentals. MATH 2413* or 2417* Calculus I. MATH 2413 or 2417 Atleast two of SE. 4381/ SE 4352/ SE.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc080_p1_c19",
+    "doc_id": "doc080",
+    "text": "4351/ SE 4367. CS 2336. CS 2305* Discrete Mathematics I. MATH 2313 or 2417.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 19
+  },
+  {
+    "chunk_id": "doc080_p1_c20",
+    "doc_id": "doc080",
+    "text": "CS 1337. CS 2305. CS 2305. CS 2305 MATH 2418.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 12
+  },
+  {
+    "chunk_id": "doc080_p1_c21",
+    "doc_id": "doc080",
+    "text": "CS 2305. MATH 2414 or 2419. ECS 2390. SE 3354.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 4,
+    "token_count": 12
+  },
+  {
+    "chunk_id": "doc080_p1_c22",
+    "doc_id": "doc080",
+    "text": "SE 3345. SE 3341. CS 2305.",
+    "source_title": "Semester 1 and 2 Semester 3 and 4",
+    "section_heading": "Free Elective",
+    "n_sentences": 3,
+    "token_count": 7
+  }
+]

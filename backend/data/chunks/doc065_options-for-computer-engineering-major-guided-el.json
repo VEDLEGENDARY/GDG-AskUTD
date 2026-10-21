@@ -1,0 +1,155 @@
+[
+  {
+    "chunk_id": "doc065_p1_c1",
+    "doc_id": "doc065",
+    "text": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES. (2023-2024) Students are required to take 9 hours of major guided electives.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "n_sentences": 2,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc065_p1_c2",
+    "doc_id": "doc065",
+    "text": "EE 4325 Introduction to VLSI Design. CE/EE 3320. EE 4330 Integrated Circuit Technology. CE/EE 3310.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 25
+  },
+  {
+    "chunk_id": "doc065_p1_c3",
+    "doc_id": "doc065",
+    "text": "EE 4340 Analog Integrated Circuit Analysis and Design. CE/EE 3311. EE 4360 Digital Communications. ENGR 3341 and EE 3302.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 31
+  },
+  {
+    "chunk_id": "doc065_p1_c4",
+    "doc_id": "doc065",
+    "text": "EE 4361 Introduction to Digital Signal Processing. EE 3302. EE 4365 Introduction to Wireless Communication. EE 3302 and ENGR 3341.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 33
+  },
+  {
+    "chunk_id": "doc065_p1_c5",
+    "doc_id": "doc065",
+    "text": "EE 4367 Telecommunications Networks. EE 3350 (co-requisite). EE 4342 Introduction to Robotics. EE 4310 (co-requisite).",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc065_p1_c6",
+    "doc_id": "doc065",
+    "text": "EE 4363 Introduction to Power Electronics. EE 2301. EE 4371 Introduction to MEMS. CHEM 1311, CE/EE 3310, and.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 28
+  },
+  {
+    "chunk_id": "doc065_p1_c7",
+    "doc_id": "doc065",
+    "text": "PHYS 2325/2125. CS 4332 Introduction to Programming Video Games. CE/CS/SE 3345. CS 4334 Numerical Analysis.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 27
+  },
+  {
+    "chunk_id": "doc065_p1_c8",
+    "doc_id": "doc065",
+    "text": "CE/CS 1337 and MATH 2418. CS 4337 Organization of Programming Languages. (CE/CS 2336 or CS 2337), CE/CS 2305 and. CE/EE 4304.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 32
+  },
+  {
+    "chunk_id": "doc065_p1_c9",
+    "doc_id": "doc065",
+    "text": "CS 4347 Database Systems. CE/CS/SE 3345. CS 4352 Human Computer Interactions I None. CS 4361 Computer Graphics.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 28
+  },
+  {
+    "chunk_id": "doc065_p1_c10",
+    "doc_id": "doc065",
+    "text": "MATH 2418, (CE/CS/ 2336 or CS 2337) and. CE/CS/SE 3345. CS 4365 Artificial Intelligence. CE/CS/SE 3345.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc065_p1_c11",
+    "doc_id": "doc065",
+    "text": "CS 4371 Introduction to Bid Data Management and Analytics. (CS 2336 or CS 2337) and CS 4347. CS 4375 Introduction to Machine Learning. CS/SE 3341 and CE/CS/SE 3345 or Equivalent.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc065_p1_c12",
+    "doc_id": "doc065",
+    "text": "CS 4384 Automata Theory. CS 3305. CS 4389 Data & Applications Security. CS/SE 4347.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc065_p1_c13",
+    "doc_id": "doc065",
+    "text": "CS 4390 Computer Networks. CE/CS/SE 3345 or Equivalent. CS 4392 Computer Animation. Math 2418 and CE/CS/SE 3345 or Equivalent.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 32
+  },
+  {
+    "chunk_id": "doc065_p1_c14",
+    "doc_id": "doc065",
+    "text": "CS 4393 Computer and Network Security. CE/CS/SE 4348 or Equivalent. CS 4398 Digital Forensics. CE/CS/SE 4348 and CE/CS 4390 or Equivalent.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 4,
+    "token_count": 35
+  },
+  {
+    "chunk_id": "doc065_p1_c15",
+    "doc_id": "doc065",
+    "text": "Pre-Requisite Course. CE 4V95 Undergraduate Topics in Computer Engineering may be used only if it is a scheduled special topics class (not independent study). Independent Study in Computer Engineering (CE 4V97), Undergraduate Research in Computer Engineering",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 3,
+    "token_count": 65
+  },
+  {
+    "chunk_id": "doc065_p1_c16",
+    "doc_id": "doc065",
+    "text": "(CE 4V98), or Senior Honors in Computer Engineering (CE 4399) may be used for up to 6 of these hours with.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 1,
+    "token_count": 27
+  },
+  {
+    "chunk_id": "doc065_p1_c17",
+    "doc_id": "doc065",
+    "text": "Pre-Requisite Course. consent of the department. Please consult your Academic Advisor for more information.",
+    "source_title": "OPTIONS FOR COMPUTER ENGINEERING MAJOR GUIDED ELECTIVES",
+    "section_heading": "Pre-Requisite Course",
+    "n_sentences": 3,
+    "token_count": 27
+  }
+]

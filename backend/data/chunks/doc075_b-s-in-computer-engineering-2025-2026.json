@@ -1,0 +1,155 @@
+[
+  {
+    "chunk_id": "doc075_p1_c1",
+    "doc_id": "doc075",
+    "text": "STUDENT: UTD ID. MAJOR INTRODUCTORY COURSES (First Year in College Only, Transfer Students Sub with Upper Level Technical Elective)",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "STUDENT: UTD ID",
+    "n_sentences": 2,
+    "token_count": 33
+  },
+  {
+    "chunk_id": "doc075_p1_c2",
+    "doc_id": "doc075",
+    "text": "1 Intro to Engineering and CS [First Year Only] ECS 1100. 1 Intro to Computer Engineering I [First Year Only] CE 1100.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "Lower Division COURSE TITLE COURSE # GRADE SEM DONE NOTES",
+    "n_sentences": 2,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc075_p1_c3",
+    "doc_id": "doc075",
+    "text": "4 MATH 2413. 4 MATH 2417. 4 Programming Fundamentals CS 1436 [C]. 2 Intro to Computer Engineering II CE 1202.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 28
+  },
+  {
+    "chunk_id": "doc075_p1_c4",
+    "doc_id": "doc075",
+    "text": "3 Introduction to Digital Systems CE 2310. 3 Computer Science I CE 1337 [C]. 4 MATH 2414. 4 MATH 2419.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 26
+  },
+  {
+    "chunk_id": "doc075_p1_c5",
+    "doc_id": "doc075",
+    "text": "3 Mechanics PHYS 2325. 1 Physics Laboratory I PHYS 2125. 3 Linear Algebra for Engineers ENGR 2300 4 Calculus of Several Variables (NOT needed if student. has completed MATH 2419) MATH 2415.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 48
+  },
+  {
+    "chunk_id": "doc075_p1_c6",
+    "doc_id": "doc075",
+    "text": "4 Differential Equations w/ Applications MATH 2420. 3 Electromagnetism and Waves PHYS 2326. 1 Physics Laboratory II PHYS 2126. 3 CE 2336 [C].",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc075_p1_c7",
+    "doc_id": "doc075",
+    "text": "3 CS 2337 [C]. 3 Discrete Mathematics for Computing I CE 2305 [C] 0 of 37 or 41 Lower/Upper Division MAJOR CORE REQUIREMENTS (Major GPA). 3 Probability Theory & Statistics ENGR 3341. 2 CE Fundamentals Lab I CE 3201.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc075_p1_c8",
+    "doc_id": "doc075",
+    "text": "3 Electrical Network Analysis CE 2301. 3 Data Structures & Intro to Algorithmic Analysis CE 3345. 3 Digital Circuits CE 3320. 2 CE Fundamentals Lab II CE 3202.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 40
+  },
+  {
+    "chunk_id": "doc075_p1_c9",
+    "doc_id": "doc075",
+    "text": "3 Electronic Circuits CE 3311. 3 Software Engineering CE 3354. 3 Signals and Systems CE 3303. 1 Social Issues and Ethics in Engineering CE 3161.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 36
+  },
+  {
+    "chunk_id": "doc075_p1_c10",
+    "doc_id": "doc075",
+    "text": "3 Prof & Tech Communication ECS 2390. 3 Computer Architecture CE 4304. 3 Embedded Systems CE 4370. 3 Operating Systems Concepts CE 4348.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 4,
+    "token_count": 34
+  },
+  {
+    "chunk_id": "doc075_p1_c11",
+    "doc_id": "doc075",
+    "text": "3 Senior Design Project I CE 4388.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 1,
+    "token_count": 9
+  },
+  {
+    "chunk_id": "doc075_p1_c12",
+    "doc_id": "doc075",
+    "text": "MAJOR PREPARATORY REQUIREMENTS (Major GPA). 3 Senior Design Project II CE 4389 0 of 44 TECHNICAL ELECTIVES (Major GPA) 2 CE Elective Lab click to view options 3 MATH Technical Elective click to view options 3 Technical Elective EE/CE/CS 4XXX 3 Technical Elective EE/CE/CS 4XXX 0 of 11",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
+    "n_sentences": 2,
+    "token_count": 71
+  },
+  {
+    "chunk_id": "doc075_p1_c13",
+    "doc_id": "doc075",
+    "text": "3 Communication (Core: 010) RHET 1302. 3 Government/ Political Science (Core: 070) GOVT 2305. 3 Government/ Political Science (Core: 070) GOVT 2306.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "Lower Division REMAINING STATE CORE CURRICULUM",
+    "n_sentences": 3,
+    "token_count": 37
+  },
+  {
+    "chunk_id": "doc075_p1_c14",
+    "doc_id": "doc075",
+    "text": "Lower Division REMAINING STATE CORE CURRICULUM. 3 American History (Core: 060) click to view options 3 American History (Core: 060) click to view options 3 Language, Philosophy and Culture (Core: 040) click to view options 3 Creative Arts (Core: 050) click to view options 3 Social Behavioral Science (Core: 080) click to view options 0 of 24",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "Lower Division REMAINING STATE CORE CURRICULUM",
+    "n_sentences": 2,
+    "token_count": 86
+  },
+  {
+    "chunk_id": "doc075_p1_c15",
+    "doc_id": "doc075",
+    "text": "3 Free Elective (not needed if student has MATH 2413). 1 Free Elective (not needed if student has MATH 2413) Computer Science II (JAVA or C++) Total Hours Met (out of 126) Long Semesters Left (15 credit hour average) of 44.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "FREE ELECTIVES",
+    "n_sentences": 2,
+    "token_count": 56
+  },
+  {
+    "chunk_id": "doc075_p1_c16",
+    "doc_id": "doc075",
+    "text": "FREE ELECTIVES. 126 Hours (45 in residence, last semester at UTD) with Min 2.0 GPA",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "FREE ELECTIVES",
+    "n_sentences": 2,
+    "token_count": 21
+  },
+  {
+    "chunk_id": "doc075_p1_c17",
+    "doc_id": "doc075",
+    "text": "C or better is required in CS 1436, CE 1337, CE 2305, CE 2336 and a grade of C- or better in all others.",
+    "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)",
+    "section_heading": "Integral Calculus OR Calculus II",
+    "n_sentences": 1,
+    "token_count": 26
+  }
+]
