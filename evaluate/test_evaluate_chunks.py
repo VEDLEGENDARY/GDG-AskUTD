@@ -1,33 +1,51 @@
 """Regression checks for evaluator validation, scoring, and branch exports."""
 import json
+from dataclasses import asdict, replace
 from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
 from evaluate_chunks import (
-    REPO_ROOT, ROOT, Retriever, Settings, export_branch, grade,
+    REPO_ROOT, ROOT, Retriever, load_settings, export_branch, grade,
     read_chunks, read_questions,
     supports, benchmark_audit, evidence_feasible,
 )
 
 
+def settings(**overrides):
+    return replace(load_settings(), **overrides)
+
+
 class EvaluatorTests(unittest.TestCase):
+    def test_settings_come_from_selected_json(self):
+        config = asdict(load_settings())
+        config['top_k'] = 1
+        path = Mock(read_text=Mock(return_value=json.dumps(config)))
+        self.assertEqual(load_settings(path).top_k, 1)
+
+    def test_incomplete_unknown_and_nonobject_configs_are_rejected(self):
+        config = asdict(load_settings())
+        missing = {key: value for key, value in config.items() if key != 'top_k'}
+        for invalid in (missing, {**config, 'top_kk': 1}, [], None):
+            with self.subTest(config=invalid), self.assertRaises(ValueError):
+                load_settings(Mock(read_text=Mock(return_value=json.dumps(invalid))))
+
     def test_boolean_numeric_settings_are_rejected(self):
         for field in ('bm25_k1', 'bm25_b', 'lexical_weight', 'metadata_weight',
                       'diversity_lambda', 'min_score'):
             with self.subTest(field=field), self.assertRaises(ValueError):
-                Settings(**{field: True}).validate()
+                settings(**{field: True}).validate()
 
     def test_default_benchmark_has_valid_evidence_and_both_question_types(self):
         chunks = read_chunks(REPO_ROOT / 'backend/data/chunks')
         questions = read_questions(ROOT / 'questions.json', chunks)
-        eligible = Retriever(chunks, Settings()).chunks
+        eligible = Retriever(chunks, settings()).chunks
         for split in ('dev', 'test'):
             selected = [q for q in questions if q['split'] == split]
             self.assertEqual({q['unanswerable'] for q in selected}, {True, False})
             self.assertGreaterEqual(len(selected), 32)
-            audit = benchmark_audit(selected, eligible, Settings())
+            audit = benchmark_audit(selected, eligible, settings())
             self.assertEqual(audit['infeasible_question_ids'], [])
             self.assertGreaterEqual(audit['multi_evidence'], 20)
             self.assertGreaterEqual(audit['evidence_documents'], 15)
@@ -52,16 +70,16 @@ class EvaluatorTests(unittest.TestCase):
                   dict(chunk_id='b', doc_id='d1', text='second fact')]
         question = dict(evidence=[dict(doc_id='d1', all_of=['first fact']),
                                   dict(doc_id='d1', all_of=['second fact'])])
-        self.assertTrue(evidence_feasible(question, chunks, Settings()))
-        self.assertFalse(evidence_feasible(question, chunks, Settings(max_per_document=1)))
-        self.assertFalse(evidence_feasible(question, chunks, Settings(top_k=1)))
-        self.assertFalse(evidence_feasible(question, chunks, Settings(context_budget=1)))
+        self.assertTrue(evidence_feasible(question, chunks, settings()))
+        self.assertFalse(evidence_feasible(question, chunks, settings(max_per_document=1)))
+        self.assertFalse(evidence_feasible(question, chunks, settings(top_k=1)))
+        self.assertFalse(evidence_feasible(question, chunks, settings(context_budget=1)))
 
     def test_oracle_can_cover_multiple_groups_with_one_chunk(self):
         chunk = dict(chunk_id='a', doc_id='d1', text='first fact and second fact')
         question = dict(evidence=[dict(doc_id='d1', all_of=['first fact']),
                                   dict(doc_id='d1', all_of=['second fact'])])
-        self.assertTrue(evidence_feasible(question, [chunk], Settings(top_k=1)))
+        self.assertTrue(evidence_feasible(question, [chunk], settings(top_k=1)))
 
     def test_duplicate_queries_across_splits_are_rejected(self):
         base = dict(query='My appointment?', category='private_data', unanswerable=True, evidence=[])
@@ -94,7 +112,7 @@ class EvaluatorTests(unittest.TestCase):
 
     def test_context_budget_can_force_abstention(self):
         chunk = dict(chunk_id='c1', doc_id='d1', text='graduation application deadline')
-        retriever = Retriever([chunk], Settings(min_chunk_words=1, context_budget=1))
+        retriever = Retriever([chunk], settings(min_chunk_words=1, context_budget=1))
         self.assertEqual(retriever.retrieve('graduation'), [])
 
     def test_partial_evidence_does_not_count_as_complete(self):

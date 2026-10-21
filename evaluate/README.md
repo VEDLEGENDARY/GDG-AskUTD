@@ -27,7 +27,10 @@ python evaluate/evaluate_chunks.py --query "What does FERPA protect?"
 ```
 
 Change settings in a copy of `config.example.json` and pass that file using
-`--config`; without the flag the evaluator uses defaults from the Python script.
+`--config`; without the flag the evaluator loads `evaluate/config.example.json`
+relative to the script. All setting values live in JSON; the Python class defines
+only the schema and validation rules. Config files must include every setting;
+missing and unknown keys produce an error instead of falling back to hidden values.
 Tune on dev and reserve test for evaluating the final configuration. Test is a
 public local split, so this is not a hidden or contamination-proof evaluation.
 

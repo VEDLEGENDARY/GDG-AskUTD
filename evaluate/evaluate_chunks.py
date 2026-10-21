@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, fields
 import hashlib
 import json
 import math
@@ -17,23 +17,24 @@ import unicodedata
 
 ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parent
+DEFAULT_CONFIG = ROOT / 'config.example.json'
 
 
 @dataclass
 class Settings:
-    # MENTEES: change these, or pass a JSON file containing overrides via --config.
-    top_k: int = 4
-    candidate_pool: int = 30
-    bm25_k1: float = 1.5
-    bm25_b: float = 0.75
-    lexical_weight: float = 0.7  # BM25 vs TF-IDF cosine; neither uses neural embeddings.
-    metadata_weight: float = 0.2
-    diversity_lambda: float = 0.8  # 1 = relevance only; 0 = favor diversity.
-    min_score: float = 0.12  # Abstain if no candidate passes this normalized score.
-    max_per_document: int = 3
-    min_chunk_words: int = 5
-    max_chunk_words: int = 1200
-    context_budget: int = 900  # Estimated tokens, ceil(characters / 4), including metadata.
+    # Schema only: every value comes from the selected JSON configuration.
+    top_k: int
+    candidate_pool: int
+    bm25_k1: float
+    bm25_b: float
+    lexical_weight: float  # BM25 vs TF-IDF cosine; neither uses neural embeddings.
+    metadata_weight: float
+    diversity_lambda: float  # 1 = relevance only; 0 = favor diversity.
+    min_score: float  # Abstain if no candidate passes this normalized score.
+    max_per_document: int
+    min_chunk_words: int
+    max_chunk_words: int
+    context_budget: int  # Estimated tokens, ceil(characters / 4), including metadata.
 
     def validate(self):
         integer_fields = ('top_k', 'candidate_pool', 'max_per_document',
@@ -49,6 +50,19 @@ class Settings:
                 raise ValueError(f'{key} must be between 0 and 1')
         if type(self.bm25_k1) not in (int, float) or not math.isfinite(self.bm25_k1) or self.bm25_k1 <= 0:
             raise ValueError('bm25_k1 must be positive and finite')
+
+
+def load_settings(path=DEFAULT_CONFIG):
+    config = json.loads(path.read_text(encoding='utf-8-sig'))
+    if not isinstance(config, dict):
+        raise ValueError(f'{path}: config must be a JSON object')
+    required = {field.name for field in fields(Settings)}
+    missing, unknown = required - config.keys(), config.keys() - required
+    if missing or unknown:
+        raise ValueError(f'{path}: missing config keys: {sorted(missing)}; unknown config keys: {sorted(unknown)}')
+    settings = Settings(**config)
+    settings.validate()
+    return settings
 
 
 def normalize(text):
@@ -302,7 +316,8 @@ def main():
     p.add_argument('--chunks', type=Path, default=ROOT.parent/'backend/data/chunks')
     p.add_argument('--questions', type=Path, default=ROOT/'questions.json')
     p.add_argument('--match-documents', type=Path, help='Restrict corpus to document IDs also present in this chunk directory')
-    p.add_argument('--config', type=Path)
+    p.add_argument('--config', type=Path, default=DEFAULT_CONFIG,
+                   help='JSON settings file (default: evaluate/config.example.json)')
     p.add_argument('--split', choices=('dev', 'test'), default='dev')
     p.add_argument('--output', type=Path, default=ROOT/'runs/latest.json')
     p.add_argument('--export-branch', help='Export backend/data/chunks from this local git ref and exit')
@@ -313,9 +328,7 @@ def main():
         if args.export_branch:
             export_branch(args.export_branch, args.chunks)
             return 0
-        config = json.loads(args.config.read_text(encoding='utf-8-sig')) if args.config else {}
-        s = Settings(**config)
-        s.validate()
+        s = load_settings(args.config)
         chunks = read_chunks(args.chunks)
         if args.match_documents:
             shared = {c['doc_id'] for c in read_chunks(args.match_documents)}
