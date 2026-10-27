@@ -7,6 +7,1903 @@
 
 
 
+  // Nandhan questions: 50 dev + 50 test; each split has 38 answerable and 12 unanswerable.
+
+
+
+  {
+    "id": "nandhan-dev-fall-full-term-deadlines",
+    "query": "For the Fall 2026 full-term session, what is the last day to drop without a W and when does the withdrawal period end? Contrast that census date with the first 8-week session's census date and withdrawal deadline.",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "Census Day and last day to drop without a",
+          "Sept. 9",
+          "Withdrawal period ends Nov. 9"
+        ]
+      },
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "First 8-Week Session",
+          "is Aug. 31",
+          "Withdrawal period ends Sept. 28"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-reading-day-final-length",
+    "query": "In Fall 2026, which date is the reading day before finals, can a final exam be scheduled on a reading day, and what is the longest a final exam may run?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "Reading day is Dec. 10"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "will not be scheduled during reading days",
+          "2 hours and 45 minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-53-hours-undeclared",
+    "query": "I have finished 53 credit hours and still have not picked a major. What is my class standing, and at what credit total must I declare a major to keep enrolling?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "Sophomore",
+          "30-53 semester credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "declare an academic course of study or major",
+          "54 semester credit hours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-meningitis-age",
+    "query": "I am a 21-year-old entering student. Do I need the bacterial meningitis shot, how many days before classes must I show proof, and what happens if I miss that deadline?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc003",
+          "doc011"
+        ],
+        "all_of": [
+          "22 years of age or older are exempt",
+          "ten (10) days before the first day of classes",
+          "dropped from all enrolled classes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-concurrent-community-college",
+    "query": "While enrolled at UT Dallas I want to take a course at a community college in the same semester. Which school collects full tuition, and what approvals should I get so the course counts toward my degree?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "prior written approval from their school",
+          "full tuition charge to the first institution"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "wish to take courses elsewhere must meet with their academic advisor for approval"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-drop-appeal-records",
+    "query": "I am sure I dropped a class but a grade still posted at the end of the term. How long do I have to appeal, who reviews it, and how long should I have kept my drop paperwork?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "one calendar year",
+          "Dean of Undergraduate Education to appeal the posted grade"
+        ]
+      },
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "retain copies of all add and drop forms for at least one year"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-grad-course-drop-rules",
+    "query": "As an undergraduate enrolled in a graduate-level course, whose drop deadlines apply to me, and what permission does a new graduate student need to add or drop?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "based upon the course and not the student",
+          "drop procedures for graduate courses take effect"
+        ]
+      },
+      {
+        "doc_id": "doc003",
+        "all_of": [
+          "new graduate student seeking to drop or add",
+          "permission from his/her graduate advisor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-six-withdrawal-exemptions",
+    "query": "If I withdraw from a course to care for a seriously ill relative or because my employer changed my work hours, does that count against the Texas six-course withdrawal limit?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "need to care for a sick, injured, or needy person",
+          "change in the student's work schedule"
+        ]
+      },
+      {
+        "doc_id": "doc108",
+        "all_of": [
+          "Non-academic withdrawals are exempt from counting toward the six drop rule"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-naw-appeal-window",
+    "query": "My petition to withdraw for non-academic reasons was denied. Where do I send an appeal, how many business days do I have, can I get more time, and who makes the final call?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "appeal in writing to the Office of Undergraduate Education",
+          "30 business days"
+        ]
+      },
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "No requests for extension will be approved",
+          "Dean's decision shall be final"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-latin-honors-floor",
+    "query": "What is the minimum GPA and number of UT Dallas graded hours needed for any Latin honors, and what share of a school's graduates defines the summa cum laude threshold?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "minimum of 45 UT Dallas graded semester credit hours",
+          "minimum GPA of 3.400"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "top five percent",
+          "summa cum laude"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-collegium-v",
+    "query": "What do I need to graduate with Collegium V Honors: how many honors hours, what GPA over how many graded hours, and what senior-year work?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "at least 24 semester credit hours within the Honors Program",
+          "3.500 cumulative grade point average"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "senior thesis or senior project"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-catalog-expiration",
+    "query": "How long does an undergraduate catalog stay valid, and if mine expires before I talk to an advisor, who chooses my new catalog?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "life of a UT Dallas undergraduate catalog is six years"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "advisor will select the most logical active catalog"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-final-semester-residency",
+    "query": "For a bachelor's degree, what are the minimum total hours and upper-division hours, and am I allowed to take a course at another school in my final graduating semester?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "minimum of 120 semester credit hours",
+          "at least 45 semester credit hours of upper-division"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "No coursework may be taken off campus in a student's final graduating semester"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-summer-ceremony",
+    "query": "I finish my degree in the summer. Is there a summer school graduation ceremony, and which ceremony can I walk in instead?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "there are no summer School graduation ceremonies",
+          "Summer graduates may participate in the following fall"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-low-gpa-major-change",
+    "query": "My cumulative GPA is 1.9 and I want to switch majors. Whose approval do I need, and when can a newly admitted student first submit a change of major?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "below 2.000",
+          "Associate Dean of their current major and the Associate Dean of their intended major"
+        ]
+      },
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "after Census Day of their first term"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-double-major-or-degree",
+    "query": "Can I earn both a double major and a double degree, and can someone working on a second bachelor's degree add a double major without reapplying?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "may earn a double major or a double degree but not both",
+          "second baccalaureate student may not double major"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-enrollment-status-hours",
+    "query": "How many credit hours count as full-time, three-quarter-time, and half-time for an undergraduate, and what is the standard load in a long semester versus summer?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "full-time status is 12 semester credit hours",
+          "half-time status is 6"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "standard undergraduate course load is 15 semester credit hours",
+          "12 semester credit hours in the summer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-retake-at-community-college",
+    "query": "I failed a class at UT Dallas and want to retake it at a community college. What grade must I earn there for it to transfer, and does my original F stay in my GPA?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "fail a course in residence at UT Dallas may repeat the course at another institution"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "will be computed as a part of the cumulative GPA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-gpa-arithmetic",
+    "query": "How many grade points per hour do an A- and a B+ earn, and which grade symbols are left out of the hours used to divide when computing GPA?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "A- earns 3.670"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "B+ earns 3.330"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "grade other than I, NC, or CR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-military-withdrawal",
+    "query": "If I am called to active duty with the Texas National Guard mid-semester and withdraw, does it count toward the six-withdrawal limit, and what non-academic withdrawal grade code applies?",
+    "split": "dev",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "active duty service as a member of the Texas National Guard"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "WM (Withdraw Military Duty)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-transfer-probation",
+    "query": "I was admitted as a transfer student on probation. What is my credit hour cap, can I drop classes, and what first-semester GPA must I reach to avoid suspension?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "not register for more than 15 semester credit hours",
+          "not drop from any classes",
+          "GPA of at least 2.200"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-conduct-appeal",
+    "query": "After a hearing officer finds me responsible under the Student Code of Conduct, where do I email my appeal, how many days do I have, and when is an emailed decision treated as received?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "appeals@utdallas.edu"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "no later than seven (7) days"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "considered to have been received on the second day after sending"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-conduct-records-retention",
+    "query": "How long does the university keep a student disciplinary record for a minor sanction versus suspension or expulsion?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "permanent disciplinary record",
+          "suspension, expulsion"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "retained for a period of five (5) years"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-withdraw-to-avoid-cheating",
+    "query": "I have been accused of cheating. Can I withdraw from the course to avoid a grade penalty, and can my professor just give me an F on their own instead of referring the case?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "replace any withdrawal notation on the transcript"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "must not impose any independent sanctions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-classroom-disruption",
+    "query": "Can an instructor make me leave class for arguing with them, how long can that removal last, and can I be removed from the course permanently without the Dean's review?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "leave the class for the remainder of the class period"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "expression of a disagreement with the instructor is not in itself disruptive behavior"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "will not be removed permanently from the classroom without review by the Dean"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-hazing-reporter-immunity",
+    "query": "If I report a hazing incident to the Dean of Students, when am I immune from civil or criminal liability, and when does that immunity not apply?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "reports the incident before being contacted by the institution"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "reports the person's own act of hazing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-end-of-term-rally",
+    "query": "Our club wants a rally with an invited speaker and a loudspeaker during the last two weeks of the semester, right at a building entrance, and then to pitch tents overnight. Which of these are restricted?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "last two weeks of a semester or term",
+          "by using a device to amplify sound"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "ten-foot clearance around points of entry"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "Camping or erecting tents"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-signs-and-banners",
+    "query": "As an individual student, do I need permission to carry a protest sign, can it be on a pole, and may I hang a banner myself?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "No advance permission is required",
+          "Signs on sticks or poles"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "Individuals and members of the public may not hang banners"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-facility-reservation",
+    "query": "How far ahead must a student organization apply to reserve a university room, how quickly must the dean explain a refusal, and by when must the organization appeal?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "at least forty-eight (48) hours before"
+        ]
+      },
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "within three weekdays"
+        ]
+      },
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "fifth weekday after the decision is announced"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-org-event-alcohol",
+    "query": "Can our registered student organization serve alcohol at its campus banquet? Explain the general rule and whether a student-organization event counts as university-sponsored for a waiver.",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "use of alcoholic beverages is prohibited"
+        ]
+      },
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "sponsored by registered faculty, staff, or student organizations are not events sponsored by the University"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-directory-opt-out",
+    "query": "When during a fall semester and during a summer term must I file to keep my directory information private, and does that choice still apply after I graduate?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "first twelve (12) days of class of a fall or spring semester",
+          "first four (4) class days of a summer semester"
+        ]
+      },
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "Directory Information status in place during the Student's last period of enrollment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-ferpa-amend-grade",
+    "query": "Can I use the FERPA record-amendment process to challenge a grade I think is too harsh? If a different record is not amended informally, whom do I ask in writing for a hearing?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "substantive judgment of a faculty member"
+        ]
+      },
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "in writing to the Dean of Students"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-certificate-gpa",
+    "query": "What GPA must I hold in the certificate courses for an undergraduate versus a graduate academic certificate to appear on my transcript, and can I get federal financial aid just for a certificate?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc099",
+        "all_of": [
+          "grade point average of at least 2.0"
+        ]
+      },
+      {
+        "doc_id": "doc099",
+        "all_of": [
+          "grade point average of at least 3.0"
+        ]
+      },
+      {
+        "doc_id": "doc099",
+        "all_of": [
+          "Federal and state financial aid is not available for certificate programs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-former-student-transcript",
+    "query": "I graduated years ago. How do I know whether I need the Former Student Reactivation form before ordering a transcript, and what is the processing fee?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc116",
+        "all_of": [
+          "enrolled in the past 2 terms"
+        ]
+      },
+      {
+        "doc_id": "doc116",
+        "all_of": [
+          "Processing Fee: $10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-cs-2016-vs-2020-electives",
+    "query": "Compare the B.S. Computer Science plan for 2016-2018 with 2020-2021: how many elective hours does each require, and how do their lower- and upper-division hour totals differ?",
+    "split": "dev",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "requires 11 hours of electives"
+        ]
+      },
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "requires 10 hours of electives"
+        ]
+      },
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "67 lower-division and 57 upper-division hours"
+        ]
+      },
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "73 lower-division and 51 upper-division hours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-ce-2022-vs-2023-guided",
+    "query": "Compare guided electives in the computer engineering degree plans for 2022-2023 and 2023-2024: how many CE guided electives does each list, and which year adds a math guided elective?",
+    "split": "dev",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc023",
+        "all_of": [
+          "three CE Guided Electives"
+        ]
+      },
+      {
+        "doc_id": "doc063",
+        "all_of": [
+          "MATH Guided Elective",
+          "two CE Guided Electives"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-cs-minor-entry",
+    "query": "For the computer science minor, who must take CS 1336, what grade is needed in prerequisite courses, and what ALEKS score lets me start calculus?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc051",
+        "all_of": [
+          "CS 1336 is required of students with no prior programming experience",
+          "grade of C or better is needed in prerequisite courses",
+          "at least 75% in ALEKS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-grad-probation",
+    "query": "A graduate student's cumulative GPA drops below 3.00. How many semesters do they have to recover, and what happens if they do not?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "all_of": [
+          "next two semesters of registration",
+          "immediate dismissal from the University"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-dev-my-gpa-now",
+    "query": "What is my cumulative GPA now that this semester's grades have posted?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The corpus explains how GPA is computed but contains no individual student's grades."
+  },
+  {
+    "id": "nandhan-dev-my-netid-reactivation",
+    "query": "Has my Former Student Reactivation form been processed so my NetID works again?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The transcript page describes the reactivation process, not the status of any individual submission."
+  },
+  {
+    "id": "nandhan-dev-my-hearing-officer",
+    "query": "Which hearing officer has been assigned to my conduct case that is scheduled for next week?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The Student Code of Conduct explains how panels are formed but contains no case assignments."
+  },
+  {
+    "id": "nandhan-dev-my-room-reservation",
+    "query": "Did the dean approve the room reservation my student organization submitted yesterday?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The facilities policy lists approval criteria, not the outcome of a specific application."
+  },
+  {
+    "id": "nandhan-dev-my-meningitis-record",
+    "query": "Has the Registrar already received my bacterial meningitis vaccination record?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The vaccination requirement is public, but individual compliance records are not in the corpus."
+  },
+  {
+    "id": "nandhan-dev-my-advisor-name",
+    "query": "What is the name and email address of my assigned academic advisor?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Advising policies describe advisor responsibilities but do not list a student's assigned advisor."
+  },
+  {
+    "id": "nandhan-dev-spring-2027-census",
+    "query": "What are the Spring 2027 Census Day and the last day to withdraw from a full-term course?",
+    "split": "dev",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Only the Fall 2026 academic calendar is in the corpus; its dates do not establish a later term's deadlines."
+  },
+  {
+    "id": "nandhan-dev-ce-2030-electives",
+    "query": "How many free elective hours will the 2030-2031 computer engineering degree plan require?",
+    "split": "dev",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No 2030-2031 computer engineering plan exists in the corpus; earlier plans are not evidence for it."
+  },
+  {
+    "id": "nandhan-dev-summa-cutoff-number",
+    "query": "What exact GPA did Jonsson School graduates need for summa cum laude this academic year?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The catalog explains how thresholds are derived from a rolling average but never publishes the numeric cutoffs."
+  },
+  {
+    "id": "nandhan-dev-this-class-cr",
+    "query": "Can I take this class on a credit/no credit basis?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The course, its instructor designation, and its role on the student's degree plan are not specified."
+  },
+  {
+    "id": "nandhan-dev-parking-permit-price",
+    "query": "How much does a student parking permit cost for the 2026-2027 year?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No document in the corpus lists parking permit types or prices."
+  },
+  {
+    "id": "nandhan-dev-my-final-room",
+    "query": "Which room is my final exam in for my 10 a.m. Tuesday/Thursday class?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The course is unspecified and the corpus has no final exam room schedule."
+  },
+  {
+    "id": "nandhan-test-second-8-week",
+    "query": "For the Fall 2026 second 8-week session, when do classes start and when does the withdrawal period end? Are its final exam dates the same as the full-term finals?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "Second 8-Week Session",
+          "Classes begin Oct. 19",
+          "Withdrawal period ends Nov. 25"
+        ]
+      },
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "Full-Term Session",
+          "Final exams are Dec. 11-16"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-thanksgiving-week",
+    "query": "During Thanksgiving week of Fall 2026, which days are fall break with no classes and which days is the university fully closed?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc036",
+        "all_of": [
+          "Fall break (no classes) is Nov. 23-25",
+          "University closed for Thanksgiving Nov. 26-29"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-in-absentia",
+    "query": "In my last term I only need to resolve an incomplete and will not take any classes. Is there a way to register without coursework, what fee applies, and must I be enrolled when my degree completion is confirmed?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "In absentia registration",
+          "removing an incomplete grade",
+          "nonrefundable/nontransferable fee"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "must be enrolled at UT Dallas during the semester in which the Office of the Registrar confirms completion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-add-without-signature",
+    "query": "Through which class day can I add a course without an instructor or advisor signature, and which kinds of students must still meet an advisor before adding?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "sixth (6th) class day",
+          "without the instructor"
+        ]
+      },
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "students without declared majors",
+          "not in good academic standing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-administrative-drop",
+    "query": "Can the university remove me from a course I registered for without my asking? Give reasons such as missing prerequisites or unpaid tuition.",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "administrative drop may occur",
+          "not satisfied the prerequisites",
+          "tuition and fee payments"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-w-period-cutoff",
+    "query": "Through which week of a long semester can I withdraw online with advisor approval, what grade appears on my transcript, and what is my only option after that week?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "ninth (9th) class week",
+          "grade of 'W'"
+        ]
+      },
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "may only withdraw from a class for non-academic reasons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-naw-time-limits",
+    "query": "I left a semester three years ago because of a family emergency and never graduated. Can I still petition for a non-academic withdrawal, how does the window differ for graduates, and does it cover only one class?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "up to 5 years following the semester requested",
+          "up to 10 weeks from the end of their graduating semester"
+        ]
+      },
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "applies to all courses in which a student is enrolled"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-drop-everything",
+    "query": "If I drop every course I am taking this semester, what extra step must I complete, by what deadline, and what policy decides my refund?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "must officially withdraw from the University",
+          "on or before the last withdrawal day",
+          "Refund Policy for Withdrawal or Dropped Courses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-latin-honors-double",
+    "query": "How is Latin honors awarded to a student with a double major, and what must a double-degree student do to receive honors on both degrees?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "single honors designation will be awarded in the primary major",
+          "complete separate honors requirements for each degree"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-major-honors",
+    "query": "What is the minimum number of graded hours to qualify for Major Honors, and what extra work is needed to graduate with school distinction?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "minimum of 30 graded semester credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "undergraduate thesis judged by faculty"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-third-major-change",
+    "query": "I am changing my major for the third time. Which catalog governs my core curriculum after the change, and is there a charge for this modification?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc008",
+          "doc010"
+        ],
+        "all_of": [
+          "Core Curriculum requirements, however, remain those of the catalog in force at the time of matriculation"
+        ]
+      },
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "third modification requires a $50.00 fee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-pe-and-gpa",
+    "query": "How many physical education activity hours can count toward my bachelor's degree, and what minimum GPA is required in my major, my minor, and overall?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "maximum of three semester credit hours of physical education activity",
+          "minimum GPA of 2.000 on a 4.000 scale"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-degree-plan-hold",
+    "query": "What happens to my official transcript requests if I never file a degree plan, and at how many hours is a filed degree plan reviewed?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "reviewed at the completion of 75 semester credit hours",
+          "prevented from obtaining official transcripts until the degree plan is filed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-change-plan-deadline",
+    "query": "What is the last point in a semester that the Registrar will process an approved change of major for that same semester, and is there ever a charge for leaving exploratory status?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "close of business on the first day of classes",
+          "processed effective for the following semester"
+        ]
+      },
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "no charge to move from the"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-repeat-c-third-attempt",
+    "query": "I earned a C in a course. Am I allowed to repeat it to raise my grade? Separately, what tuition rate does a Texas resident pay on a third attempt, and do withdrawals count as attempts?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "only if the grade is C- or below"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "nonresident undergraduate student rate"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "are counted as grade-bearing enrollment attempts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-course-number-digits",
+    "query": "What does the second digit of a UT Dallas course number tell me, and how do I read a contact-hour code like (2-4) after a course description?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "second digit of the course number indicates the semester credit hour value"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "(2-4) indicates 2 contact hours of lecture and 4 contact hours of laboratory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-independent-study-internship",
+    "query": "What share of my UT Dallas hours may be independent study, and can an internship be taken credit/no credit?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "maximum of 20 percent of the total semester credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc007",
+        "all_of": [
+          "Internships may be taken using the credit/no credit grading option"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-reverse-transfer",
+    "query": "When will UT Dallas send my transcript back to a Texas community college so it can check whether I earned an associate degree, and is my authorization involved?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "at least 66 semester credit hours",
+          "30 of these semester credit hours were taken at a Texas community college"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "in accordance with the student's authorization"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-noncredit-petition",
+    "query": "I finished a non-credit professional course elsewhere. Can it become undergraduate credit through an individual petition, to whom, and who gives final approval?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "individual petition to the program head",
+          "Associate Dean for Undergraduate Education provides final approval"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-tsi-upper-division",
+    "query": "I have not completed my TSI requirement. Beyond what credit total am I blocked from upper-level coursework, and can I take developmental education at UT Dallas?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "TSI complete prior to upper level coursework beyond 59 credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "UT Dallas does not offer Developmental Education coursework"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-transfer-grade-threshold",
+    "query": "What minimum grade must a course from another college have to transfer, and how are pass/fail grades handled?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "grade of C (2.000 on a 4.000-point scale) or higher",
+          "Pass/Fail grades are reviewed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-attorney-at-hearing",
+    "query": "Can my attorney question witnesses or argue for me at a student conduct hearing, and how much notice must I give the Dean if my advisor is a lawyer?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "shall not be permitted to question witnesses"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "at least three (3) days before the time set for commencement of the hearing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-suspension-notation",
+    "query": "What notation goes on the transcript of a student suspended for disciplinary reasons, when can it be removed, and how does an expelled student ask to have the notation removed?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "Suspended - ineligible to reenroll"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "notation can be removed upon the request of the student when all conditions of the suspension are met"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "detailed email to the Vice President of Student Affairs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-group-chat-cheating",
+    "query": "Is discussing homework answers in a class group chat a conduct violation, and should I assume outside help is allowed when the instructor says nothing?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "social media platforms and other electronic chat groups",
+          "may be considered cheating"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "assume any external assistance is prohibited unless clearly notified otherwise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-off-campus-and-post-degree",
+    "query": "Can I face student discipline for something I did off campus, or for misconduct that is only discovered after I have received my degree? What sanction may follow in the second case?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "accountable for conduct that occurs on or off campus"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "conduct that is discovered after the awarding of a degree"
+        ]
+      },
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "Revocation of degree"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-intoxication-parents",
+    "query": "Does being drunk reduce my responsibility under the Student Code of Conduct, and can the university tell my parents about an alcohol violation when I am 20?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc104",
+        "all_of": [
+          "shall not in any way limit the responsibility of the student"
+        ]
+      },
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "under the age of 21 at the time of disclosure to the parent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-literature-and-fundraising",
+    "query": "As an individual student, may I sell or only hand out literature on campus, and how many days per fiscal year may an organization request contributions for an off-campus charity?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "may distribute or display literature but may not sell it"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "more than fourteen days in any fiscal year"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-a-frame-exhibits",
+    "query": "How tall can an A-frame exhibit be, how long can it stay up and may it remain overnight, and can a general exhibit ever stay overnight?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "may not exceed five feet in height or width"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "placed for seven days and remain overnight"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "authorize overnight exhibits in designated locations on a case-by-case basis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-public-and-chalk",
+    "query": "Can a visitor who is not affiliated with UT Dallas protest anywhere on campus, and is chalking a message on a building allowed?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "There are currently no areas that have been designated by the Board of Regents"
+        ]
+      },
+      {
+        "doc_id": "doc102",
+        "all_of": [
+          "tape, or chalk on buildings and surfaces"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-refuse-identification",
+    "query": "What can happen to a student who refuses to identify themselves to a campus police officer on university property, both criminally and under university discipline?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "fine of not more than $200"
+        ]
+      },
+      {
+        "doc_id": "doc103",
+        "all_of": [
+          "expulsion from the University in the case of a student"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-not-education-records",
+    "query": "Under the FERPA policy, are campus police security camera recordings and an instructor's private memory-aid notes treated as education records?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "used only as a personal memory aid",
+          "security camera footage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-records-access-limits",
+    "query": "When I ask to see my education records, within how many days must FERPA-only records be provided, what parental information is withheld from me, and will an official transcript be released if I have a financial hold?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "within forty-five days of the request"
+        ]
+      },
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "Financial information submitted by the Student's parents"
+        ]
+      },
+      {
+        "doc_id": "doc107",
+        "all_of": [
+          "delinquent financial obligation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-badges-and-transcripts",
+    "query": "Are professional certificates recorded on my transcript, and do digital badges affect my GPA?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc099",
+        "all_of": [
+          "will not be recorded on transcripts"
+        ]
+      },
+      {
+        "doc_id": "doc099",
+        "all_of": [
+          "do not add or subtract to an enrolled student's GPA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-student-media-committee",
+    "query": "How many undergraduate and graduate students vote on the Committee on Student Media, who nominates them, and when do student terms run?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc101",
+        "all_of": [
+          "Three (3) undergraduate students nominated by Student Government"
+        ]
+      },
+      {
+        "doc_id": "doc101",
+        "all_of": [
+          "Two (2) graduate students nominated by the Graduate Student Assembly"
+        ]
+      },
+      {
+        "doc_id": "doc101",
+        "all_of": [
+          "Student voting member terms are from June 1 to May 31"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-class-number-register",
+    "query": "A department gave me a class number for a special class that is not in the schedule. Which Orion option do I use to add it, and how do I know the enrollment worked?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "special classes that do not show in the class schedule"
+        ]
+      },
+      {
+        "doc_id": "doc111",
+        "all_of": [
+          "Select 'Swap Classes' and then click on 'Add'"
+        ]
+      },
+      {
+        "doc_id": "doc111",
+        "all_of": [
+          "green check mark"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-se-vs-cs-2021-guided",
+    "query": "In the 2021-2022 catalog, how many guided electives do the software engineering and computer science plans each require, and what extra condition applies to the software engineering ones?",
+    "split": "test",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc022",
+        "all_of": [
+          "four SE Guided Electives",
+          "Application Domain"
+        ]
+      },
+      {
+        "doc_id": "doc021",
+        "all_of": [
+          "three CS Guided Electives"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-cs-2022-vs-2026-courses",
+    "query": "Compare the CS degree plans for 2022-2023 and 2026-2027: which programming fundamentals course and which professional and technical communication course number does each list?",
+    "split": "test",
+    "category": "catalog_comparison",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc024",
+        "all_of": [
+          "CS 1336 Programming Fundamentals"
+        ]
+      },
+      {
+        "doc_id": "doc084",
+        "all_of": [
+          "Programming Fundamentals CS 1436"
+        ]
+      },
+      {
+        "doc_id": "doc024",
+        "all_of": [
+          "ECS 3390 Professional & Technical Communication"
+        ]
+      },
+      {
+        "doc_id": "doc084",
+        "all_of": [
+          "Professional & Technical Communication ECS 2390"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-ipec-language",
+    "query": "For the 2024-2025 international political economy B.A., how many hours of foreign language are required, what replaces them if the language credit comes without classes, and how many major core courses must I choose?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc002",
+        "all_of": [
+          "12 semester credit hours of the same language",
+          "twelve additional semester credit hours of Free Electives"
+        ]
+      },
+      {
+        "doc_id": "doc002",
+        "all_of": [
+          "Students choose 4 out of the following 8 courses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nandhan-test-my-account-hold",
+    "query": "Is there a hold on my account right now that would block me from ordering a transcript?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Policies explain that holds block transcripts, but no individual account status is in the corpus."
+  },
+  {
+    "id": "nandhan-test-my-naw-result",
+    "query": "Was my non-academic withdrawal petition for last spring approved?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The withdrawal policy describes petition rules but not individual petition outcomes."
+  },
+  {
+    "id": "nandhan-test-my-classification",
+    "query": "Based on my completed hours, am I a junior or a senior right now?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Classification thresholds are public, but the student's completed hours are not provided."
+  },
+  {
+    "id": "nandhan-test-my-major-changes",
+    "query": "How many times have I already changed my major, and will my next change cost the fee?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The fee rule is public, but this student's change-of-major history is not in the corpus."
+  },
+  {
+    "id": "nandhan-test-my-tsi-status",
+    "query": "Does my record show that I have already met the TSI requirement?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "TSI rules and exemptions are described, but no individual testing or exemption record is available."
+  },
+  {
+    "id": "nandhan-test-my-magna-gap",
+    "query": "How far is my GPA from the magna cum laude cutoff for my school this year?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Neither the student's GPA nor the numeric honors thresholds appear in the corpus."
+  },
+  {
+    "id": "nandhan-test-fall-2027-finals",
+    "query": "What are the final exam dates for the Fall 2027 full-term session?",
+    "split": "test",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The corpus only contains the Fall 2026 calendar; it does not establish Fall 2027 dates."
+  },
+  {
+    "id": "nandhan-test-se-2027-electives",
+    "query": "How many SE technical elective hours does the 2027-2028 software engineering degree plan list?",
+    "split": "test",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The newest software engineering plan in the corpus is 2026-2027; a later catalog is absent."
+  },
+  {
+    "id": "nandhan-test-refund-amount",
+    "query": "Exactly how much tuition will be refunded if I drop my three-hour class tomorrow?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The corpus refers students to the Bursar for refunds and lacks the refund schedule, tuition amount, and drop date."
+  },
+  {
+    "id": "nandhan-test-bulletin-board-rules",
+    "query": "What size limit applies to flyers on the bulletin board outside that department office?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Each unit sets its own bulletin board rules and the specific department is unspecified."
+  },
+  {
+    "id": "nandhan-test-which-guided-elective",
+    "query": "Which guided elective fits into my schedule next semester without a time conflict?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The student's schedule and the term's section times are not provided by the corpus."
+  },
+  {
+    "id": "nandhan-test-dining-hours",
+    "query": "What time does the dining hall close on Saturdays this semester?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No document in the corpus lists dining hall operating hours."
+  },
+
+
+
   // Already have these questions:
 
 
