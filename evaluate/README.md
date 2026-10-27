@@ -85,16 +85,16 @@ splits after editing. Trailing commas are not supported.
 
 Existing questions are grouped in separate **DEV** and **TEST** blocks. The
 `--split test` command validates evidence and scores only the TEST questions;
-the 32 DEV questions are for tuning and do not contribute to `test.json`.
+dev questions are for tuning and do not contribute to `test.json`.
 Likewise, `--split dev` does not validate evidence or score the TEST questions.
 Every entry must still declare a valid `split`, and the whole file must parse.
 Author headings, question IDs, categories, and ordering do not change retrieval
 or per-question scores. The query drives retrieval and the evidence/unanswerable
 labels determine grading; categories only group report summaries.
 
-The default `questions.json` contains **64 authored questions**, split evenly
-between dev and test. Each split contains 24 answerable cases and 8 unanswerable
-cases. Of the 48 answerable cases, 46 require multiple evidence groups. Challenges
+The default `questions.json` contains **164 authored questions**, split evenly
+between dev and test. Each split contains 62 answerable cases and 20 unanswerable
+cases. Of the 124 answerable cases, 107 require multiple evidence groups. Challenges
 include:
 
 - Paraphrased situations and policy exceptions, rather than title lookups.
