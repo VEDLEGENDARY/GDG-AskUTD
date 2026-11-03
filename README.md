@@ -5,60 +5,62 @@ at Dallas (UTD) web pages, catalogs, and policies. The goal is to answer student
 questions with cited, grounded passages and to abstain when the corpus does not
 contain the answer.
 
+## Quick start
+
+```bash
+python -m pip install pypdf          # only needed for PDF extraction
+python evaluate/evaluate_chunks.py --query "What does FERPA protect?"
+python evaluate/evaluate_chunks.py --config evaluate/config.example.json --split dev --output evaluate/runs/dev.json
+cd evaluate && python -m unittest test_evaluate_chunks
+```
+
+The evaluator uses only the Python standard library. See
+[`evaluate/README.md`](evaluate/README.md) for every setting and the output format.
+
 ## Repository layout
 
 | Path | Contents |
 | --- | --- |
-| `backend/data/raw_pdfs/` | Source PDFs printed from UTD web pages and catalogs (219 files). |
-| `backend/data/raw_text/` | Plain-text extraction of each source document (118 files, `docNNN.txt`). |
-| `backend/data/chunks/` | Semantic chunk JSON per document, with chunk IDs and metadata. |
+| `backend/data/raw_pdfs/` | Source PDFs printed from UTD pages and catalogs (219 files). |
+| `backend/data/raw_text/` | Extracted text, one `docNNN.txt` per document (169 files). |
+| `backend/data/chunks/` | Sentence-aligned chunk JSON per document (169 files). |
+| `backend/data/doc_sources.json` | PDF filename for each doc added with `add_documents.py` (doc119 onward). |
 | `evaluate/` | Retrieval evaluator, benchmark questions, and experiment modules. |
 | `documentation/` | Team notes, including how the chunk corpus was merged. |
-| `pdf_to_text.py` | Extracts text from `raw_pdfs/` into `raw_text/`. |
-| `rename_raw_text.py` | Renames text files to the team naming convention. |
+| `add_documents.py` | Turns new PDFs into numbered text and chunk files. |
+| `pdf_to_text.py` | Extracts text from PDFs (pypdf, with PyMuPDF or pypdfium2 fallback). |
 | `fill_chunk_counts.py` | Validates chunk JSON and fills `n_sentences` and `token_count`. |
-| `requirements.txt` | Dependencies for the planned web backend and local models. |
+| `rename_raw_text.py` | Renames text files to the `docNNN.txt` convention. |
 
-## Running the retrieval evaluator
+## Adding documents
 
-The evaluator uses only the Python standard library.
-
-```bash
-python evaluate/evaluate_chunks.py --config evaluate/config.example.json --split dev --output evaluate/runs/dev.json
-python evaluate/evaluate_chunks.py --config evaluate/config.example.json --split test --output evaluate/runs/test.json
-python evaluate/evaluate_chunks.py --query "What does FERPA protect?"
-```
-
-See [`evaluate/README.md`](evaluate/README.md) for every setting, the output
-format, and the benchmark rules. Tune on the `dev` split and reserve `test` for
-checking the final configuration.
-
-Run the unit tests with:
+Drop the new PDF in `backend/data/raw_pdfs/`, named after its URL (see
+`documentation/naming.md`), then run:
 
 ```bash
-cd evaluate && python -m unittest test_evaluate_chunks
+python add_documents.py backend/data/raw_pdfs/<file>.pdf
+python evaluate/evaluate_chunks.py --validate-only
 ```
 
-## Extracting and chunking documents
+The script assigns the next `docNNN` id, writes the text and chunk files, and
+records the mapping in `doc_sources.json`. Scanned or image-only PDFs need OCR first.
 
-```bash
-python -m pip install pypdf
-python pdf_to_text.py                       # PDFs in raw_pdfs/ to raw_text/
-python fill_chunk_counts.py backend/data/chunks/doc006_example.json
-```
+## Current status
 
-Scanned or image-only PDFs need OCR before extraction.
+- Corpus: 169 documents and about 2,900 chunks. Docs 119 to 169 came from the
+  `Ariana-docs` branch (registrar, financial aid, transfer credit, admissions).
+- Benchmark: 164 questions (82 dev, 82 test), including 100 added from
+  `nandhan-more-questions`. `--validate-only` passes.
+- Baseline retrieval (lexical BM25 plus metadata, `config.example.json`, tuned on
+  dev only): dev leaderboard 45.8, test 53.2. Abstention on unanswerable
+  questions is still 0, which is the main open problem.
+- Tests: all evaluator test modules pass. The semantic tests are skipped unless
+  the MiniLM models are cached under `~/.cache/huggingface`.
+- Not in the repo yet: the web backend. `requirements.txt` lists FastAPI,
+  ChromaDB, and Ollama for it.
 
-## Status
+## Next steps
 
-- Corpus: 118 documents have text and chunk files. 51 PDFs added from the
-  `Ariana-docs` branch do not yet have text or chunks and are not retrieved.
-- Benchmark: 164 questions, 82 `dev` and 82 `test`. The validator currently
-  reports infeasible questions under the 900-token budget, so
-  `--validate-only` exits with status 1.
-- Tests: `test_evaluate_chunks` has 4 failures and 1 error that still need
-  investigation.
-
-## Contributors
-
-Team project for the UTD AskUTD initiative. See the commit history for individual contributions.
+1. Improve abstention so unanswerable questions return no passages.
+2. Build the FastAPI backend and connect an answer generator.
+3. Process the remaining original PDFs that have no doc id mapping.

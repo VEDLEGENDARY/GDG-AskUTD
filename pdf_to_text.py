@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Extract text from PDFs in ``backend/data/raw_pdfs``.
 
-Install the dependency with ``python -m pip install pypdf``, then run:
+Install the dependency with ``python -m pip install pypdf`` (PyMuPDF or pypdfium2
+are used as a fallback for files pypdf cannot parse), then run:
     python pdf_to_text.py
 
 Text files are written to ``backend/data/raw_text`` with the same base names as
@@ -20,16 +21,42 @@ DEFAULT_INPUT_DIR = ROOT / "backend" / "data" / "raw_pdfs"
 DEFAULT_OUTPUT_DIR = ROOT / "backend" / "data" / "raw_text"
 
 
+def _extract_with_pypdf(pdf_path: Path) -> list[str]:
+    from pypdf import PdfReader
+
+    reader = PdfReader(str(pdf_path))
+    return [(page.extract_text() or "").strip() for page in reader.pages]
+
+
+def _extract_with_fallback(pdf_path: Path) -> list[str]:
+    """Used when pypdf cannot parse a file; tries PyMuPDF, then pypdfium2."""
+    try:
+        import fitz  # PyMuPDF
+
+        with fitz.open(str(pdf_path)) as document:
+            return [page.get_text().strip() for page in document]
+    except ImportError:
+        pass
+    import pypdfium2
+
+    document = pypdfium2.PdfDocument(str(pdf_path))
+    return [page.get_textpage().get_text_range().strip() for page in document]
+
+
 def extract_text(pdf_path: Path) -> str:
     try:
-        from pypdf import PdfReader
+        pages = _extract_with_pypdf(pdf_path)
     except ImportError as exc:
         raise RuntimeError(
             "Missing dependency: install pypdf with `python -m pip install pypdf`."
         ) from exc
-
-    reader = PdfReader(str(pdf_path))
-    pages = [(page.extract_text() or "").strip() for page in reader.pages]
+    except Exception:
+        try:
+            pages = _extract_with_fallback(pdf_path)
+        except ImportError as exc:
+            raise RuntimeError(
+                f"pypdf could not read {pdf_path.name}; install pymupdf or pypdfium2 as a fallback."
+            ) from exc
     return "\n\n".join(pages).rstrip() + "\n"
 
 

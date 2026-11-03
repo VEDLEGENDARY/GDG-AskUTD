@@ -16,3 +16,10 @@ different chunk sizes, so their total chunk counts differ.
 
 The academic policies output (doc005) is retained from main because its honors
 evidence remains compatible with the existing retrieval benchmark.
+
+## Documents 119 to 169
+
+Added from the `Ariana-docs` branch with `add_documents.py`. Each PDF was
+extracted, cleaned of browser headers and repeated menu lines, split into
+sentence-aligned chunks of about 120 words, and listed in
+`backend/data/doc_sources.json`.

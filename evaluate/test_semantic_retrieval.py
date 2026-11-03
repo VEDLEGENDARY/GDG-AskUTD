@@ -3,6 +3,7 @@ from semantic_retrieval import WordPiece, EMBED, SemanticRetriever, DEFAULT
 
 def chunk(cid,doc='doc001',text='Evidence'):
     return dict(chunk_id=cid,doc_id=doc,text=text,source_title='Guide',section_heading='Policy')
+@unittest.skipUnless((EMBED/'tokenizer.json').exists(), 'cached MiniLM tokenizer not available')
 class SemanticTests(unittest.TestCase):
     def test_known_wordpiece_ids(self):
         t=WordPiece(EMBED/'tokenizer.json')

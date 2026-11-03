@@ -17,7 +17,9 @@ from evaluate_chunks import (
 
 
 def settings(**overrides):
-    return replace(load_settings(), **overrides)
+    # Unit tests use tiny synthetic corpora, so disable the tuned abstention
+    # threshold and metadata weight that the shipped config applies to the real corpus.
+    return replace(load_settings(), **{'min_score': 0.0, 'metadata_weight': 0.0, **overrides})
 
 
 class EvaluatorTests(unittest.TestCase):

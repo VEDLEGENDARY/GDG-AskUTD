@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc151_p1_c1",
+    "doc_id": "doc151",
+    "text": "We are aware of an issue with the Firefox browser where the browser constantly refreshes after you click on the Former Student Reactivation form link. If you experience this issue, please try another browser such as Chrome or Edge. You may also try right clicking on the link and copy/pasting it into the browser address window instead. UT Dallas > Office of the Registrar > Transcripts > Transcripts FAQ Transcripts FAQ. How do I view and resolve transcript holds? What do I do if I typed the wrong email address on the Former Student Reactivation Form? What if it has been two business days and I have not received reactivation instructions? I am certain my information is correct, why am I still being denied?",
+    "source_title": "UT Dallas > Office of the Registrar > Transcripts > Transcripts FAQ",
+    "section_heading": "Overview",
+    "n_sentences": 8,
+    "token_count": 178
+  },
+  {
+    "chunk_id": "doc151_p1_c2",
+    "doc_id": "doc151",
+    "text": "I attended UTD on two separate occasions, what dates do I enter? I only attended UTD one semester, what date do I enter?",
+    "source_title": "UT Dallas > Office of the Registrar > Transcripts > Transcripts FAQ",
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 30
+  },
+  {
+    "chunk_id": "doc151_p2_c1",
+    "doc_id": "doc151",
+    "text": "What do I do if I am a Former Employee without access to the UTD Student Center in Orion? My NetID is reactivated and I have access to the UTD Student Center in Orion, but the Order Official Transcript. link does not open the transcript ordering page. Will reactivating my NetID reactivate my utdallas.edu email address? How do I change order format? Why is my electronic transcript blank? How may I request my transcript to be held for grades/degree? How do I view end-of-semester grades? How do I check the status of my transcript order? How long does it take to process the transcript order? When will paper transcripts ordered through the universities Parchment website be printed? Related Pages Privacy Policy 800 W. Campbell Road Richardson, Texas 75080-3021 Contact Us",
+    "source_title": "UT Dallas > Office of the Registrar > Transcripts > Transcripts FAQ",
+    "section_heading": "Office of the Registrar",
+    "n_sentences": 11,
+    "token_count": 194
+  }
+]

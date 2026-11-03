@@ -3,12 +3,12 @@
   "candidate_pool": 50,
   "bm25_k1": 1.5,
   "bm25_b": 0.75,
-  "lexical_weight": 0.8,
-  "metadata_weight": 0.5,
-  "diversity_lambda": 0.6,
-  "min_score": 0.8,
+  "lexical_weight": 0.5,
+  "metadata_weight": 0.4,
+  "diversity_lambda": 0.9,
+  "min_score": 0.3,
   "max_per_document": 5,
   "min_chunk_words": 3,
-  "max_chunk_words": 40,
+  "max_chunk_words": 300,
   "context_budget": 1200
 }

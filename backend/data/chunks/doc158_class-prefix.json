@@ -1,0 +1,29 @@
+[
+  {
+    "chunk_id": "doc158_p1_c1",
+    "doc_id": "doc158",
+    "text": "Class Prefix Class Number Tool Tips Abbreviation Description #### Used in the transfer credit tool as the sending institution’s course number to indicate all courses for a given prefix/department abbreviation have the same equivalency GNED Used in the transfer credit tool as an indication that the External Course carries a specific Core Curriculum requirement code to UT Dallas LLUC 1— Generic lower-division (freshman) credit LLUC 2— Generic lower-division (sophomore) credit ULUC 3— Generic upper-division (junior) credit ULUC 4— Generic upper-division (senior) credit UTD XXXX The course has been determined to be transferable to UT Dallas and a specific equivalency will be determined after enrollment",
+    "source_title": "Class Prefix",
+    "section_heading": "Overview",
+    "n_sentences": 1,
+    "token_count": 177
+  },
+  {
+    "chunk_id": "doc158_p2_c1",
+    "doc_id": "doc158",
+    "text": "If a specific school or course is missing from the transfer credit tool, it does not necessarily mean that the coursework will not transfer to UT Dallas. Instead, it indicates that the coursework’s equivalency is unknown and will be determined during an official transfer evaluation. Search by UTD Course. Look up courses from UT Dallas. View their transfer equivalencies at other colleges or universities. Official/Unofficial Transfer Evaluation. Official transfer evaluations are conducted for current UT Dallas students after receipt of an official transcript as of the admissions process. The transfer credit tool can only provide you with an unofficial transfer evaluation. Transferability of any listed course is not guaranteed.",
+    "source_title": "Class Prefix",
+    "section_heading": "College/Course Not Found",
+    "n_sentences": 9,
+    "token_count": 184
+  },
+  {
+    "chunk_id": "doc158_p3_c1",
+    "doc_id": "doc158",
+    "text": "Course sequences vary among institutions and may not directly equate with UT Dallas sequences on a course-for-course basis. Common examples of this include Biology, Calculus, and Chemistry. Credit Disclaimer. UT Dallas awards transfer credit according to the policies listed in the UT Dallas course catalogs. For incoming transfer students, the transfer credit tool results may be awarded after submitting an admissions application and transcripts. For current UT Dallas students, please consult your academic advisor before taking a course at UTD or another institution. 800 W. Campbell Road Richardson, Texas 75080-3021 Privacy Policy",
+    "source_title": "Class Prefix",
+    "section_heading": "Science and Math Courses",
+    "n_sentences": 6,
+    "token_count": 159
+  }
+]
