@@ -1,0 +1,278 @@
+[
+  {
+    "id": "r01",
+    "split": "dev",
+    "category": "easy",
+    "query": "hey where do i get money back for a dropped class?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "Bursar's Office"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r02",
+    "split": "dev",
+    "category": "easy",
+    "query": "im an f1 student. do i gotta go to orientation?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "mandatory for all F and J"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r03",
+    "split": "dev",
+    "category": "easy",
+    "query": "minimum gpa to finish a masters?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "GPA of at least 3.00"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r04",
+    "split": "dev",
+    "category": "medium",
+    "query": "sent the withdrawal email already. how do i check it actually went through?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "logging into Orion and verifying"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r05",
+    "split": "dev",
+    "category": "hard",
+    "query": "I am a new teaching assistant. Make a checklist: what orientation is required, and how early is meningitis proof due?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "mandatory for all newly appointed"
+        ]
+      },
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "at least ten (10) days before"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r06",
+    "split": "dev",
+    "category": "hard",
+    "query": "I am doing my thesis and want a semester off. Can I just skip fall registration, and what is the normal continuous enrollment load?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "unless they have been granted a leave of absence"
+        ]
+      },
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "at least three semester credit hours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r07",
+    "split": "dev",
+    "category": "hard",
+    "query": "Undergrad here with a hold. Before census, who gets my drop request and what part of my ID do I include?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "Students with holds should send the request"
+        ]
+      },
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "last four digits of your student ID"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r08",
+    "split": "dev",
+    "category": "unsupported",
+    "query": "What is my exact current student account balance?",
+    "unanswerable": true,
+    "evidence": []
+  },
+  {
+    "id": "r09",
+    "split": "test",
+    "category": "easy",
+    "query": "i forgot to pay tuition. does that automatically drop me?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "automatically dropped from their courses for non-payment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r10",
+    "split": "test",
+    "category": "easy",
+    "query": "who writes up the housing advisory committee meeting minutes?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc093",
+        "any_of": [
+          "recording secretary's main duty shall be the compilation of the minutes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r11",
+    "split": "test",
+    "category": "medium",
+    "query": "Does FERPA mean nobody can read student theses or research papers?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc009",
+        "any_of": [
+          "FERPA does not extend to research papers and theses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r12",
+    "split": "test",
+    "category": "unsupported",
+    "query": "What is my exact current GPA?",
+    "unanswerable": true,
+    "evidence": []
+  },
+  {
+    "id": "r13",
+    "split": "test",
+    "category": "hard",
+    "query": "I am a grad student dropping a course before Census Day. Draft a checklist with the email address and the student ID detail to include.",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "records@utdallas.edu"
+        ]
+      },
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "last four digits of your student ID"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r14",
+    "split": "test",
+    "category": "hard",
+    "query": "I am an international undergrad on financial aid. Who do I contact before dropping, and is F and J orientation mandatory?",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc108",
+        "any_of": [
+          "Undergraduate students who are receiving financial aid or are international students"
+        ]
+      },
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "mandatory for all F and J"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r15",
+    "split": "test",
+    "category": "hard",
+    "query": "For a graduate student, explain the recovery window after GPA drops below 3.00 and the usual fall/spring thesis enrollment requirement.",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "next two semesters"
+        ]
+      },
+      {
+        "doc_id": "doc003",
+        "any_of": [
+          "at least three semester credit hours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r16",
+    "split": "test",
+    "category": "hard",
+    "query": "Give me a two-part checklist: how to hide directory information under FERPA, and the start/end dates of a housing advisory committee term.",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc009",
+        "any_of": [
+          "Request for Confidentiality instructions"
+        ]
+      },
+      {
+        "doc_id": "doc093",
+        "any_of": [
+          "October 1 to September 30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r17",
+    "split": "test",
+    "category": "action",
+    "query": "Actually withdraw me from CS 1337 right now.",
+    "unanswerable": true,
+    "evidence": []
+  }
+]

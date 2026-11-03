@@ -1,0 +1,8 @@
+{
+  "semantic_weight": 0.25,
+  "gap": 0.15,
+  "min_score": 0.3,
+  "extra": 3,
+  "top_k": 5,
+  "coverage_ratio": 0.95
+}

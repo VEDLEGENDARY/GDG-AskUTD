@@ -1,0 +1,9 @@
+from pathlib import Path
+p=Path('evaluate/hard_retrieval.py');s=p.read_text(encoding='utf-8')
+s=s.replace("    years=set(re.findall(r'\\b(?:19|20)\\d{2}\\b',q))", "    years=set(re.findall(r'\\b(?:19|20)\\d{2}\\b',q))\n    ranges=re.findall(r'\\b((?:19|20)\\d{2})\\s*[-–]\\s*((?:19|20)\\d{2})\\b',q)\n    editions=[set(pair) for pair in ranges] or [years]")
+s=s.replace("        if not any(years.issubset(set(re.findall(r'\\b(?:19|20)\\d{2}\\b',title))) for title in titles):", "        if any(not any(edition.issubset(set(re.findall(r'\\b(?:19|20)\\d{2}\\b',title))) for title in titles) for edition in editions):")
+s=s.replace("        codes=re.findall", "        ranges=re.findall(r'\\b((?:19|20)\\d{2})\\s*[-–]\\s*((?:19|20)\\d{2})\\b',positive)\n        editions=[set(pair) for pair in ranges] or [years]\n        codes=re.findall")
+s=s.replace("program in title.lower() and years.issubset(set(re.findall(r'\\b(?:19|20)\\d{2}\\b',title)))", "program in title.lower() and any(edition.issubset(set(re.findall(r'\\b(?:19|20)\\d{2}\\b',title))) for edition in editions)")
+s=s.replace("        if path.exists():value=json.loads(path.read_text());self.data[q]=value;return value", "        if path.exists():\n            value=json.loads(path.read_text())\n            if value['reason']==reject_reason(q,self.s):self.data[q]=value;return value")
+s=s.replace("                for aspect in aspects:scoped.append((rewrite(aspect)+' '+title,doc))", "                if re.search(r'technical.?elective.*hours',q,re.I):aspects.append('How many technical elective hours are required?')\n                if re.search(r'free.?elective.*hours',q,re.I):aspects.append('How many free elective hours are required?')\n                for aspect in aspects:\n                    aspect=re.sub(r'\\b(?:19|20)\\d{2}\\s*[-–]\\s*(?:19|20)\\d{2}\\b','',aspect)\n                    scoped.append((rewrite(aspect)+' '+title,doc))")
+p.write_text(s,encoding='utf-8')

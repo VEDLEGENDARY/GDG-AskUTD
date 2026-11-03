@@ -1,0 +1,17 @@
+[
+ {"id":"a01","split":"test","category":"privacy","query":"Under FERPA, who counts as an eligible student?","unanswerable":false,"evidence":[{"doc_id":"doc009","any_of":["18 years of age or is attending an institution of postsecondary education"]}]},
+ {"id":"a02","split":"test","category":"privacy","query":"How long does a student have to file a complaint alleging a FERPA violation?","unanswerable":false,"evidence":[{"doc_id":"doc009","any_of":["within 180 days"]}]},
+ {"id":"a03","split":"test","category":"privacy","query":"How can a student withhold release of directory information?","unanswerable":false,"evidence":[{"doc_id":"doc009","any_of":["Request for Confidentiality instructions"]}]},
+ {"id":"a04","split":"test","category":"privacy","query":"Does FERPA extend to student research papers and theses?","unanswerable":false,"evidence":[{"doc_id":"doc009","any_of":["FERPA does not extend to research papers and theses"]}]},
+ {"id":"a05","split":"test","category":"public_contact","query":"What phone number does the FERPA catalog entry give for the Office of the Registrar?","unanswerable":false,"evidence":[{"doc_id":"doc009","any_of":["(972) 883-2342"]}]},
+ {"id":"a06","split":"test","category":"housing","query":"How frequently must the Campus Housing Advisory Committee meet during long semesters?","unanswerable":false,"evidence":[{"doc_id":"doc093","any_of":["at least once each month"]}]},
+ {"id":"a07","split":"test","category":"housing","query":"How many voting members sit on the Campus Housing Advisory Committee?","unanswerable":false,"evidence":[{"doc_id":"doc093","any_of":["fifteen (15) voting members"]}]},
+ {"id":"a08","split":"test","category":"housing","query":"What are the term dates for Campus Housing Advisory Committee members?","unanswerable":false,"evidence":[{"doc_id":"doc093","any_of":["October 1 to September 30"]}]},
+ {"id":"a09","split":"test","category":"housing","query":"Who compiles the minutes for Campus Housing Advisory Committee meetings?","unanswerable":false,"evidence":[{"doc_id":"doc093","any_of":["recording secretary's main duty shall be the compilation of the minutes"]}]},
+ {"id":"a10","split":"test","category":"housing","query":"Who is the responsible university official for the Campus Housing Advisory Committee?","unanswerable":false,"evidence":[{"doc_id":"doc093","any_of":["Associate Vice President for Student Affairs shall serve as the Responsible University Official"]}]},
+ {"id":"a11","split":"test","category":"prerequisites","query":"According to the computer science minor prerequisites chart, what ALEKS score permits entry into calculus?","unanswerable":false,"evidence":[{"doc_id":"doc051","any_of":["at least 75% in ALEKS"]}]},
+ {"id":"a12","split":"test","category":"personal_record","query":"What is my exact current student account balance?","unanswerable":true,"evidence":[]},
+ {"id":"a13","split":"test","category":"future_outcome","query":"Will my housing application be accepted next week?","unanswerable":true,"evidence":[]},
+ {"id":"a14","split":"test","category":"unsupported_year","query":"What does the 2049 undergraduate catalog require for graduation?","unanswerable":true,"evidence":[]},
+ {"id":"a15","split":"test","category":"private_contact","query":"What is the private home phone number of the committee chair?","unanswerable":true,"evidence":[]}
+]

@@ -189,3 +189,70 @@ with status 1 and a diagnostic; conflicting or invalid command arguments exit
 with status 2. Normal scoring still exits 0 when questions are infeasible, with
 those IDs explicitly listed in the report. A successful exit does not mean a
 perfect retrieval score.
+
+## Adaptive genetic config search
+
+From the repository root, using your Python executable:
+
+```powershell
+& $python evaluate/search_config.py --generations 60 --output-dir evaluate/runs/my-search
+```
+
+From inside `evaluate`, use `search_config.py` and `runs/my-search` instead. Choose
+a new output directory for each run; existing results are never overwritten.
+Use `--seed NUMBER` to reproduce a run. The automatically generated seed is saved
+in `manifest.json`. Candidate values for all 12 settings live in `search_space.json`.
+
+The search optimizes the normal leaderboard score on **dev only**:
+
+- Evaluate 10 new, unique configurations per generation.
+- Keep the best two overall as elites in the next breeding population.
+- Select each parent by a tournament of three candidates from the breeding population.
+- Uniformly cross two parents: each setting comes from one of them.
+- Mutate each setting with probability `min(0.45, 0.12 + 0.03 * stalled_generations)`.
+- For a mutation, choose a neighboring search-space value 70% of the time, and
+  a random different value otherwise.
+- Include two fully random immigrants per generation; increase to four after
+  six generations without a better score. Immigrants count toward the ten new samples.
+- Reset the mutation pressure after an improvement. Stop after `--patience`
+  stalled generations (default 12), once at least 20 generations have run, or
+  at the `--generations` limit, whichever applies first.
+
+A cold start uses ten random candidates in its first generation. Elites do not
+count as new samples. An overall top-10 archive is saved separately. Duplicate
+configurations are retried; after 200 unsuccessful child attempts, a random
+candidate is tried. Fitness ties prefer complete evidence, recall, precision,
+lower token cost, then sample ID. Because unchanged and duplicate children are
+rejected, the accepted population's observed mutation rate may differ from the
+raw per-setting probability.
+
+Reuse compatible results rather than repeating earlier evaluations:
+
+```powershell
+& $python evaluate/search_config.py --warm-start evaluate/runs/ga-search --output-dir evaluate/runs/adaptive-search
+```
+
+Warm starts require matching corpus, dev-question, and search-space fingerprints.
+Prior test results are not used. The current config is measured as a baseline
+and never overwritten. Cached scoring is checked against the normal evaluator
+at the baseline, a random point, the warm-start winner, and the final winner.
+Only after selection finishes is the final winner evaluated on test.
+
+Outputs include:
+
+- `best-config.json`: highest-scoring dev configuration found so far.
+- `top10.json`: overall top ten samples with scores and settings.
+- `samples.jsonl`: each new sample, including parents, origin, and mutated fields.
+- `generations.json` and `progress.json`: generation summaries and progress.
+- `manifest.json`: seed, algorithm, search space, baseline, and input fingerprints.
+- `best-dev.json`, `best-test.json`, and `complete.json`: final reference results.
+
+Progress and the best config are saved after each generation. To stop gracefully,
+create an empty file named `STOP` inside the output directory; the search finishes
+its current generation and writes final reports. A finite search finds the best
+config among its tested samples, not a guaranteed global optimum. Evaluate a saved
+winner with the same normal evaluator:
+
+```powershell
+& $python evaluate/evaluate_chunks.py --config evaluate/runs/adaptive-search/best-config.json --split dev --output evaluate/runs/adaptive-check.json
+```

@@ -1,14 +1,14 @@
 {
-  "top_k": 4,
-  "candidate_pool": 30,
+  "top_k": 5,
+  "candidate_pool": 50,
   "bm25_k1": 1.5,
   "bm25_b": 0.75,
-  "lexical_weight": 0.7,
-  "metadata_weight": 0.2,
-  "diversity_lambda": 0.8,
-  "min_score": 0.12,
-  "max_per_document": 3,
-  "min_chunk_words": 5,
-  "max_chunk_words": 1200,
-  "context_budget": 900
+  "lexical_weight": 0.8,
+  "metadata_weight": 0.5,
+  "diversity_lambda": 0.6,
+  "min_score": 0.8,
+  "max_per_document": 5,
+  "min_chunk_words": 3,
+  "max_chunk_words": 40,
+  "context_budget": 1200
 }

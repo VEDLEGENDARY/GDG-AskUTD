@@ -1,0 +1,11 @@
+from pathlib import Path
+p=Path('evaluate/instruction_model.py');s=p.read_text(encoding='utf-8-sig')
+s=s.replace(' def __init__(self):',' def __init__(self,small=False):')
+s=s.replace("  self.tokenizer=AutoTokenizer.from_pretrained(str(MODEL),local_files_only=True)","  model_path=Path.home()/'.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/snapshots/9213176726f574b556790deb65791e0c5aa438b6' if small else MODEL\n  self.tokenizer=AutoTokenizer.from_pretrained(str(model_path),local_files_only=True)")
+s=s.replace('str(MODEL),torch_dtype','str(model_path),torch_dtype')
+s=s.replace("self.model=torch.ao.quantization.quantize_dynamic(model,{torch.nn.Linear},dtype=torch.qint8,inplace=True)","modules={name:torch.ao.quantization.default_dynamic_qconfig for name,module in model.named_modules() if isinstance(module,torch.nn.Linear) and name!='lm_head'}\n  self.model=torch.ao.quantization.quantize_dynamic(model,modules,dtype=torch.qint8,inplace=True)")
+s=s.replace(' def generate(self,system,user,max_tokens=150):',' def generate(self,system,user,max_tokens=150,prefix=""):')
+s=s.replace("  inputs=self.tokenizer(text,return_tensors='pt')", "  text+=prefix\n  inputs=self.tokenizer(text,return_tensors='pt')")
+s=s.replace('max_new_tokens=max_tokens,do_sample=False,pad_token_id=', 'max_new_tokens=max_tokens,do_sample=False,temperature=None,top_p=None,pad_token_id=')
+s=s.replace('  return response,time.perf_counter()-start','  return prefix+response,time.perf_counter()-start')
+p.write_text(s,encoding='utf-8')
