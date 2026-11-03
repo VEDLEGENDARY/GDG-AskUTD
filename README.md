@@ -61,4 +61,4 @@ Scanned or image-only PDFs need OCR before extraction.
 
 ## Contributors
 
-Team project for the UTD AskUTD initiative, built during GDG sprints.
+Team project for the UTD AskUTD initiative. See the commit history for individual contributions.
