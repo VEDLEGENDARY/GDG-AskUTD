@@ -3244,5 +3244,626 @@
     "unanswerable": true,
     "evidence": [],
     "unanswerable_reason": "This future catalog is absent; a similar older plan is not evidence for that year."
+  },
+  // Data questions (Task 4): docs 119-169; 20 dev + 20 test; each split has 15 answerable and 5 unanswerable.
+  {
+    "id": "data-dev-bursar-fall-installments",
+    "query": "My Fall 2026 tuition is on the installment plan. When is the first installment due, and on what date do registration holds start for past-due balances?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc119",
+        "all_of": [
+          "September 23, 2026",
+          "1 installment payment deadline"
+        ]
+      },
+      {
+        "doc_id": "doc119",
+        "all_of": [
+          "October 22, 2026",
+          "Registration holds will be placed for past due balances"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-bursar-live-chat",
+    "query": "The Bursar office does not take walk-ins, so during what weekday hours can I reach its live chat support?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc119",
+        "all_of": [
+          "Live Chat Support",
+          "4:45 p.m."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-galaxy-maintenance-window",
+    "query": "Orion would not load early on a Sunday. When is the routine maintenance window for Orion and Gemini?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc162",
+        "all_of": [
+          "Routine Maintenance",
+          "Sunday mornings between 2 a.m. and noon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-six-w-grade-codes",
+    "query": "Which withdrawal codes on my UT Dallas transcript count against the Texas six-withdrawal limit?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc137",
+        "all_of": [
+          "W, WL, WP or WF",
+          "6-Withdrawals limitation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-excessive-hours-appeal",
+    "query": "I am over the excessive hours limit and want to appeal the charge. Where do I send the appeal and what is the deadline?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc165",
+        "all_of": [
+          "Appeal deadline",
+          "Census day of the current term",
+          "records@utdallas.edu"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-tuition-rebate-rules",
+    "query": "How much is the Texas tuition rebate, how many hours beyond my degree can I attempt and still qualify, and by when must the application be submitted?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc166",
+          "doc135"
+        ],
+        "all_of": [
+          "$1,000 tuition rebate",
+          "no more than 3 hours in excess"
+        ]
+      },
+      {
+        "doc_id": "doc166",
+        "all_of": [
+          "before the Degree Conferral Date"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-exemptions-versus-waivers",
+    "query": "What is the difference between tuition exemption programs and waiver programs, and which students is each one meant for?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc124",
+        "all_of": [
+          "Exemption programs are available for certain eligible students who are classified as Texas residents"
+        ]
+      },
+      {
+        "doc_id": "doc124",
+        "all_of": [
+          "waive the out-of-state portion of your non-resident tuition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-apostille-diploma",
+    "query": "Can the registrar put an Apostille on my diploma, and if not, who do I go to for that step?",
+    "split": "dev",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc168",
+        "all_of": [
+          "does not apply Apostille",
+          "Texas Secretary of State"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-audit-senior-citizen",
+    "query": "I am 67 and want to audit a course. What is the deadline for the audit application, and what identification do I have to provide?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc142",
+          "doc133"
+        ],
+        "all_of": [
+          "Deadline to submit the application form is the full-term census day"
+        ]
+      },
+      {
+        "doc_ids": [
+          "doc142",
+          "doc133"
+        ],
+        "all_of": [
+          "over 65 years of age",
+          "government issued ID"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-etranscript-fee",
+    "query": "How much does it cost to order an official electronic transcript as a former student?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc150",
+        "all_of": [
+          "eTranscript Processing Fee",
+          "$10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-third-party-scholarship-check",
+    "query": "An outside donor is mailing me a scholarship check. Who should the check be made payable to, and what mailing address should the donor use?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc163",
+        "all_of": [
+          "third party scholarship checks are made payable to University of Texas at Dallas",
+          "800 W Campbell Road SSB 22"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-concurrent-enrollment",
+    "query": "For concurrent enrollment between UT Dallas and UT Arlington, how many hours must I take at each school, and which school receives my payment?",
+    "split": "dev",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc145",
+        "all_of": [
+          "at least 1 hour at BOTH the HOME and HOST institution"
+        ]
+      },
+      {
+        "doc_id": "doc145",
+        "all_of": [
+          "Students will pay the HOME institution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-ap-statistics-credit",
+    "query": "What UT Dallas course credit do I get for scoring a 4 on the AP Statistics exam?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc155",
+        "all_of": [
+          "STAT Statistics 4-5 STAT 1342"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-finaid-fax-dropoff",
+    "query": "What fax number and in-person drop-off spot can I use to turn in documents to the Office of Financial Aid?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc126",
+        "all_of": [
+          "972-883-6803",
+          "Student Services Building, first floor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-admissions-ratio-grad-rate",
+    "query": "What student-to-faculty ratio and four-year graduation rate does UT Dallas advertise to prospective students?",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc161",
+        "all_of": [
+          "Student-to-faculty ratio: 23:1",
+          "Four-year graduation rate: 63%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-dev-my-bursar-balance",
+    "query": "After my financial aid disbursed, how much do I still owe the Bursar for Fall 2026?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The Bursar pages list deadlines and payment methods, not any individual student account balance."
+  },
+  {
+    "id": "data-dev-my-work-study-offer",
+    "query": "How much federal work-study did the Office of Financial Aid offer me for this academic year?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Aid offers are individual and shown in Orion; the aid program pages describe work-study only in general."
+  },
+  {
+    "id": "data-dev-spring-2031-exam-dates",
+    "query": "What are the final exam dates for full-term classes in Spring 2031?",
+    "split": "dev",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The final exam page only lists Fall 2026 dates; later terms are not in the corpus."
+  },
+  {
+    "id": "data-dev-residency-review-status",
+    "query": "Has the residency team finished reviewing the documents I uploaded to Galaxy last week?",
+    "split": "dev",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Residency pages describe review timing in general, not the status of a specific submission."
+  },
+  {
+    "id": "data-dev-parking-permit-price",
+    "query": "How much does a student parking permit cost for the Fall 2026 semester?",
+    "split": "dev",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The Galaxy page only says permits are bought through My Parking; no permit prices appear in the corpus."
+  },
+  {
+    "id": "data-test-fall-final-exam-dates",
+    "query": "For Fall 2026, when are final exams for full-term classes, and when are they for first 8-week session classes?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc132",
+        "all_of": [
+          "Full term and second 8-week classes: December 11 – 16",
+          "First 8-week classes: October 13 – 17"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-graduation-application-deadlines",
+    "query": "To graduate in Fall 2026, what is the priority deadline for the graduation application, and what is the final deadline?",
+    "split": "test",
+    "category": "multi_evidence",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc134",
+        "all_of": [
+          "September 1, 2026",
+          "Priority Graduation Application Deadline"
+        ]
+      },
+      {
+        "doc_id": "doc134",
+        "all_of": [
+          "October 1, 2026",
+          "Final Graduation Application Deadline"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-cross-listed-repeat",
+    "query": "If a class is cross-listed under another prefix, is it treated as the same course for the three-attempt repeat limit?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc136",
+          "doc007"
+        ],
+        "all_of": [
+          "cross-listed under more than one course prefix are considered the same course"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-aid-disbursement-start",
+    "query": "After I accept my financial aid offer in Orion, around when does UT Dallas start disbursing the aid for the term?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc128",
+        "all_of": [
+          "We begin disbursing financial aid on or about the first day of the term"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-double-major-hours-rebate",
+    "query": "I am double majoring. Does the second major raise my excessive hours cap, and does the tuition rebate only apply to a first bachelor's degree?",
+    "split": "test",
+    "category": "multi_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc165",
+        "all_of": [
+          "Additional major/degree/minor does not extend the maximum attempted hours limit"
+        ]
+      },
+      {
+        "doc_id": "doc166",
+        "all_of": [
+          "First bachelor’s degree only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-meningitis-exemptions",
+    "query": "Who can skip the bacterial meningitis vaccine requirement because of their age or because they only take online classes?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "22 years or older by the first day of class",
+          "taking only online classes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-notarized-documents-email",
+    "query": "Which email addresses should I use to ask for a notarized transcript and for a notarized diploma?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc168",
+        "all_of": [
+          "notarized transcripts please email transcripts@utdallas.edu",
+          "notarized diplomas please email Graduation@utdallas.edu"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-edi-attachments",
+    "query": "If my official transcript goes electronically through EDI to another Texas college, can I include an attachment with it?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_ids": [
+          "doc150",
+          "doc116"
+        ],
+        "all_of": [
+          "EDI transcripts do not allow attachments"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-ferpa-first-right",
+    "query": "How many primary rights does FERPA give students, and what is the first right listed?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc138",
+        "all_of": [
+          "five primary rights under FERPA",
+          "To inspect and review their education records"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-cooperative-enrollment-fees",
+    "query": "Under cooperative enrollment with a Texas A&M campus, where do I pay tuition and fees, and do I need a separate parking permit at the host school?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc145",
+        "all_of": [
+          "All tuition and fees will be paid at the HOME campus",
+          "Parking is reciprocal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-transfer-credit-posting-time",
+    "query": "After the registrar receives my official transcript from another college, how long until the transfer credit appears on my record?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc153",
+        "all_of": [
+          "approximately 5 – 7 business days after we receive your official transcript"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-dual-credit-withdrawals",
+    "query": "I withdrew from a dual-credit college course while still in high school. Does that count toward the Texas six-withdrawal limit?",
+    "split": "test",
+    "category": "policy_exceptions",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc137",
+        "all_of": [
+          "Withdrawals from college level courses taken as dual-credit prior to high school graduation are not counted"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-orientation-module-score",
+    "query": "As a new freshman, what score do I need on the orientation module assessment, and how long after finishing until I can register?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc141",
+        "all_of": [
+          "complete the ending assessment with a score of 100%",
+          "at least two business days"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-residency-utility-bills",
+    "query": "How many months of utility bills can show I physically lived in Texas for residency purposes?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc167",
+        "all_of": [
+          "Utility bills for the twelve consecutive months preceding the census date"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-outside-scholarship-reporting",
+    "query": "Why are scholarships called gift aid, and what must I do if I get a scholarship that is not on my award notice?",
+    "split": "test",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc130",
+        "all_of": [
+          "gift aid",
+          "report it to the Office of Financial Aid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data-test-my-transcript-hold",
+    "query": "Is there a hold on my account right now that would block my official transcript order?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "Hold rules are described generally; a student's current holds are only visible in Orion."
+  },
+  {
+    "id": "data-test-notary-walk-in-schedule",
+    "query": "Which registrar notary is on duty this Friday afternoon so I can walk in and get my diploma notarized?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The notarization page only gives email contacts; no staff schedule or walk-in hours are published."
+  },
+  {
+    "id": "data-test-ap-calculus-2032-chart",
+    "query": "What UT Dallas credit will a 5 on AP Calculus BC earn under the 2031-2032 credit chart?",
+    "split": "test",
+    "category": "unavailable_version",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The AP chart in the corpus covers academic year 2025-2027 only."
+  },
+  {
+    "id": "data-test-my-rebate-decision",
+    "query": "Was my Texas tuition rebate application approved, and how much will I get back?",
+    "split": "test",
+    "category": "private_data",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "The rebate page lists eligibility rules and timing, not individual decisions."
+  },
+  {
+    "id": "data-test-rebate-total-payout",
+    "query": "What was the total amount of Texas tuition rebates UT Dallas paid to graduates last academic year?",
+    "split": "test",
+    "category": "missing_context",
+    "unanswerable": true,
+    "evidence": [],
+    "unanswerable_reason": "No aggregate rebate statistics are published in the corpus."
   }
 ]

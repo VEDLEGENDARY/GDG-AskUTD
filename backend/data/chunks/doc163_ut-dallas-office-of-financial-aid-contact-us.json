@@ -3,7 +3,7 @@
     "chunk_id": "doc163_p1_c1",
     "doc_id": "doc163",
     "text": "UT Dallas > Office of Financial Aid > Contact Us Contact Us. The Office of Financial Aid is here to assist you as you navigate the financial aid process. Many of your answers are available on our website (including our chatbot), but you may still want to contact someone in our office. Questions regarding tuition, student accounts, and refunds can be answered by the Bursar Office. The Bursar Office contact information can be found on that office’s website. Ways to Reach Us Office hours: Monday through Thursday, 9AM to 5PM Friday, 10AM to 5PM Call: You can call us at (972) 883-2941",
-    "source_title": "UT Dallas > Office of Financial Aid > Contact Us",
+    "source_title": "Office of Financial Aid: Contact Us",
     "section_heading": "Overview",
     "n_sentences": 6,
     "token_count": 147
@@ -11,28 +11,28 @@
   {
     "chunk_id": "doc163_p2_c1",
     "doc_id": "doc163",
-    "text": "Please send emails from your UT Dallas assigned email account and include your full name and net ID in the body of your email. If you do not know your net ID, please include your full name and date of birth. Email responses will be sent to your UTD email address. Come in: We have rooms available in the Student Services Building (SSB) where you can have a virtual meeting with a financial aid or veterans’ benefits advisor during our open hours. Please check in at the Welcome Desk on the first floor of the SSB. Third Party Scholarship Drop Box:",
-    "source_title": "UT Dallas > Office of Financial Aid > Contact Us",
-    "section_heading": "Email: financial-aid@utdallas.edu",
-    "n_sentences": 6,
-    "token_count": 137
+    "text": "Email: financial-aid@utdallas.edu. Please send emails from your UT Dallas assigned email account and include your full name and net ID in the body of your email. If you do not know your net ID, please include your full name and date of birth. Email responses will be sent to your UTD email address. Come in: We have rooms available in the Student Services Building (SSB) where you can have a virtual meeting with a financial aid or veterans’ benefits advisor during our open hours. Please check in at the Welcome Desk on the first floor of the SSB. Third Party Scholarship Drop Box:",
+    "source_title": "Office of Financial Aid: Contact Us",
+    "section_heading": "Overview",
+    "n_sentences": 7,
+    "token_count": 146
   },
   {
     "chunk_id": "doc163_p3_c1",
     "doc_id": "doc163",
-    "text": "Please request that third party scholarship checks are made payable to University of Texas at Dallas. Be sure to give your donor your email address and ask them to note it on the check. Donor needs to specify the academic year or semester the funds are intended. Mailing Address: 800 W Campbell Road SSB 22. May I help you? Hi there! I’m a chatbot here to answer your questions. What would you like to know?",
-    "source_title": "UT Dallas > Office of Financial Aid > Contact Us",
+    "text": "Please request that third party scholarship checks are made payable to University of Texas at Dallas. Be sure to give your donor your email address and ask them to note it on the check. Donor needs to specify the academic year or semester the funds are intended. Mailing Address: 800 W Campbell Road SSB 22.",
+    "source_title": "Office of Financial Aid: Contact Us",
     "section_heading": "Student Services Building SSB 22",
-    "n_sentences": 8,
-    "token_count": 102
+    "n_sentences": 4,
+    "token_count": 77
   },
   {
     "chunk_id": "doc163_p4_c1",
     "doc_id": "doc163",
-    "text": "Based on First Letter of Your Last Name: Federal Veterans Benefits contact: Kimberly Bomnskie. Hazlewood Exemptions contact: Kimberly Bomnskie Payment Options: Bursar’s Office. Tuition Plans & Rates: Tuition Plans & Rates Refunds: Bursar’s Office Administrative Team. Associate Director: Carmen Tanner Director: Amber Harrold. Senior Director: Robert Clarke Deadlines Forms Code of Conduct FINANCIAL AID. May I help you? Hi there! I’m a chatbot here to answer your questions. What would you like to know? FATV Grants Loans Waivers Work Study Estimated Costs Apply Verification FAQ Hazlewood Federal Benefits Veteran Forms VA FAQ Listing Transfer Students Academic Excellence McDermott Scholars Parents Consumer Info Rights and Responsibilities HEERF Reporting AID PROGRAMS TOPICS VETERANS SCHOLARSHIPS May I help you? Hi there! I’m a chatbot here to answer your questions. What would you like to know?",
-    "source_title": "UT Dallas > Office of Financial Aid > Contact Us",
+    "text": "Based on First Letter of Your Last Name: Federal Veterans Benefits contact: Kimberly Bomnskie. Hazlewood Exemptions contact: Kimberly Bomnskie Payment Options: Bursar’s Office. Tuition Plans & Rates: Tuition Plans & Rates Refunds: Bursar’s Office Administrative Team. Associate Director: Carmen Tanner Director: Amber Harrold. Senior Director: Robert Clarke",
+    "source_title": "Office of Financial Aid: Contact Us",
     "section_heading": "Financial Aid Advisor Listing",
-    "n_sentences": 13,
-    "token_count": 226
+    "n_sentences": 5,
+    "token_count": 90
   }
 ]

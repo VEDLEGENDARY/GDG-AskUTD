@@ -3,7 +3,7 @@
     "chunk_id": "doc166_p1_c1",
     "doc_id": "doc166",
     "text": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate Texas Tuition Rebate. A student may qualify for the $1,000 tuition rebate if attempted no more than 3 hours in excess of degree hours and: Enrolled at a college or university for the first time in fall 1997 or later, but before fall 2005 Enrolled at a college or university for the first time in fall 2005 or later, and must graduate within 4 calendar years (5 years for architecture, or engineering programs)",
-    "source_title": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate",
+    "source_title": "Office of the Registrar: Texas Tuition Rebate",
     "section_heading": "Overview",
     "n_sentences": 2,
     "token_count": 123
@@ -12,7 +12,7 @@
     "chunk_id": "doc166_p2_c1",
     "doc_id": "doc166",
     "text": "You must meet all the requirements: Initial enrollment semester First bachelor’s degree only Texas resident during all semesters for bachelor’s degree Attempt no more than 3 hours in excess of the minimum number to complete degree per catalog Apply for the Rebate. Submit the Texas Tuition Rebate Application form to the Registrar’s Office in the graduating semester. Submission deadline: You must submit your application for the Texas Tuition Rebate before the Degree Conferral Date, as listed in the Academic Calendar, for the semester in which you will graduate. It is the student’s responsibility to ensure that the form is received by the Office of the Registrar before this deadline. Submission of the online form will return a confirmation email as receipt. Timing for review 4-6 weeks after degree conferral date",
-    "source_title": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate",
+    "source_title": "Office of the Registrar: Texas Tuition Rebate",
     "section_heading": "Eligibility Requirements",
     "n_sentences": 6,
     "token_count": 205
@@ -21,8 +21,8 @@
     "chunk_id": "doc166_p3_c1",
     "doc_id": "doc166",
     "text": "Cannot make a decision until degree is certified Students will be notified of their eligibility via an email sent to their UT Dallas email address Attempted hours include Earned hours. Unearned hours (non-passing grades) Transfer hours. Credit earned by exam (first 9 are excluded) Withdrawn courses For-credit developmental courses Vocational/Technical courses. Optional internship and cooperative courses Repeated courses Hours excluded. Course credit taken for ROTC requirements Courses dropped for reasons determined by UT Dallas to be totally beyond student control Course credit, other than course credit earned exclusively by examination (first 9 hours excluded), that is earned before graduating high school Other important information The amount of tuition to be rebated to a student under this program is $1,000, unless the total amount of undergraduate tuition paid by the student to the institution awarding the degree was less than $1,000, in which event the amount of tuition to be rebated is an amount equal to the amount of undergraduate tuition paid by the student to the institution.",
-    "source_title": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate",
-    "section_heading": "Office of the Registrar",
+    "source_title": "Office of the Registrar: Texas Tuition Rebate",
+    "section_heading": "Eligibility Requirements",
     "n_sentences": 5,
     "token_count": 276
   },
@@ -30,18 +30,18 @@
     "chunk_id": "doc166_p3_c2",
     "doc_id": "doc166",
     "text": "A student who paid the institution awarding the degree an amount of undergraduate tuition less than $1,000 may qualify for an increase in the amount of the rebate, not to exceed a total rebate of $1,000, for any amount of undergraduate tuition the student paid to other Texas public institutions of higher education by providing the institution awarding the degree with proof of the total amount of that tuition paid to other institutions. Tuition rebates shall be reduced by the amount of any outstanding student loan, including an emergency loan, owed to or guaranteed by this state, including the Texas Guaranteed Student Loan Corporation. If a student has more than one outstanding student loan, the institution shall apply the amount of the rebate to the loans as directed by the student.",
-    "source_title": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate",
-    "section_heading": "Office of the Registrar",
+    "source_title": "Office of the Registrar: Texas Tuition Rebate",
+    "section_heading": "Eligibility Requirements",
     "n_sentences": 3,
     "token_count": 199
   },
   {
     "chunk_id": "doc166_p3_c3",
     "doc_id": "doc166",
-    "text": "If the student fails to provide timely instructions on the application of the amount, the institution shall apply the amount of the rebate to retire the loans with the highest interest rates first. Related Pages Privacy Policy 800 W. Campbell Road Richardson, Texas 75080-3021 Contact Us",
-    "source_title": "UT Dallas > Office of the Registrar > Legislative Policies > Texas Tuition Rebate",
-    "section_heading": "Office of the Registrar",
-    "n_sentences": 2,
-    "token_count": 72
+    "text": "If the student fails to provide timely instructions on the application of the amount, the institution shall apply the amount of the rebate to retire the loans with the highest interest rates first.",
+    "source_title": "Office of the Registrar: Texas Tuition Rebate",
+    "section_heading": "Eligibility Requirements",
+    "n_sentences": 1,
+    "token_count": 50
   }
 ]
