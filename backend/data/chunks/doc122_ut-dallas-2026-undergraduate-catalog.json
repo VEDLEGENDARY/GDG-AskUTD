@@ -47,19 +47,10 @@
   {
     "chunk_id": "doc122_p3_c1",
     "doc_id": "doc122",
-    "text": "The University of Texas at Dallas is committed to providing a welcoming, respectful, and inclusive educational, living, and working environment for all members of the University community. We prohibit all forms of discrimination and harassment in accordance with federal and state laws, ensuring equal opportunities in employment, education, services, activities, and programs. Discrimination based on race, color, religion, sex (including pregnancy), sexual orientation, gender identity, gender expression, age, national origin, disability, genetic information, or veteran status is strictly prohibited. Retaliation for reporting, filing a complaint, participating in an investigation or proceeding, or opposing unlawful practices is also prohibited. No person will be excluded from participation in, denied the benefits of, or be subjected to discrimination under any University-sponsored program or activity.",
+    "text": "The University of Texas at Dallas is committed to providing a welcoming, respectful, and inclusive educational, living, and working environment for all members of the University community. We prohibit all forms of discrimination and harassment in accordance with federal and state laws, ensuring equal opportunities in employment, education, services, activities, and programs. Discrimination based on race, color, religion, sex (including pregnancy), sexual orientation, gender identity, gender expression, age, national origin, disability, genetic information, or veteran status is strictly prohibited. Retaliation for reporting, filing a complaint, participating in an investigation or proceeding, or opposing unlawful practices is also prohibited. No person will be excluded from participation in, denied the benefits of, or be subjected to discrimination under any University-sponsored program or activity. The University of Texas at Dallas has been approved to participate in the National Council for State Authorization Reciprocity Agreements. Catalog Publication Date: June 2026.",
     "source_title": "UT Dallas 2026 Undergraduate Catalog",
     "section_heading": "Equal Educational Opportunity Statement",
-    "n_sentences": 5,
-    "token_count": 228
-  },
-  {
-    "chunk_id": "doc122_p3_c2",
-    "doc_id": "doc122",
-    "text": "The University of Texas at Dallas has been approved to participate in the National Council for State Authorization Reciprocity Agreements. Catalog Publication Date: June 2026. Updated: 2025-08-12 09:19:10 v2.726b74",
-    "source_title": "UT Dallas 2026 Undergraduate Catalog",
-    "section_heading": "Equal Educational Opportunity Statement",
-    "n_sentences": 3,
-    "token_count": 54
+    "n_sentences": 7,
+    "token_count": 272
   }
 ]
