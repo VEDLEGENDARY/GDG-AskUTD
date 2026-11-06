@@ -17,6 +17,11 @@ evaluate/exports/
 .env
 .env.*
 *.env
+!.env.example
+
+# Local API storage
+backend/storage/*.db
+backend/storage/*.db-*
 
 # OS and editor
 .DS_Store
