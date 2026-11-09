@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html.dark { color-scheme: dark; }
+html, body { min-height: 100%; }
+body { margin: 0; font-family: 'Plus Jakarta Sans', Arial, sans-serif; }
+button, input { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #e97600; outline-offset: 3px; }
+input:focus-visible { outline: none; }
+* { scrollbar-width: thin; scrollbar-color: #c8c1a0 transparent; }
+html.dark * { scrollbar-color: #615d55 transparent; }
+
+@layer components {
+  .rail-button { @apply flex size-12 items-center justify-center rounded-full text-[#475569] transition-colors hover:bg-white/60 hover:text-[#e97600] active:scale-95 dark:text-[#d2cbbd] dark:hover:bg-white/10 dark:hover:text-[#fefae0]; }
+  .rail-active { @apply text-[#475569] dark:text-[#fefae0]; }
+  .history-link { @apply flex h-[38px] min-w-0 items-center overflow-hidden border-l border-[#8c8470] pl-4 pr-1 text-ellipsis whitespace-nowrap text-[16px] font-medium leading-[22px] tracking-[-.007em] text-[#5c5648] transition-colors hover:bg-[#ede8b8] hover:text-[#252422] dark:border-[#615d55] dark:text-[#c3bdad] dark:hover:bg-[#363330] dark:hover:text-[#fefae0]; }
+  .history-current { @apply border-l-2 border-[#e97600] text-[#5c5648]; }
+  .icon-action { @apply flex size-9 shrink-0 items-center justify-center rounded-full text-[#5c5648] transition hover:bg-black/5 dark:text-[#c3bdad] dark:hover:bg-white/10; }
+}
+@media (max-width: 1023px) {
+  .history-panel { position: fixed; inset-block: 0; left: 80px; width: min(320px, calc(100vw - 80px)); transform: translateX(calc(-100% - 80px)); transition: transform .2s ease; box-shadow: 18px 0 36px rgba(0,0,0,.12); }
+  .history-panel.mobile-open { transform: translateX(0); }
+}
+@media (max-width: 639px) {
+  .app-rail { width: 64px; padding-inline: 8px; }
+  .history-panel { left: 64px; width: min(320px, calc(100vw - 64px)); transform: translateX(calc(-100% - 64px)); }
+  .answer-column { width: min(562px, calc(100% - 24px)); }
+  .answer-column h1 { font-size: 25px; }
+  .answer-column [class*="grid-cols-"] { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}

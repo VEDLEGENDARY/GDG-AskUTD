@@ -22,3 +22,8 @@ evaluate/exports/
 .DS_Store
 .idea/
 .vscode/
+
+# Next.js website
+.next/
+node_modules/
+out/
