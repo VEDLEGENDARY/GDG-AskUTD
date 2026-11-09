@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/ci.yml
+
+      # Only what the offline tests import; the full app stack lives in requirements.txt.
+      - name: Install test dependencies
+        run: python -m pip install "numpy>=1.26.4,<2.1.0" "onnxruntime>=1.18,<2"
+
+      - name: Evaluator tests
+        run: python -m unittest discover -s evaluate -p "test_*.py"
+
+      - name: Backend tests
+        run: python -m unittest discover -s backend/tests -p "test_*.py"
+
+      - name: Document tool tests
+        run: python -m unittest test_add_documents
+
+      - name: Validate benchmark labels
+        run: python evaluate/evaluate_chunks.py --validate-only
+
+  repo-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The corpus under backend/data/ and evaluate/questions.json quote source pages, so they are not scanned.
+      - name: No em dashes in code and docs
+        run: |
+          paths=""
+          for path in backend/app backend/tests scripts documentation README.md; do
+            if [ -e "$path" ]; then paths="$paths $path"; fi
+          done
+          if grep -rnI --exclude-dir=__pycache__ $'\xe2\x80\x94' $paths; then
+            echo "::error::Em dash found. Use commas, colons or parentheses instead."
+            exit 1
+          fi
+
+      - name: No files over 5 MB outside backend/data/raw_pdfs/
+        run: |
+          status=0
+          while IFS= read -r -d '' file; do
+            case "$file" in backend/data/raw_pdfs/*) continue ;; esac
+            if [ -f "$file" ] && [ "$(stat -c%s "$file")" -gt 5242880 ]; then
+              echo "::error file=$file::File is larger than 5 MB"
+              status=1
+            fi
+          done < <(git ls-files -z)
+          exit $status

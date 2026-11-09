@@ -3,7 +3,7 @@
     "chunk_id": "doc162_p1_c1",
     "doc_id": "doc162",
     "text": "The University of Texas at Dallas > Galaxy Galaxy. Galaxy is a centralized hub that connects applicants, students, faculty and staff to essential university systems. It provides access to Polaris and Orion for academic and application tasks, Gemini for financial and HR functions, and other key services like email and eLearning. APPLICANTS STUDENTS Routine Maintenance: Orion, Gemini FMS and Gemini HCM may. be unavailable due to routine maintenance on Sunday mornings between 2 a.m. and noon.",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "Overview",
     "n_sentences": 4,
     "token_count": 124
@@ -11,17 +11,17 @@
   {
     "chunk_id": "doc162_p2_c1",
     "doc_id": "doc162",
-    "text": "Access to submit documentation for admission, check your application status, view updates and know next steps after admission. Graduate Applicant Portal (Polaris). Access to submit documentation for admission, check your application status, view updates and know next steps after admission. Current Students Polaris Student Portal. Access your task list, view communications and campus resources, and connect with your Student Success Team. Orion Student Center. Access your academic records, course registration, financial aid and tuition/fees information. eLearning Visit eLearning to access your classroom assignments, course materials and other academic resources. Faculty & Staff",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "text": "Access to submit documentation for admission, check your application status, view updates and know next steps after admission. Graduate Applicant Portal (Polaris). Current Students Polaris Student Portal. Access your task list, view communications and campus resources, and connect with your Student Success Team. Orion Student Center. Access your academic records, course registration, financial aid and tuition/fees information. eLearning Visit eLearning to access your classroom assignments, course materials and other academic resources. Faculty & Staff",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "Undergraduate Applicant Portal (Orion)",
-    "n_sentences": 8,
-    "token_count": 171
+    "n_sentences": 7,
+    "token_count": 140
   },
   {
     "chunk_id": "doc162_p3_c1",
     "doc_id": "doc162",
     "text": "Faculty and staff access to Polaris for managing applicant and current student information. Gemini. Access to Financial Management System (FMS) and Human Capital Management (HCM). Orion. Access to academic records, course registration, financial aid and tuition/fees information. Tips & Best Practices Polaris. Tips for students: Learn more about navigating your Polaris Student Portal on the Polaris website. Best practices: Faculty and staff Polaris training and job aids are available on the Polaris website.",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "Polaris",
     "n_sentences": 8,
     "token_count": 128
@@ -30,7 +30,7 @@
     "chunk_id": "doc162_p4_c1",
     "doc_id": "doc162",
     "text": "Tips before logging in: Clear all browser cache. Visit the knowledge article for instructions. Remove any bookmarked links to the Orion, Gemini FMS or Gemini HCM systems. Please access the systems through utdallas.edu/galaxy. Fluid Training: How-to documents for the Orion and Gemini systems. Toolbox Atlas Self-Service. Submit or view the status of IT-related service requests or incidents. BioRAFT Research Management. Link to BioRAFT, the Research Management Platform. UTD NetID required.",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "Orion & Gemini",
     "n_sentences": 10,
     "token_count": 123
@@ -39,7 +39,7 @@
     "chunk_id": "doc162_p5_c1",
     "doc_id": "doc162",
     "text": "KnowBe4 content delivery platform. DocuSign. Launch DocuSign to sign or send documents for electronic signature. ECRT. Launch the Effort Certification Reporting Technology tool. Employee Assistance Program (EAP). The EAP is free and offers a wide variety of counseling, referrals and consultation services. JIRA. Link to the JIRA Project Tracking tool. Requires a NetID with a valid JIRA account to login. MS Teams. Launch the Microsoft Teams web client to collaborate with colleagues.",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "Compliance & Security Education",
     "n_sentences": 12,
     "token_count": 122
@@ -47,10 +47,10 @@
   {
     "chunk_id": "doc162_p6_c1",
     "doc_id": "doc162",
-    "text": "Manage your parking account: purchase permits, pay or appeal citations. Office 365. Email on Office 365. For students, retirees, faculty and staff. OnBase. Launch the OnBase Document Management tool. Requires an OnBase account. PEARL. Launch the Portal for Enterprise Access Request Library (PEARL) tool. 800 W. Campbell Road Richardson, Texas 75080-3021 972-883-2111 © The University of Texas at Dallas. Questions or comments about this page? STAY CONNECTED WITH UT DALLAS Emergency Preparedness Forms Campus Carry Campus Health Promotion Campus Police Required links Tobacco-Free Campus UT System Work at UT Dallas Parking Nondiscrimination Policy Title IX Initiatives Org. Chart A-Z Index Student Achievements HEERF Reporting Counseling/Mental Health. Report Concern for a Student Safety Hazing Prevention. Public Course and Syllabus Information Privacy Policy Institutional Resume RESOURCES",
-    "source_title": "The University of Texas at Dallas > Galaxy",
+    "text": "Manage your parking account: purchase permits, pay or appeal citations. Office 365. Email on Office 365. For students, retirees, faculty and staff. OnBase. Launch the OnBase Document Management tool. Requires an OnBase account. PEARL. Launch the Portal for Enterprise Access Request Library (PEARL) tool.",
+    "source_title": "UT Dallas Galaxy Portal",
     "section_heading": "My Parking",
-    "n_sentences": 14,
-    "token_count": 224
+    "n_sentences": 9,
+    "token_count": 76
   }
 ]
