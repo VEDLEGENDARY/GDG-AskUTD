@@ -1,0 +1,18 @@
+{
+  "top_k": 5,
+  "candidate_pool": 50,
+  "bm25_k1": 1.5,
+  "bm25_b": 0.75,
+  "lexical_weight": 0.5,
+  "metadata_weight": 0.4,
+  "diversity_lambda": 0.9,
+  "min_score": 0.3,
+  "max_per_document": 5,
+  "min_chunk_words": 3,
+  "max_chunk_words": 300,
+  "context_budget": 1200,
+  "chunks_path": "backend/data/chunks",
+  "registry_path": "backend/data/documents.json",
+  "min_term_coverage": 0.25,
+  "min_top_score": 0.3
+}
