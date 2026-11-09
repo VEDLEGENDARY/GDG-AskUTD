@@ -1,0 +1,25 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_PATH: /app/backend/storage/askutd.db
+      USE_STUBS: ${USE_STUBS:-1}
+      OLLAMA_HOST: http://ollama:11434
+    volumes:
+      - askutd-storage:/app/backend/storage
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["llm"]
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-models:/root/.ollama
+
+volumes:
+  askutd-storage:
+  ollama-models:
