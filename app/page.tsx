@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation';
+import AskUtdApp from '@/components/ask-utd-app';
 
 export default function Home() {
-  redirect('/androids-dream');
+  return <AskUtdApp />;
 }

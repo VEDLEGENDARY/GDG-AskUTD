@@ -8,7 +8,8 @@ contain the answer instead of guessing.
 ## Architecture
 
 ```
-  Browser UI (Vercel)
+  Browser UI (Next.js, repository root)
+        |   same-origin /api proxy to API_BASE_URL
         |   JSON and Server-Sent Events under /api
         v
   FastAPI app, backend/app (Task 3) ------------> SQLite: requests, feedback
@@ -32,14 +33,21 @@ Backend (Python 3.12):
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
-python -m pip install -r requirements.txt
-LLM_PROVIDER=extractive uvicorn backend.app.main:app --reload --port 8000
-curl http://localhost:8000/api/health
+python -m pip install -r requirements-runtime.txt
+npm ci
+npm run dev:all
 ```
 
-UI: from the UI folder run `npm install` and `npm run dev`, with the API base URL set
-to `http://localhost:8000`. Ollama, hosted models, Docker, hosting and the smoke test
-checklist are in [`documentation/DEPLOY.md`](documentation/DEPLOY.md).
+Open [AskUTD locally](http://localhost:3000). Both servers start together, with real
+lexical retrieval and offline extractive answers by default. On Windows, use
+`.venv\Scripts\Activate.ps1` to activate the environment; set `PYTHON` to your
+virtual environment's Python executable if the launcher does not pick it up.
+Requires Node.js 22.18+ and Python 3.12+. No model download or API key is needed.
+
+For the complete container stack, run `docker compose up --build` from this root.
+It starts Next.js and the API with persistent SQLite storage. See
+[`documentation/DEPLOY.md`](documentation/DEPLOY.md) for separate-server commands,
+provider configuration and verification.
 
 Evaluation and tests (standard library plus numpy and onnxruntime for the evaluator
 tests; no GPU, keys or model downloads):
@@ -50,6 +58,8 @@ python evaluate/evaluate_chunks.py --split dev --output evaluate/runs/dev.json
 python scripts/eval_e2e.py --split dev --json evaluate/runs/e2e_dev.json
 python -m unittest discover -s evaluate -p "test_*.py"
 python -m unittest discover -s backend/tests -p "test_*.py"
+npm test
+npm run build
 ```
 
 ## Repository layout
@@ -84,20 +94,19 @@ python evaluate/evaluate_chunks.py --validate-only
 ## Evaluation
 
 Benchmark: 204 questions (102 dev, 102 test), 25 unanswerable per split. Retrieval
-settings are tuned on dev only. Current numbers use the baseline lexical retriever and
-the extractive fallback, because the backend modules are not merged yet:
+settings are tuned on dev only. All backend modules are merged. Final Task 1
+retrieval results use the production lexical service:
 
 | metric | dev | test |
 | --- | --- | --- |
-| retrieval leaderboard score | 51.31 | 55.76 |
-| complete evidence (answerable) | 0.571 | 0.636 |
-| abstained when unanswerable | 0.000 | 0.000 |
-| citation validity | 1.000 | 1.000 |
-| latency p50 ms | 33 | 33 |
+| retrieval leaderboard score | 61.84 | 59.71 |
+| complete evidence (answerable) | 0.571 | 0.610 |
+| abstained when unanswerable | 0.760 | 0.400 |
+| latency p95 ms | 62 | 48 |
 
-Final numbers with Tasks 1 to 3 merged: to be filled in from
-`python scripts/eval_e2e.py --split test` after integration (Day 3 or later). Score
-history and metric definitions are in [`documentation/data.md`](documentation/data.md).
+These are retrieval metrics, not end-to-end answer-quality scores. The test split
+was run once with frozen settings. See [`documentation/retrieval.md`](documentation/retrieval.md)
+for methodology and [`documentation/data.md`](documentation/data.md) for earlier results.
 
 ## Team and roles
 
@@ -111,8 +120,8 @@ history and metric definitions are in [`documentation/data.md`](documentation/da
 
 ## Known limitations
 
-- The baseline retriever never abstains, so unanswerable questions still get passages;
-  abstention has to come from Task 1's threshold or Task 2's generator.
+- Retrieval and generation both abstain, but unsupported questions can still receive
+  an answer. Test retrieval abstention accuracy is 40%.
 - The corpus is a snapshot of UTD pages around the 2026-2027 academic year. Dates,
   fees and contacts change; answers can be out of date.
 - 41 of 198 documents have no source URL: 11 older docs whose PDF could not be matched

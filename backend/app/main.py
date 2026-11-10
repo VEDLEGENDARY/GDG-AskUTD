@@ -37,12 +37,8 @@ class JsonLogFormatter(logging.Formatter):
 def _load_engines(settings: Settings):
     if settings.use_stubs:
         return stubs, stubs
-    try:
-        from . import generation, retrieval
-        return retrieval, generation
-    except ImportError:
-        logging.getLogger("askutd").warning("retrieval or generation module unavailable, using stubs")
-        return stubs, stubs
+    from . import generation, retrieval
+    return retrieval, generation
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:

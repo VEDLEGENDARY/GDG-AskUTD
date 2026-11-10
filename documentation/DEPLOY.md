@@ -1,139 +1,127 @@
-# Deploying GDG-AskUTD
+# Running the integrated app
 
-How to run the API and UI locally, with Docker, with Ollama or a hosted
-OpenAI-compatible model, and how to put it on free hosting. The HTTP routes are
-described in `documentation/api.md` (Task 3).
+The repository root contains both the Next.js UI and the FastAPI backend.
+The browser calls same-origin `/api/*` endpoints; Next.js forwards them to the
+server-only `API_BASE_URL`. No provider credentials enter the browser bundle.
 
-> Assumptions, to confirm once Task 3 merges: the FastAPI app is
-> `backend.app.main:app` and listens on port 8000, the Dockerfile is at the repo root,
-> and the UI reads the API base URL from an environment variable. Adjust the commands
-> below if Task 3 chose different names.
+## Local development
 
-## Environment variables
+Use Python 3.12+ and Node.js 22.18+:
 
-All are optional. Put them in a `.env` file (ignored by git) or export them.
-
-| variable | default | meaning |
-| --- | --- | --- |
-| `LLM_PROVIDER` | `ollama` | `ollama`, `openai_compat` or `extractive` (no LLM, quotes passages) |
-| `OLLAMA_HOST` | `http://localhost:11434` | Ollama server URL |
-| `OLLAMA_MODEL` | `llama3.2:3b` | Ollama model tag |
-| `OPENAI_BASE_URL` | none | base URL of an OpenAI-compatible API, ending in `/v1` |
-| `OPENAI_API_KEY` | none | key for that API; never commit it |
-| `OPENAI_MODEL` | none | model name at that provider |
-| `USE_STUBS` | `0` | `1` serves stub retrieval and answers (UI work without models) |
-| `CORS_ORIGINS` | `http://localhost:3000,http://localhost:5173` | comma-separated allowed UI origins |
-| `DATABASE_PATH` | `backend/storage/askutd.db` | SQLite file for requests and feedback |
-| `LOG_LEVEL` | `INFO` | Python logging level |
-
-## Run locally
-
-Python 3.12.
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-LLM_PROVIDER=extractive uvicorn backend.app.main:app --reload --port 8000
-curl http://localhost:8000/api/health
+```sh
+python -m pip install -r requirements-runtime.txt
+npm ci
+npm run dev:all
 ```
 
-`extractive` needs no model and is the quickest way to check the whole flow. For UI
-work without the retrieval stack, use `USE_STUBS=1`.
+Open http://localhost:3000. The launcher starts the API on 127.0.0.1:8000,
+waits for its health check, then starts Next.js. Ctrl+C stops both. It reads
+an optional root `.env` and defaults to `LLM_PROVIDER=extractive`, `USE_STUBS=0`.
+If using a virtual environment, set `PYTHON` to its Python executable. On Windows
+without an override, the launcher uses `py`; on other platforms it uses `python3`.
 
-Run the UI in its own terminal (from the UI folder) with `npm install` and
-`npm run dev`, and point it at `http://localhost:8000`. Its dev server origin must be
-in `CORS_ORIGINS` (ports 3000 and 5173 are allowed by default).
+For separate terminals:
 
-### With Ollama
-
-```bash
-ollama pull llama3.2:3b
-ollama serve                       # skip if the Ollama app is already running
-LLM_PROVIDER=ollama uvicorn backend.app.main:app --port 8000
+```sh
+# Terminal 1, export LLM_PROVIDER=extractive first.
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
+# Terminal 2
+npm run dev
 ```
 
-`/api/health` reports the active model in `llm`. If Ollama is down the API still
-answers with the extractive fallback instead of failing.
+PowerShell environment syntax is `$env:LLM_PROVIDER='extractive'`; POSIX shells
+use `export LLM_PROVIDER=extractive`. All commands run from the repository root.
+`requirements-runtime.txt` is the small production dependency set for the current
+lexical retriever. The larger `requirements.txt` is for optional model experiments.
 
-### With an OpenAI-compatible provider
+## Containers
 
-Any service that implements the OpenAI chat completions API works (for example Groq,
-OpenRouter, Together, or a local vLLM or LM Studio server).
+With the Docker engine running:
 
-```bash
-export LLM_PROVIDER=openai_compat
-export OPENAI_BASE_URL=https://api.groq.com/openai/v1
-export OPENAI_API_KEY=...          # from the provider dashboard
-export OPENAI_MODEL=llama-3.1-8b-instant
-uvicorn backend.app.main:app --port 8000
+```sh
+docker compose up --build
 ```
 
-## Run with Docker
+This builds the API and web images, waits for the API to become healthy, and
+exposes the UI at http://localhost:3000 and API at http://localhost:8000.
+The web build proxies to `http://api:8000` inside the Compose network. The API
+image includes chunks, registry, retrieval config and the evaluator module used
+by lexical retrieval. SQLite is stored in the `askutd-storage` named volume.
 
-```bash
-docker build -t askutd-api .
-docker run --rm -p 8000:8000 \
-  -e LLM_PROVIDER=extractive \
-  -v askutd-storage:/app/backend/storage \
-  askutd-api
+Both default to real retrieval with extractive generation, not sample responses.
+`USE_STUBS=1` is an explicit developer override only. Missing real modules fail
+startup instead of silently switching the application to stubs.
+
+To enable the optional Ollama service, set `LLM_PROVIDER=ollama` in `.env`, then:
+
+```sh
+docker compose --profile llm up --build -d
+docker compose exec ollama ollama pull llama3.2:3b
 ```
 
-The named volume keeps the SQLite database between container restarts. To use Ollama
-running on the host, add `-e LLM_PROVIDER=ollama -e OLLAMA_HOST=http://host.docker.internal:11434`
-(on Linux also add `--add-host=host.docker.internal:host-gateway`).
+The model download is only needed for Ollama. With extractive generation the app
+needs no GPU, model, API key, external generation service or network call.
 
-## Free hosting
+## Configuration
 
-**API on Render** (Docker web service):
+Copy `.env.example` to `.env` if you want to override defaults. Do not commit `.env`.
 
-1. New, Web Service, connect the GitHub repo, runtime Docker, branch `main`.
-2. Set environment variables: `LLM_PROVIDER=openai_compat` plus the three `OPENAI_*`
-   values, and `CORS_ORIGINS=https://<your-ui>.vercel.app`.
-3. Health check path: `/api/health`.
+| Variable | Purpose |
+| --- | --- |
+| `API_BASE_URL` | Next.js server-side API destination, default `http://127.0.0.1:8000`; set before building a separately hosted frontend |
+| `LLM_PROVIDER` | `extractive`, `ollama`, or `openai_compat`; launcher and Compose default to extractive |
+| `OLLAMA_HOST`, `OLLAMA_MODEL` | Local Ollama URL/model; Compose sets the service URL automatically |
+| `OPENAI_BASE_URL`, `OPENAI_API_KEY`, `OPENAI_MODEL` | Hosted OpenAI-compatible provider settings, backend only |
+| `USE_STUBS` | `0` for the real pipeline; `1` for explicit sample development mode |
+| `DATABASE_PATH` | API SQLite path; Compose fixes this to its persistent volume |
+| `CORS_ORIGINS` | Used only by clients calling the API directly; browser UI uses the same-origin proxy |
+| `RATE_LIMIT_REQUESTS`, `RATE_LIMIT_WINDOW_SECONDS` | Per-client API request limits |
 
-**API on Fly.io** (alternative): `fly launch` (detects the Dockerfile, internal port
-8000), `fly secrets set OPENAI_API_KEY=... OPENAI_BASE_URL=... OPENAI_MODEL=...`,
-`fly volumes create askutd_storage --size 1` mounted at `/app/backend/storage`, then
-`fly deploy`.
+If starting uvicorn manually without `.env` or shell overrides, its historical
+provider default is Ollama. Set `LLM_PROVIDER=extractive` to avoid the remote-model
+timeout before fallback. Rebuild Next.js when changing its proxy destination.
 
-Free tier limits to plan around:
+## User flow
 
-- Ollama does not fit in free instances; use `openai_compat` (or `extractive`).
-- Free instances have about 512 MB of RAM. If the retriever loads an embedding model
-  plus torch it may not fit; use the lexical retriever there or a larger instance.
-- Render free services sleep after about 15 minutes idle (the first request then takes
-  up to a minute) and their disk is wiped on every deploy, so feedback in SQLite is lost
-  unless you attach a disk. Fly volumes persist.
+1. A starter question or the composer sends a validated question plus up to six
+   prior user/assistant turns to `/api/chat/stream`.
+2. FastAPI retrieves passages, checks whether it should abstain and generates a
+   cited answer. SSE events update the text, citation list and completion state.
+3. Citation markers jump to the matching source cards. Registry URLs open the
+   original source; missing URLs are labeled instead of fabricated.
+4. A completed response can receive feedback using its stored request ID. FastAPI
+   persists request analytics and feedback in SQLite.
+5. Conversations are stored only in this browser, capped at 30 conversations and
+   20 exchanges each. They are not cross-device accounts or public share links.
+   Copy answer copies text and source links. Errors retain the question and offer
+   retry; failed or incomplete answers are excluded from follow-up history.
 
-**UI on Vercel**: import the repo, set the root directory to the UI folder, set the API
-base URL variable to the Render or Fly URL, and deploy. Add the Vercel domain (and any
-preview domains you use) to `CORS_ORIGINS` on the API.
+The collection is a snapshot and answers can be wrong or outdated. Confirm
+requirements and dates with the relevant UT Dallas office. Private student
+records are unavailable.
 
-## Smoke test checklist
+## Verification
 
-Run against the deployed API (replace `$API`), then click through the UI once.
+```sh
+npm test
+npm run build
+python -m pip install httpx numpy onnxruntime
+python -m unittest discover -s backend/tests -p 'test_*.py'
+python -m unittest discover -s evaluate -p 'test_*.py'
+python evaluate/evaluate_chunks.py --validate-only
+docker compose config --quiet
+```
 
-- [ ] `GET $API/api/health` returns `status: ok`, `documents: 198`, about 3,000 `chunks`,
-      and the expected `retriever` and `llm`.
-- [ ] `GET $API/api/documents` lists 198 documents; URLs open the right UTD pages.
-- [ ] `GET $API/api/suggestions` returns 6 questions.
-- [ ] `POST $API/api/chat` with "When are Fall 2026 final exams for full-term classes?"
-      answers with `[n]` markers that each match a returned citation.
-- [ ] `POST $API/api/chat` with "How much do I still owe the Bursar?" abstains.
-- [ ] `POST $API/api/chat` with an empty question returns the `{"error": {...}}` shape
-      and a 4xx status.
-- [ ] `POST $API/api/chat/stream` sends `meta`, `citations`, `token` events and ends
-      with `done`.
-- [ ] `POST $API/api/feedback` with the `request_id` from a chat returns 204.
-- [ ] The UI loads from its real domain with no CORS errors in the browser console.
+Browser verification on November 9, 2026 confirmed a drop-class answer with
+three linked citations, a graduate-student follow-up, persisted feedback, an
+out-of-scope refusal, and restoration of both conversations after reload. API
+logs showed successful streaming requests and feedback HTTP 204. Frontend tests
+cover chunked SSE, final citation replacement, errors, premature disconnect and
+feedback failures. Backend tests exercise real retrieval/generation and SQLite.
+The Docker engine was stopped on the verification machine: Compose configuration
+was validated, but image builds and container startup were not executed.
 
-## Rollback
-
-- Code: revert the bad merge on `main` (`git revert -m 1 <merge-sha>`) and push; both
-  hosts redeploy from `main`.
-- Faster, without a commit: Render has "Rollback" on any earlier deploy; on Fly run
-  `fly releases` and `fly deploy --image <previous image>`; on Vercel open the previous
-  deployment and choose "Promote to Production".
-- Data: the corpus, registry and benchmark live in git, so reverting the commit restores
-  them. Copy the SQLite file (`DATABASE_PATH`) before any deploy that changes its schema.
+The CI workflow installs runtime dependencies, runs the backend/evaluator tests,
+validates benchmark labels, and runs frontend tests and a production build.
+Do not rerun the held-out retrieval benchmark while changing integration code;
+Task 1's frozen test results remain in `documentation/retrieval.md`.

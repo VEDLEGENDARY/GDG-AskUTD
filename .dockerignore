@@ -6,5 +6,8 @@ __pycache__
 *.db
 backend/storage/*
 !backend/storage/.gitkeep
-evaluate
+node_modules
+.next
+evaluate/*
+!evaluate/evaluate_chunks.py
 documentation/openapi.json

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:all": "node scripts/dev.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "build": "next build",
     "start": "next start"
   },

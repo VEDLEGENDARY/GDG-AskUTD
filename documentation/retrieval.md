@@ -125,11 +125,11 @@ No server was started. A Python 3.12 interpreter was not available locally.
 ## Hand-off and known gaps
 
 Task 3's existing non-stub engine loader now imports retrieval and generation
-successfully. The existing Dockerfile must copy `evaluate/`,
-`backend/retrieval_config.json` and `backend/data/documents.json` into the image.
-The last file is optional for retrieval but needed for source links. The generation
-module also imports `requests`, which the current Dockerfile does not install.
-These Task 3-owned files were left untouched as required by the task boundaries.
+successfully. The subsequent full-stack integration copies the evaluator module,
+`backend/retrieval_config.json` and `backend/data/documents.json` into the API image
+and installs `requests` through `requirements-runtime.txt`. This resolves the
+Docker handoff gap recorded when Task 1 was submitted. The registry is optional
+for retrieval but needed for source links. See `DEPLOY.md` for the complete stack.
 
 Rules can miss private-record paraphrases, reject some legitimate requests and
 accept unrelated evidence containing a requested year. Other-school detection is

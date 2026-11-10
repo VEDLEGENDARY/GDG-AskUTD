@@ -2,11 +2,14 @@ FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
 WORKDIR /app
-RUN pip install --no-cache-dir "fastapi>=0.110,<1" "uvicorn[standard]>=0.30,<1" \
-    "pydantic>=2.8,<3" "python-dotenv>=1,<2"
+COPY requirements-runtime.txt ./
+RUN pip install --no-cache-dir -r requirements-runtime.txt
 COPY backend/__init__.py backend/__init__.py
 COPY backend/app backend/app
 COPY backend/data/chunks backend/data/chunks
+COPY backend/data/documents.json backend/data/documents.json
+COPY backend/retrieval_config.json backend/retrieval_config.json
+COPY evaluate/evaluate_chunks.py evaluate/evaluate_chunks.py
 RUN mkdir -p backend/storage && useradd --create-home --uid 10001 appuser \
     && chown -R appuser:appuser /app
 USER appuser

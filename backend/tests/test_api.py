@@ -149,6 +149,13 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(events, ["meta", "error"])
         self.assertEqual(payloads[-1]["code"], "internal_error")
 
+    def test_non_stub_app_loads_real_engines(self):
+        from backend.app import generation, retrieval
+        from backend.app.main import _load_engines
+        self.assertEqual(_load_engines(Settings(use_stubs=False)), (retrieval, generation))
+        from backend.app import stubs
+        self.assertEqual(_load_engines(Settings(use_stubs=True)), (stubs, stubs))
+
 
 if __name__ == "__main__":
     unittest.main()

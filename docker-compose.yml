@@ -8,10 +8,25 @@ services:
         required: false
     environment:
       DATABASE_PATH: /app/backend/storage/askutd.db
-      USE_STUBS: ${USE_STUBS:-1}
+      USE_STUBS: ${USE_STUBS:-0}
+      LLM_PROVIDER: ${LLM_PROVIDER:-extractive}
       OLLAMA_HOST: http://ollama:11434
     volumes:
       - askutd-storage:/app/backend/storage
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
   ollama:
     image: ollama/ollama:latest
     profiles: ["llm"]
