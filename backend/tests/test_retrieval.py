@@ -14,8 +14,8 @@ from backend.app.retrieval_support.query import reject, rewrite
 from backend.app.types import Turn
 from evaluate import evaluate_chunks as ev
 
-
 class RetrievalTests(unittest.TestCase):
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)
