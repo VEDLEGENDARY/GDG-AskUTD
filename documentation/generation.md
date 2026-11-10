@@ -1,5 +1,9 @@
 # Answer generation (Task 2)
 
+> Current behavior: see [QUALITY.md](QUALITY.md). Answers are validated before
+> display, missing citations trigger fallback, and the hard response ceiling is
+> below 300 words. The original Task 2 notes below describe its initial release.
+
 `backend/app/generation.py` turns retrieved passages into a short answer that cites its
 sources with `[n]` markers, or abstains with a fixed message when the passages do not
 answer the question. It works with no LLM at all (the `extractive` provider), so the app

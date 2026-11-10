@@ -59,6 +59,8 @@ def extractive_answer(question: str, passages: list[str]) -> str:
     for p_index, text in enumerate(passages):
         rank_bonus = 0.3 * (1 - p_index / max(1, len(passages)))
         for s_index, sentence in enumerate(_SENTENCE_END.split(text)):
+            if re.search(r"\b(?:follow these details|see policies|see details|for more information)\b", sentence, re.I):
+                continue
             words = sentence.split()
             if not _MIN_SENTENCE_WORDS <= len(words) <= _MAX_SENTENCE_WORDS:
                 continue

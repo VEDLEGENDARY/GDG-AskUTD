@@ -10,6 +10,7 @@ from starlette.concurrency import run_in_threadpool
 
 from ..schemas import ChatRequest, ChatResponse
 from ..types import Answer
+from ..retrieval_support.query import rewrite
 from .common import client_ip, new_request_id, passage_citations, record_request, sse, to_turns
 
 router = APIRouter()
@@ -33,7 +34,7 @@ def _answer(request: Request, body: ChatRequest, request_id: str, started: float
     if result.abstain:
         answer = Answer(generation.ABSTAIN_TEXT, abstained=True)
     else:
-        answer = generation.generate_answer(body.question, result.passages, history)
+        answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
     latency = record_request(request, request_id, started, body.question,
                              answer.abstained, len(answer.citations))
     return ChatResponse(request_id=request_id, answer=answer.text, abstained=answer.abstained,
@@ -68,13 +69,13 @@ async def chat_stream(body: ChatRequest, request: Request):
                 citations = passage_citations(result.passages)
                 yield sse("citations", citations)
                 answer = None
-                for item in generation.stream_answer(body.question, result.passages, history):
+                for item in generation.stream_answer(rewrite(body.question, history), result.passages, history):
                     if item.get("type") == "token":
                         yield sse("token", {"text": item.get("text", "")})
                     elif item.get("type") == "final":
                         answer = item["answer"]
                 if answer is None:
-                    answer = generation.generate_answer(body.question, result.passages, history)
+                    answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
                 final_citations = answer.citations
                 if [c.__dict__ for c in final_citations] != [c.__dict__ for c in citations]:
                     yield sse("citations", final_citations)

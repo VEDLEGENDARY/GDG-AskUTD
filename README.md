@@ -5,6 +5,9 @@ pages, catalogs and policies. It retrieves the passages that matter, writes a sh
 answer that cites them with `[n]` markers, and says so plainly when the sources do not
 contain the answer instead of guessing.
 
+See [answer quality and session reliability](documentation/QUALITY.md) for citation
+validation, concise answers, source-library features, and temporary sleep prevention.
+
 ## Architecture
 
 ```

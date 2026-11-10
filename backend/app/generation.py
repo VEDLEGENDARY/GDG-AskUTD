@@ -10,6 +10,7 @@ import re
 from collections.abc import Iterator
 
 from .llm import LLM, ExtractiveLLM, get_provider
+from .llm.extractive import terms
 from .prompts import (ABSTAIN_SENTENCE, CONFIRM_NOTE, MAX_QUESTION_CHARS, build_prompt, leaked_system_prompt,
                       needs_confirmation, normalize_for_match, one_line, select_passages, strip_em_dashes)
 from .types import Answer, Citation, Passage, Turn
@@ -20,11 +21,9 @@ ABSTAIN_TEXT = ("I could not find that in the UT Dallas pages I have. Try rephra
                 "or check with the relevant UT Dallas office.")
 SNIPPET_CHARS = 240
 
-_STREAM_HOLDBACK = 60  # longer than the 40 character leak window, so leaks are caught before display
 _WORDS_PER_TOKEN = 4
 _MARKER = re.compile(r"\[\s*(\d+(?:\s*,\s*\d+)*)\s*\]")
 _MARKER_RUN = re.compile(r"\[\d+\](?:[ \t]*\[\d+\])+")
-_PARTIAL_MARKER = re.compile(r"\[[\d,\s]*$")
 _LETTER = re.compile(r"[^\W\d_]")
 _HAS_CONFIRM = re.compile(r"\b(?:confirm|verify)\b", re.IGNORECASE)
 _ABSTAIN_NORMS = (normalize_for_match(ABSTAIN_SENTENCE),
@@ -120,7 +119,21 @@ def finalize(raw: str, passages: list[Passage]) -> Answer | None:
     if not _LETTER.search(_MARKER.sub("", text)):
         return None
     if not order:
-        text, order = f"{text} [1]", [1]
+        return None
+    if len(text.split()) > 275:
+        return None
+    # Reject numeric inventions even when the model supplied a valid citation ID.
+    for claim in re.split(r"(?<=[.!?])\s+", text):
+        markers = [int(n) for n in re.findall(r"\[(\d+)\]", claim)]
+        if not markers and _LETTER.search(claim):
+            return None
+        evidence = " ".join(passages[order[n-1]-1].text for n in markers)
+        wanted = terms(_MARKER.sub("", claim))
+        if wanted and len(wanted & terms(evidence)) / len(wanted) < 0.30:
+            return None
+        numbers = set(re.findall(r"\b\d+(?:[.,]\d+)*\b", _MARKER.sub("", claim)))
+        if not numbers.issubset(set(re.findall(r"\b\d+(?:[.,]\d+)*\b", evidence))):
+            return None
     if needs_confirmation(text) and not _HAS_CONFIRM.search(text):
         text = f"{text} {CONFIRM_NOTE}"
     citations = [_citation(n, passages[original - 1]) for n, original in enumerate(order, 1)]
@@ -181,99 +194,10 @@ def _tokens(text: str) -> Iterator[dict]:
         yield {"type": "token", "text": piece}
 
 
-class _StreamValidator:
-    """Releases streamed text only once it is citation-safe, and tracks what was shown."""
-
-    def __init__(self, passages: list[Passage]) -> None:
-        self.passages = passages
-        self.raw = ""
-        self.emitted = ""
-        self.emitted_raw_end = 0
-        self.mode = "probe"  # probe -> emit, or probe -> abstain, or emit -> leak
-
-    @property
-    def stopped(self) -> bool:
-        return self.mode in ("abstain", "leak")
-
-    def feed(self, piece: str) -> str:
-        """Add a streamed piece and return the newly displayable text (possibly "")."""
-        if self.stopped or not isinstance(piece, str) or not piece:
-            return ""
-        self.raw += piece
-        if self.mode == "probe":
-            norm = normalize_for_match(self.raw)
-            if any(norm.startswith(sentence) for sentence in _ABSTAIN_NORMS):
-                self.mode = "abstain"
-                return ""
-            if not norm or any(sentence.startswith(norm) for sentence in _ABSTAIN_NORMS):
-                return ""
-            self.mode = "emit"
-        if leaked_system_prompt(self.raw):
-            logger.warning("streamed output repeated the system prompt, stopping the stream")
-            self.mode = "leak"
-            return ""
-        end = max(0, len(self.raw) - _STREAM_HOLDBACK)
-        partial = _PARTIAL_MARKER.search(self.raw, 0, end)
-        if partial:
-            end = partial.start()
-        space = max(self.raw.rfind(" ", self.emitted_raw_end, end), self.raw.rfind("\n", self.emitted_raw_end, end))
-        if space > self.emitted_raw_end:
-            end = space
-        if end <= self.emitted_raw_end:
-            return ""
-        text = tidy_citations(self.raw[:end], len(self.passages))[0].rstrip()
-        if len(text) <= len(self.emitted) or not text.startswith(self.emitted):
-            return ""
-        delta, self.emitted, self.emitted_raw_end = text[len(self.emitted):], text, end
-        return delta
-
-    def finish(self, failed: bool) -> Answer | None:
-        """Validate what was received. After a failure or leak, only the shown part counts."""
-        if self.mode == "abstain":
-            return _abstain()
-        source = self.raw[:self.emitted_raw_end] if failed or self.mode == "leak" else self.raw
-        return finalize(source, self.passages) if source else None
-
-    def remaining(self, answer: Answer) -> str:
-        """Text of `answer` that the client has not seen yet."""
-        if answer.text.startswith(self.emitted):
-            return answer.text[len(self.emitted):]
-        logger.warning("streamed text diverged from the validated answer")
-        return ""
-
-
 def _stream(question: str, passages: list[Passage], history: list[Turn] | None) -> Iterator[dict]:
-    prepared = _prepare(question, passages, history)
-    if prepared is None:
-        yield from _tokens(ABSTAIN_TEXT)
-        yield {"type": "final", "answer": _abstain()}
-        return
-    selected, system, user = prepared
-    provider = _provider()
-    validator = _StreamValidator(selected)
-    failed = False
-    pieces = None
-    try:
-        pieces = provider.stream(system, user)
-        for piece in pieces:
-            delta = validator.feed(piece)
-            if delta:
-                yield {"type": "token", "text": delta}
-            if validator.stopped:
-                break
-    except Exception as exc:
-        failed = True
-        logger.warning("provider %s failed while streaming (%s), falling back to extractive", provider.name, exc)
-    finally:
-        close = getattr(pieces, "close", None)
-        if callable(close):
-            close()
-    answer = validator.finish(failed)
-    if answer is None:
-        if not failed and not isinstance(provider, ExtractiveLLM):
-            logger.warning("provider %s gave unusable output, falling back to extractive", provider.name)
-        answer = _fallback(system, user, selected)
-    yield from _tokens(validator.remaining(answer))
+    # Validate the complete candidate before any model text reaches the browser.
+    answer = generate_answer(question, passages, history)
+    yield from _tokens(answer.text)
     yield {"type": "final", "answer": answer}
 
 
