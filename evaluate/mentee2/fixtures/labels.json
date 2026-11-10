@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fx-fee",
+    "query": "synthetic fixture question about fee",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc901",
+        "all_of": [
+          "application fee is $75"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-deadline",
+    "query": "synthetic fixture question about deadline",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc901",
+        "all_of": [
+          "deadline is November 15"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-exception",
+    "query": "synthetic fixture question about exception",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc902",
+        "all_of": [
+          "are exempt from this requirement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-negation",
+    "query": "synthetic fixture question about negation",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc902",
+        "all_of": [
+          "may not drop a course"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-table",
+    "query": "synthetic fixture question about table",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc903",
+        "all_of": [
+          "CS 1336 Programming Fundamentals 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-duplicate",
+    "query": "synthetic fixture question about duplicate",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc904",
+        "all_of": [
+          "accepted as your signature"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-furniture-only",
+    "query": "synthetic fixture question about furniture-only",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc906",
+        "all_of": [
+          "login to intranet"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fx-tuition",
+    "query": "synthetic fixture question about tuition",
+    "split": "dev",
+    "category": "policy_lookup",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc907",
+        "all_of": [
+          "$1,234.56 per term"
+        ]
+      }
+    ]
+  }
+]
