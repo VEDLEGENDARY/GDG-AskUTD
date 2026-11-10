@@ -4,7 +4,8 @@ run:
 	uvicorn backend.app.main:app --reload --port 8000
 
 test:
-	python -m unittest discover -s backend/tests -p "test_api*.py"
+	python -m unittest discover -s backend/tests -p "test_*.py"
+	npm test
 
 docker:
 	docker build -t gdg-askutd-api .

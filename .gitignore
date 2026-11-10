@@ -20,8 +20,10 @@ evaluate/exports/
 !.env.example
 
 # Local API storage
-backend/storage/*.db
-backend/storage/*.db-*
+backend/storage/*
+!backend/storage/.gitkeep
+.pytest_cache/
+*.tsbuildinfo
 
 # OS and editor
 .DS_Store

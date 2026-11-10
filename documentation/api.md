@@ -1,9 +1,11 @@
 # GDG-AskUTD HTTP API
 
-The API listens on `http://localhost:8000`. Install the repository dependencies, then run
-`uvicorn backend.app.main:app --reload --port 8000`. For UI development, set `USE_STUBS=1`
-to use three offline sample passages and a sample answer. A question containing “weather”
-demonstrates abstention.
+The API listens on `http://localhost:8000`. Install `requirements-runtime.txt`, set
+`LLM_PROVIDER=extractive`, then run `python -m uvicorn backend.app.main:app --port 8000`.
+Alternatively, `npm run dev:all` starts both the real API and frontend. The browser
+uses the frontend's same-origin `/api` proxy. See [DEPLOY.md](DEPLOY.md) for setup.
+`USE_STUBS=1` explicitly enables sample development responses; it is not required
+to run the app offline.
 
 Every JSON error uses `{"error":{"code":"...","message":"..."}}`. Validation errors
 return 422, missing resources return 404, rate limits return 429 with `Retry-After`, and

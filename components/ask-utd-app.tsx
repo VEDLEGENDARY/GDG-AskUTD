@@ -4,7 +4,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from 'react';
 
-import { ArrowUp, BookMarked, Check, ChevronDown, Globe2, Library, Lightbulb, Menu, PlusCircle, Search, Settings, Share2, ThumbsDown, ThumbsUp, X, ArrowUpRight, Download, Trash2, Compass, ShieldCheck, Sparkles } from 'lucide-react';
+import { ArrowUp, BookMarked, Check, ChevronDown, Globe2, Library, Menu, PlusCircle, Search, Settings, Share2, ThumbsDown, ThumbsUp, X, ArrowUpRight, Download, Trash2, Compass, ShieldCheck, Sparkles } from 'lucide-react';
 
 import { sendFeedback, streamAnswer, type Citation, type Turn } from '@/lib/api';
 
