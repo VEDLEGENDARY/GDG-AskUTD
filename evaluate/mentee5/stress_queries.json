@@ -1,0 +1,14 @@
+[
+  {"id": "m5-unknown", "query": "xyzzyflarg blorptastic quuxwibble", "note": "only unknown terms, expect []"},
+  {"id": "m5-stopwords", "query": "what is the a an of to in", "note": "stopwords only, tokens() is empty"},
+  {"id": "m5-punct", "query": "?!... ---- ////", "note": "no word characters"},
+  {"id": "m5-mixed-unknown", "query": "zzqqx drop a class zzqqy withdrawal", "note": "unknown terms mixed with known terms"},
+  {"id": "m5-repeated", "query": "tuition tuition tuition tuition tuition refund", "note": "repeated term changes TF-IDF query weight"},
+  {"id": "m5-common", "query": "students university course", "note": "very common terms, large candidate set"},
+  {"id": "m5-numbers", "query": "2025 2026 CS 1337 3 credit hours", "note": "numbers and short tokens"},
+  {"id": "m5-unicode", "query": "Ｆａｌｌ ２０２６ census day café résumé", "note": "full-width digits and accents, NFKC normalization"},
+  {"id": "m5-case", "query": "GRADUATE ADMISSION Deadline", "note": "case folding"},
+  {"id": "m5-metadata-heavy", "query": "registrar handbook catalog policy", "note": "words likely in titles or headings"},
+  {"id": "m5-long", "query": "I am an undergraduate transfer student who wants to know about the deadlines for dropping or withdrawing from a course, how tuition refunds work, whether financial aid is affected, what happens to my GPA and academic standing, how many withdrawals are allowed under the Texas six drop rule, and who to contact at the registrar or bursar office if a petition is denied or a hold blocks registration", "note": "long natural question"},
+  {"id": "m5-very-long", "query": "@REPEAT@ registration tuition graduate deadline financial aid transcript probation housing parking", "note": "query text repeated 200 times by tests and the benchmark"}
+]
