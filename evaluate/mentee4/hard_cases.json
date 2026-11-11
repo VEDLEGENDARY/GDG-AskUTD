@@ -1,0 +1,1211 @@
+[
+  {
+    "id": "mentee4-dev-cs-old-electives",
+    "query": "For the Computer Science 2016-2018 catalog specifically, how many free elective hours are required and who approves them?",
+    "split": "dev",
+    "category": "wrong_program",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "requires 11 hours of electives, which require approval from an advisor"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "requires 11 hours of electives, which require approval from an advisor",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc031_p1_c4",
+        "doc_id": "doc031",
+        "quote": "The B.S. in Computer Engineering (2016-2018 Catalog) requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour), plus Freshmen Seminar UNIV 1010 (0 hours). Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course.",
+        "reason": "Same year and elective vocabulary, but Computer Engineering.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-ce-old-electives",
+    "query": "In Computer Engineering under the 2016-2018 catalog, give the elective-hour total and the sizes of the free elective courses.",
+    "split": "dev",
+    "category": "wrong_program",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc031",
+        "all_of": [
+          "requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour)"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc031_p1_c4",
+        "doc_id": "doc031",
+        "quote": "requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour)",
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "The B.S. in Computer Science (2016 - 2018 Catalog) requires 11 hours of electives, which require approval from an advisor: three Free Electives of 3 hours each and one Free Elective of 2 hours. Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll in and complete the requirements of UNIV 1010 Freshmen Seminar (0 hours) and the corresponding school-related freshmen seminar course.",
+        "reason": "Same year but Computer Science has a different total.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-cs-new-division",
+    "query": "Using the 2020-2021 Computer Science plan, report the total degree hours and the actual lower- and upper-division totals, not just the upper-division minimum.",
+    "split": "dev",
+    "category": "wrong_year",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "requires 124 hours for graduation"
+        ]
+      },
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "the plan totals 73 lower-division and 51 upper-division hours"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc042_p1_c5",
+        "doc_id": "doc042",
+        "quote": "requires 124 hours for graduation",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc042_p1_c5",
+        "doc_id": "doc042",
+        "quote": "the plan totals 73 lower-division and 51 upper-division hours",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc038_p1_c5",
+        "doc_id": "doc038",
+        "quote": "The B.S. in Computer Science (2016 - 2018 Catalog) requires 124 hours for graduation, which must include 51 hours as Upper Division; the plan totals 67 lower-division and 57 upper-division hours. Students must earn a C or better in major requirement courses to receive credit. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester.",
+        "reason": "Correct program but older catalog with different division totals.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-cs-old-division",
+    "query": "What lower-division and upper-division totals does the 2016-2018 Computer Science plan list, rather than a later CS plan?",
+    "split": "dev",
+    "category": "wrong_year",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "the plan totals 67 lower-division and 57 upper-division hours"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc038_p1_c5",
+        "doc_id": "doc038",
+        "quote": "the plan totals 67 lower-division and 57 upper-division hours",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc042_p1_c5",
+        "doc_id": "doc042",
+        "quote": "The B.S. in Computer Science (2020-2021 Catalog) requires 124 hours for graduation, which must include 51 hours as Upper Division; the plan totals 73 lower-division and 51 upper-division hours. Students must earn a C or better in major requirement courses to receive credit. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester.",
+        "reason": "Same program but 2020-2021 totals.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-elective-year-change",
+    "query": "How did the advisor-approved elective total change between the Computer Science 2016-2018 catalog and its 2020-2021 catalog?",
+    "split": "dev",
+    "category": "cross_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "requires 11 hours of electives"
+        ]
+      },
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "requires 10 hours of electives"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "requires 11 hours of electives",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc042_p1_c4",
+        "doc_id": "doc042",
+        "quote": "requires 10 hours of electives",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc031_p1_c4",
+        "doc_id": "doc031",
+        "quote": "The B.S. in Computer Engineering (2016-2018 Catalog) requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour), plus Freshmen Seminar UNIV 1010 (0 hours). Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course.",
+        "reason": "Engineering electives cannot answer either CS catalog facet.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-same-year-degree-totals",
+    "query": "Compare the Computer Science and Computer Engineering degree plans in the 2016-2018 catalog: give each total and its lower/upper division breakdown.",
+    "split": "dev",
+    "category": "cross_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "requires 124 hours for graduation"
+        ]
+      },
+      {
+        "doc_id": "doc038",
+        "all_of": [
+          "the plan totals 67 lower-division and 57 upper-division hours"
+        ]
+      },
+      {
+        "doc_id": "doc031",
+        "all_of": [
+          "requires 126 hours for graduation"
+        ]
+      },
+      {
+        "doc_id": "doc031",
+        "all_of": [
+          "67 lower-division hours and 59 upper-division hours"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc038_p1_c5",
+        "doc_id": "doc038",
+        "quote": "requires 124 hours for graduation",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc038_p1_c5",
+        "doc_id": "doc038",
+        "quote": "the plan totals 67 lower-division and 57 upper-division hours",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      },
+      {
+        "group": 2,
+        "chunk_id": "doc031_p1_c5",
+        "doc_id": "doc031",
+        "quote": "requires 126 hours for graduation",
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      },
+      {
+        "group": 3,
+        "chunk_id": "doc031_p1_c5",
+        "doc_id": "doc031",
+        "quote": "67 lower-division hours and 59 upper-division hours",
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc042_p1_c5",
+        "doc_id": "doc042",
+        "quote": "The B.S. in Computer Science (2020-2021 Catalog) requires 124 hours for graduation, which must include 51 hours as Upper Division; the plan totals 73 lower-division and 51 upper-division hours. Students must earn a C or better in major requirement courses to receive credit. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester.",
+        "reason": "A later CS plan cannot replace the specified older plan.",
+        "unsupported_groups": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-ce-calculus-and-grades",
+    "query": "For Computer Engineering 2025-2026, identify the completed math course that makes MATH 2415 unnecessary and list the courses marked C or better.",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc075",
+        "all_of": [
+          "Calculus of Several Variables (NOT needed if student. has completed MATH 2419) MATH 2415"
+        ]
+      },
+      {
+        "doc_id": "doc075",
+        "all_of": [
+          "C or better is required in CS 1436, CE 1337, CE 2305, CE 2336"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc075_p1_c5",
+        "doc_id": "doc075",
+        "quote": "Calculus of Several Variables (NOT needed if student. has completed MATH 2419) MATH 2415",
+        "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc075_p1_c17",
+        "doc_id": "doc075",
+        "quote": "C or better is required in CS 1436, CE 1337, CE 2305, CE 2336",
+        "source_title": "B.S. in COMPUTER ENGINEERING (2025-2026)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc037_p1_c1",
+        "doc_id": "doc037",
+        "quote": "The BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog) is a flowchart of the courses for the Bachelor of Science in Computer Engineering arranged from the Freshman through the Senior year. A grade of C- or better is required in each class. A grade of C or better is required in CS 1336, CE 1337, CE 2305, CS 3377, CS 2337, and CE 2336. Courses may be taken in any order, as long as prerequisites are met. CS 1336 (with CS 1136) is required of students with no prior programming experience. The prerequisite for Calculus I (Math 2413 or 2417) is Math 2312 with a grade of C or better or a score of 80% on ALEKS. RHET 1302 is noted as a pre-requisite of PHYS 2325, PHYS 2326, or any other 030 science core course. ECS 3390 is shown with the prerequisite of Junior standing and Rhet 1302, and CE 4348 is shown with the prerequisite of C and UNIX knowledge. CE 4370 is offered in Spring only.",
+        "reason": "Older CE plan grade list; does not establish the requested exemption or current course list.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "BS Computer Engineering Suggested Four Year Plan (2019-2020 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-cs-prep-and-core",
+    "query": "For the Computer Science 2020-2021 plan, distinguish the major preparatory lower-division total from the major core upper-division total.",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "Major Preparatory Requirements total 39 lower-division hours"
+        ]
+      },
+      {
+        "doc_id": "doc042",
+        "all_of": [
+          "Major Core Requirements total 51 upper-division hours"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc042_p1_c1",
+        "doc_id": "doc042",
+        "quote": "Major Preparatory Requirements total 39 lower-division hours",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc042_p1_c2",
+        "doc_id": "doc042",
+        "quote": "Major Core Requirements total 51 upper-division hours",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc042_p1_c5",
+        "doc_id": "doc042",
+        "quote": "The B.S. in Computer Science (2020-2021 Catalog) requires 124 hours for graduation, which must include 51 hours as Upper Division; the plan totals 73 lower-division and 51 upper-division hours. Students must earn a C or better in major requirement courses to receive credit. Students must have a minimum cumulative 2.0 GPA in all UTD coursework and a cumulative 2.0 GPA in all Major requirements to graduate. Students must also complete 45 hours in residence and complete 24 of the last 30 hours at UTD. No off-campus courses are allowed in the last semester.",
+        "reason": "Overall totals from the right plan are not the requested block totals.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-graduate-nondegree-restriction",
+    "query": "A graduate non-degree student was admitted only for undergraduate coursework. What must happen before that student can register for graduate courses?",
+    "split": "dev",
+    "category": "wrong_population",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "you must submit a new application for admission, and your file must be evaluated and approved by the graduate program prior to registration"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc110_p1_c7",
+        "doc_id": "doc110",
+        "quote": "you must submit a new application for admission, and your file must be evaluated and approved by the graduate program prior to registration",
+        "source_title": "Registering for Classes"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc110_p1_c3",
+        "doc_id": "doc110",
+        "quote": "4) Register for classes after your enrollment appointment begins for the term and before the published last day to add. Non-degree seeking undergraduate students do not receive enrollment appointments and may register beginning with open enrollment.",
+        "reason": "Undergraduate non-degree appointment rules do not establish graduate admission approval.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "Registering for Classes"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-undergraduate-nondegree-appointment",
+    "query": "Do non-degree seeking undergraduate students receive an enrollment appointment, and when may they start registration?",
+    "split": "dev",
+    "category": "wrong_population",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc110",
+        "all_of": [
+          "Non-degree seeking undergraduate students do not receive enrollment appointments and may register beginning with open enrollment"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc110_p1_c3",
+        "doc_id": "doc110",
+        "quote": "Non-degree seeking undergraduate students do not receive enrollment appointments and may register beginning with open enrollment",
+        "source_title": "Registering for Classes"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc110_p1_c7",
+        "doc_id": "doc110",
+        "quote": "Limitations for non-degree seeking graduate students: Students admitted to UT Dallas as graduate non-degree seeking students limited to undergraduate courses can register for only undergraduate courses. To register for graduate courses, you must submit a new application for admission, and your file must be evaluated and approved by the graduate program prior to registration.",
+        "reason": "Graduate non-degree course restrictions answer a different population and process.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "Registering for Classes"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-graduate-deans-list",
+    "query": "Does taking undergraduate courses make a graduate student eligible for the undergraduate Dean's List? Use the explicit population exclusion.",
+    "split": "dev",
+    "category": "wrong_population",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "graduate students enrolled in undergraduate courses are not eligible for the Dean's List"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc005_p2_c15",
+        "doc_id": "doc005",
+        "quote": "graduate students enrolled in undergraduate courses are not eligible for the Dean's List",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p2_c14",
+        "doc_id": "doc005",
+        "quote": "The Dean's List recognizes students whose grades for the fall or spring semester represent the top ten percent of all students within each school who complete 12 or more UT Dallas semester credit hours within that semester. These students will be recognized as members of the Dean's List of their respective schools. Students without a declared major are eligible for the Office of Undergraduate Education Dean's List.",
+        "reason": "General top-ten-percent eligibility does not override the graduate exclusion.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-incomplete-eligibility-time",
+    "query": "Under the undergraduate Incomplete policy, what passing/progress conditions allow consideration and how long can completion normally take?",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "currently passing"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "completed at least 75% of the course"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "not to exceed eight weeks from the first day of the subsequent long semester"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc005_p4_c31",
+        "doc_id": "doc005",
+        "quote": "currently passing",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc005_p4_c31",
+        "doc_id": "doc005",
+        "quote": "completed at least 75% of the course",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      },
+      {
+        "group": 2,
+        "chunk_id": "doc005_p4_c32",
+        "doc_id": "doc005",
+        "quote": "not to exceed eight weeks from the first day of the subsequent long semester",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p3_c19",
+        "doc_id": "doc005",
+        "quote": "Grade changes must be submitted by the end of the eighth week of the following semester after the grade was awarded. Any grade change initiated after the eighth week of the semester requires the written approval of the instructor, the department, program head, or Associate Dean, as determined by the school, and the Dean of Undergraduate Education.",
+        "reason": "Grade-change submission deadline is not the Incomplete completion deadline.",
+        "unsupported_groups": [
+          0,
+          1,
+          2
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-incomplete-extension-reenroll",
+    "query": "Who must permit an extension of an undergraduate Incomplete, and can the student enroll again while the I remains?",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "permission of the instructor, the student's Associate Dean, and the Undergraduate Dean"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "A student may not re-enroll in a course in which a grade of I remains"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc005_p5_c33",
+        "doc_id": "doc005",
+        "quote": "permission of the instructor, the student's Associate Dean, and the Undergraduate Dean",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc005_p5_c33",
+        "doc_id": "doc005",
+        "quote": "A student may not re-enroll in a course in which a grade of I remains",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p4_c32",
+        "doc_id": "doc005",
+        "quote": "An incomplete course grade must be completed within the time period specified by the instructor, not to exceed eight weeks from the first day of the subsequent long semester. Upon completion of the required work, the symbol I may be converted into a letter grade, A through F, by the instructor. If the grade of Incomplete is not removed by the end of the specified period, it will automatically be changed to F.",
+        "reason": "Ordinary completion deadline alone cannot establish extension approvals or re-enrollment prohibition.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-junior-declaration-cross-source",
+    "query": "At 54 successfully completed undergraduate hours, what is the class standing and what major-declaration threshold governs continued enrollment?",
+    "split": "dev",
+    "category": "cross_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc011",
+        "all_of": [
+          "Junior: a student who has successfully completed 54-89 semester credit hours"
+        ]
+      },
+      {
+        "doc_id": "doc008",
+        "all_of": [
+          "declare an academic course of study or major by the time they have earned 54 semester credit hours"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc011_p1_c1",
+        "doc_id": "doc011",
+        "quote": "Junior: a student who has successfully completed 54-89 semester credit hours",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc008_p2_c5",
+        "doc_id": "doc008",
+        "quote": "declare an academic course of study or major by the time they have earned 54 semester credit hours",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc011_p1_c1",
+        "doc_id": "doc011",
+        "quote": "Freshmen and sophomores are lower-level students. Juniors and seniors are upper-level students. Undergraduate students are classified as follows: Freshman: a student who has successfully completed fewer than 30 semester credit hours; Sophomore: a student who has successfully completed 30-53 semester credit hours; Junior: a student who has successfully completed 54-89 semester credit hours; and Senior: a student who has successfully completed 90 or more semester credit hours.",
+        "reason": "Correct standing is only partial evidence; it cannot establish the declaration requirement.",
+        "unsupported_groups": [
+          1
+        ],
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-transfer-evaluation-experience",
+    "query": "For undergraduate transfer credit, which office evaluates domestic versus international college records, and is prior experiential learning awarded credit?",
+    "split": "dev",
+    "category": "cross_document",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "Office of the Registrar will evaluate the student's record"
+        ]
+      },
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "Office of Admission and Enrollment will evaluate the student's record"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "nor does it grant credit for prior experiential learning"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc006_p4_c8",
+        "doc_id": "doc006",
+        "quote": "Office of the Registrar will evaluate the student's record",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc006_p4_c8",
+        "doc_id": "doc006",
+        "quote": "Office of Admission and Enrollment will evaluate the student's record",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 2,
+        "chunk_id": "doc005_p6_c46",
+        "doc_id": "doc005",
+        "quote": "nor does it grant credit for prior experiential learning",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc183_p4_c1",
+        "doc_id": "doc183",
+        "quote": "According to the National Associate of Colleges & Employers (NACE), an internship is a form of experiential learning that integrates knowledge and theory learned in the classroom with practical application and skills development in a professional setting. If your visa permits, obtain an internship to gain some experience in your chosen career field. This experience will come in handy when looking for a full-time job. International students may engage in experiential learning opportunities, such as internships, during any academic term as long as the experience has been approved as relevant to their degree program. Searching for and obtaining an appropriate internship is highly valuable to the overall career development process. We encourage students to start the internship search early to help identify career interests and goals.",
+        "reason": "Career internships described as experiential learning do not establish transfer-credit eligibility or evaluating offices.",
+        "unsupported_groups": [
+          0,
+          1,
+          2
+        ],
+        "source_title": "University Career Center: International Students"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-major-change-core-catalog",
+    "query": "After changing an undergraduate major with continuous enrollment, does the new major catalog automatically replace the original Core Curriculum catalog?",
+    "split": "dev",
+    "category": "scope_exception",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "graduation requirements for that major will be those stated in the catalog in force at the time of the change"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "Core Curriculum requirements, however, remain those of the catalog in force at the time of matriculation"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc010_p3_c8",
+        "doc_id": "doc010",
+        "quote": "graduation requirements for that major will be those stated in the catalog in force at the time of the change",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc010_p3_c8",
+        "doc_id": "doc010",
+        "quote": "Core Curriculum requirements, however, remain those of the catalog in force at the time of matriculation",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc010_p3_c7",
+        "doc_id": "doc010",
+        "quote": "The life of a UT Dallas undergraduate catalog is six years, counting the first fall of any catalog as the starting point, or \"year 0.\" For example, the catalog in force 2011-2012 expires at the end of the academic year in 2018. If the catalog in force at the time of a student's admission expires during the student's career at The University of Texas at Dallas, the student must consult with an academic advisor to choose the most logical active catalog the semester before expiration. If the student does not consult with an advisor before the catalog expires, the advisor will select the most logical active catalog for the student.",
+        "reason": "Catalog lifetime alone does not establish the major-versus-core exception.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-transfer-grade-threshold",
+    "query": "For academic post-secondary undergraduate transfer coursework, what minimum grade is accepted and how are Pass/Fail grades handled?",
+    "split": "dev",
+    "category": "scope_exception",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "grade of C (2.000 on a 4.000-point scale) or higher"
+        ]
+      },
+      {
+        "doc_id": "doc006",
+        "all_of": [
+          "Pass/Fail grades are reviewed to determine if they meet the 2.000 threshold"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc006_p4_c7",
+        "doc_id": "doc006",
+        "quote": "grade of C (2.000 on a 4.000-point scale) or higher",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc006_p4_c7",
+        "doc_id": "doc006",
+        "quote": "Pass/Fail grades are reviewed to determine if they meet the 2.000 threshold",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p4_c27",
+        "doc_id": "doc005",
+        "quote": "B+ earns 3.330 grade points per semester hour, B (Good) earns 3.000, and B- earns 2.670. C+ earns 2.330, C (Fair) earns 2.000, and C- earns 1.670.",
+        "reason": "A local grading scale does not establish transfer-credit acceptance.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-graduation-application-procedure",
+    "query": "For an undergraduate applying to graduate, what advisor step comes before the online application and where are its procedures and deadlines listed?",
+    "split": "dev",
+    "category": "navigation",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "complete the online application for graduation after meeting with their academic advisor"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "listed in the online Comet Calendar and Academic Calendar"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc010_p1_c2",
+        "doc_id": "doc010",
+        "quote": "complete the online application for graduation after meeting with their academic advisor",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc010_p1_c2",
+        "doc_id": "doc010",
+        "quote": "listed in the online Comet Calendar and Academic Calendar",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc161_p3_c1",
+        "doc_id": "doc161",
+        "quote": "Cost should not be a barrier to reaching your goals. Forbes and Kiplinger\u2019s ranked UT Dallas one of the best values among the nation\u2019s public universities. Costs and Tuition Scholarships Financial Aid. Graduate Funding and Financial Aid Student Support. There are many types of students at UT Dallas, and resources are available for your specific situation. Student Services and Support. Support for Military Veterans on Campus Join Us On Tour. We invite you to visit our campus for a tour and learn what it is like to be a Comet. Schedule an undergraduate in-person tour. Graduate applicants may contact their degree program of interest to arrange an in-person tour. Take a virtual tour of our campus. Watch UT Dallas on The College Tour.",
+        "reason": "Admissions navigation and undergraduate application links are not graduation application procedures.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "UT Dallas Admissions: Become a Comet"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-meningitis-required-papers",
+    "query": "According to the registrar vaccination page, which form and supporting proof must be submitted to attend classes?",
+    "split": "dev",
+    "category": "navigation",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "A completed Meningococcal Meningitis Vaccine Requirement Form (pdf)"
+        ]
+      },
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "Proof of vaccination or a notarized Affidavit for Exemption"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc139_p4_c1",
+        "doc_id": "doc139",
+        "quote": "A completed Meningococcal Meningitis Vaccine Requirement Form (pdf)",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc139_p4_c1",
+        "doc_id": "doc139",
+        "quote": "Proof of vaccination or a notarized Affidavit for Exemption",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc139_p1_c1",
+        "doc_id": "doc139",
+        "quote": "UT Dallas > Office of the Registrar > Legislative Policies > Vaccination Requirement \u2013 Bacterial Meningitis Vaccination Requirement \u2013 Bacterial Meningitis About Bacterial Meningitis. Bacterial Meningitis is a serious, potentially deadly disease that can progress extremely fast. It is an inflammation of the membranes that surround the brain and spinal cord. The bacterium that causes meningitis can also infect the blood. For more information, please review the About Bacterial Meningitis information.",
+        "reason": "Topic overview/navigation does not list the required submission documents.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-meningitis-online-exemption",
+    "query": "Does the registrar list online-only enrollment as a meningitis exemption, and which exemption request form is named?",
+    "split": "dev",
+    "category": "scope_exception",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "taking only online classes (submit the Online Enrollment Only Exemption Request form (pdf)"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc139_p6_c1",
+        "doc_id": "doc139",
+        "quote": "taking only online classes (submit the Online Enrollment Only Exemption Request form (pdf)",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc139_p2_c1",
+        "doc_id": "doc139",
+        "quote": "Per Texas Senate Bill no. 62, beginning January 1, 2014, all entering students under the age of 22 enrolling at a Texas college or university must show proof of a bacterial meningitis vaccination or booster (if the original vaccination is five years old) at least 10 days before the first day of class. Failure to receive vaccination by the deadline dates below will prevent you from attending classes for the term. Acceptable Proof of Vaccination Documentation must:",
+        "reason": "General vaccination requirement alone does not establish the online-only exception.",
+        "unsupported_groups": [
+          0
+        ],
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-meningitis-orion-upload",
+    "query": "For the registrar meningitis submission in Orion, which tile is used, which attachment formats are named, and where can submission problems be emailed?",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "Admissions Forms"
+        ]
+      },
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "Must be in.PDF,JPEG, or.IMG"
+        ]
+      },
+      {
+        "doc_id": "doc139",
+        "all_of": [
+          "email your documents to records@utdallas.edu"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc139_p5_c1",
+        "doc_id": "doc139",
+        "quote": "Admissions Forms",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc139_p5_c1",
+        "doc_id": "doc139",
+        "quote": "Must be in.PDF,JPEG, or.IMG",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      },
+      {
+        "group": 2,
+        "chunk_id": "doc139_p5_c1",
+        "doc_id": "doc139",
+        "quote": "email your documents to records@utdallas.edu",
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc139_p4_c1",
+        "doc_id": "doc139",
+        "quote": "To attend classes, you must submit: 1. A completed Meningococcal Meningitis Vaccine Requirement Form (pdf). 2. Proof of vaccination or a notarized Affidavit for Exemption from Immunizations for Reasons of Submission Deadline by Term. Your vaccine must be administered within five years prior to and no later than 10 days before the first day of the term. Spring 2027 Term \u2013 Meningitis vaccine must be taken between January 19, 2022 and January 9, 2027. Summer 2027 Term \u2013 Meningitis vaccine must be taken between June 1, 2022 and May 22, 2027. Fall 2027 Term \u2013 Meningitis vaccine must be taken between August 23, 2022 and August 13, 2027.",
+        "reason": "Document list and deadlines do not establish the upload workflow, formats, or troubleshooting address.",
+        "unsupported_groups": [
+          0,
+          1,
+          2
+        ],
+        "source_title": "Office of the Registrar: Vaccination Requirement for Bacterial Meningitis"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-grade-appeal-not-clerical",
+    "query": "For an undergraduate final-grade appeal based on an arbitrary or capricious grade, what first step is required and what policy governs a later documented appeal?",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "resolve the matter through discussion with the instructor"
+        ]
+      },
+      {
+        "doc_id": "doc005",
+        "all_of": [
+          "Student Grievances Policy, UTDSP5005"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc005_p3_c21",
+        "doc_id": "doc005",
+        "quote": "resolve the matter through discussion with the instructor",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc005_p3_c22",
+        "doc_id": "doc005",
+        "quote": "Student Grievances Policy, UTDSP5005",
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p3_c18",
+        "doc_id": "doc005",
+        "quote": "After a final grade has been recorded by the Office of the Registrar, the instructor may change final grades to correct a clerical error. An instructor-initiated change of a final grade due to a clerical error requires the written approval of the instructor.",
+        "reason": "Instructor correction of clerical errors is not the student appeal route.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-major-versus-latin-honors",
+    "query": "Distinguish the graded UT Dallas credit minimum for Latin Honors from the graded-credit minimum for Major Honors.",
+    "split": "dev",
+    "category": "compound",
+    "unanswerable": false,
+    "evidence": [
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "A minimum of 45 UT Dallas graded semester credit hours are required"
+        ]
+      },
+      {
+        "doc_id": "doc010",
+        "all_of": [
+          "minimum of 30 graded semester credit hours to qualify for Major Honors"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "group": 0,
+        "chunk_id": "doc010_p2_c5",
+        "doc_id": "doc010",
+        "quote": "A minimum of 45 UT Dallas graded semester credit hours are required",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      },
+      {
+        "group": 1,
+        "chunk_id": "doc010_p2_c6",
+        "doc_id": "doc010",
+        "quote": "minimum of 30 graded semester credit hours to qualify for Major Honors",
+        "source_title": "2025-2026 Undergraduate Catalog"
+      }
+    ],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc005_p2_c14",
+        "doc_id": "doc005",
+        "quote": "The Dean's List recognizes students whose grades for the fall or spring semester represent the top ten percent of all students within each school who complete 12 or more UT Dallas semester credit hours within that semester. These students will be recognized as members of the Dean's List of their respective schools. Students without a declared major are eligible for the Office of Undergraduate Education Dean's List.",
+        "reason": "Dean's List semester recognition is not either graduation honors category.",
+        "unsupported_groups": [
+          0,
+          1
+        ],
+        "source_title": "Academic Policies, UT Dallas 2025 Undergraduate Catalog"
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-unspecified-cs-catalog",
+    "query": "I need one exact free-elective-hour requirement for Computer Science, but I have not specified my catalog year. Which number should I use?",
+    "split": "dev",
+    "category": "ambiguous_time",
+    "unanswerable": true,
+    "evidence": [],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "The B.S. in Computer Science (2016 - 2018 Catalog) requires 11 hours of electives, which require approval from an advisor: three Free Electives of 3 hours each and one Free Elective of 2 hours. Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll in and complete the requirements of UNIV 1010 Freshmen Seminar (0 hours) and the corresponding school-related freshmen seminar course.",
+        "reason": "Valid for one catalog only; choosing it as the unique answer silently assumes a year.",
+        "unsupported_groups": [],
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      },
+      {
+        "chunk_id": "doc042_p1_c4",
+        "doc_id": "doc042",
+        "quote": "The B.S. in Computer Science (2020-2021 Catalog) requires 10 hours of electives, which require approval from an advisor: three Free Electives of 3 hours each and one Free Elective of 1 hour. Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll in and complete the requirements of UNIV 1010 Freshmen Seminar (0 hours) and the corresponding school-related freshmen seminar course.",
+        "reason": "Valid for another catalog only; choosing it as the unique answer silently assumes a year.",
+        "unsupported_groups": [],
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)"
+      }
+    ],
+    "unanswerable_reason": "A unique number is underspecified: the cited CS catalogs require 11 versus 10 hours. Ask the catalog year; explaining both conditionally is also acceptable but this retrieval fixture expects abstention for a single-number request.",
+    "expected_behavior": "Ask for clarification; do not choose a unique numeric answer.",
+    "ambiguity_sources": [
+      {
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "requires 11 hours of electives",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)",
+        "alternative": 0
+      },
+      {
+        "chunk_id": "doc042_p1_c4",
+        "doc_id": "doc042",
+        "quote": "requires 10 hours of electives",
+        "source_title": "B.S. in Computer Science Degree Plan (2020-2021 Catalog)",
+        "alternative": 1
+      }
+    ]
+  },
+  {
+    "id": "mentee4-dev-unspecified-engineering-program",
+    "query": "For the 2016-2018 catalog I want one elective-hour total, but I have not said whether my degree is Computer Science or Computer Engineering. What is my single requirement?",
+    "split": "dev",
+    "category": "ambiguous_program",
+    "unanswerable": true,
+    "evidence": [],
+    "hard_negatives": [
+      {
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "The B.S. in Computer Science (2016 - 2018 Catalog) requires 11 hours of electives, which require approval from an advisor: three Free Electives of 3 hours each and one Free Elective of 2 hours. Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll in and complete the requirements of UNIV 1010 Freshmen Seminar (0 hours) and the corresponding school-related freshmen seminar course.",
+        "reason": "This is only the CS alternative; it cannot establish an unspecified degree.",
+        "unsupported_groups": [],
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)"
+      },
+      {
+        "chunk_id": "doc031_p1_c4",
+        "doc_id": "doc031",
+        "quote": "The B.S. in Computer Engineering (2016-2018 Catalog) requires 7 hours of Electives, which require approval from an advisor: Free Elective (3 hours); Free Elective (3 hours); and Free Elective (1 hour), plus Freshmen Seminar UNIV 1010 (0 hours). Lower or upper division courses may count as free electives. A maximum of 3 PHIN credits is allowed on any UTD degree plan. Incoming freshmen (FTIC) must enroll and complete requirements of UNIV 1010 and the corresponding school-related freshmen seminar course.",
+        "reason": "This is only the CE alternative; it cannot establish an unspecified degree.",
+        "unsupported_groups": [],
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog"
+      }
+    ],
+    "unanswerable_reason": "The requested single requirement depends on an unspecified program: the cited same-year CS and CE plans require 11 versus 7 hours. Ask the program; conditional comparison is valid but the fixture expects clarification for this single-number request.",
+    "expected_behavior": "Ask for clarification; do not choose a unique numeric answer.",
+    "ambiguity_sources": [
+      {
+        "chunk_id": "doc038_p1_c4",
+        "doc_id": "doc038",
+        "quote": "requires 11 hours of electives",
+        "source_title": "B.S. in Computer Science Degree Plan (2016 - 2018 Catalog)",
+        "alternative": 0
+      },
+      {
+        "chunk_id": "doc031_p1_c4",
+        "doc_id": "doc031",
+        "quote": "requires 7 hours of Electives",
+        "source_title": "B.S. in Computer Engineering Degree Plan, 2016-2018 Catalog",
+        "alternative": 1
+      }
+    ]
+  }
+]
