@@ -1,0 +1,639 @@
+{
+  "tool": "mentee2_corpus",
+  "reviewer": "mentee 2 (manual inspection)",
+  "source_corpus_sha256": "aa120d8cf208bdf3d5e363714416a1c3c3e997949530492d761bb9da91bfa7db",
+  "how_to_read": "Each entry is one proposal inspected by hand against the source chunk. before_sha256 identifies the text the edit applies to. verdict: accept, accept_with_note, reject (left out of the recommended stage or migration), keep_both (flag only).",
+  "recommended_stage": "propose --accept R1,R2,R3,R4,R5 --skip R5:doc178_p1_c1,R5:doc195_p5_c1",
+  "counts": {
+    "inspected": 35
+  },
+  "items": [
+    {
+      "rule": "S4",
+      "chunk_id": "doc026_p1_c12",
+      "before_sha256": "5deb59fc69c7a9c25a32aab965f69564131230d3b11b10c5d790b9aeafaaacbc",
+      "after_sha256": "c4ce6107fcef62959ba590eb0bc51fe4750495156633094c8b103a83a6335c82",
+      "edits": [
+        {
+          "removed": "Â",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "stray A-circumflex before a footnote marker; word sequence unchanged",
+      "checked": [
+        "numbers",
+        "table"
+      ]
+    },
+    {
+      "rule": "S5",
+      "chunk_id": "doc089_p8_c46",
+      "before_sha256": "b76b667d96ae7c9342ea931fd064b83904a779c5957b2bef4534bc72797c663c",
+      "after_sha256": "18bf0589b40a9386bb284e47affadcb54a4bf5aedbdeae3a8320cedbd9180c4a",
+      "edits": [
+        {
+          "removed": "",
+          "inserted": " "
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "'Pay.Fulltime' gets its missing space; tokens identical",
+      "checked": [
+        "numbers"
+      ]
+    },
+    {
+      "rule": "S5",
+      "chunk_id": "doc133_p1_c2",
+      "before_sha256": "cf687bc1c41236267d9d23d2bafe0ab20dc58239aa6c57ed64d2e52ebfc3e8e0",
+      "after_sha256": "a9873aee92d3741d54e31a69257443ef6fd099b76c75c62ab46d9dbfaff9cb1b",
+      "edits": [
+        {
+          "removed": "",
+          "inserted": " "
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "'birth.Deadline' split; the deadline sentence and its date are untouched",
+      "checked": [
+        "deadline"
+      ]
+    },
+    {
+      "rule": "S5",
+      "chunk_id": "doc064_p1_c1",
+      "before_sha256": "8caebf7f742d3847c95684b830033b6f4397ee21514126146a3fe0d01f6c11fb",
+      "after_sha256": "77cdc70b7160e8f8368adc3f7d4251c9c3e7e2e19c8e41773f7de3b9392a3db1",
+      "edits": [
+        {
+          "removed": "",
+          "inserted": " "
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "footnote '1.Must earn a C' gets a space; course rows unchanged",
+      "checked": [
+        "table",
+        "numbers"
+      ]
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc124_p1_c1",
+      "before_sha256": "4f313d89db5283437bf62879b92fb1f0fd6f0041769c652661d22c7990e78390",
+      "after_sha256": "2d4c3df7de40d92702376bc9b76594c7d977816c8142196336ce27c525fbfc7f",
+      "edits": [
+        {
+          "removed": "UT Dallas > Office of Financial Aid > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "breadcrumb duplicates the source_title; page name kept",
+      "checked": []
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc136_p1_c1",
+      "before_sha256": "5f8c0cd88f8381f55bf3a743795a980e8bdb9746396d8e5d7b15fb794b9bbf2e",
+      "after_sha256": "b8d940001b533f4d0cd0db7d8476723bd9f2473d2faa23004ceb21bf30ebad00",
+      "edits": [
+        {
+          "removed": "UT Dallas > Office of the Registrar > Legislative Policies > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept_with_note",
+      "reason": "drops 'Legislative Policies' context that is not in title or heading; the rule text and its exceptions are unchanged",
+      "checked": [
+        "exception",
+        "negation"
+      ]
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc149_p1_c1",
+      "before_sha256": "93af9ce7b2d7c50295331ddcfbc0972b7dbb0203d9e2ce11560f1461cef39fa0",
+      "after_sha256": "e471a7cd259c73a529b076d9f4cd44d14925743ec2dfdf6b4e464018a380cbd6",
+      "edits": [
+        {
+          "removed": "UT Dallas > Office of the Registrar > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "mid-text breadcrumb after a real banner; the banner sentence is kept",
+      "checked": []
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc174_p1_c1",
+      "before_sha256": "5f8b86ba5718cd5e4e8a5ba5fbfa845d5ab9f15bd7b8237c9d456a557b6688df",
+      "after_sha256": "2537c2bb39104d9baf685a99924c64b139349b3946ee7ccce37bbb3d0d8e483e",
+      "edits": [
+        {
+          "removed": "UT Dallas > University Career Center > Career Resource Library > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "breadcrumb after the platform banner; 'Career Resource Library' context lost (low value)",
+      "checked": []
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc175_p1_c1",
+      "before_sha256": "436a716448ff3cc8c8a6ea4255fdbf872ce58cf19a0cf55096c11886bfa64b81",
+      "after_sha256": "079e2bd3e0cb774e8013ddfa5e912a3cc31af109cd52c787f37d6382fbc54ab2",
+      "edits": [
+        {
+          "removed": "The University of Texas at Dallas > Costs, Scholarships & Aid > Costs > Tuition > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept_with_note",
+      "reason": "trail 'Costs, Scholarships & Aid > Costs > Tuition' removed; 'tuition' still appears in the text",
+      "checked": [
+        "fee"
+      ]
+    },
+    {
+      "rule": "R1",
+      "chunk_id": "doc192_p1_c1",
+      "before_sha256": "5fddf5983cc47f3533d89cc147bdd6f935c7cc17f3ed6f67f222aa2aef82dae3",
+      "after_sha256": "2127d2d8f7b074ea5fd97c5623ee03b7610722efe39ad83d0307a6a80e40cc60",
+      "edits": [
+        {
+          "removed": "Harry W. Bass Jr. > > ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept_with_note",
+      "reason": "'Harry W. Bass Jr.' school name only survives as 'Bass' in the title",
+      "checked": []
+    },
+    {
+      "rule": "R2",
+      "chunk_id": "doc026_p1_c49",
+      "before_sha256": "1e0519cf215404c74e2a7d18c4c20eab7edd1c84309e719d90b8aa0018e1b703",
+      "after_sha256": "ddd8008290dc896594c1801dd863a5434ab10c3cdd12dc89dbdf8bce040f3ca9",
+      "edits": [
+        {
+          "removed": "Copyright © The University of Texas at Dallas. ",
+          "inserted": ""
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "copyright line before the catalog disclaimer; the disclaimer and its 'not intended' negation are kept",
+      "checked": [
+        "negation"
+      ]
+    },
+    {
+      "rule": "R3",
+      "chunk_id": "doc016_p1_c1",
+      "before_sha256": "210c82d87dccac3319336004bebe6d490e5858fdd6e4e9d5bd7733256e4dc3bf",
+      "after_sha256": "d5a0b9ff91025338857fa42881e25d458fde08603b0649d77effe0f4c96dff4d",
+      "edits": [
+        {
+          "removed": "1 of 3 1/29/2007 2:35 PM ",
+          "inserted": ""
+        }
+      ],
+      "guard": {
+        "numbers_removed": [
+          "1",
+          "1/29/2007",
+          "2:35",
+          "3"
+        ],
+        "dates_removed": [
+          "1/29/2007"
+        ]
+      },
+      "verdict": "accept_with_note",
+      "reason": "browser print stamp; 1/29/2007 is the capture date, not a policy date. Record it as registry provenance if wanted",
+      "checked": [
+        "dates"
+      ]
+    },
+    {
+      "rule": "R4",
+      "chunk_id": "doc026_p1_c50",
+      "before_sha256": "e8a8dea7cb4f20a2d5f3daee968630e232d2443aaa3bb06718ff6e768d661fdb",
+      "after_sha256": "d4b1ea5708dd532930a85188b45aff6f0a3ed458500c7577e0127a538eb0d100",
+      "edits": [
+        {
+          "removed": "Copyright © The University of Texas at Dallas",
+          "inserted": "Overview"
+        }
+      ],
+      "guard": {},
+      "verdict": "accept",
+      "reason": "heading was the copyright footer; 'Overview' adds no false context (the previous heading was a course row)",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc124_p3_c1",
+      "before_sha256": "777a0ff326415c90a3f9018b5f89546326f56ae4c23178cb2f7e5c5dc8e9b272",
+      "after_sha256": "65c2759438ab0e91c63dab5423d31218ca567d3e70f7a2194ebcef352a08604b",
+      "edits": [
+        {
+          "removed": " Exemptions and Waivers",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc124_p4_c1",
+        "from": "Exemptions",
+        "to": "Exemptions and Waivers Exemptions"
+      },
+      "guard": {
+        "conditions_removed": [
+          "exemptions"
+        ]
+      },
+      "verdict": "accept",
+      "reason": "source lines 'Exemptions and Waivers' then 'Exemptions'; heading context restored on the chunk it introduces",
+      "checked": [
+        "exception"
+      ]
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc126_p4_c1",
+      "before_sha256": "f0965176d7f620e500643d1a6c080cfa397526a910c21d627ed292ee99735848",
+      "after_sha256": "dacc9fecd8d259c2aa5bc29806c3664296c27ce2ca862689bf100921f64dc6ac",
+      "edits": [
+        {
+          "removed": " SAP Appeal",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc126_p5_c1",
+        "from": "Form",
+        "to": "SAP Appeal"
+      },
+      "guard": {},
+      "verdict": "accept",
+      "reason": "'SAP Appeal' is a standalone source line introducing the SAP appeal form",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc132_p1_c2",
+      "before_sha256": "4dcc17eea00955112658a08424c528114d0c536b9aa1b81008a0d06a7ed1a708",
+      "after_sha256": "5f4fd6743d39dff0921fc038adb0ac18246878679364f8b750976ce772fd7233",
+      "edits": [
+        {
+          "removed": " How To Find Your Final Exam Assignment",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc132_p2_c1",
+        "from": "Students",
+        "to": "How To Find Your Final Exam Assignment Students"
+      },
+      "guard": {},
+      "verdict": "accept",
+      "reason": "'How To Find Your Final Exam Assignment' moves to the chunk that explains it; reads awkwardly with 'Students'",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc133_p16_c1",
+      "before_sha256": "2c70c6f55577cf593aad144ec23ec0659fa0ca643cb80bf842f16388c78e5e89",
+      "after_sha256": "20a68c05f0858f89a578c1df12b06f4bbea8508cc107b271232e165b07b5979e",
+      "edits": [
+        {
+          "removed": " Texas Tuition",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc133_p17_c1",
+        "from": "Rebate",
+        "to": "Texas Tuition Rebate"
+      },
+      "guard": {},
+      "verdict": "accept",
+      "reason": "rejoins the wrapped heading 'Texas Tuition Rebate'; causes the dev precision change on data-dev-tuition-rebate-rules (doc133 is unlabelled but on topic)",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc189_p1_c3",
+      "before_sha256": "9896be6f676e08b696fa284b9ee73e173f34519ea56956d1b52d87a251034794",
+      "after_sha256": "6ef40346cb08ce4050ff102ec43ed543958efb8525d4f1ac4581b1fcb701732c",
+      "edits": [
+        {
+          "removed": " Fall 2026 Updates",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc189_p2_c1",
+        "from": "Disbursements",
+        "to": "Fall 2026 Updates Disbursements"
+      },
+      "guard": {
+        "numbers_removed": [
+          "2026"
+        ],
+        "dates_removed": [
+          "2026"
+        ]
+      },
+      "verdict": "accept",
+      "reason": "'Fall 2026 Updates' moves with its year intact; never rewritten",
+      "checked": [
+        "deadline",
+        "dates"
+      ]
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc133_p4_c1",
+      "before_sha256": "9abb5bc1595711243fc70adcf4e72cca65f670de3d58d5cc79b53574c9d33e61",
+      "after_sha256": "5236a9e78532901bd9feec746aa8660b5c7d1a58198cac7b52871de818d01a0b",
+      "edits": [
+        {
+          "removed": " Cover Form for Admissions",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc133_p5_c1",
+        "from": "Documents",
+        "to": "Cover Form for Admissions: Documents"
+      },
+      "guard": {},
+      "verdict": "accept_with_note",
+      "reason": "heading wrapped over two lines but joined with ':' because the lines are not adjacent in raw_text",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc178_p1_c1",
+      "before_sha256": "030523d0170fc702cf8919d653e4e07dd9a1bddc32250c848b97fb8827a609e7",
+      "after_sha256": "eb6e95bc85e6e530781f2120b3b7edd71cdef51d034f0b377ae452b9843b0f5f",
+      "edits": [
+        {
+          "removed": " New Library Hours",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc178_p2_c1",
+        "from": "Library Search Library Information",
+        "to": "New Library Hours: Library Search Library Information"
+      },
+      "guard": {},
+      "verdict": "reject",
+      "reason": "'Library Search Library Information' is navigation; combined heading would be misleading. Skipped in the recommended stage",
+      "checked": []
+    },
+    {
+      "rule": "R5",
+      "chunk_id": "doc195_p5_c1",
+      "before_sha256": "9e915c4e363372470fede8f25830a51f227e282a6742f7595fc3b4c36eafbc16",
+      "after_sha256": "d820a89e999e65d26d0f9cafd891ffa3ee03ec241471deaa177b7e61e2d82cd6",
+      "edits": [
+        {
+          "removed": " Learn More About Fast Track",
+          "inserted": ""
+        }
+      ],
+      "heading_change": {
+        "chunk_id": "doc195_p6_c1",
+        "from": "Peer Mentors",
+        "to": "Learn More About Fast Track Peer Mentors"
+      },
+      "guard": {},
+      "verdict": "reject",
+      "reason": "'Learn More About Fast Track' is a call to action, not a heading. Skipped in the recommended stage",
+      "checked": []
+    },
+    {
+      "rule": "M1",
+      "chunk_id": "doc091_p51_c344",
+      "old_ids": [
+        "doc091_p51_c344"
+      ],
+      "new_ids": [],
+      "verdict": "accept",
+      "reason": "footer menu only; no labelled evidence; retiring removes a recurring noise chunk",
+      "checked": []
+    },
+    {
+      "rule": "M1",
+      "chunk_id": "doc117_p4_c8",
+      "old_ids": [
+        "doc117_p4_c8"
+      ],
+      "new_ids": [],
+      "verdict": "accept",
+      "reason": "copyright footer only",
+      "checked": []
+    },
+    {
+      "rule": "M2",
+      "chunk_id": "doc091_p37_c249",
+      "old_ids": [
+        "doc091_p37_c249"
+      ],
+      "new_ids": [
+        "doc091_p28_c187"
+      ],
+      "verdict": "reject",
+      "reason": "same sentence appears in two different appeal processes 9 pages apart; the heading is a broken sentence, so equal headings do not prove equal context",
+      "checked": [
+        "repeated_policy"
+      ]
+    },
+    {
+      "rule": "M2",
+      "chunk_id": "doc108_p2_c15",
+      "old_ids": [
+        "doc108_p2_c15"
+      ],
+      "new_ids": [
+        "doc108_p1_c6"
+      ],
+      "verdict": "reject",
+      "reason": "the same required fields are listed for adding and for withdrawing; retiring one would hide that both procedures need them",
+      "checked": [
+        "repeated_policy"
+      ]
+    },
+    {
+      "rule": "M3",
+      "chunk_id": "doc090_p7_c44",
+      "old_ids": [
+        "doc090_p7_c44",
+        "doc090_p8_c45"
+      ],
+      "new_ids": [
+        "doc090_p7_c44"
+      ],
+      "verdict": "accept",
+      "reason": "the chunk ends before '; however, no advisor may examine' - merging keeps the exception with its rule",
+      "checked": [
+        "exception",
+        "negation"
+      ]
+    },
+    {
+      "rule": "M3",
+      "chunk_id": "doc107_p3_c11",
+      "old_ids": [
+        "doc107_p3_c11",
+        "doc107_p4_c12"
+      ],
+      "new_ids": [
+        "doc107_p3_c11"
+      ],
+      "verdict": "accept",
+      "reason": "'Unless the context of this policy indicated' / 'otherwise' was split across chunks",
+      "checked": [
+        "exception"
+      ]
+    },
+    {
+      "rule": "M3",
+      "chunk_id": "doc090_p9_c61",
+      "old_ids": [
+        "doc090_p9_c61",
+        "doc090_p10_c62"
+      ],
+      "new_ids": [
+        "doc090_p9_c61"
+      ],
+      "verdict": "accept",
+      "reason": "deadline 'within ten (10) business days of the imposition of the' / 'disciplinary action' was split",
+      "checked": [
+        "deadline",
+        "numbers"
+      ]
+    },
+    {
+      "rule": "M4",
+      "chunk_id": "doc078_p1_c23",
+      "old_ids": [
+        "doc078_p1_c23",
+        "doc078_p1_c24"
+      ],
+      "new_ids": [
+        "doc078_p1_c23"
+      ],
+      "verdict": "accept",
+      "reason": "'CE 4348.' (2 words) is never indexed; merging into the previous flowchart row makes it searchable",
+      "checked": [
+        "table"
+      ]
+    },
+    {
+      "rule": "M5",
+      "chunk_id": "doc006_p1_c3",
+      "old_ids": [
+        "doc006_p1_c3"
+      ],
+      "new_ids": [
+        "doc006_p1_c3",
+        "doc006_p1_c21"
+      ],
+      "split_at": 1265,
+      "verdict": "reject",
+      "reason": "proposed cut separates the SAT/ACT thresholds from 'Meeting the minimum requirements makes a student eligible'",
+      "checked": [
+        "eligibility",
+        "numbers"
+      ]
+    },
+    {
+      "rule": "M5",
+      "chunk_id": "doc019_p14_c44",
+      "old_ids": [
+        "doc019_p14_c44"
+      ],
+      "new_ids": [
+        "doc019_p14_c44",
+        "doc019_p14_c51"
+      ],
+      "split_at": 737,
+      "verdict": "reject",
+      "reason": "cut separates 'may not be penalized for the absence' from the consequence for failing to make up the exam",
+      "checked": [
+        "negation",
+        "exception"
+      ]
+    },
+    {
+      "rule": "M5",
+      "chunk_id": "doc014_p2_c4",
+      "old_ids": [
+        "doc014_p2_c4"
+      ],
+      "new_ids": [
+        "doc014_p2_c4",
+        "doc014_p2_c8"
+      ],
+      "split_at": 471,
+      "verdict": "accept_with_note",
+      "reason": "cut falls between two definitions; acceptable but unnecessary because the chunk (under 300 words) is already indexed",
+      "checked": []
+    },
+    {
+      "rule": "F3",
+      "chunk_ids": [
+        "doc021_p1_c8",
+        "doc022_p1_c8"
+      ],
+      "verdict": "keep_both",
+      "reason": "near-duplicate degree plans differ in hours (10, 3, 7); merging would lose a program-specific number",
+      "checked": [
+        "numbers",
+        "repeated_policy"
+      ]
+    },
+    {
+      "rule": "F2",
+      "chunk_ids": [
+        "doc091_p10_c45",
+        "doc091_p13_c71"
+      ],
+      "verdict": "keep_both",
+      "reason": "identical contact line under two different headings (different context)",
+      "checked": [
+        "repeated_policy"
+      ]
+    },
+    {
+      "rule": "F2",
+      "chunk_ids": [
+        "doc026 (50 chunks)",
+        "doc118 (50 chunks)"
+      ],
+      "verdict": "keep_both",
+      "reason": "both docs come from the same catalog PDF; provenance is per doc, so no copy is removed. Consider collapsing duplicates at retrieval time instead (mentor-owned)",
+      "checked": [
+        "provenance"
+      ]
+    }
+  ]
+}
