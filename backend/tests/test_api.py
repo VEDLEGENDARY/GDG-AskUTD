@@ -71,7 +71,7 @@ class ApiTests(unittest.TestCase):
         response = self.client.post("/api/chat/stream", json={"question": "How do I drop a class?"})
         events = [line[7:] for line in response.text.splitlines() if line.startswith("event: ")]
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(events[:2], ["meta", "citations"])
+        self.assertEqual(events[:3], ["meta", "retrieval", "citations"])
         self.assertIn("token", events)
         self.assertEqual(events[-1], "done")
         self.assertEqual(response.headers["cache-control"], "no-cache")

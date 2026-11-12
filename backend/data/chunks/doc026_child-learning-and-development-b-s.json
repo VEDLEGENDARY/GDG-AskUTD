@@ -101,10 +101,10 @@
   {
     "chunk_id": "doc026_p1_c12",
     "doc_id": "doc026",
-    "text": "E. Science (9 hours). 3 hours Science Electives (including at least one course with a substantial laboratory component) 1Â Curriculum Requirements can be fulfilled by other approved courses from accredited institutions of higher education. The courses listed in parentheses are recommended as the most efficient way to satisfy both Core Curriculum and Major Requirements at UT Dallas.",
+    "text": "E. Science (9 hours). 3 hours Science Electives (including at least one course with a substantial laboratory component) 1 Curriculum Requirements can be fulfilled by other approved courses from accredited institutions of higher education. The courses listed in parentheses are recommended as the most efficient way to satisfy both Core Curriculum and Major Requirements at UT Dallas.",
     "source_title": "Child Learning and Development (B.S.)",
     "section_heading": "E. Science (9 hours)",
-    "n_sentences": 4,
+    "n_sentences": 2,
     "token_count": 96
   },
   {
@@ -308,10 +308,10 @@
   {
     "chunk_id": "doc026_p1_c35",
     "doc_id": "doc026",
-    "text": "C. Computational Modeling Specialization (12 upper-division hours). 2Â A required Major course that also fulfills a Core Curriculum requirements 3 Six hours of Calculus are counted to fulfill the Mathematics Core Requirement",
+    "text": "C. Computational Modeling Specialization (12 upper-division hours). 2 A required Major course that also fulfills a Core Curriculum requirements 3 Six hours of Calculus are counted to fulfill the Mathematics Core Requirement",
     "source_title": "Child Learning and Development (B.S.)",
     "section_heading": "C. Computational Modeling Specialization (12 upper-division hours)",
-    "n_sentences": 3,
+    "n_sentences": 1,
     "token_count": 56
   },
   {
@@ -434,18 +434,18 @@
   {
     "chunk_id": "doc026_p1_c49",
     "doc_id": "doc026",
-    "text": "Copyright © The University of Texas at Dallas. This catalog is a general information publication only. It is not intended to nor does it contain all regulations that relate to students.",
+    "text": "This catalog is a general information publication only. It is not intended to nor does it contain all regulations that relate to students.",
     "source_title": "Child Learning and Development (B.S.)",
-    "section_heading": "Copyright © The University of Texas at Dallas",
-    "n_sentences": 3,
-    "token_count": 47
+    "section_heading": "Overview",
+    "n_sentences": 2,
+    "token_count": 35
   },
   {
     "chunk_id": "doc026_p1_c50",
     "doc_id": "doc026",
     "text": "The provisions of this catalog do not constitute a contract, express or implied, between any applicant, student or faculty member and The University of Texas at Dallas or The University of Texas System. The University of Texas at Dallas reserves the right to withdraw courses at any time, to change fees or tuition, calendar, curriculum, degree requirements, graduation procedures, and any other requirements affecting students.",
     "source_title": "Child Learning and Development (B.S.)",
-    "section_heading": "Copyright © The University of Texas at Dallas",
+    "section_heading": "Overview",
     "n_sentences": 2,
     "token_count": 107
   },
@@ -454,7 +454,7 @@
     "doc_id": "doc026",
     "text": "Changes will become effective whenever the proper authorities so determine and will apply to both prospective students and those already enrolled. UTD",
     "source_title": "Child Learning and Development (B.S.)",
-    "section_heading": "Copyright © The University of Texas at Dallas",
+    "section_heading": "Overview",
     "n_sentences": 2,
     "token_count": 38
   }

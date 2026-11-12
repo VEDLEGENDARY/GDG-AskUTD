@@ -907,22 +907,9 @@ def build_index(chunks: list[dict], config: dict):
 
 
 def staged_retrieve(index, config: dict, urls: dict[str, str], query: str, top_k: int = 5, history=None):
-    """Mirror of backend.app.retrieval.retrieve over an arbitrary index (parity is tested)."""
-    from backend.app.retrieval_support.query import reject, rewrite
-    from backend.app.types import Passage, RetrievalResult
-    if not isinstance(query, str) or not query.strip() or not ev.tokens(query):
-        return RetrievalResult(abstain=True, reason="empty query")
-    if type(top_k) is not int or not 1 <= top_k <= 8:
-        return RetrievalResult(abstain=True, reason="invalid top_k")
-    query = rewrite(query.strip()[:2000], history)
-    hits = index.search(query, top_k)
-    reason = reject(query, hits, config)
-    if reason:
-        return RetrievalResult(abstain=True, reason=reason)
-    return RetrievalResult(passages=[Passage(
-        chunk_id=h["chunk_id"], doc_id=h["doc_id"], text=h["text"], source_title=h.get("source_title", ""),
-        section_heading=h.get("section_heading", ""), score=h["retrieval_score"], source_url=urls.get(h["doc_id"]))
-        for h in hits])
+    """Evaluate a staged corpus with the same retrieval path used by chat."""
+    from backend.app.retrieval import retrieve_from_index
+    return retrieve_from_index(index, config, urls, query, top_k, history)
 
 
 def run_split(chunks: list[dict], questions: list[dict], config: dict, urls: dict[str, str]) -> dict:

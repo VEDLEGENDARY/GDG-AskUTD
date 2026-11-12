@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc202_p1_c1",
+    "doc_id": "doc202",
+    "source_title": "Office of Financial Aid: Satisfactory Academic Progress",
+    "section_heading": "Financial aid eligibility standards",
+    "text": "Satisfactory Academic Progress for financial aid is measured by cumulative GPA, the percentage of attempted credits completed, and the maximum time frame for the degree. The minimum cumulative GPA is 2.0 for undergraduates and 3.0 for graduate students. The undergraduate pace requirement varies by attempted hours. Graduate students must complete at least two-thirds of attempted hours.",
+    "n_sentences": 4,
+    "token_count": 97
+  },
+  {
+    "chunk_id": "doc202_p1_c2",
+    "doc_id": "doc202",
+    "source_title": "Office of Financial Aid: Satisfactory Academic Progress",
+    "section_heading": "Financial aid warning, suspension and appeals",
+    "text": "Failure to meet the GPA or completion rate standard for the first time results in a financial aid warning for the next term of enrollment. A student who continues to fall short while on warning may be placed on financial aid suspension. A student with extenuating circumstances can submit a Satisfactory Academic Progress appeal to the Office of Financial Aid.",
+    "n_sentences": 3,
+    "token_count": 90
+  }
+]

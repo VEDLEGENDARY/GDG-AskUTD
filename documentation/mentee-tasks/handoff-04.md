@@ -1,3 +1,7 @@
+> Integration update: the production service now uses this reranker and its evidence checks.
+> The proposal patch and proposal-only validator were superseded by the live integration.
+> See [retrieval documentation](../retrieval.md) for current behavior.
+
 # Mentee 4 handoff: precision ranking and evidence sufficiency
 
 ## Review status and recommendation
@@ -39,8 +43,6 @@ Owned deliverables:
 - evaluate/mentee4/run_pool_sweep.py
 - evaluate/mentee4/hard_cases.json
 - evaluate/mentee4/hard_cases.py
-- evaluate/mentee4/integration-proposal.patch
-- evaluate/mentee4/validate_integration_proposal.py
 - evaluate/mentee4/README.md and development-notes.md
 - documentation/mentee-tasks/handoff-04.md
 
@@ -235,131 +237,13 @@ are required if these files already exist.
 .venv/bin/python3 -m evaluate.mentee4.run_experiments --output evaluate/runs/mentee-4/final-review-shared-dev.json
 .venv/bin/python3 -m evaluate.mentee4.run_experiments --hard-cases --output evaluate/runs/mentee-4/final-review-hard-cases.json
 .venv/bin/python3 -m evaluate.mentee4.run_pool_sweep --output evaluate/runs/mentee-4/pool-sweep-dev.json
-git apply --check evaluate/mentee4/integration-proposal.patch
-.venv/bin/python3 -m evaluate.mentee4.validate_integration_proposal
 npm test
 npm run build
 ```
 
-## Mentor integration proposal (not applied)
+## Integration
 
-The following patch is also provided as evaluate/mentee4/integration-proposal.patch.
-It applies to the current baseline index/service, not an unseen future efficiency
-branch. Mentor must reconcile the callback seam with mentee 5 and follow the
-agreed merge order. No mentee-owned index/query/shared config file was edited.
-
-Default two-argument index.search remains backward compatible. The optional
-keyword hook exposes the admitted pool before final MMR and uses precision_score
-only for ranking; original scores remain unchanged for admission and citations.
-Final selection is still performed by the existing index. Existing rejection runs
-after selection; optional sufficiency then runs only if existing checks pass.
-The proposed sufficiency flag is false by default. Mentor should not enable it
-without explicitly accepting the documented refusal tradeoffs and holdout results.
-
-In-memory validation verifies index behavior only. Service changes compile, but
-actual integrated API tests are still required after mentor application. Public
-retrieve, Passage and citation IDs remain unchanged. No production config change
-or larger pool is proposed. Applying this patch would activate reranking; merely
-merging this assignment's module does not activate it.
-
-```diff
---- a/backend/app/retrieval_support/index.py
-+++ b/backend/app/retrieval_support/index.py
-@@ -17,8 +17,8 @@
-         self.meta = [set(ev.tokens(ev.metadata(row))) for row in self.chunks]
-         self.costs = [ev.cost(row) for row in self.chunks]
- 
--    def search(self, query: str, top_k: int) -> list[dict]:
--        """Score candidates, then enforce MMR, document cap and token budget."""
-+    def search(self, query: str, top_k: int, *, reranker=None) -> list[dict]:
-+        """Score candidates, optionally rerank, then select within constraints."""
-         s = self.s
-         terms = set(ev.tokens(query))
-         qv = self.vector(Counter(ev.tokens(query)))
-@@ -37,6 +37,23 @@
-             scores.append((1-s.metadata_weight)*lexical+s.metadata_weight*meta)
-         pool = sorted(range(self.n), key=lambda i: (-scores[i], self.chunks[i]['chunk_id']))[:s.candidate_pool]
-         pool = [i for i in pool if scores[i] > 0 and scores[i] >= s.min_score]
-+        # Admission always uses original retrieval scores, before reranking.
-+        ranking_scores = list(scores)
-+        if reranker is not None:
-+            candidates = [
-+                {**self.chunks[i], 'retrieval_score': scores[i],
-+                 'estimated_tokens': self.costs[i]} for i in pool
-+            ]
-+            ranked = reranker(query, candidates)
-+            expected = {self.chunks[i]['chunk_id']: i for i in pool}
-+            if (len(ranked) != len(pool)
-+                    or {h['chunk_id'] for h in ranked} != set(expected)):
-+                raise ValueError('reranker must preserve candidate IDs')
-+            for hit in ranked:
-+                score = hit['precision_score']
-+                if type(score) not in (int, float) or not math.isfinite(score):
-+                    raise ValueError('precision_score must be finite')
-+                ranking_scores[expected[hit['chunk_id']]] = score
-         selected: list[int] = []
-         counts: Counter = Counter()
-         used = 0
-@@ -47,11 +64,12 @@
-                 break
-             def mmr(i: int) -> float:
-                 redundancy = max((ev.cosine(self.vectors[i], self.vectors[j]) for j in selected), default=0)
--                return s.diversity_lambda*scores[i]-(1-s.diversity_lambda)*redundancy
--            best = min(feasible, key=lambda i: (-mmr(i), -scores[i], self.chunks[i]['chunk_id']))
-+                return s.diversity_lambda*ranking_scores[i]-(1-s.diversity_lambda)*redundancy
-+            best = min(feasible, key=lambda i: (-mmr(i), -ranking_scores[i], self.chunks[i]['chunk_id']))
-             selected.append(best)
-             pool.remove(best)
-             counts[self.chunks[best]['doc_id']] += 1
-             used += self.costs[best]
--        return [{**self.chunks[i], 'retrieval_score': scores[i], 'estimated_tokens': self.costs[i]}
-+        return [{**self.chunks[i], 'retrieval_score': scores[i], 'estimated_tokens': self.costs[i],
-+                 **({'precision_score': ranking_scores[i]} if reranker is not None else {})}
-                 for i in selected]
---- a/backend/app/retrieval.py
-+++ b/backend/app/retrieval.py
-@@ -10,12 +10,15 @@
- from evaluate import evaluate_chunks as ev
- 
- from .retrieval_support.index import LexicalIndex
-+from .retrieval_support.precision import evidence_reason, rerank
- from .retrieval_support.query import reject, rewrite
- from .types import Passage, RetrievalResult, Turn
- 
- ROOT = Path(__file__).resolve().parents[2]
- CONFIG = ROOT / 'backend' / 'retrieval_config.json'
- log = logging.getLogger(__name__)
-+# Mentor enables only after reviewing additional refusals and holdout results.
-+PRECISION_SUFFICIENCY_ENABLED = False
- 
- 
- def load_urls(path: Path) -> dict[str, str]:
-@@ -53,8 +56,10 @@
-     query = rewrite(query.strip()[:2000], history)
-     try:
-         index, config, urls, _ = _load()
--        hits = index.search(query, top_k)
-+        hits = index.search(query, top_k, reranker=rerank)
-         reason = reject(query, hits, config)
-+        if reason is None and PRECISION_SUFFICIENCY_ENABLED:
-+            reason = evidence_reason(query, hits)
-         if reason:
-             return RetrievalResult(abstain=True, reason=reason)
-         return RetrievalResult(passages=[Passage(
-```
-
-## Remaining delivery and integration steps
-
-- Confirm baseline/checkout coordination and review the documented tradeoffs.
-- Review and commit only the owned files, push the branch, open a PR, satisfy
-  reviews/CI, update against main in the mentor sequence, merge and verify remote main.
-  None of these publication/merge steps has happened in this session.
-- Mentor integrates shared runtime wiring only after coordination and checks;
-  use a fresh sealed holdout once for final integration and report regressions.
-- Re-run integrated API/retrieval checks after upstream changes; current proposal
-  syntax/index parity does not substitute for combined runtime validation.
-- Current heuristics recognize only two spelled-out programs and explicit full
-  year ranges. Negation parsing, population ranking, general navigation detection,
-  general multi-part entailment, ambiguity and score calibration remain limited.
-  This implementation/report may be rejected if its modest gains or tradeoffs
-  are not acceptable. There is no claim of universal correctness.
+The service reranks the score-admitted candidate pool before final MMR, caps and
+budget selection. Lexical scores still control admission and are returned to
+callers. The service runs sufficiency checks on the selected passages. See the
+current retrieval guide for tradeoffs and validation.

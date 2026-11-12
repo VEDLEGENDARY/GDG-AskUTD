@@ -8,24 +8,21 @@ mobile navigation and light/dark themes.
 
 The provider prompt aims for 80 to 120 words with a hard validation ceiling of
 275 words before a short confirmation note, keeping the response below 300 words.
-Missing citations no longer receive a fabricated default citation. Every sentence
-must contain a valid citation; numeric values must occur in the cited passage;
-at least 30% of the claim's content terms must overlap its cited evidence. Invalid
-answers fall back to extracted source sentences or abstain. Generic navigation
-sentences are excluded from the extractive picker. Short follow-ups are rewritten
-for both retrieval and generation.
+Each claim needs a complete source sentence in every cited passage, with exact
+withdrawal deadline phrases allowed for scoped calendar questions. Unsupported answers
+fall back to extracted source sentences or abstain. Generic navigation sentences
+are excluded from the extractive picker. Follow-ups are rewritten for both
+retrieval and generation.
 
-The entire candidate is validated before text is released as SSE token events.
-This trades live model-token latency for consistent validation. Failed candidates
-are never partially shown. Citation checks and lexical overlap are heuristics,
-not semantic entailment or proof of truth. The corpus is a snapshot, not live web
-research. The default provider remains extractive; a configured Ollama or hosted
-provider can generate paraphrases, subject to the same checks. No model was
-trained or upgraded as part of this change.
+Chat validates the full answer before streaming citations and text. The retrieval
+event reports passages considered, which can include passages the answer did not
+cite. The default provider is extractive. Optional providers use the same source
+checks. Source matching does not establish that a copied policy is current or
+that it applies to a student's individual circumstances.
 
 Regression coverage includes invented fees, unrelated claims with a real citation
-ID, overlong replies, invalid/missing citations, source-only fallback and matching
-stream/final text. The held-out retrieval benchmark was not rerun or tuned.
+ID, overlong replies, invalid or missing citations, source-only fallback and
+matching stream and synchronous output.
 
 ## Power and connectivity
 

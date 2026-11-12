@@ -8,6 +8,7 @@ import math
 import statistics
 import sys
 import time
+from collections import defaultdict
 from dataclasses import asdict
 from pathlib import Path
 
@@ -25,17 +26,23 @@ def evaluate(split: str) -> dict:
     questions = ev.read_questions(questions_path, chunks, split)
     corpus_stats()
     rows, latencies = [], []
+    categories = defaultdict(list)
     for q in questions:
         start = time.perf_counter()
         result = retrieve(q['query'])
         elapsed = (time.perf_counter()-start)*1000
         latencies.append(elapsed)
         hits = [{**asdict(p), 'estimated_tokens': ev.cost(asdict(p))} for p in result.passages]
-        rows.append({'id': q['id'], 'query': q['query'], 'reason': result.reason,
-                     'chunk_ids': [h['chunk_id'] for h in hits], 'latency_ms': elapsed,
-                     'metrics': ev.grade(q, hits)})
+        row = {'id': q['id'], 'query': q['query'], 'reason': result.reason,
+               'chunk_ids': [h['chunk_id'] for h in hits], 'latency_ms': elapsed,
+               'metrics': ev.grade(q, hits)}
+        rows.append(row)
+        categories[q.get('category', 'uncategorized')].append(row)
     return {'split': split, 'questions_sha256': hashlib.sha256(questions_path.read_bytes()).hexdigest(),
-            'summary': ev.summarize(rows), 'p50_ms': statistics.median(latencies),
+            'summary': ev.summarize(rows),
+            'categories': {name: {'questions': len(group), **ev.summarize(group)}
+                           for name, group in sorted(categories.items())},
+            'p50_ms': statistics.median(latencies),
             'p95_ms': sorted(latencies)[math.ceil(.95*len(latencies))-1], 'rows': rows}
 
 

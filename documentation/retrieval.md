@@ -2,8 +2,8 @@
 
 `backend.app.retrieval.retrieve(query, top_k=5, history=None)` returns the shared
 `RetrievalResult`; an abstention always has an empty passage list and a log-only
-reason. `corpus_stats()` reports 198 documents, 3,003 chunks and `lexical` for the
-current merged corpus. Counts describe the full corpus before chunk-size filters.
+reason. `corpus_stats()` reports 214 documents, 3,029 chunks and `lexical-reranked` for the
+current corpus. Counts describe the full corpus before chunk-size filters.
 
 ## Loading and scoring
 
@@ -14,10 +14,12 @@ of the working directory. No model, network service, GPU or new dependency is
 required. Semantic retrieval is intentionally omitted, so the runtime never
 downloads models.
 
-The service reuses evaluator tokenization, BM25, TF-IDF cosine, metadata weighting
-and MMR. It precomputes lengths, vector norms, metadata tokens and passage costs.
-It preserves the per-document cap and counts title, section and passage text in
-the 1,200 estimated-token budget. `top_k` must be an integer from 1 through 8.
+The service uses inverted postings for BM25, TF-IDF cosine and metadata coverage.
+It admits candidates by lexical score, then reranks the pool for explicit computer
+science and computer engineering program scope and catalog-year ranges. MMR
+selects results using reranked relevance and a redundancy penalty. The document
+cap and 1,200 estimated-token budget still apply, including titles and sections.
+`top_k` accepts integers 1 through 8. Returned passage scores are lexical scores.
 The optional documents registry supplies HTTP(S) source URLs. Missing, malformed
 or invalid entries yield `None`; URLs are never inferred from titles.
 
@@ -33,15 +35,35 @@ an absolute confidence measure. The service combines these checks:
 4. At least one selected passage must cover 25% of the question's content terms,
    using the evaluator tokenizer plus additional generic-word exclusions.
 5. At least one passage must score 0.3 or higher. No surviving hits also abstains.
+6. Additional checks require evidence for explicit catalog and program scope and
+   for recognized compound requests such as eligibility plus required documents.
 
 These are transparent heuristics, not calibrated probabilities. There is no
 question-ID, reference-evidence or benchmark-answer lookup in the service.
-Short elliptical follow-ups, at most 12 words, are appended to the latest user
-turn among the last six history items. Assistant text and malformed history
-items are ignored. For example, `what about graduate students?` after
-`How do I drop a class?` retains the registration topic. This heuristic cannot
-resolve all pronouns or changes of subject. Generation receives the original
-question and history under the existing API contract.
+Follow-ups use recent user questions to resolve scope. Query rewriting recognizes
+some corpus aliases and topic changes. Assistant answers do not supply facts to
+retrieval. Generation receives the resolved question and the selected passages.
+
+## Corpus cleanup
+
+The staged audit applied 88 edits across 53 chunk files: encoding and spacing
+repairs, breadcrumb and footer removal, and headings verified in raw text. All
+3,003 chunk IDs, source titles, document IDs, and source URLs are preserved. Three
+ambiguous heading moves and proposals that retire, split, or merge IDs were left
+out. The audit tool evaluates staged alternatives through the production retrieval
+service and writes its results to a separate staging directory.
+
+On the shared development benchmark, complete evidence increased from 57.1% to
+58.4%, evidence recall moved from 72.4% to 71.4%, and context precision moved from
+46.5% to 45.0%. Abstention correctness stayed at 72%. The evidence checks refused
+four additional questions whose selected results lacked a required facet or scope.
+The corpus remains a snapshot of the source material.
+
+The screenshot follow-up adds focused evidence checks for requests such as dates,
+AP credits, payments and enrollment. Focused queries can admit weaker lexical
+candidates only when they pass the requested fact and scope checks. Named catalog
+comparisons search each edition separately before combining passages under the
+same budget. See [screenshot review](screenshot-review.md) for updated metrics.
 
 ## Configuration
 
@@ -56,6 +78,7 @@ question and history under the existing API contract.
 | `metadata_weight` | Title/section coverage contribution |
 | `diversity_lambda` | Relevance versus MMR redundancy penalty |
 | `min_score` | Minimum candidate score |
+| `focused_candidate_floor` | Lexical admission floor for fact or catalog scoped retrieval |
 | `max_per_document` | Maximum passages from one document |
 | `min_chunk_words`, `max_chunk_words` | Indexing length filters |
 | `context_budget` | Estimated context token limit |

@@ -39,9 +39,10 @@ characters) and `source_url`.
 ## `POST /api/chat/stream`
 
 The request body is the same as `/api/chat`. The response is Server-Sent Events in this
-order: `meta`, `citations`, zero or more `token` events, then `done`. If generation changes
-the citation set, a second `citations` event precedes `done`. Failures after the stream
-starts are returned as an `error` event.
+order: `meta`, `retrieval`, `citations`, `token`, then `done`. The retrieval event
+reports selected passage IDs, passage and document counts, elapsed milliseconds,
+and status. Citations contain only sources used in the validated answer. Failures
+after the stream starts are returned as an `error` event.
 
 ```sh
 curl -N -X POST http://localhost:8000/api/chat/stream \

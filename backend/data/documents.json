@@ -1384,5 +1384,117 @@
     "source_url": null,
     "pdf": "Writing Center - Student Success Center _ UT Dallas.pdf",
     "chunks": 2
+  },
+  {
+    "doc_id": "doc199",
+    "title": "Bursar Office: Tuition Payments and Payment Options",
+    "source_url": "https://bursar.utdallas.edu/payments-refunds/payment-options/",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc200",
+    "title": "2026 Graduate Catalog: Master of Science in Computer Science",
+    "source_url": "https://catalog.utdallas.edu/2026/graduate/programs/ecs/computer-science",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc201",
+    "title": "Office of Financial Aid: Withdrawal Policy",
+    "source_url": "https://finaid.utdallas.edu/maintaining-aid/withdrawal-policy/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc202",
+    "title": "Office of Financial Aid: Satisfactory Academic Progress",
+    "source_url": "https://finaid.utdallas.edu/maintaining-aid/satisfactory-academic-progress/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc203",
+    "title": "Office of the Registrar: Waitlisting and Swapping Classes",
+    "source_url": "https://registrar.utdallas.edu/registration/wait-listing-and-swapping-classes/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc204",
+    "title": "Office of the Registrar: Student Registration Holds",
+    "source_url": "https://registrar.utdallas.edu/faq/",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc205",
+    "title": "Transfer Credit Tool: AP Calculus BC and Physics C Mechanics",
+    "source_url": "https://transfercredit.utdallas.edu/search-by-test/ap-credit/",
+    "pdf": null,
+    "chunks": 4
+  },
+  {
+    "doc_id": "doc206",
+    "title": "Bursar Office: Tuition Estimates",
+    "source_url": "https://bursar.utdallas.edu/tuition/tuition-estimates/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc207",
+    "title": "Office of the Registrar: Audit a Course",
+    "source_url": "https://registrar.utdallas.edu/registration/audit-a-course/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc208",
+    "title": "AccessAbility Resource Center: Student Accommodation Grievances",
+    "source_url": "https://accessability.utdallas.edu/student-accommodations/grievance-procedures-for-students/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc209",
+    "title": "Office of Financial Aid: FAFSA Verification FAQ",
+    "source_url": "https://finaid.utdallas.edu/receiving-aid/verification/",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc210",
+    "title": "International Students and Scholars Office: F-1 Off-Campus Employment",
+    "source_url": "https://isso.utdallas.edu/employment-and-internships/is-employment/",
+    "pdf": null,
+    "chunks": 2
+  },
+  {
+    "doc_id": "doc211",
+    "title": "Office of the Registrar: Ordering an Official Transcript",
+    "source_url": "https://registrar.utdallas.edu/transcripts/official-transcript/",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc212",
+    "title": "Comet Calendar: Spring 2027 Degree Conferral",
+    "source_url": "https://calendar.utdallas.edu/event/spring-2027-degree-conferral-date",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc213",
+    "title": "Enrollment Services: Undergraduate Gap Year and Admission Deferment",
+    "source_url": "https://onbaseforms.utdallas.edu/es/es_ugdefer_req.php",
+    "pdf": null,
+    "chunks": 1
+  },
+  {
+    "doc_id": "doc214",
+    "title": "Student Success Center: Peer Tutoring and Supplemental Instruction",
+    "source_url": "https://studentsuccess.utdallas.edu/programs/",
+    "pdf": null,
+    "chunks": 1
   }
 ]

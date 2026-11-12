@@ -2,11 +2,11 @@
   {
     "chunk_id": "doc126_p1_c1",
     "doc_id": "doc126",
-    "text": "UT Dallas > Office of Financial Aid > Forms Forms. You may submit completed forms to our office using one of the methods below. To submit documents we’ve requested on the To Do list in your Student Center Tasks tile, use the Financial Aid Uploader. Financial Aid Uploader: 2026-2027 Academic Year = Fall 2026, Spring 2027, and Summer 2027 2026-2027 ACADEMIC YEAR. All other documents can be submitted by email, fax, or in person. Email: financial-aid@utdallas.edu – To protect your personal information, please use your UT Dallas email when submitting documents.",
+    "text": "Forms Forms. You may submit completed forms to our office using one of the methods below. To submit documents we’ve requested on the To Do list in your Student Center Tasks tile, use the Financial Aid Uploader. Financial Aid Uploader: 2026-2027 Academic Year = Fall 2026, Spring 2027, and Summer 2027 2026-2027 ACADEMIC YEAR. All other documents can be submitted by email, fax, or in person. Email: financial-aid@utdallas.edu – To protect your personal information, please use your UT Dallas email when submitting documents.",
     "source_title": "Office of Financial Aid: Forms",
     "section_heading": "Overview",
     "n_sentences": 6,
-    "token_count": 141
+    "token_count": 131
   },
   {
     "chunk_id": "doc126_p2_c1",
@@ -29,18 +29,18 @@
   {
     "chunk_id": "doc126_p4_c1",
     "doc_id": "doc126",
-    "text": "Instructions and cover sheet for a request to have UT Dallas override your status as a dependent student. Hours Adjustment Form. This online form is used to request that the Office of Financial Aid update your financial aid offer to reflect the number of credit hours for which you are registered. This form will be available after spring registration is open. General Forms Summer Financial Aid Application. This application is used to report your anticipated enrollment for the summer 2027 semester. The application will be available in March 2027. SAP Appeal",
+    "text": "Instructions and cover sheet for a request to have UT Dallas override your status as a dependent student. Hours Adjustment Form. This online form is used to request that the Office of Financial Aid update your financial aid offer to reflect the number of credit hours for which you are registered. This form will be available after spring registration is open. General Forms Summer Financial Aid Application. This application is used to report your anticipated enrollment for the summer 2027 semester. The application will be available in March 2027.",
     "source_title": "Office of Financial Aid: Forms",
     "section_heading": "Form",
-    "n_sentences": 8,
-    "token_count": 141
+    "n_sentences": 7,
+    "token_count": 138
   },
   {
     "chunk_id": "doc126_p5_c1",
     "doc_id": "doc126",
     "text": "Use this online form to request that the SAP requirements be waived due to extenuating circumstances. IRS Form 4506-T This form is used to request tax return information from the IRS, including the tax return transcript which may be required for the verification process. If you are unable to obtain your tax return transcript online, you should submit a copy of this form to the IRS. Certification of required prerequisite classes for a non-degree seeking graduate student There is no form. Your academic advisor should contact your financial counselor at financial- aid@utdallas.edu, indicating the program to which you are seeking admission and the specific classes which are prerequisite to be considered for admission into a UT Dallas graduate degree seeking program.",
     "source_title": "Office of Financial Aid: Forms",
-    "section_heading": "Form",
+    "section_heading": "SAP Appeal",
     "n_sentences": 5,
     "token_count": 193
   }

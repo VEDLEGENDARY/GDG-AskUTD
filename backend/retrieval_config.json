@@ -13,6 +13,7 @@
   "context_budget": 1200,
   "chunks_path": "backend/data/chunks",
   "registry_path": "backend/data/documents.json",
+  "focused_candidate_floor": 0.17,
   "min_term_coverage": 0.25,
   "min_top_score": 0.3
 }

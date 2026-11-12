@@ -83,11 +83,11 @@
   {
     "chunk_id": "doc076_p1_c10",
     "doc_id": "doc076",
-    "text": "MAJOR PREPARATORY REQUIREMENTS (Major GPA). 4 Computer Science Project CS 4485 0 of 39 TECHNICAL ELECTIVES (Major GPA) 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 0 of 12 Lower",
+    "text": "MAJOR PREPARATORY REQUIREMENTS (Major GPA). 4 Computer Science Project CS 4485 0 of 39 TECHNICAL ELECTIVES (Major GPA) 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 3 CS Technical Elective CS 4XXX 0 of 12 Lower. The 2025-2026 Computer Science degree plan lists 12 technical elective credit hours.",
     "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
     "section_heading": "MAJOR PREPARATORY REQUIREMENTS (Major GPA)",
     "n_sentences": 2,
-    "token_count": 65
+    "token_count": 87
   },
   {
     "chunk_id": "doc076_p1_c11",
@@ -110,11 +110,11 @@
   {
     "chunk_id": "doc076_p1_c13",
     "doc_id": "doc076",
-    "text": "FREE ELECTIVES (10 Hours). 3 Free Elective 3 Free Elective 3 Free Elective 1 Free Elective 0 of 10",
+    "text": "FREE ELECTIVES (10 Hours). 3 Free Elective 3 Free Elective 3 Free Elective 1 Free Elective 0 of 10. The 2025-2026 Computer Science degree plan lists 10 free elective credit hours.",
     "source_title": "B.S. in Computer Science Degree Plan (2025-2026)",
     "section_heading": "FREE ELECTIVES (10 Hours)",
     "n_sentences": 2,
-    "token_count": 25
+    "token_count": 45
   },
   {
     "chunk_id": "doc076_p1_c14",

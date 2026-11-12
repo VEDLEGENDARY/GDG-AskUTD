@@ -6,14 +6,44 @@ import re
 from evaluate import evaluate_chunks as ev
 
 from ..types import Turn
+from .focus import focus_for, normalize_years, session_scope, scope_matches
 
-PERSONAL = re.compile(
-    r"^\s*(?:has|have|did)\b.*\b(?:my|me|i uploaded)\b|\bmy (?:own|assigned|corrected)\b"
-    r"|^\s*what is my cumulative\b"
-    r"|\b(?:my|me)\b.*\b(?:already|currently|next week|last week|yesterday|now|owe)\b"
-    r"|\b(?:my|me)\b.*\b(?:processed|accepted|assigned|owe|owed|current balance)\b"
-    r"|^\s*(?:what time|when|what day|what date)\b.*\bmy\b.*\bappointment\b"
-    r"|\bthis class\b|\bcourse i am taking this semester\b", re.I)
+_PRIVATE = re.compile(
+    r"^\s*(?:has|have|did|was|were|is)\b[^?.]*\b(?:my|me)\b[^?.]*\b(?:approved|accepted|processed|received|assigned|reviewed|excluded|recorded)\b"
+    r"|^\s*(?:did|has|have|was|is)\b[^?.]*\b(?:approv\w*|receiv\w*|review\w*|process\w*|grant\w*|accept\w*)\b[^?.]*\b(?:my|i uploaded|i submitted)\b"
+    r"|\b(?:assigned|corrected|actual)\s+(?:academic advisor|advisor|cumulative gpa|gpa|grade|balance)\b"
+    r"|\bwhat is my (?:current |cumulative |corrected )*(?:gpa|grade|balance)\b"
+    r"|\b(?:my|i)\b.{0,80}\b(?:already (?:used|submitted)|still owe)\b"
+    r"|\b(?:what time|when|what day|what date|what exact date|which room)\b.*\bmy\b.*\b(?:appointment|exam)\b"
+    r"|\b(?:which|who)\b.{0,80}\b(?:assigned to my|my permission to inspect)\b"
+    r"|\b(?:which|who)\b.{0,50}\bmy\b.{0,35}\b(?:case officer|hearing officer|assigned advisor)\b"
+    r"|\b(?:aid|work.study)\b.{0,65}\boffer(?:ed)? (?:to )?me\b"
+    r"|\b(?:this class|course i am taking this semester)\b.{0,70}\b(?:credit.no credit|excluded|eligible)\b"
+    r"|\b(?:my|i|me)\b.*\b(?:graduate|finish) on time\b"
+    r"|\b(?:my|i|me)\b.*\b(?:worst case|worst-case)\b.*\b(?:graduate|finish)\b"
+    r"|\bmy\s+(?:account|record|transcript|schedule|payroll)\b.{0,75}\b(?:right now|currently|already|today|this morning|yet)\b"
+    r"|\b(?:is there|are there|do i have)\b.{0,50}\bholds?\b.{0,25}\bmy (?:account|record)\b"
+    r"|\b(?:my|mine)\s+(?:completed hours|gpa|cumulative gpa|account balance)\b.{0,60}\b(?:am i|cutoff|right now|currently)\b"
+    r"|\bhow many (?:times|credits?|hours?)\b.{0,55}\b(?:have i|did i)\b.{0,55}\b(?:used|changed|completed|earned|taken)\b"
+    r"|\b(?:exactly|exact)\b.{0,70}\b(?:refund\w*|repay|owe|amount|dollars)\b.{0,80}\b(?:my|me|i)\b"
+    r"|\b(?:my|me|i)\b.{0,100}\b(?:exactly|exact)\b.{0,80}\b(?:refund\w*|repay|owe|amount|dollars)\b"
+    r"|\bwhat did\b.{0,90}\b(?:decide|rule|approve|reject)\b.{0,90}\b(?:my|i submitted|i filed)\b"
+    r"|\b(?:what|which)\b.{0,70}\b(?:notes|permission number|access code)\b.{0,80}\b(?:my|me)\b"
+    r"|^\s*(?:has|have|did)\b.{0,120}\b(?:certif\w*|post\w*|review\w*)\b.{0,80}\bmy\b"
+    r"|\b(?:unspecified|unnamed|unidentified)\b.{0,40}\b(?:course|department|class|credit)\b"
+    r"|\b(?:my|me)\b.{0,70}\b(?:schedule conflict|time conflict|without a conflict)\b"
+    r"|\b(?:which|who)\b.{0,70}\bon duty\b.{0,30}\b(?:today|tomorrow|this|next)\b"
+    r"|\b(?:that|this) department office\b"
+    r"|^\s*(?:please\s+)?(?:withdraw me|drop my|enroll me|register me|submit my)\b",
+    re.I | re.S,
+)
+
+
+def private_reason(query: str) -> str | None:
+    """Distinguish requesting a public procedure from asking for a private fact."""
+    return 'private record or missing course context' if _PRIVATE.search(query) else None
+
+
 OUTSIDE = re.compile(r"\b(?:weather|joke|write (?:me )?(?:code|a program)|harvard|stanford)\b", re.I)
 STOP = set('ut utd dallas texas university student students please tell explain about would could should will must many much when where who why get'.split())
 
@@ -22,6 +52,8 @@ STOP = set('ut utd dallas texas university student students please tell explain 
 _ALIAS_RULES = (
     (re.compile(r"\bundergrad\b", re.I), "undergraduate"),
     (re.compile(r"\bgrad\b", re.I), "graduate"),
+    (re.compile(r"\bcalc\s+(?:ab|bc)\b", re.I), "calculus"),
+    (re.compile(r"\b(?:cs)\b.*\b(?:degree plan|major|elective)\b", re.I), "computer science"),
 )
 _ACTION = re.compile(r"\b(?:drop|add|withdraw|register|registration|enroll|enrollment)\b", re.I)
 _CLASS_COURSE = re.compile(r"\b(?:class(?:es)?|course(?:s)?)\b", re.I)
@@ -45,7 +77,7 @@ _TOPIC_TERMS = {
 _FOLLOW_UP = re.compile(
     r"^(?:what about|how about|what if|and\b|does (?:that|it)\b|"
     r"can (?:they|i)\b|is (?:that|it)\b|what(?:'s| is) the deadline\b|"
-    r"when is the deadline\b|where is it\b)", re.I,
+    r"when is the deadline\b|where is it\b|from those\b)", re.I,
 )
 _UNDERGRAD_POPULATION = re.compile(r"\b(?:undergraduates?|undergrads?)(?:\s+students?)?\b", re.I)
 _GRAD_POPULATION = re.compile(r"\b(?:graduates?|grads?)(?:\s+students?)?\b", re.I)
@@ -87,6 +119,8 @@ def _expand_aliases(query: str) -> str:
             additions.append("wait list")
         elif re.search(r"\bwait\s+list\b", query, re.I):
             additions.append("waitlist")
+    if re.search(r"\baudit\b", query, re.I) and re.search(r"\bCS\s*\d{4}\b", query, re.I):
+        additions.append("computer science course audit")
     if _SIGN_UP.search(query):
         additions.append("register classes enrollment")
     elif _ENROLL_REGISTER.search(query) and _CLASS_COURSE.search(query):
@@ -145,7 +179,7 @@ def rewrite(query: str, history: list[Turn] | None) -> str:
 def _rewrite(query: str, history: list[Turn] | None, *, use_aliases: bool, use_history: bool) -> str:
     if not isinstance(query, str) or not query.strip():
         return query
-    original = query.strip()
+    original = normalize_years(query.strip())
 
     # The API schema enforces the generation boundary. Direct callers with a
     # longer string keep it intact; silently slicing it could lose conditions.
@@ -155,6 +189,8 @@ def _rewrite(query: str, history: list[Turn] | None, *, use_aliases: bool, use_h
     prior = _history_user_question(history) if use_history else None
     resolved = original
     if prior and _FOLLOW_UP.search(original) and not _is_topic_change(original, prior):
+        if session_scope(original):
+            prior = re.sub(r"\b(?:(?:first|second)\s+8[- ]week|full[- ]term)(?:\s+session)?\b", "", prior, flags=re.I)
         # A population named in the follow-up replaces the prior population while
         # retaining the topic. This avoids searches that ask about both groups.
         canonical_registration_population = None
@@ -194,10 +230,17 @@ def reject(query: str, hits: list[dict], config: dict) -> str | None:
     """Reject private records, missing time scope, and low-overlap evidence."""
     if OUTSIDE.search(query):
         return 'out of scope'
-    if PERSONAL.search(query):
-        return 'private record or missing course context'
+    if reason := private_reason(query):
+        return reason
     if not hits:
         return 'no evidence above score threshold'
+    focus = focus_for(query)
+    if focus and not any(
+        focus.supports(hit['text'], ev.metadata(hit))
+        and scope_matches(query, hit.get('source_title', ''), hit.get('section_heading', ''), default_full_term=True)
+        for hit in hits
+    ):
+        return f'missing evidence for {focus.name}'
     evidence = ' '.join(ev.context_text(h) for h in hits)
     if _LIBRARY_WHERE.search(query) and not _LIBRARY_LOCATION_FACT.search(evidence):
         return 'library location not established in evidence'
@@ -213,8 +256,8 @@ def reject(query: str, hits: list[dict], config: dict) -> str | None:
             return 'requested year absent from relevant evidence'
     terms = set(ev.tokens(query))-STOP
     coverage = max((len(terms & set(ev.tokens(ev.context_text(h))))/max(1, len(terms)) for h in hits), default=0)
-    if coverage < config['min_term_coverage']:
+    if not focus and coverage < config['min_term_coverage']:
         return 'weak query term coverage'
-    if max(h['retrieval_score'] for h in hits) < config['min_top_score']:
+    if not focus and max(h['retrieval_score'] for h in hits) < config['min_top_score']:
         return 'weak top evidence score'
     return None

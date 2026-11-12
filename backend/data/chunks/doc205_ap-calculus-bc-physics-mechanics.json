@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc205_p1_c1",
+    "doc_id": "doc205",
+    "source_title": "Transfer Credit Tool: AP Calculus BC and Physics C Mechanics",
+    "section_heading": "AP Calculus BC: 4-5 score",
+    "text": "For AP Calculus BC, a score of 4 or 5 earns 8 semester credit hours. The equivalency options listed are MATH 2312 and MATH 2417, MATH 1325 and MATH 1326, or MATH 2413 and MATH 2414. Students can receive credit for AP Calculus AB or AP Calculus BC, but not both.",
+    "n_sentences": 3,
+    "token_count": 66
+  },
+  {
+    "chunk_id": "doc205_p1_c2",
+    "doc_id": "doc205",
+    "source_title": "Transfer Credit Tool: AP Calculus BC and Physics C Mechanics",
+    "section_heading": "AP Calculus BC: 3 score",
+    "text": "For AP Calculus BC, a score of 3 earns 7 semester credit hours. The options listed are MATH 2312 and MATH 1325, or MATH 2312 and MATH 2413 if the Calculus AB subscore is 4 or 5.",
+    "n_sentences": 2,
+    "token_count": 45
+  },
+  {
+    "chunk_id": "doc205_p1_c3",
+    "doc_id": "doc205",
+    "source_title": "Transfer Credit Tool: AP Calculus BC and Physics C Mechanics",
+    "section_heading": "AP Physics C: Mechanics: 4-5 score",
+    "text": "For AP Physics C: Mechanics, a score of 4 or 5 earns 4 semester credit hours for PHYS 2325 and PHYS 2125.",
+    "n_sentences": 1,
+    "token_count": 27
+  },
+  {
+    "chunk_id": "doc205_p1_c4",
+    "doc_id": "doc205",
+    "source_title": "Transfer Credit Tool: AP Calculus BC and Physics C Mechanics",
+    "section_heading": "AP Physics C: Mechanics: 3 score",
+    "text": "For AP Physics C: Mechanics, a score of 3 earns 3 semester credit hours as lower-level physics elective credit.",
+    "n_sentences": 1,
+    "token_count": 28
+  }
+]

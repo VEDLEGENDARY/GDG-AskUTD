@@ -42,7 +42,7 @@ npm run dev:all
 ```
 
 Open [AskUTD locally](http://localhost:3000). Both servers start together, with real
-lexical retrieval and offline extractive answers by default. On Windows, use
+reranked lexical retrieval and offline extractive answers by default. On Windows, use
 `.venv\Scripts\Activate.ps1` to activate the environment; set `PYTHON` to your
 virtual environment's Python executable if the launcher does not pick it up.
 Requires Node.js 22.18+ and Python 3.12+. No model download or API key is needed.
@@ -96,20 +96,22 @@ python evaluate/evaluate_chunks.py --validate-only
 
 ## Evaluation
 
-Benchmark: 204 questions (102 dev, 102 test), 25 unanswerable per split. Retrieval
-settings are tuned on dev only. All backend modules are merged. Final Task 1
-retrieval results use the production lexical service:
+The existing benchmark has 204 questions, with 102 dev and 102 test cases. Each
+split includes 25 unanswerable questions. The integrated service uses postings,
+query rewriting, scoped reranking, and evidence checks on the cleaned corpus.
 
-| metric | dev | test |
+| Retrieval metric | Dev | Test |
 | --- | --- | --- |
-| retrieval leaderboard score | 61.84 | 59.71 |
-| complete evidence (answerable) | 0.571 | 0.610 |
-| abstained when unanswerable | 0.760 | 0.400 |
-| latency p95 ms | 62 | 48 |
+| Evidence recall | 72.4% | 75.2% |
+| Complete evidence on answerable questions | 58.4% | 59.7% |
+| Context precision | 46.0% | 52.1% |
+| Correct abstention on unanswerable questions | 100% | 100% |
+| Weighted score out of 100 | 65.61 | 67.73 |
 
-These are retrieval metrics, not end-to-end answer-quality scores. The test split
-was run once with frozen settings. See [`documentation/retrieval.md`](documentation/retrieval.md)
-for methodology and [`documentation/data.md`](documentation/data.md) for earlier results.
+Run `python scripts/eval_retrieval.py --split dev` to reproduce the development
+run. See the [retrieval guide](documentation/retrieval.md) for the baseline
+pipeline, and the [screenshot review](documentation/screenshot-review.md) for
+the baseline comparison and category results.
 
 ## Team and roles
 
@@ -123,11 +125,12 @@ for methodology and [`documentation/data.md`](documentation/data.md) for earlier
 
 ## Known limitations
 
-- Retrieval and generation both abstain, but unsupported questions can still receive
-  an answer. Test retrieval abstention accuracy is 40%.
+- The current test set scored 25/25 on correct abstention. Unseen questions can
+  still expose unsupported answers or false refusals. Multi-document and catalog
+  comparisons remain the weakest answerable categories.
 - The corpus is a snapshot of UTD pages around the 2026-2027 academic year. Dates,
   fees and contacts change; answers can be out of date.
-- 41 of 198 documents have no source URL: 11 older docs whose PDF could not be matched
+- 41 of 214 documents have no source URL: 11 older docs whose PDF could not be matched
   safely, one PDF from a non-UTD host, and 29 pages saved under their title instead of
   their URL. Several engineering URLs are reconstructed from filenames and are low
   confidence (listed in `documentation/data.md`).

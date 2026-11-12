@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc203_p1_c1",
+    "doc_id": "doc203",
+    "source_title": "Office of the Registrar: Waitlisting and Swapping Classes",
+    "section_heading": "Waitlisting in Orion",
+    "text": "In Orion, a full class that allows waitlisting is marked Wait List. A full section marked Closed does not accept waitlisting. Joining a waitlist does not guarantee enrollment. If a seat becomes available, Orion can enroll the next eligible student automatically, subject to holds, schedule conflicts and credit-hour limits.",
+    "n_sentences": 4,
+    "token_count": 81
+  },
+  {
+    "chunk_id": "doc203_p1_c2",
+    "doc_id": "doc203",
+    "source_title": "Office of the Registrar: Waitlisting and Swapping Classes",
+    "section_heading": "Swapping an enrolled course with a waitlisted course",
+    "text": "Use the swap feature to designate the enrolled course to replace if a seat becomes available in your waitlisted course. Being enrolled in a different section of the same course can block automatic registration from the waitlist unless you use swap.",
+    "n_sentences": 2,
+    "token_count": 62
+  }
+]

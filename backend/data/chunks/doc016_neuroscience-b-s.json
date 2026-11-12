@@ -2,11 +2,11 @@
   {
     "chunk_id": "doc016_p1_c1",
     "doc_id": "doc016",
-    "text": "The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html 1 of 3 1/29/2007 2:35 PM 2006-2008 Undergraduate Catalog",
+    "text": "The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html 2006-2008 Undergraduate Catalog",
     "source_title": "Neuroscience (B.S.)",
     "section_heading": "Overview",
-    "n_sentences": 2,
-    "token_count": 48
+    "n_sentences": 1,
+    "token_count": 42
   },
   {
     "chunk_id": "doc016_p1_c2",
@@ -128,11 +128,11 @@
   {
     "chunk_id": "doc016_p1_c15",
     "doc_id": "doc016",
-    "text": "Speech-Language Pathology. and Audiology The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html 2 of 3 1/29/2007 2:35 PM hours part E of Core Curriculum)",
+    "text": "Speech-Language Pathology. and Audiology The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html hours part E of Core Curriculum)",
     "source_title": "Neuroscience (B.S.)",
     "section_heading": "Speech-Language Pathology",
-    "n_sentences": 3,
-    "token_count": 59
+    "n_sentences": 1,
+    "token_count": 53
   },
   {
     "chunk_id": "doc016_p1_c16",
@@ -281,11 +281,11 @@
   {
     "chunk_id": "doc016_p1_c32",
     "doc_id": "doc016",
-    "text": "Premedical and/or other pre-health professions students: 27 hours. S t u d e n t s s e e k i n g t o c o m p l e t e Pre-health Professions requirements The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html 3 of 3 1/29/2007 2:35 PM should take the following as free electives:",
+    "text": "Premedical and/or other pre-health professions students: 27 hours. S t u d e n t s s e e k i n g t o c o m p l e t e Pre-health Professions requirements The University of Texas at Dallas - 2006 Undergraduate Catalog http://utdallas.edu/student/catalog/ugcurrent/ugprograms/hd-neuro . html should take the following as free electives:",
     "source_title": "Neuroscience (B.S.)",
     "section_heading": "Premedical and/or other pre-health professions students: 27 hours",
-    "n_sentences": 3,
-    "token_count": 90
+    "n_sentences": 2,
+    "token_count": 84
   },
   {
     "chunk_id": "doc016_p1_c33",

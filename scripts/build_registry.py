@@ -31,6 +31,7 @@ CHUNKS_DIR = DATA / "chunks"
 RAW_TEXT_DIR = DATA / "raw_text"
 RAW_PDF_DIR = DATA / "raw_pdfs"
 DOC_SOURCES = DATA / "doc_sources.json"
+WEB_SOURCES = DATA / "web_sources.json"
 REGISTRY = DATA / "documents.json"
 DEFAULT_CACHE = Path(tempfile.gettempdir()) / "askutd_pdf_text_cache.json"
 
@@ -237,18 +238,23 @@ def build_registry(
     chunk_docs: dict[str, list[dict]],
     sources: dict[str, str],
     matches: dict[str, Match],
+    web_sources: dict[str, dict] | None = None,
 ) -> list[dict]:
     """Assemble one registry entry per chunked doc, sorted by doc_id."""
     entries = []
+    web_sources = web_sources or {}
     for doc_id in sorted(chunk_docs):
         pdf = sources.get(doc_id)
         if pdf is None and doc_id in matches and matches[doc_id].accepted:
             pdf = matches[doc_id].pdf
+        url = web_sources.get(doc_id, {}).get("url")
+        if url is None and pdf:
+            url = filename_to_url(pdf).url
         entries.append(
             {
                 "doc_id": doc_id,
                 "title": doc_title(chunk_docs[doc_id]),
-                "source_url": filename_to_url(pdf).url if pdf else None,
+                "source_url": url,
                 "pdf": pdf,
                 "chunks": len(chunk_docs[doc_id]),
             }
@@ -295,10 +301,11 @@ def main(argv: list[str] | None = None) -> int:
 
     chunk_docs = load_chunk_docs()
     sources = json.loads(DOC_SOURCES.read_text(encoding="utf-8"))
+    web_sources = json.loads(WEB_SOURCES.read_text(encoding="utf-8"))
     pdf_texts = extract_pdf_texts(RAW_PDF_DIR, None if args.no_cache else args.cache)
     claimed = set(sources.values())
     candidates = {name: text for name, text in pdf_texts.items() if name not in claimed}
-    pending = [doc_id for doc_id in chunk_docs if doc_id not in sources]
+    pending = [doc_id for doc_id in chunk_docs if doc_id not in sources and doc_id not in web_sources]
     doc_texts = {
         doc_id: (RAW_TEXT_DIR / f"{doc_id}.txt").read_text(encoding="utf-8")
         for doc_id in pending
@@ -306,7 +313,7 @@ def main(argv: list[str] | None = None) -> int:
     }
     chunk_texts = {doc_id: " ".join(r["text"] for r in chunk_docs[doc_id]) for doc_id in pending}
     matches = match_documents(doc_texts, chunk_texts, candidates)
-    entries = build_registry(chunk_docs, sources, matches)
+    entries = build_registry(chunk_docs, sources, matches, web_sources)
     args.output.write_text(json.dumps(entries, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     accepted = sum(match.accepted for match in matches.values())

@@ -20,7 +20,7 @@ MAX_QUESTION_CHARS = 500
 
 _IDENTITY = "You are AskUTD, an assistant that answers questions from UT Dallas students."
 _RULES = (
-    "Answer only from the numbered passages in the user message. Do not use outside knowledge.",
+    "Answer only from the numbered passages in the user message. Do not use outside knowledge. Copy complete relevant sentences verbatim; do not paraphrase or alter negations.",
     "Cite every claim with its passage number in square brackets right after the claim, "
     "like [1] or [2]. Only use numbers that appear in the passages.",
     "Be concise: aim for 80 to 120 words, never exceed 275 words. Lead with the specific answer, then exact steps or eligibility conditions. Omit introductions and repetition.",
