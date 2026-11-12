@@ -9,7 +9,7 @@ from dataclasses import asdict
 
 from fastapi import Request
 
-from ..types import Citation, Passage, Turn
+from ..types import Turn
 
 logger = logging.getLogger("askutd")
 
@@ -20,11 +20,6 @@ def new_request_id() -> str:
 
 def to_turns(items) -> list[Turn]:
     return [Turn(role=item.role, content=item.content) for item in items]
-
-
-def passage_citations(passages: list[Passage]) -> list[Citation]:
-    return [Citation(i, p.chunk_id, p.doc_id, p.source_title, p.section_heading,
-                     p.text[:240], p.source_url) for i, p in enumerate(passages, 1)]
 
 
 def jsonable(value):

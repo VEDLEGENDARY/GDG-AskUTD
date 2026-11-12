@@ -1,11 +1,13 @@
-"""Experimental, deterministic passage reranking."""
+"""Deterministic passage reranking and evidence checks."""
 
 import re
+
+from .focus import ap_requests, ap_row_supports, focus_for, normalize_years, scope_matches
 
 
 def _programs(text: str) -> set[str]:
     """Recognize explicit program names, ignoring capitalization."""
-    names = ("computer science", "computer engineering")
+    names = ("computer science", "computer engineering", "software engineering")
     return {
         name
         for name in names
@@ -20,8 +22,12 @@ def rerank(
     use_program: bool = True,
     use_catalog: bool = True,
 ) -> list[dict]:
-    requested_programs = _programs(query)
+    """Rerank admitted passages using explicit program and catalog scope."""
+    requested_programs = _scope_programs(query)
     requested_catalogs = _catalog_ranges(query)
+    focus = focus_for(query)
+    exams = ap_requests(query)
+    elective_types = catalog_elective_types(query) if requested_catalogs else []
     ranked = []
 
     for candidate in candidates:
@@ -29,8 +35,23 @@ def rerank(
         score = candidate["retrieval_score"]
         title = candidate.get("source_title", "")
 
-        described_programs = _programs(title)
-        described_catalogs = _catalog_ranges(title)
+        described_programs = _programs(title) if requested_programs and use_program else set()
+        described_catalogs = _catalog_ranges(title) if requested_catalogs and use_catalog else set()
+
+        if elective_types:
+            score += 0.22 * sum(catalog_elective_fact(candidate["text"], kind)
+                                for kind in elective_types)
+
+        if exams:
+            score += 0.42 if any(ap_row_supports(candidate["text"], exam, exam_score)
+                                 for exam, exam_score in exams.items()) else -0.22
+
+        if focus:
+            section = candidate.get("section_heading", "")
+            if focus.supports(candidate["text"], f"{title} {section}"):
+                score += 0.31 if scope_matches(query, title, section, default_full_term=True) else -0.24
+            else:
+                score -= 0.16
 
         if (
             use_program
@@ -42,6 +63,9 @@ def rerank(
             else:
                 score -= 0.10
 
+        if requested_catalogs and requested_programs and requested_programs & described_programs:
+            if requested_catalogs & described_catalogs:
+                score += 0.15
         # Only penalize an explicit mismatch. Unknown scope stays neutral.
         if (
             use_catalog
@@ -63,7 +87,7 @@ def _catalog_ranges(text: str) -> set[tuple[str, str]]:
     return set(
         re.findall(
             r"\b((?:19|20)\d{2})\s*[-\u2013\u2014]\s*((?:19|20)\d{2})\b",
-            text,
+            normalize_years(text),
         )
     )
 
@@ -84,7 +108,9 @@ def _catalog_quantity_facets(query: str) -> list[tuple[str, str]]:
             r"\b(?:hours?|total|number|how many)\b", query, re.I):
         facets.append(("elective quantity",
                        rf"\b{quantity}\s+(?:hours?\s+of\s+)?(?:free\s+)?electives?\b"
-                       rf"|\belectives?\s*\(?\s*{quantity}\s+hours?\b"))
+                       rf"|\belectives?\s*\(?\s*{quantity}\s+hours?\b"
+                       rf"|\b{quantity}\s+(?:technical|free)\s+elective\s+(?:credit\s+)?hours?\b"
+                       rf"|\b{quantity}\s+(?:guided|approved|technical)\s+electives?\b"))
     return facets
 
 
@@ -92,9 +118,41 @@ def _scope_programs(query: str) -> set[str]:
     """Exclude a few explicit negative scopes; not a general negation parser."""
     excluded = set(re.findall(
         r"\b(?:do not substitute|excluding|rather than|instead of)\s+(?:the\s+)?"
-        r"(computer science|computer engineering)\b", query.lower(),
+        r"(computer science|computer engineering|software engineering)\b", query.lower(),
     ))
-    return _programs(query) - excluded
+    programs = _programs(query)
+    if re.search(r"\b(?:degree plans?|catalogs?|electives?)\b", query, re.I):
+        aliases = {"CS": "computer science", "CE": "computer engineering", "SE": "software engineering"}
+        programs.update(name for short, name in aliases.items()
+                        if re.search(rf"\b{short}\b", query))
+    return programs - excluded
+
+
+def catalog_scopes(query: str) -> list[tuple[str, tuple[str, str]]]:
+    """Identify the editions explicitly requested for a named degree program."""
+    if not re.search(r"\b(?:plans?|catalogs?|electives?)\b", query, re.I):
+        return []
+    programs, editions = sorted(_scope_programs(query)), sorted(_catalog_ranges(query))
+    if len(programs) > 1 and len(editions) > 1:
+        return []  # The question may pair each program with a different year.
+    return [(program, edition) for program in programs for edition in editions][:3]
+
+
+def catalog_elective_types(question: str) -> list[str]:
+    """Read explicitly named elective categories rather than conflating their totals."""
+    return [kind for kind in ("technical", "free")
+            if re.search(rf"\b{kind}[ -]+electives?\b(?![ -]+(?:lab|laboratory)\b)", question, re.I)]
+
+
+def catalog_elective_fact(text: str, kind: str) -> bool:
+    return bool(re.search(
+        rf"\b\d+\s+{kind}\s+electives?\s+(?:credit\s+)?hours?\b"
+        rf"|\b{kind}\s+electives?\s*\(?\s*\d+\s+(?:credit\s+)?hours?\b",
+        text, re.I))
+
+
+def catalog_title_matches(title: str, program: str, edition: tuple[str, str]) -> bool:
+    return program in _programs(title) and edition in _catalog_ranges(title)
 
 
 def evidence_reason(query: str, hits: list[dict]) -> str | None:

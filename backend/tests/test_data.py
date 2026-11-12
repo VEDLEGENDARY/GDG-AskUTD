@@ -68,12 +68,15 @@ class RegistryTests(unittest.TestCase):
                 self.assertEqual(entry["chunks"], len(self.chunk_docs[entry["doc_id"]]))
 
     def test_urls_are_https_or_null(self) -> None:
+        web_sources = json.loads((DATA / "web_sources.json").read_text(encoding="utf-8"))
         for entry in self.registry:
             url = entry["source_url"]
             with self.subTest(doc=entry["doc_id"]):
                 self.assertTrue(url is None or url.startswith("https://"), url)
                 if entry["pdf"] is None:
-                    self.assertIsNone(url)
+                    self.assertEqual(url, web_sources.get(entry["doc_id"], {}).get("url"))
+                    if url:
+                        self.assertRegex(url, r"^https://(?:[a-z0-9-]+\.)*utdallas\.edu/")
 
     def test_pdfs_exist_and_sources_are_respected(self) -> None:
         sources = json.loads(SOURCES.read_text(encoding="utf-8"))

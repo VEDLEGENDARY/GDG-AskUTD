@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc207_p1_c1",
+    "doc_id": "doc207",
+    "source_title": "Office of the Registrar: Audit a Course",
+    "section_heading": "Courses that may not be audited",
+    "text": "Auditing lets a student observe a course without earning credit. Computer Science and Engineering courses cannot be audited. The Registrar also excludes online and hybrid courses and courses that charge a lab fee.",
+    "n_sentences": 3,
+    "token_count": 54
+  },
+  {
+    "chunk_id": "doc207_p1_c2",
+    "doc_id": "doc207",
+    "source_title": "Office of the Registrar: Audit a Course",
+    "section_heading": "How to apply to audit an eligible course",
+    "text": "For an eligible course, check availability and obtain the instructor approval by university email. Submit the application and approval to the Registrar by the full-term census day.",
+    "n_sentences": 2,
+    "token_count": 45
+  }
+]

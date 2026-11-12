@@ -136,7 +136,7 @@ class RealCorpusSmokeTests(unittest.TestCase):
             generation.set_provider(ExtractiveLLM())
             try:
                 with TestClient(app) as client:
-                    self.assertEqual(client.get('/api/health').json()['retriever'], 'lexical')
+                    self.assertEqual(client.get('/api/health').json()['retriever'], 'lexical-reranked')
                     body = client.post('/api/chat', json={'question': 'How do I drop a class?'}).json()
                     self.assertFalse(body['abstained'])
                     self.assertTrue(body['citations'])
@@ -144,7 +144,13 @@ class RealCorpusSmokeTests(unittest.TestCase):
                         'request_id': body['request_id'], 'rating': 'up'}).status_code, 204)
                     stream = client.post('/api/chat/stream', json={
                         'question': 'How do I drop a class?'}).text
-                    self.assertIn('event: citations', stream)
+                    frames = {frame.splitlines()[0][7:]: json.loads(frame.splitlines()[1][6:])
+                              for frame in stream.strip().split('\n\n')}
+                    self.assertEqual(stream.count('event: citations'), 1)
+                    self.assertEqual(frames['citations'], body['citations'])
+                    self.assertEqual(frames['token']['text'], body['answer'])
+                    self.assertTrue({c['chunk_id'] for c in body['citations']}
+                                    <= set(frames['retrieval']['chunks']))
                     self.assertIn('event: token', stream)
                     self.assertIn('event: done', stream)
                     self.assertNotIn('event: error', stream)

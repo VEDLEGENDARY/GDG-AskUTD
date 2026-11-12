@@ -131,18 +131,31 @@ class PromptTests(GenerationTestCase):
 
 class CitationTests(GenerationTestCase):
     def test_markers_renumbered_by_first_appearance(self) -> None:
-        self.use("Check the calendar [3]. Drop in Galaxy [1]. The calendar has dates [3].")
+        self.use("Students should check the calendar every term [3]. Students can drop a class online in Galaxy before the census date [1].")
         answer = generation.generate_answer("How do I drop?", PASSAGES)
-        self.assertEqual(answer.text, "Check the calendar [1]. Drop in Galaxy [2]. The calendar has dates [1].")
+        self.assertEqual(answer.text, "Students should check the calendar every term [1]. Students can drop a class online in Galaxy before the census date [2].")
         self.assertEqual([(c.n, c.chunk_id) for c in answer.citations],
                          [(1, PASSAGES[2].chunk_id), (2, PASSAGES[0].chunk_id)])
         self.assertFalse(answer.abstained)
 
     def test_comma_lists_and_duplicates(self) -> None:
-        self.use("Drop in Galaxy [2, 1][2].")
-        answer = generation.generate_answer("drop?", PASSAGES)
-        self.assertEqual(answer.text, "Drop in Galaxy [1][2].")
-        self.assertEqual([c.chunk_id for c in answer.citations], [PASSAGES[1].chunk_id, PASSAGES[0].chunk_id])
+        same_evidence = [PASSAGES[0], passage(2, PASSAGES[0].text)]
+        self.use("Students can drop a class online in Galaxy before the census date [2, 1][2].")
+        answer = generation.generate_answer("drop?", same_evidence)
+        self.assertEqual(answer.text, "Students can drop a class online in Galaxy before the census date [1][2].")
+        self.assertEqual([c.chunk_id for c in answer.citations], [same_evidence[1].chunk_id, same_evidence[0].chunk_id])
+
+    def test_rejects_unrelated_citation_even_when_another_is_correct(self) -> None:
+        self.assertIsNone(generation.finalize(
+            "Students can drop a class online in Galaxy before the census date [2, 1].", PASSAGES))
+
+    def test_rejects_shortened_conditions_and_changed_units(self) -> None:
+        with self.subTest("omitted condition"):
+            self.assertIsNone(generation.finalize(
+                "Students can drop a class online in Galaxy [1].", PASSAGES))
+        with self.subTest("changed monetary unit"):
+            self.assertIsNone(generation.finalize(
+                "A fee of 10 applies to each official transcript [2].", PASSAGES))
 
     def test_invalid_marker_dropped(self) -> None:
         self.use("Drop in Galaxy [9]. Check the calendar [3] [0].")
@@ -175,7 +188,7 @@ class CitationTests(GenerationTestCase):
         self.assertEqual(final, self.expected_extractive())
 
     def test_only_cited_passages_become_citations(self) -> None:
-        self.use("Transcripts come from the Registrar [2].")
+        self.use("Official transcripts are requested through the Office of the Registrar [2].")
         answer = generation.generate_answer("transcript?", PASSAGES)
         self.assertEqual(len(answer.citations), 1)
         citation = answer.citations[0]
@@ -331,7 +344,7 @@ class SafetyTests(GenerationTestCase):
         fields += [getattr(c, f) for c in answer.citations for f in ("title", "section", "snippet")]
         for value in fields:
             self.assertNotIn(EM_DASH, value)
-        self.assertEqual(answer.text, "Drop online, in Galaxy [1], fast.")
+        self.assertEqual(answer.text, "Drop online, in Galaxy [1].")
 
     def test_no_em_dashes_in_fixed_strings_and_sources(self) -> None:
         for value in (generation.ABSTAIN_TEXT, prompts.SYSTEM_PROMPT, prompts.CONFIRM_NOTE):
@@ -443,3 +456,19 @@ class LiveOllamaTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class StrictGroundingTests(GenerationTestCase):
+    def test_valid_citation_cannot_launder_invented_claims(self):
+        for text in ("Students cannot drop a class online in Galaxy before the census date [1].",
+                     "Official transcripts are free through the Office of the Registrar [2].",
+                     "A fee of $999 applies to each official transcript [2].",
+                     "Students can drop a class online in Galaxy before the census date [2]."):
+            with self.subTest(text=text):
+                self.assertIsNone(generation.finalize(text, PASSAGES))
+
+    def test_no_evidence_never_calls_provider(self):
+        provider = self.use("Invented answer [1].")
+        answer = generation.generate_answer("What is tuition?", [])
+        self.assertTrue(answer.abstained)
+        self.assertEqual(provider.calls, [])

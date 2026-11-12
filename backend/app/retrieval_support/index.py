@@ -11,6 +11,7 @@ import copy
 import heapq
 import math
 from collections import Counter
+from collections.abc import Callable
 
 from evaluate import evaluate_chunks as ev
 
@@ -44,17 +45,21 @@ class LexicalIndex(ev.Retriever):
         denom = math.sqrt(self.sumsq[i] * self.sumsq[j])
         return sum(v*b[k] for k, v in a.items() if k in b) / denom if denom else 0.0
 
-    def search(self, query: str, top_k: int) -> list[dict]:
-        """Score candidates, then enforce MMR, document cap and token budget."""
+    def search(self, query: str, top_k: int, *,
+               reranker: Callable[[str, list[dict]], list[dict]] | None = None,
+               candidate_floor: float | None = None,
+               candidate_filter: Callable[[dict], bool] | None = None) -> list[dict]:
+        """Admit lexical candidates, rerank, then select within the context budget."""
         s = self.s
         post = self.postings
         if (post.k1, post.b) != (s.bm25_k1, s.bm25_b):
             # Settings object was mutated after construction; rebuild instead of serving stale weights.
             post = self.postings = self._build_postings()
-        terms = set(ev.tokens(query))
+        tokens = ev.tokens(query)
+        terms = set(tokens)
         if not terms:
             return []
-        qv = self.vector(Counter(ev.tokens(query)))
+        qv = self.vector(Counter(tokens))
         qnorm = math.sqrt(sum(v*v for v in qv.values())) or 1
 
         # Request-local accumulators. Iterating `terms` (BM25) and `qv` (cosine) in the same
@@ -95,6 +100,7 @@ class LexicalIndex(ev.Retriever):
         scale = max(bm.values(), default=0) or 1
         lw, mw, nterms = s.lexical_weight, s.metadata_weight, max(1, len(terms))
         norms = self.norms
+        floor = s.min_score if candidate_floor is None else candidate_floor
         threshold_ok = []
         scores: dict[int, float] = {}
         for i in bm.keys() | meta_hits.keys():
@@ -102,13 +108,25 @@ class LexicalIndex(ev.Retriever):
             lexical = lw*bm.get(i, 0)/scale + (1-lw)*cosine
             meta = meta_hits[i]/nterms
             score = (1-mw)*lexical+mw*meta
-            if score > 0 and score >= s.min_score:
+            if score > 0 and score >= floor:
                 scores[i] = score
                 threshold_ok.append(i)
         # Equivalent to sorted(all, key)[:pool] followed by the threshold filter, because the
         # threshold keeps a prefix of that order. The index breaks exact ties like a stable sort.
+        if candidate_filter is not None:
+            threshold_ok = [i for i in threshold_ok if candidate_filter(self.chunks[i])]
         ids = self.chunk_ids
         pool = heapq.nsmallest(s.candidate_pool, threshold_ok, key=lambda i: (-scores[i], ids[i], i))
+
+        ranking_scores = scores
+        if reranker is not None and pool:
+            ranked = reranker(query, [self._row(i, scores[i]) for i in pool])
+            by_id = {hit['chunk_id']: hit['precision_score'] for hit in ranked}
+            if len(ranked) != len(pool) or by_id.keys() != {ids[i] for i in pool}:
+                raise ValueError('reranker must preserve candidate IDs')
+            if not all(type(score) in (int, float) and math.isfinite(score) for score in by_id.values()):
+                raise ValueError('precision scores must be finite numbers')
+            ranking_scores = {i: by_id[ids[i]] for i in pool}
 
         selected: list[int] = []
         doc_counts: Counter = Counter()
@@ -120,7 +138,7 @@ class LexicalIndex(ev.Retriever):
                         and used+self.costs[i] <= s.context_budget]
             if not feasible:
                 break
-            best = min(feasible, key=lambda i: (-(lam*scores[i]-(1-lam)*redundancy[i]), -scores[i], ids[i]))
+            best = min(feasible, key=lambda i: (-(lam*ranking_scores[i]-(1-lam)*redundancy[i]), -ranking_scores[i], ids[i]))
             selected.append(best)
             pool.remove(best)
             doc_counts[self.doc_ids[best]] += 1

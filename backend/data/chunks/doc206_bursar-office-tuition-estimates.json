@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc206_p1_c1",
+    "doc_id": "doc206",
+    "source_title": "Bursar Office: Tuition Estimates",
+    "section_heading": "Tuition estimate for current and admitted students",
+    "text": "For a tuition estimate, sign in to Galaxy and open UTD Student Center, Bursar Account, then Tuition Estimate. Enter the term and the number of credit hours you expect to take. The estimate depends on factors such as residency, tuition plan, program, term and enrollment hours. Credit hours alone do not determine the tuition estimate.",
+    "n_sentences": 4,
+    "token_count": 84
+  },
+  {
+    "chunk_id": "doc206_p1_c2",
+    "doc_id": "doc206",
+    "source_title": "Bursar Office: Tuition Estimates",
+    "section_heading": "Tuition estimate for prospective students",
+    "text": "The Bursar Tuition Estimate Calculator asks prospective students for student status, residency, term, tuition plan, school and credit hours. It estimates tuition and fees for one semester, and actual charges may vary with course enrollment.",
+    "n_sentences": 2,
+    "token_count": 60
+  }
+]

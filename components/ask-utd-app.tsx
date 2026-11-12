@@ -6,11 +6,11 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 
 import { ArrowUp, BookMarked, Check, ChevronDown, Globe2, Library, Menu, PlusCircle, Search, Settings, Share2, ThumbsDown, ThumbsUp, X, ArrowUpRight, Download, Trash2, Compass, ShieldCheck, Sparkles } from 'lucide-react';
 
-import { sendFeedback, streamAnswer, type Citation, type Turn } from '@/lib/api';
+import { sendFeedback, streamAnswer, type Citation, type Turn, type RetrievalTrace } from '@/lib/api';
 
 
 
-type Message = { id: string; question: string; answer: string; citations: Citation[]; requestId?: string; abstained?: boolean; error?: string };
+type Message = { retrieval?: RetrievalTrace; id: string; question: string; answer: string; citations: Citation[]; requestId?: string; abstained?: boolean; error?: string };
 
 type Conversation = { id: string; title: string; messages: Message[] };
 
@@ -212,7 +212,7 @@ export default function AskUtdApp({ questionId }: { questionId?: string }) {
 
         citations: update.citations ?? m.citations, requestId: update.requestId ?? m.requestId,
 
-        abstained: update.abstained ?? m.abstained,
+        abstained: update.abstained ?? m.abstained, retrieval: update.retrieval ?? m.retrieval,
 
       })));
 
@@ -298,7 +298,7 @@ export default function AskUtdApp({ questionId }: { questionId?: string }) {
 
           <button className="icon-action lg:hidden" aria-label="Open sidebar" onClick={() => setSidebar(true)}><Menu /></button>
 
-          <span className="workspace-label">CAMPUS INTELLIGENCE</span><span className="min-w-0 flex-1 truncate text-sm font-bold">{conversation?.title || 'A little clarity goes a long way.'}</span>
+          <span className="workspace-label">CAMPUS INTELLIGENCE</span><span className="min-w-0 flex-1 truncate text-sm font-bold">{conversation?.title || 'Explore. Ask. Verify.'}</span>
 
           {!!messages.length && <button aria-label="Download conversation" onClick={exportConversation} disabled={pending} className="icon-action"><Download size={18} /></button>}{!!messages.length && <button className="flex items-center gap-2 text-sm" onClick={share} disabled={pending}><Share2 size={17} />Copy answer</button>}
 
@@ -308,19 +308,20 @@ export default function AskUtdApp({ questionId }: { questionId?: string }) {
 
           <div className="mx-auto w-full max-w-3xl px-6 py-10 sm:px-10">
 
-            {!messages.length && <section className="welcome-panel"><div className="hero-emblem"><Compass size={44} strokeWidth={1}/><span className="orbit orbit-one"/><span className="orbit orbit-two"/></div><p className="mb-3 text-sm font-bold uppercase tracking-widest text-[#12766b] dark:text-[#83d8c4]">YOUR NEXT CHAPTER STARTS HERE</p><h1 className="mb-4 text-4xl font-bold tracking-tight">Big campus.<br/><span className="hero-serif">Clear answers.</span></h1><p className="mb-8 leading-7 opacity-70">Less searching. More knowing. Your guide to registration, financial aid, and everything in between. Grounded in UT Dallas sources.</p><div className="suggestion-grid grid gap-3 sm:grid-cols-2">{suggestions.map((s) => <button key={s} disabled={pending || !ready} onClick={() => void ask(s)} className="rounded-2xl border border-[#dce5e8] bg-[#ffffff] p-4 text-left text-sm transition hover:border-[#12766b] dark:border-[#2a4557] dark:bg-[#142a38]"><span className="suggestion-icon"><ArrowUpRight size={18}/></span>{s}</button>)}</div></section>}
+            {!messages.length && <section className="welcome-panel"><div className="hero-emblem"><Compass size={44} strokeWidth={1}/><span className="orbit orbit-one"/><span className="orbit orbit-two"/></div><p className="mb-3 text-sm font-bold uppercase tracking-widest text-[#12766b] dark:text-[#83d8c4]">THE CAMPUS KNOWLEDGE WORKSPACE</p><h1 className="mb-4 text-4xl font-bold tracking-tight">Your campus.<br/><span className="hero-serif">Connected.</span></h1><p className="mb-8 leading-7 opacity-70">Less searching. More knowing. Your guide to registration, financial aid, and everything in between. Grounded in UT Dallas sources.</p><div className="knowledge-stats"><div><strong>{health?.documents ?? '—'}</strong><span>indexed documents</span></div><div><strong>{health?.chunks?.toLocaleString() ?? '—'}</strong><span>searchable passages</span></div><div><ShieldCheck size={23}/><span>Source-matched answers</span></div></div><div className="suggestion-grid grid gap-3 sm:grid-cols-2">{suggestions.map((s) => <button key={s} disabled={pending || !ready} onClick={() => void ask(s)} className="rounded-2xl border border-[#dce5e8] bg-[#ffffff] p-4 text-left text-sm transition hover:border-[#12766b] dark:border-[#2a4557] dark:bg-[#142a38]"><span className="suggestion-icon"><ArrowUpRight size={18}/></span>{s}</button>)}</div></section>}
 
             {messages.map((message, index) => <article className="answer-article mb-10" key={message.id} aria-busy={pending && index === messages.length - 1}>
 
               <h1 className="mb-6 text-2xl font-bold leading-snug">{message.question}</h1>
 
-              <h2 className="mb-3 flex items-center gap-2 font-bold"><Sparkles size={19} />The short answer</h2>
+              <h2 className="mb-3 flex items-center gap-2 font-bold"><Sparkles size={19} />From the documents</h2>
 
               {message.abstained && <p className="mb-3 text-xs font-bold uppercase tracking-wide opacity-60">Not enough information in our sources</p>}
 
-              <AnswerText message={message} />{!pending && !message.error && <div className="answer-meta"><ShieldCheck size={14}/>{message.abstained ? 'Evidence insufficient' : 'Sources attached; verify important details'}<span>{message.answer.trim().split(/\s+/).filter(Boolean).length} words</span></div>}
+              {message.retrieval && <details className="retrieval-trace"><summary><ShieldCheck size={15}/>Retrieval trail <span>{message.retrieval.passages} passages · {message.retrieval.elapsed_ms} ms</span></summary><p>{message.retrieval.documents} documents retrieved. {message.retrieval.status === 'insufficient' ? 'Evidence did not meet the retrieval threshold.' : 'These passages were considered. The answer shows its own citations.'}</p><code>{message.retrieval.chunks.join(' / ') || 'No supporting passages'}</code></details>}
+              <AnswerText message={message} />{!pending && !message.error && <div className="answer-meta"><ShieldCheck size={14}/>{message.abstained ? 'Evidence insufficient' : 'Source-matched answer'}<span>{message.answer.trim().split(/\s+/).filter(Boolean).length} words</span></div>}
 
-              {pending && index === messages.length - 1 && <p role="status" className="mt-3 text-sm opacity-60">{message.answer ? 'Writing answer…' : 'Finding relevant UT Dallas sources…'}</p>}
+              {pending && index === messages.length - 1 && <p role="status" className="mt-3 text-sm opacity-60">{message.retrieval ? 'Checking the answer against retrieved sources…' : 'Finding relevant UT Dallas sources…'}</p>}
 
               {message.error && <div role="alert" className="mt-4 rounded-xl border border-red-400 p-4 text-sm"><p>{message.error}</p><button disabled={pending} onClick={() => void ask(message.question)} className="mt-2 font-bold underline">Retry question</button></div>}
 

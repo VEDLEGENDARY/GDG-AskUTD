@@ -11,7 +11,7 @@ from starlette.concurrency import run_in_threadpool
 from ..schemas import ChatRequest, ChatResponse
 from ..types import Answer
 from ..retrieval_support.query import rewrite
-from .common import client_ip, new_request_id, passage_citations, record_request, sse, to_turns
+from .common import client_ip, new_request_id, record_request, sse, to_turns
 
 router = APIRouter()
 logger = logging.getLogger("askutd")
@@ -60,25 +60,18 @@ async def chat_stream(body: ChatRequest, request: Request):
             generation = request.app.state.generation
             history = to_turns(body.history)
             result = retrieval.retrieve(body.question, body.top_k, history)
+            yield sse("retrieval", {
+                "passages": len(result.passages), "documents": len({p.doc_id for p in result.passages}),
+                "elapsed_ms": round((time.perf_counter() - started) * 1000),
+                "status": "insufficient" if result.abstain else "retrieved",
+                "chunks": [p.chunk_id for p in result.passages],
+            })
             if result.abstain:
                 answer = Answer(generation.ABSTAIN_TEXT, abstained=True)
-                citations = []
-                yield sse("citations", citations)
-                yield sse("token", {"text": answer.text})
             else:
-                citations = passage_citations(result.passages)
-                yield sse("citations", citations)
-                answer = None
-                for item in generation.stream_answer(rewrite(body.question, history), result.passages, history):
-                    if item.get("type") == "token":
-                        yield sse("token", {"text": item.get("text", "")})
-                    elif item.get("type") == "final":
-                        answer = item["answer"]
-                if answer is None:
-                    answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
-                final_citations = answer.citations
-                if [c.__dict__ for c in final_citations] != [c.__dict__ for c in citations]:
-                    yield sse("citations", final_citations)
+                answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
+            yield sse("citations", answer.citations)
+            yield sse("token", {"text": answer.text})
             latency = record_request(request, request_id, started, body.question,
                                      answer.abstained, len(answer.citations))
             yield sse("done", {"abstained": answer.abstained, "latency_ms": latency})

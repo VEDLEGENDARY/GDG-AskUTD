@@ -10,10 +10,13 @@ import re
 from collections.abc import Iterator
 
 from .llm import LLM, ExtractiveLLM, get_provider
-from .llm.extractive import terms
 from .prompts import (ABSTAIN_SENTENCE, CONFIRM_NOTE, MAX_QUESTION_CHARS, build_prompt, leaked_system_prompt,
                       needs_confirmation, normalize_for_match, one_line, select_passages, strip_em_dashes)
 from .types import Answer, Citation, Passage, Turn
+from .retrieval_support.focus import (WITHDRAWAL_DATE, ap_requests, ap_row_supports, evidence_sentences,
+                                      focus_for, scope_matches)
+from .retrieval_support.precision import (catalog_elective_fact, catalog_elective_types,
+                                          catalog_scopes, catalog_title_matches)
 
 logger = logging.getLogger("askutd.generation")
 
@@ -98,13 +101,30 @@ def _is_abstain(raw: str, order: list[int]) -> bool:
     return not order and any(sentence in norm for sentence in _ABSTAIN_NORMS)
 
 
-def _citation(n: int, passage: Passage) -> Citation:
+def _citation(n: int, passage: Passage, excerpt: str) -> Citation:
     return Citation(n=n, chunk_id=passage.chunk_id, doc_id=passage.doc_id,
                     title=strip_em_dashes(passage.source_title), section=strip_em_dashes(passage.section_heading),
-                    snippet=make_snippet(passage.text), source_url=passage.source_url)
+                    snippet=make_snippet(excerpt), source_url=passage.source_url)
 
 
-def finalize(raw: str, passages: list[Passage]) -> Answer | None:
+def _quote_key(text: str) -> str:
+    normalized = strip_em_dashes(one_line(text))
+    return re.sub(r"\s+([.,;:!?])", r"\1", normalized).casefold().rstrip(".!?")
+
+
+def _matching_excerpt(claim: str, passage: Passage, allow_withdrawal_date: bool) -> str | None:
+    key = _quote_key(claim)
+    for sentence in evidence_sentences(passage.text):
+        if _quote_key(sentence) == key:
+            return sentence
+        if allow_withdrawal_date:
+            match = WITHDRAWAL_DATE.search(sentence)
+            if match and _quote_key(match[0]) == key:
+                return match[0]
+    return None
+
+
+def finalize(raw: str, passages: list[Passage], question: str = "") -> Answer | None:
     """Turn a raw model reply into a validated Answer. None means the reply is unusable."""
     if not passages:
         return _abstain()
@@ -122,21 +142,42 @@ def finalize(raw: str, passages: list[Passage]) -> Answer | None:
         return None
     if len(text.split()) > 275:
         return None
-    # Reject numeric inventions even when the model supplied a valid citation ID.
-    for claim in re.split(r"(?<=[.!?])\s+", text):
+    # Validate each citation against the exact claim, then locate a useful source excerpt.
+    excerpts: dict[int, str] = {}
+    focus = focus_for(question)
+    relevant = not focus
+    exams = ap_requests(question)
+    covered_exams = set()
+    catalog_requirements = {(program, edition, kind)
+                            for program, edition in catalog_scopes(question)
+                            for kind in catalog_elective_types(question)}
+    covered_catalog = set()
+    for claim in evidence_sentences(text):
         markers = [int(n) for n in re.findall(r"\[(\d+)\]", claim)]
         if not markers and _LETTER.search(claim):
             return None
-        evidence = " ".join(passages[order[n-1]-1].text for n in markers)
-        wanted = terms(_MARKER.sub("", claim))
-        if wanted and len(wanted & terms(evidence)) / len(wanted) < 0.30:
+        bare = _MARKER.sub("", claim)
+        if not markers or not _quote_key(bare):
             return None
-        numbers = set(re.findall(r"\b\d+(?:[.,]\d+)*\b", _MARKER.sub("", claim)))
-        if not numbers.issubset(set(re.findall(r"\b\d+(?:[.,]\d+)*\b", evidence))):
-            return None
+        for n in markers:
+            passage = passages[order[n-1]-1]
+            excerpt = _matching_excerpt(bare, passage, bool(focus and focus.name == "withdrawal deadline"))
+            if excerpt is None:
+                return None
+            excerpts.setdefault(n, excerpt)
+            if focus and focus.supports(bare, passage.source_title + " " + passage.section_heading):
+                relevant |= scope_matches(question, passage.source_title, passage.section_heading,
+                                          default_full_term=True)
+            covered_exams.update(exam for exam, score in exams.items() if ap_row_supports(bare, exam, score))
+            covered_catalog.update((program, edition, kind) for program, edition, kind in catalog_requirements
+                                   if catalog_title_matches(passage.source_title, program, edition)
+                                   and catalog_elective_fact(bare, kind))
+    if (not relevant or len(excerpts) != len(order) or set(exams) != covered_exams
+            or catalog_requirements != covered_catalog):
+        return None
     if needs_confirmation(text) and not _HAS_CONFIRM.search(text):
         text = f"{text} {CONFIRM_NOTE}"
-    citations = [_citation(n, passages[original - 1]) for n, original in enumerate(order, 1)]
+    citations = [_citation(n, passages[original - 1], excerpts[n]) for n, original in enumerate(order, 1)]
     return Answer(text=text, citations=citations, abstained=False)
 
 
@@ -152,9 +193,9 @@ def _prepare(question: str, passages: list[Passage] | None,
     return selected, system, user
 
 
-def _fallback(system: str, user: str, passages: list[Passage]) -> Answer:
+def _fallback(system: str, user: str, passages: list[Passage], question: str) -> Answer:
     try:
-        answer = finalize(ExtractiveLLM().complete(system, user), passages)
+        answer = finalize(ExtractiveLLM().complete(system, user), passages, question)
     except Exception:
         logger.exception("extractive fallback failed")
         answer = None
@@ -173,11 +214,11 @@ def generate_answer(question: str, passages: list[Passage], history: list[Turn] 
             raw = provider.complete(system, user)
         except Exception as exc:
             logger.warning("provider %s failed (%s), falling back to extractive", provider.name, exc)
-            return _fallback(system, user, selected)
-        answer = finalize(raw, selected)
+            return _fallback(system, user, selected, question)
+        answer = finalize(raw, selected, question)
         if answer is None and not isinstance(provider, ExtractiveLLM):
             logger.warning("provider %s gave unusable output, falling back to extractive", provider.name)
-            return _fallback(system, user, selected)
+            return _fallback(system, user, selected, question)
         return answer or _abstain()
     except Exception:
         logger.exception("generate_answer failed unexpectedly")

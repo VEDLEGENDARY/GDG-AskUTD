@@ -3,7 +3,9 @@ export type Citation = {
   section: string; snippet: string; source_url: string | null;
 };
 export type Turn = { role: 'user' | 'assistant'; content: string };
+export type RetrievalTrace = { passages: number; documents: number; elapsed_ms: number; status: string; chunks: string[] };
 export type StreamUpdate = {
+  retrieval?: RetrievalTrace;
   requestId?: string; text?: string; citations?: Citation[]; abstained?: boolean;
 };
 
@@ -34,8 +36,8 @@ export async function streamAnswer(
     const payload = JSON.parse(data);
     if (event === 'error') throw new Error(payload.message || 'The answer could not be completed. Please retry.');
     if (event === 'meta') onUpdate({ requestId: payload.request_id });
+    if (event === 'retrieval') onUpdate({ retrieval: payload });
     if (event === 'token') onUpdate({ text: payload.text });
-    // A later citations event replaces the provisional retrieval citations.
     if (event === 'citations') onUpdate({ citations: payload });
     if (event === 'done') { done = true; onUpdate({ abstained: payload.abstained }); }
   }

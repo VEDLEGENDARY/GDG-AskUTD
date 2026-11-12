@@ -371,6 +371,10 @@ def test_adapter_switches_preserve_constraints_and_source_fields():
     pool = candidate_pool(index, query)
     originals = {h["chunk_id"]: h for h in pool}
     assert search(index, query) == index.search(query, 5)
+    assert index.search(query, 5, reranker=rerank) == [
+        {key: value for key, value in hit.items() if key != "precision_score"}
+        for hit in search(index, query, use_precision=True)
+    ]
     for program in (False, True):
         for catalog in (False, True):
             hits = search(index, query, use_precision=True,

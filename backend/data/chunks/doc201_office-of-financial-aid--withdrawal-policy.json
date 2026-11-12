@@ -1,0 +1,20 @@
+[
+  {
+    "chunk_id": "doc201_p1_c1",
+    "doc_id": "doc201",
+    "source_title": "Office of Financial Aid: Withdrawal Policy",
+    "section_heading": "Withdrawing from all classes: Return of Title IV aid",
+    "text": "If a student withdraws from all classes before completing 60 percent of the semester, the Office of Financial Aid calculates how much federal Title IV aid was earned and how much must be returned. The calculation depends on the withdrawal date and the aid disbursed. After completing more than 60 percent of the semester, the student has earned all Title IV funds for that term. The university tuition refund schedule is separate from the federal aid calculation.",
+    "n_sentences": 4,
+    "token_count": 116
+  },
+  {
+    "chunk_id": "doc201_p1_c2",
+    "doc_id": "doc201",
+    "source_title": "Office of Financial Aid: Withdrawal Policy",
+    "section_heading": "Dropping individual courses and remaining enrolled",
+    "text": "Financial aid adjustments are based on credit hours enrolled at the full-term Census Day. A student who drops individual courses on or before Census Day may need to return aid already disbursed. Check the academic calendar for the relevant dates.",
+    "n_sentences": 3,
+    "token_count": 62
+  }
+]

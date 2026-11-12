@@ -326,11 +326,6 @@ was changed as part of this experiment.
 
 ## Final review update
 
-The current handoff in documentation/mentee-tasks/handoff-04.md supersedes historical validation blockers above. CI-listed packages were installed only in the local environment; backend, evaluator, document and frontend checks now pass with documented optional skips. The test module supports unittest discovery. The concrete shared-file proposal is integration-proposal.patch, not an applied production change. Validate it without editing shared files using:
-
-```sh
-git apply --check evaluate/mentee4/integration-proposal.patch
-.venv/bin/python3 -m evaluate.mentee4.validate_integration_proposal
-```
-
-The proposal activates ranking only when the mentor applies it; additional sufficiency is disabled by default. Proposal index parity covers 127 dev cases and top_k 1..8. Actual integrated service tests and mentor holdout review remain required. The original chronological handoff is preserved in development-notes.md.
+Production now reranks the admitted postings-based candidate pool before budgeted selection.
+See [retrieval documentation](../../documentation/retrieval.md) for the live path and
+integrated validation. These experiments remain available for feature comparisons.
