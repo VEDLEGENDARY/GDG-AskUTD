@@ -1,0 +1,1992 @@
+{
+  "schema_version": 1,
+  "description": "Mentee 1 manually verified retrieval regression cases (development examples, not a holdout). See README.md for the schema. Runtime retrieval must never read this file.",
+  "cases": [
+    {
+      "id": "m1-direct-01",
+      "category": "direct_lookup",
+      "query": "What hours is the Testing Center open on a regular Saturday in November this fall?",
+      "unanswerable": false,
+      "requirement": "The fall 2026 regular-semester schedule (September 14 to December 16) gives the Saturday hours for a normal November week.",
+      "evidence": [
+        {
+          "id": "fall-regular-saturday-hours",
+          "support": [
+            {
+              "chunk_id": "doc188_p3_c1",
+              "quote": "Saturday: 9:00 a.m. – 1:00 p.m."
+            }
+          ],
+          "note": "Section heading is Monday, September 14th to Wednesday, December 16th, which covers November. The same chunk lists extended midterm/finals Saturdays (October 10, December 5 and 12, 9 a.m. to 5 p.m.) that do not apply to a regular November Saturday."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc188_p2_c1",
+          "reason": "Start-of-semester schedule (August 24 to September 13) where the Testing Center is closed on Saturdays; wrong date window."
+        }
+      ],
+      "notes": "Same chunk mixes regular and extended hours, and the early-semester chunk says Saturdays are closed, so a reader must match the date window."
+    },
+    {
+      "id": "m1-direct-02",
+      "category": "direct_lookup",
+      "query": "How much is the Texas Tuition Rebate and what's the deadline to turn in the application?",
+      "unanswerable": false,
+      "requirement": "All groups are required: one chunk gives the rebate amount and another gives the submission deadline (before the Degree Conferral Date of the graduating semester).",
+      "evidence": [
+        {
+          "id": "rebate-amount",
+          "support": [
+            {
+              "chunk_id": "doc166_p1_c1",
+              "quote": "qualify for the $1,000 tuition rebate if attempted no more than 3 hours"
+            },
+            {
+              "chunk_id": "doc135_p2_c1",
+              "quote": "Students may qualify for the $1,000 tuition rebate if they attempted no more than 3 hours"
+            },
+            {
+              "chunk_id": "doc133_p17_c1",
+              "quote": "Application for qualified undergraduates to receive up to a $1,000 tuition rebate"
+            }
+          ]
+        },
+        {
+          "id": "rebate-deadline",
+          "support": [
+            {
+              "chunk_id": "doc166_p2_c1",
+              "quote": "You must submit your application for the Texas Tuition Rebate before the Degree Conferral Date"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc190_p2_c1",
+          "reason": "Shows a $1,000 per-year Phi Theta Kappa transfer scholarship award; same dollar figure, unrelated program."
+        },
+        {
+          "chunk_id": "doc134_p3_c1",
+          "reason": "Graduation page lists graduation application deadlines (September 1 and October 1, 2026) next to a Texas Tuition Rebate link; those are graduation deadlines, not the rebate form deadline."
+        }
+      ],
+      "notes": "Graduation application deadlines sit near the words Texas Tuition Rebate and could be mistaken for the rebate deadline."
+    },
+    {
+      "id": "m1-direct-03",
+      "category": "direct_lookup",
+      "query": "What's the last day I can submit the form to audit a class this semester?",
+      "unanswerable": false,
+      "requirement": "The audit procedure states the application deadline is the full-term census day.",
+      "evidence": [
+        {
+          "id": "audit-deadline",
+          "support": [
+            {
+              "chunk_id": "doc142_p2_c2",
+              "quote": "Deadline to submit the application form is the full-term census day for the semester"
+            },
+            {
+              "chunk_id": "doc142_p2_c1",
+              "quote": "beginning on the first day of the semester through the full-term session census day"
+            },
+            {
+              "chunk_id": "doc133_p1_c2",
+              "quote": "Deadline to submit the application form is the full-term census day for the semester"
+            }
+          ],
+          "note": "doc133_p1_c2 is the Registrar forms page repeating the audit application instructions for the same audit process, so it is an equivalent alternative."
+        }
+      ],
+      "notes": "Answer is a named event (full-term census day), not a calendar date; a system may try to pull a date from an academic calendar instead."
+    },
+    {
+      "id": "m1-direct-04",
+      "category": "direct_lookup",
+      "query": "I'm a current UTD student and my residency reclassification was denied. Who do I appeal to, and is that decision final?",
+      "unanswerable": false,
+      "requirement": "The Residency FAQ states who currently enrolled students appeal to and that this decision is final.",
+      "evidence": [
+        {
+          "id": "enrolled-student-appeal",
+          "support": [
+            {
+              "chunk_id": "doc147_p4_c2",
+              "quote": "Currently enrolled UT Dallas students may appeal to the University Registrar. The decision of the Registrar is final"
+            }
+          ],
+          "note": "The same chunk says applicants appeal to the residency chair for Enrollment Services; that is the wrong population for this student."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc146_p5_c1",
+          "reason": "Explains how to petition for reclassification (Core Residency Questionnaire before the first day of class), not how to appeal a denial."
+        }
+      ],
+      "notes": "Population contrast inside one chunk: applicants and enrolled students have different appeal routes."
+    },
+    {
+      "id": "m1-para-01",
+      "category": "paraphrase",
+      "query": "I started college in 2019. How many credits past what my degree needs can I take before UTD starts charging me the out-of-state price?",
+      "unanswerable": false,
+      "requirement": "The excessive hours rule gives the hour limit based on when the student first enrolled at a Texas public institution; fall 2006 to present is 30 hours over the degree program.",
+      "evidence": [
+        {
+          "id": "limit-for-post-2006-start",
+          "support": [
+            {
+              "chunk_id": "doc165_p1_c1",
+              "quote": "First term in Texas public institution from fall 2006 to the present date – 30 hours over degree program"
+            }
+          ],
+          "note": "Same chunk lists 45 hours for a first term from fall 1999 to summer 2006 and exempt before fall 1999; a 2019 start falls in the 30-hour band. Strictly the rule keys on the first term at a Texas public institution."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc166_p1_c1",
+          "reason": "Texas Tuition Rebate requires no more than 3 hours in excess of degree hours; a different rule with a different threshold."
+        },
+        {
+          "chunk_id": "doc135_p2_c1",
+          "reason": "Summarizes the excessive hours rule without giving the hour limits."
+        },
+        {
+          "chunk_id": "doc136_p1_c1",
+          "reason": "Three-course repeat rule also triggers an out-of-state-rate charge, but for repeated attempts at one class, not total hours."
+        }
+      ],
+      "notes": "Query avoids the terms 'excessive hours', 'attempted' and 'nonresident tuition'; the student also must be placed in the correct start-date band."
+    },
+    {
+      "id": "m1-para-02",
+      "category": "paraphrase",
+      "query": "UTD is covering my tuition through the program for families making under 100k. What do I have to do each year to keep it, like how many credits and what GPA?",
+      "unanswerable": false,
+      "requirement": "The Comet Promise renewal FAQ lists the yearly credit hours and cumulative GPA needed to keep the award.",
+      "evidence": [
+        {
+          "id": "comet-promise-renewal",
+          "support": [
+            {
+              "chunk_id": "doc175_p2_c2",
+              "quote": "Complete at least 24 credit hours each academic year (fall, spring and summer semesters). Maintain a 2.5 cumulative GPA"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc175_p1_c2",
+          "reason": "Initial eligibility (family income, FAFSA/TASFA deadlines, at least three-quarter time enrollment), not the renewal requirements."
+        },
+        {
+          "chunk_id": "doc190_p3_c1",
+          "reason": "Transfer Academic Achievement Scholarship requires full-time enrollment (12+ hours); different award."
+        }
+      ],
+      "notes": "Query never names Comet Promise; it describes it by its income threshold. Initial eligibility and renewal criteria are in adjacent chunks."
+    },
+    {
+      "id": "m1-para-03",
+      "category": "paraphrase",
+      "query": "I moved to Texas from out of state just to go to UTD. Once I've lived here a full year, can I switch to in-state tuition, or does the reason I moved count against me?",
+      "unanswerable": false,
+      "requirement": "The residency documentation page says a person who moved to Texas mainly to attend school as a full-time student is presumed not to intend to establish domicile, though clear and convincing evidence can overrule this.",
+      "evidence": [
+        {
+          "id": "moved-for-school-presumption",
+          "support": [
+            {
+              "chunk_id": "doc167_p5_c1",
+              "quote": "A person whose initial purpose for moving to Texas is to attend an institution as a full-time student will be presumed not to have the required intent to make Texas his or her domicile"
+            }
+          ],
+          "note": "doc167_p5_c2 adds that acts directly related to educational objectives cannot establish domicile; helpful context but does not state the presumption itself."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc147_p2_c2",
+          "reason": "States the 12-month domicile requirement before census date; matches 'a full year' but does not address someone who moved for school."
+        },
+        {
+          "chunk_id": "doc148_p2_c2",
+          "reason": "Glossary on temporary absence and gainful employment; mentions educational purposes for absences from Texas, not moving into Texas to study."
+        }
+      ],
+      "notes": "Student avoids the words domicile and presumption; the obvious 12-month answer is misleading without the presumption rule."
+    },
+    {
+      "id": "m1-para-04",
+      "category": "paraphrase",
+      "query": "I need my UTD transcript certified so a foreign government will accept it. Can the registrar handle the whole process for me?",
+      "unanswerable": false,
+      "requirement": "The notarization page says the Registrar can notarize transcripts for authentication or Apostille but does not apply the Apostille; the student must start that with the Texas Secretary of State.",
+      "evidence": [
+        {
+          "id": "notarize-not-apostille",
+          "support": [
+            {
+              "chunk_id": "doc168_p1_c1",
+              "quote": "can notarize transcripts and diplomas for the purposes of authentication or Apostille, but does not apply Apostille on documents"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc150_p3_c1",
+          "reason": "Official electronic transcript delivery via secure certified PDF; 'certified' matches the query but this is ordinary transcript ordering, not authentication for foreign use."
+        }
+      ],
+      "notes": "Query avoids notarize and Apostille; 'certified' lexically pulls toward the certified PDF transcript."
+    },
+    {
+      "id": "m1-abbr-01",
+      "category": "abbreviation",
+      "query": "I took both AP Calc AB and AP Calc BC. Can I get UTD credit from both exams?",
+      "unanswerable": false,
+      "requirement": "The AP credit table footnote says credit is given for either Calculus AB or Calculus BC, not both.",
+      "evidence": [
+        {
+          "id": "ab-or-bc-not-both",
+          "support": [
+            {
+              "chunk_id": "doc155_p6_c1",
+              "quote": "Students can receive credit for either the AP Calculus AB exam or the AP Calculus BC exam, but not both"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc155_p4_c1",
+          "reason": "AP table rows for Calculus AB and BC with scores and course numbers; looks like the answer but does not state the either/or rule."
+        },
+        {
+          "chunk_id": "doc157_p5_c1",
+          "reason": "IB Math Analysis and Approaches calculus credits; different exam program."
+        }
+      ],
+      "notes": "'Calc' must be expanded to Calculus; the rule lives in a footnote chunk, not in the table rows with the exam names."
+    },
+    {
+      "id": "m1-abbr-02",
+      "category": "abbreviation",
+      "query": "When do SI sessions start in the semester, and do I have to register to go?",
+      "unanswerable": false,
+      "requirement": "The Supplemental Instruction page gives the start week and says no registration is required.",
+      "evidence": [
+        {
+          "id": "si-start-and-registration",
+          "support": [
+            {
+              "chunk_id": "doc187_p1_c1",
+              "quote": "SI sessions begin the third week of classes and continue throughout the semester"
+            }
+          ],
+          "note": "The same chunk says 'Attendance at SI sessions is free and voluntary, no registration required'."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc185_p1_c1",
+          "reason": "Peer Tutoring is also drop-in with no appointment, but it is a different Student Success Center service with its own hours."
+        }
+      ],
+      "notes": "SI must be resolved to Supplemental Instruction rather than, e.g., peer tutoring which has similar no-appointment wording."
+    },
+    {
+      "id": "m1-abbr-03",
+      "category": "abbreviation",
+      "query": "For the Comet Transfer Scholarship, do my AP and CLEP credits count toward the transferable hours I need?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the scholarship's transferable hour range (30 to 90) and the rule that credit by examination such as AP/IB/CLEP is not counted in transfer hours or GPA.",
+      "evidence": [
+        {
+          "id": "scholarship-hour-range",
+          "support": [
+            {
+              "chunk_id": "doc190_p1_c1",
+              "quote": "be a Texas resident at the time of admission and have between 30–90 transferrable credit hours"
+            }
+          ]
+        },
+        {
+          "id": "exam-credit-excluded",
+          "support": [
+            {
+              "chunk_id": "doc190_p1_c1",
+              "quote": "credit by examination (such as AP/IB/CLEP) is not considered as part of an applicant’s transferable GPA or transfer hours"
+            },
+            {
+              "chunk_id": "doc006_p1_c1",
+              "quote": "credit by examination is not considered as part of an applicant's transferable GPA or transfer hours for admissions"
+            },
+            {
+              "chunk_id": "doc005_p6_c44",
+              "quote": "credit by examination is not considered as part of an applicant's transferable GPA or transfer hours for admissions"
+            }
+          ],
+          "note": "doc006_p1_c1 (catalog admission policies) and doc005_p6_c44 (catalog academic policies, Credit by Examination) state the same exclusion for transfer hours, but without the scholarship context."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc165_p2_c1",
+          "reason": "Excessive hours rule excludes credit by examination (AP, CLEP, IB, or SAT II) from attempted hours; same acronyms, different rule."
+        },
+        {
+          "chunk_id": "doc166_p3_c1",
+          "reason": "Tuition rebate counts credit earned by exam (first 9 excluded); same topic words, different program."
+        }
+      ],
+      "notes": "Several pages say how AP/CLEP/IB credit is treated, each for a different rule; only the scholarship/admission context answers this."
+    },
+    {
+      "id": "m1-abbr-04",
+      "category": "abbreviation",
+      "query": "Who is supposed to fill out the TASFA instead of the FAFSA?",
+      "unanswerable": false,
+      "requirement": "The Receiving Aid page defines who submits the TASFA (Texas residents who cannot complete the FAFSA because they are not U.S. citizens or eligible non-citizens).",
+      "evidence": [
+        {
+          "id": "tasfa-who",
+          "support": [
+            {
+              "chunk_id": "doc128_p1_c1",
+              "quote": "submitted by students who are considered to be a resident of Texas but who are not able to complete the FAFSA because they are not a citizen of the United States or an eligible non-citizen"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc189_p1_c2",
+          "reason": "Announces the 2027-2028 TASFA and points to an Eligibility page to decide which form to use, but does not say who qualifies."
+        },
+        {
+          "chunk_id": "doc175_p1_c2",
+          "reason": "Comet Promise requires a FAFSA or TASFA by Jan. 15; mentions both forms but not who uses which."
+        }
+      ],
+      "notes": "Both acronyms appear in many financial aid chunks; only one chunk spells out the TASFA eligibility condition."
+    },
+    {
+      "id": "m1-pop-01",
+      "category": "population_contrast",
+      "query": "I'm an international grad student on an F-1 visa and I need 9 hours to stay full-time this spring. Can I take two of my three classes online, and does a hybrid class count as in-person?",
+      "unanswerable": false,
+      "requirement": "All groups are required: online-limit states that F-1 students may count only one hybrid or online course toward full-time enrollment each semester; grad-example applies that rule to a graduate student who needs 9 hours (at least 6 face-to-face hours) and says hybrid courses count as online.",
+      "evidence": [
+        {
+          "id": "online-limit",
+          "support": [
+            {
+              "chunk_id": "doc110_p2_c13",
+              "quote": "only one hybrid or online course can count towards your full-time enrollment requirements each semester"
+            }
+          ]
+        },
+        {
+          "id": "grad-example",
+          "support": [
+            {
+              "chunk_id": "doc110_p2_c14",
+              "quote": "a graduate student who is required to take 9 credit hours to be full-time enrolled would need at least 6 credit hours of face-to-face coursework. Hybrid courses are considered online courses"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc007_p2_c4",
+          "reason": "Undergraduate certification thresholds: 9 semester credit hours is only three-quarter time for undergraduates (full-time is 12), so the same number means something different for a graduate F-1 student."
+        },
+        {
+          "chunk_id": "doc109_p1_c2",
+          "reason": "Says international students must enroll in a minimum number of hours 'indicated below' but gives no numbers and nothing about online or hybrid limits."
+        },
+        {
+          "chunk_id": "doc110_p2_c12",
+          "reason": "Background on the expired COVID-era SEVP guidance that allowed more online courses; it is the old rule, not the current limit."
+        }
+      ],
+      "notes": "Population is graduate plus international (F-1). The undergraduate course-load chunk contains the same '9 semester credit hours' figure but with a different meaning (three-quarter time). The two supporting chunks are adjacent fragments of the same section and both are needed."
+    },
+    {
+      "id": "m1-pop-02",
+      "category": "population_contrast",
+      "query": "I'm an out-of-state student transferring to UTD with about 60 hours and a 3.7 GPA. Do I qualify for the Comet Transfer Scholarship, and is there any transfer scholarship that would get me in-state tuition?",
+      "unanswerable": false,
+      "requirement": "All groups are required: comet-transfer-residency shows the Comet Transfer Scholarship requires Texas residency at admission (so a nonresident does not qualify even with 30 to 90 hours); taas identifies the Transfer Academic Achievement Scholarship for high-achieving transfer students; nonresident-waiver states that nonresident recipients of that award qualify for an in-state waiver of tuition and fees and must be full-time.",
+      "evidence": [
+        {
+          "id": "comet-transfer-residency",
+          "support": [
+            {
+              "chunk_id": "doc190_p1_c1",
+              "quote": "To be considered, students must be a Texas resident at the time of admission"
+            }
+          ]
+        },
+        {
+          "id": "taas",
+          "support": [
+            {
+              "chunk_id": "doc190_p2_c1",
+              "quote": "Transfer Academic Achievement Scholarship. This scholarship is designed for high-achieving transfer students"
+            }
+          ]
+        },
+        {
+          "id": "nonresident-waiver",
+          "support": [
+            {
+              "chunk_id": "doc190_p3_c1",
+              "quote": "Recipients of this award who are classified as non-residents will qualify for an in-state waiver of tuition & fees"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc175_p1_c1",
+          "reason": "Comet Promise also requires being a Texas resident at the time of admission; nearly identical wording, but it is a different program (tuition coverage by family income), not the Comet Transfer Scholarship."
+        },
+        {
+          "chunk_id": "doc180_p1_c1",
+          "reason": "Freshman merit scholarships for first-time freshmen; wrong population for a transfer applicant."
+        },
+        {
+          "chunk_id": "doc130_p3_c1",
+          "reason": "Only lists the Transfer Academic Achievement Scholarship by name with no eligibility, residency or waiver details."
+        }
+      ],
+      "notes": "Two populations at once: transfer (not freshman) and nonresident (not Texas resident). The in-state waiver sentence in doc190_p3_c1 says 'this award' and depends on the preceding chunk doc190_p2_c1 to know which scholarship it is."
+    },
+    {
+      "id": "m1-pop-03",
+      "category": "population_contrast",
+      "query": "I'm a software engineering major on the 2025-26 catalog. How many total hours do I need to graduate and how many of those are free electives? My CS friend says it's 124 hours with 10 hours of free electives.",
+      "unanswerable": false,
+      "requirement": "All groups are required: se-total gives the 123-hour total for the 2025-2026 B.S. Software Engineering plan; se-free-electives gives the 2025-2026 SE free elective total (3 + 1, 0 of 4 hours).",
+      "evidence": [
+        {
+          "id": "se-total",
+          "support": [
+            {
+              "chunk_id": "doc077_p1_c1",
+              "quote": "B.S. in SOFTWARE ENGINEERING (2025-2026). 123 Hours"
+            }
+          ]
+        },
+        {
+          "id": "se-free-electives",
+          "support": [
+            {
+              "chunk_id": "doc077_p1_c14",
+              "quote": "3 Free Elective 1 Free Elective 0 of 4"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc076_p1_c13",
+          "reason": "B.S. Computer Science 2025-2026 free electives are 10 hours; same year, different major (the friend's number)."
+        },
+        {
+          "chunk_id": "doc076_p1_c14",
+          "reason": "B.S. Computer Science 2025-2026 requires 124 hours; same year, different major."
+        },
+        {
+          "chunk_id": "doc073_p1_c14",
+          "reason": "B.S. Software Engineering 2024-2025 plan headed 'ELECTIVES (10 Hours )'; same major but a different catalog year, and the 10 matches the CS number."
+        },
+        {
+          "chunk_id": "doc086_p1_c15",
+          "reason": "B.S. Software Engineering 2026-2027 free electives total 0 of 7; same major, different catalog year."
+        }
+      ],
+      "notes": "Query names SE; the CS chunk for the same catalog year contains the exact numbers the student quotes (124, 10). The SE 2024-25 chunk also shows '10 Hours' in its heading, so a lexical match on '10' or 'free electives' lands on the wrong population or year."
+    },
+    {
+      "id": "m1-pop-04",
+      "category": "population_contrast",
+      "query": "My undergrad roommate says once the W period is over she can only withdraw for non-academic reasons. I'm a master's student. Is the process after the withdrawal deadline different for me, and could I end up with an F instead of a W?",
+      "unanswerable": false,
+      "requirement": "All groups are required: ug-after-w-period gives the undergraduate rule (after the ninth class week, withdrawal only for non-academic reasons); ug-petition describes the undergraduate non-academic withdrawal petition (documentation, applies to all enrolled courses); grad-emergency gives the graduate rule (documented emergency only, instructor certifies passing, petition to graduate advisor and Dean of Graduate Studies, passing grade becomes W and failing becomes F).",
+      "evidence": [
+        {
+          "id": "ug-after-w-period",
+          "support": [
+            {
+              "chunk_id": "doc011_p4_c14",
+              "quote": "After the ninth (9th) class week of a long semester, a student may only withdraw from a class for non-academic reasons"
+            }
+          ]
+        },
+        {
+          "id": "ug-petition",
+          "support": [
+            {
+              "chunk_id": "doc011_p5_c16",
+              "quote": "A request for non-academic withdrawal applies to all courses in which a student is enrolled"
+            }
+          ]
+        },
+        {
+          "id": "grad-emergency",
+          "support": [
+            {
+              "chunk_id": "doc003_p3_c9",
+              "quote": "the course withdrawal will be approved only on a documented emergency basis for reasons extrinsic to curricula matters"
+            }
+          ],
+          "note": "The same chunk states that if the petition is approved, a passing grade appears as W and a failing grade as F."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc003_p4_c13",
+          "reason": "Graduate withdrawal (resignation) from the entire University; same W/F grading language, but it is about leaving the university, not withdrawing from one course."
+        },
+        {
+          "chunk_id": "doc143_p3_c1",
+          "reason": "Undergraduate online withdrawal process; says graduate classes are grayed out and require an advisor, but nothing about post-deadline withdrawals."
+        },
+        {
+          "chunk_id": "doc137_p2_c2",
+          "reason": "Lists non-academic withdrawal reasons for the Texas 6-withdrawal rule; related vocabulary but about counting withdrawals, not the post-deadline process."
+        }
+      ],
+      "notes": "Contrast case that needs evidence for both populations from two different catalogs (2025-2026 undergraduate vs graduate). The graduate chunk shares 'W' and 'withdraw' vocabulary with many undergraduate chunks; the W-to-F outcome is graduate-specific."
+    },
+    {
+      "id": "m1-pop-05",
+      "category": "population_contrast",
+      "query": "I'm transferring to UTD and I qualified for the Comet Promise. How many years can I keep it and how many paid credit hours does it cover for a transfer student? What do I have to do each year to renew it?",
+      "unanswerable": false,
+      "requirement": "All groups are required: transfer-limits gives the transfer-student program limits (3 years, 150 overall attempted hours, 90 hours paid); renewal gives the yearly renewal conditions (24 credit hours per academic year, 2.5 cumulative GPA, good standing, family income of $100,000 or less).",
+      "evidence": [
+        {
+          "id": "transfer-limits",
+          "support": [
+            {
+              "chunk_id": "doc175_p3_c1",
+              "quote": "Transfer. Student 3 150 90"
+            }
+          ],
+          "note": "The same chunk has the freshman row (5 years, 150, 150); answering with the freshman figures is the population error this case tests."
+        },
+        {
+          "id": "renewal",
+          "support": [
+            {
+              "chunk_id": "doc175_p2_c2",
+              "quote": "Complete at least 24 credit hours each academic year (fall, spring and summer semesters). Maintain a 2.5 cumulative GPA"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc190_p1_c1",
+          "reason": "Comet Transfer Scholarship: a different program with a similar name, also for transfer students, and mentions 30 to 90 transferrable hours; the 90 resembles the Comet Promise 90 paid-hour limit but means something else."
+        },
+        {
+          "chunk_id": "doc177_p2_c1",
+          "reason": "Mentions Comet Promise for freshman and transfer applicants with family income of $100,000 or less, but gives no duration, hour caps or renewal rules."
+        },
+        {
+          "chunk_id": "doc175_p1_c2",
+          "reason": "Initial Comet Promise eligibility (FAFSA deadlines, three-quarter-time enrollment); not the program limits or renewal rules."
+        }
+      ],
+      "notes": "The program-limits table is flattened into one line ('Transfer. Student 3 150 90 Freshman. Student 5 150 150'), so the freshman and transfer numbers sit side by side in one chunk. The Comet Transfer Scholarship is a lexical near-twin."
+    },
+    {
+      "id": "m1-time-01",
+      "category": "time_contrast",
+      "query": "I'm on the 2026-27 CS degree plan and my friend is on 2025-26. How many CS technical elective hours and free elective hours does each of us need?",
+      "unanswerable": false,
+      "requirement": "All groups are required: te-2025 (2025-2026 CS: four CS 4XXX technical electives, 12 hours), fe-2025 (2025-2026 CS: 10 free elective hours), te-2026 (2026-2027 CS: three CS 4XXX technical electives, 9 hours), fe-2026 (2026-2027 CS: 13 free elective hours).",
+      "evidence": [
+        {
+          "id": "te-2025",
+          "support": [
+            {
+              "chunk_id": "doc076_p1_c10",
+              "quote": "3 CS Technical Elective CS 4XXX 0 of 12"
+            }
+          ]
+        },
+        {
+          "id": "fe-2025",
+          "support": [
+            {
+              "chunk_id": "doc076_p1_c13",
+              "quote": "FREE ELECTIVES (10 Hours)"
+            }
+          ]
+        },
+        {
+          "id": "te-2026",
+          "support": [
+            {
+              "chunk_id": "doc084_p1_c11",
+              "quote": "3 CS Technical Elective CS 4XXX 0 of 9"
+            }
+          ]
+        },
+        {
+          "id": "fe-2026",
+          "support": [
+            {
+              "chunk_id": "doc084_p1_c14",
+              "quote": "FREE ELECTIVES (13 Hours)"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc077_p1_c11",
+          "reason": "B.S. Software Engineering 2025-2026 technical electives (SE/CS 4XXX, 0 of 12); same year and same 12, but a different major."
+        },
+        {
+          "chunk_id": "doc086_p1_c12",
+          "reason": "B.S. Software Engineering 2026-2027 technical electives (0 of 9); same year and same 9, but a different major."
+        },
+        {
+          "chunk_id": "doc021_p1_c6",
+          "reason": "B.S. Computer Science 2021-2022 lists three CS guided electives (9 hours); an older catalog year that uses 'guided' rather than 'technical' electives."
+        },
+        {
+          "chunk_id": "doc024_p1_c8",
+          "reason": "B.S. Computer Science 2022-2023 free electives (10 hours); same number as 2025-2026 but a different catalog year."
+        }
+      ],
+      "notes": "Two-year comparison where the plans have identical layouts and differ only in the count of elective rows and the 'of N' totals. SE plans for the same years show the same 12 and 9 totals."
+    },
+    {
+      "id": "m1-time-02",
+      "category": "time_contrast",
+      "query": "Under the 2022-2023 CS degree plan, what's the lowest grade I can get in Calculus I and still have it count? Is Calc II the same?",
+      "unanswerable": false,
+      "requirement": "All groups are required: calc-grades-2022 gives the Calculus I minimum (C- or better) and calc2-grade-2022 gives the Calculus II minimum (D- or better, since every preparatory course except Calculus I needs D-). Both come from the 2022-2023 B.S. Computer Science plan; the minimum calculus grade changes across catalog years (C- in 2022-23, C in 2025-26 and 2026-27).",
+      "evidence": [
+        {
+          "id": "calc-grades-2022",
+          "support": [
+            {
+              "chunk_id": "doc024_p1_c4",
+              "quote": "MATH 2413 or 2417 Calculus I (4 hours; C- or better)"
+            }
+          ],
+          "note": "Same chunk: 'All of these except Calculus I require a D- or better.'"
+        },
+        {
+          "id": "calc2-grade-2022",
+          "support": [
+            {
+              "chunk_id": "doc024_p1_c4",
+              "quote": "All of these except Calculus I require a D- or better"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc076_p1_c3",
+          "reason": "2025-2026 CS plan marks MATH 2413/2417 and MATH 2414 with [C]; a later catalog year with a stricter grade."
+        },
+        {
+          "chunk_id": "doc084_p1_c16",
+          "reason": "2026-2027 CS plan: C or better required for major requirements and prerequisites; different catalog year."
+        },
+        {
+          "chunk_id": "doc061_p1_c1",
+          "reason": "2023-2024 CS suggested four-year plan says C- or better in MATH 2413/2417 to move forward; same grade but a different catalog year and a prerequisite flowchart, not the degree plan."
+        },
+        {
+          "chunk_id": "doc021_p1_c4",
+          "reason": "2021-2022 CS plan lists the same calculus courses without per-course grade minimums; different catalog year."
+        }
+      ],
+      "notes": "The minimum calculus grade changes across catalog years (C- in 2022-23, C in 2025-26 and 2026-27), and the Calculus II answer (D-) differs from Calculus I in the same chunk."
+    },
+    {
+      "id": "m1-time-03",
+      "category": "time_contrast",
+      "query": "I'm taking a class in the first 8-week session this Fall 2026. When is the last day of class and when are my finals? Someone told me finals are Dec 11-16.",
+      "unanswerable": false,
+      "requirement": "All groups are required: last-class gives the Fall 2026 first 8-week session last day of classes (Oct. 12); finals gives its final exam dates (Oct. 13-17).",
+      "evidence": [
+        {
+          "id": "last-class",
+          "support": [
+            {
+              "chunk_id": "doc036_p1_c2",
+              "quote": "Last day of classes is Oct. 12"
+            },
+            {
+              "chunk_id": "doc160_p2_c1",
+              "quote": "Last day of classes Oct. 12"
+            }
+          ]
+        },
+        {
+          "id": "finals",
+          "support": [
+            {
+              "chunk_id": "doc036_p1_c2",
+              "quote": "Final exams are Oct. 13-17"
+            }
+          ],
+          "note": "doc160_p2_c1 also shows the first 8-week finals but the end date is truncated ('Final exams Oct. 13-'), so it is not listed as full support for this group."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Fall 2026 full-term session: final exams Dec. 11-16 (the date the student was told); wrong session."
+        },
+        {
+          "chunk_id": "doc036_p2_c3",
+          "reason": "Fall 2026 second 8-week session: also final exams Dec. 11-16 and last day of classes Dec. 9; wrong session."
+        },
+        {
+          "chunk_id": "doc160_p3_c1",
+          "reason": "Second 8-week session dates from the general academic calendar page; wrong session."
+        }
+      ],
+      "notes": "Three Fall 2026 sessions share the same 'Last day of classes' and 'Final exams' wording; two of them have Dec. 11-16 finals. The duplicate calendar page (doc160) is truncated at chunk boundaries."
+    },
+    {
+      "id": "m1-time-04",
+      "category": "time_contrast",
+      "query": "I'm starting as a CS freshman in fall 2026 on the 2026-2027 degree plan. My roommate on the 2025-26 plan took ECS 1100 and CS 1200 his first year. Which intro courses are on my plan, and what does it say transfer students should do about the first-year-only courses?",
+      "unanswerable": false,
+      "requirement": "All groups are required: intro-header (2026-2027 CS plan: introductory courses are first year in college only and transfer students see an advisor); ecs1100 (2026-2027 CS plan lists ECS 1100 as first year only); ecs1210 (2026-2027 CS plan lists ECS 1210 Foundations of Engineering and Computer Science I, 2 hours, and does not list CS 1200).",
+      "evidence": [
+        {
+          "id": "intro-header",
+          "support": [
+            {
+              "chunk_id": "doc084_p1_c1",
+              "quote": "MAJOR INTRODUCTORY COURSES (First Year in College Only - Transfer Students See Advisor)"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc086_p1_c2",
+              "reason": "Identical header on the 2026-2027 B.S. Software Engineering plan; same year but a different major."
+            }
+          ]
+        },
+        {
+          "id": "ecs1100",
+          "support": [
+            {
+              "chunk_id": "doc084_p1_c2",
+              "quote": "1 Intro to Engineering and CS [First Year Only] ECS 1100"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc072_p1_c2",
+              "reason": "B.S. Computer Engineering 2024-2025 plan; different major and catalog year."
+            },
+            {
+              "chunk_id": "doc073_p1_c3",
+              "reason": "B.S. Software Engineering 2024-2025 plan; different major and catalog year."
+            },
+            {
+              "chunk_id": "doc075_p1_c2",
+              "reason": "B.S. Computer Engineering 2025-2026 plan; different major and catalog year."
+            },
+            {
+              "chunk_id": "doc076_p1_c2",
+              "reason": "B.S. Computer Science 2025-2026 plan (the roommate's catalog), which pairs ECS 1100 with CS 1200; wrong catalog year."
+            },
+            {
+              "chunk_id": "doc077_p1_c3",
+              "reason": "B.S. Software Engineering 2025-2026 plan; different major and catalog year."
+            },
+            {
+              "chunk_id": "doc086_p1_c3",
+              "reason": "B.S. Software Engineering 2026-2027 plan; same year but a different major."
+            }
+          ]
+        },
+        {
+          "id": "ecs1210",
+          "support": [
+            {
+              "chunk_id": "doc084_p1_c3",
+              "quote": "2 Foundations of Engineering and Computer Science I ECS 1210. 4 MATH 2413. 4 MATH 2417. 4 Programming Fundamentals CS 1436"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc086_p1_c4",
+              "reason": "Word-for-word identical line on the 2026-2027 B.S. Software Engineering plan; same year but a different major."
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc076_p1_c1",
+          "reason": "2025-2026 CS plan header says transfer students substitute an upper-level technical elective; different catalog year with a different transfer rule."
+        },
+        {
+          "chunk_id": "doc076_p1_c2",
+          "reason": "2025-2026 CS plan lists ECS 1100 and CS 1200 as first-year-only intro courses; the roommate's catalog, not the student's."
+        }
+      ],
+      "notes": "Same-shaped plans across years and majors: the ECS 1100 line appears in seven plans, and the 2026-27 SE plan is word-for-word identical for the intro rows. That CS 1200 is not on the 2026-27 plan has to be inferred from the full doc084 plan, which lists no CS 1200 row."
+    },
+    {
+      "id": "m1-time-05",
+      "category": "time_contrast",
+      "query": "I'm a computer engineering major on the 2021-2022 catalog. How many free elective hours do I need, do they need advisor approval, and can PE activity (PHIN) courses count toward them?",
+      "unanswerable": false,
+      "requirement": "All groups are required: elective-hours gives the 2021-2022 B.S. Computer Engineering elective requirement (5 hours, requiring advisor approval); phin-limit gives the 2021-2022 CE plan note that at most 3 PHIN credits are allowed on any UTD degree plan.",
+      "evidence": [
+        {
+          "id": "elective-hours",
+          "support": [
+            {
+              "chunk_id": "doc020_p1_c8",
+              "quote": "B.S. in Computer Engineering (2021-2022 Catalog) Electives (5 hours, requires approval from advisor)"
+            },
+            {
+              "chunk_id": "doc020_p1_c1",
+              "quote": "Electives (5 hours, requires approval from advisor)"
+            }
+          ]
+        },
+        {
+          "id": "phin-limit",
+          "support": [
+            {
+              "chunk_id": "doc020_p1_c8",
+              "quote": "Lower or upper division courses may count as free electives, and a maximum of 3 PHIN credits is allowed"
+            },
+            {
+              "chunk_id": "doc020_p1_c2",
+              "quote": "(6) A maximum of 3 PHIN credits is allowed on any UTD degree plan. (7) Lower or upper division courses may count as free electives"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc021_p1_c8",
+              "reason": "Same wording but from 'B.S. in Computer Science Degree Plan (2021-2022 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc022_p1_c8",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2021-2022 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc052_p1_c4",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2016-2018 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc053_p1_c4",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2017-2018 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc054_p1_c4",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2018-2019 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc055_p1_c4",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2019-2020 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc056_p1_c3",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2020-2021 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            },
+            {
+              "chunk_id": "doc022_p1_c2",
+              "reason": "Same wording but from 'B.S. in Software Engineering Degree Plan (2021-2022 Catalog)', a different major or catalog year; the question is scoped to the 2021-2022 Computer Engineering plan."
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc023_p1_c8",
+          "reason": "B.S. Computer Engineering 2022-2023 electives: 0 hours with MATH 2413 credit or 4 hours with MATH 2417 credit; the next catalog year changed the rule."
+        },
+        {
+          "chunk_id": "doc063_p1_c6",
+          "reason": "B.S. Computer Engineering 2023-2024 electives (0 or 4 hours depending on MATH 2413 vs 2417); different catalog year."
+        },
+        {
+          "chunk_id": "doc034_p1_c4",
+          "reason": "B.S. Computer Engineering 2020-2021 plan also lists 5 elective hours with advisor approval and the PHIN limit; same wording but the wrong catalog year."
+        },
+        {
+          "chunk_id": "doc021_p1_c8",
+          "reason": "B.S. Computer Science 2021-2022 electives are 10 hours with the same PHIN note; same year but a different major."
+        }
+      ],
+      "notes": "CE elective hours changed between 2021-22 (5 hours, advisor approval) and 2022-23 (0 or 4 depending on calculus track). The 2020-21 CE plan gives the same answer as 2021-22, and the CS 2021-22 plan uses nearly identical wording with a different number."
+    },
+    {
+      "id": "m1-comp-01",
+      "category": "compound",
+      "query": "I'm an undergrad and want to withdraw from just one of my Fall 2026 full-term classes but stay in the rest. What's the last day I can do that, which option do I pick on the online withdrawal request, and will the W count toward my six withdrawals?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the Fall 2026 full-term withdrawal deadline (calendar), the online request option for withdrawing from a single course while staying enrolled in others (undergraduate online drop/withdrawal page), and the rule that an academic W counts toward the Texas 6-Withdrawals limit (registrar legislative policy page).",
+      "evidence": [
+        {
+          "id": "fall26-fullterm-withdraw-deadline",
+          "support": [
+            {
+              "chunk_id": "doc036_p1_c1",
+              "quote": "Withdrawal period ends Nov. 9"
+            },
+            {
+              "chunk_id": "doc160_p1_c1",
+              "quote": "Withdrawal period ends Nov. 9"
+            }
+          ],
+          "note": "doc036 and doc160 are two renderings of the same Fall 2026 calendar; both state the full-term withdrawal deadline."
+        },
+        {
+          "id": "online-option-b-single-course",
+          "support": [
+            {
+              "chunk_id": "doc143_p3_c1",
+              "quote": "Option B. Withdraw Selected Classes: Select this option if you would like to withdraw from one but remain enrolled in other classes"
+            }
+          ]
+        },
+        {
+          "id": "w-counts-toward-six",
+          "support": [
+            {
+              "chunk_id": "doc137_p2_c1",
+              "quote": "All academic withdrawals at UT Dallas, noted as W, WL, WP or WF on the transcript, will count towards the 6-Withdrawals limitation"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc036_p1_c2",
+          "reason": "First 8-week session has a different withdrawal deadline (Sept. 28); the student is in a full-term class."
+        },
+        {
+          "chunk_id": "doc036_p2_c3",
+          "reason": "Second 8-week session withdrawal period ends Nov. 25, not the full-term deadline."
+        },
+        {
+          "chunk_id": "doc137_p2_c2",
+          "reason": "Lists withdrawals excluded from the count (non-academic, complete withdrawal); a single ordinary W is not excluded."
+        }
+      ],
+      "notes": "Three facts from three documents. The calendar has several sessions with different withdrawal deadlines, and the online process page has both Option A (all courses) and Option B (selected courses)."
+    },
+    {
+      "id": "m1-comp-02",
+      "category": "compound",
+      "query": "I got a 3 on the AP Psychology exam and I'm planning to take the CLEP Human Growth and Development test (assuming I score at least a 50). What UTD course would each one give me credit for, and do exam credit hours count against the excessive hours limit for in-state tuition?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the AP credit chart row for Psychology with a score of 3, the CLEP credit chart row for Human Growth & Development, and the Excessive Hours page stating that credit by examination is excluded from attempted hours.",
+      "evidence": [
+        {
+          "id": "ap-psychology-credit",
+          "support": [
+            {
+              "chunk_id": "doc155_p6_c1",
+              "quote": "PY Psychology 3-5 PSY 2301"
+            }
+          ]
+        },
+        {
+          "id": "clep-human-growth-credit",
+          "support": [
+            {
+              "chunk_id": "doc156_p2_c1",
+              "quote": "CHUGD Human Growth & Development 50-80 PSY 2314"
+            }
+          ]
+        },
+        {
+          "id": "exam-credit-excluded-from-excessive-hours",
+          "support": [
+            {
+              "chunk_id": "doc165_p2_c1",
+              "quote": "Credit hours earned by examination (AP, CLEP, IB, or SAT II)"
+            }
+          ],
+          "note": "This line appears under the 'Hours Excluded' heading in the same chunk."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc165_p1_c1",
+          "reason": "States the excessive hours limits (30 or 45 hours over degree program) but not whether exam credit counts."
+        },
+        {
+          "chunk_id": "doc190_p1_c1",
+          "reason": "Says AP/IB/CLEP credit is not counted in transfer hours for scholarship admissions, a different rule from excessive hours tuition."
+        }
+      ],
+      "notes": "Needs rows from two separate credit charts plus a legislative tuition rule. The AP/CLEP chart text is garbled and truncated, and the excessive-hours exclusion is in a list where the heading 'Hours Excluded' sits next to 'Attempted Hours Include' content."
+    },
+    {
+      "id": "m1-comp-03",
+      "category": "compound",
+      "query": "I'm graduating in Fall 2026 and need an official transcript that shows my degree and Latin honors for a job. When will my degree actually be posted, and what should I check before I place the transcript order?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the Fall 2026 degree posting dates from the Apply for Graduation page, and the transcript page instruction to confirm the degree is conferred and honors are awarded before ordering.",
+      "evidence": [
+        {
+          "id": "fall26-degree-posting",
+          "support": [
+            {
+              "chunk_id": "doc134_p1_c1",
+              "quote": "Fall 2026 degrees will be posted starting January 4, 2027"
+            }
+          ]
+        },
+        {
+          "id": "confirm-degree-and-honors-before-ordering",
+          "support": [
+            {
+              "chunk_id": "doc149_p3_c2",
+              "quote": "Please confirm that grades are posted or degree is conferred before placing an order. Undergraduate students please make sure that your honors have been awarded as well before placing your order"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc134_p3_c1",
+          "reason": "Gives Fall 2026 graduation application deadlines (September 1 / October 1, 2026), not when the degree is posted."
+        },
+        {
+          "chunk_id": "doc150_p3_c1",
+          "reason": "Covers eTranscript fee and delivery for alumni, not the timing check for degree and honors."
+        }
+      ],
+      "notes": "Two documents; the graduation page has several Fall 2026 dates (application deadlines vs degree posting), so a date match alone is not enough."
+    },
+    {
+      "id": "m1-comp-04",
+      "category": "compound",
+      "query": "I'm an undergrad on financial aid registered for 12 hours. If I withdraw from one 3-hour class I'd be at 9. What enrollment status is 9 hours, could withdrawing mess with my aid, and who am I supposed to contact before I drop?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the undergraduate enrollment status criteria (9 hours is three-quarter time), the financial aid page warning that withdrawing may affect aid eligibility, and the undergraduate drop instruction to contact the financial aid advisor before dropping.",
+      "evidence": [
+        {
+          "id": "nine-hours-status",
+          "support": [
+            {
+              "chunk_id": "doc007_p2_c4",
+              "quote": "three quarter-time status is 9 semester credit hours"
+            }
+          ],
+          "note": "Undergraduate certification criteria in the catalog. doc189_p4_c1 notes financial aid enrollment status is based on financial aid-eligible hours and academic level, so the aid office may count hours differently."
+        },
+        {
+          "id": "withdrawal-affects-aid",
+          "support": [
+            {
+              "chunk_id": "doc127_p1_c1",
+              "quote": "withdrawing from class may adversely affect your eligibility for financial aid"
+            }
+          ]
+        },
+        {
+          "id": "contact-aid-advisor-before-dropping",
+          "support": [
+            {
+              "chunk_id": "doc108_p1_c3",
+              "quote": "Undergraduate Students. If you are receiving financial aid or are an international student, please be sure to contact your financial aid or international student advisor BEFORE dropping"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc108_p2_c12",
+          "reason": "Same financial-aid contact instruction but in the Graduate Students section; the asker is an undergraduate."
+        },
+        {
+          "chunk_id": "doc125_p2_c1",
+          "reason": "Cost of attendance questionnaire labels 'Full-time (9+)', which is a calculator option, not the undergraduate enrollment status definition."
+        },
+        {
+          "chunk_id": "doc110_p2_c14",
+          "reason": "Mentions 9 credit hours as full-time for an F-1 graduate student, a different population."
+        }
+      ],
+      "notes": "The number 9 appears with 'full-time' for graduate/F-1 and in the COA calculator; only the undergraduate catalog rule says 9 hours is three-quarter time. Three documents."
+    },
+    {
+      "id": "m1-comp-05",
+      "category": "compound",
+      "query": "I withdrew from a class last spring for a medical reason and it was approved as a non-academic withdrawal. Does it count toward the 6-withdrawal limit, as an attempt under the three-repeat rule, or toward the excessive hours cap?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the 6-Withdrawals page exempts non-academic withdrawals, the Three Course Repeat Rule page includes administrative/non-academic withdrawals as attempted hours, and the Excessive Hours page also includes them as attempted hours. Each rule gives a different answer, so all three are needed.",
+      "evidence": [
+        {
+          "id": "six-withdrawals-exempt",
+          "support": [
+            {
+              "chunk_id": "doc137_p2_c2",
+              "quote": "Non-academic withdrawals are exempt from counting toward the 6-Withdrawals rule"
+            },
+            {
+              "chunk_id": "doc108_p2_c11",
+              "quote": "Non-academic withdrawals are exempt from counting toward the six drop rule"
+            }
+          ]
+        },
+        {
+          "id": "three-repeat-counts-withdrawn",
+          "support": [
+            {
+              "chunk_id": "doc136_p2_c1",
+              "quote": "Withdrawn courses (includes administrative/non-academic) Dual credit courses"
+            }
+          ]
+        },
+        {
+          "id": "excessive-hours-counts-withdrawn",
+          "support": [
+            {
+              "chunk_id": "doc165_p2_c1",
+              "quote": "Withdrawn courses (includes administrative/ non-academic) Repeated courses"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc137_p2_c1",
+          "reason": "Says academic withdrawals (W, WL, WP, WF) count toward the limit; the asker's withdrawal was non-academic."
+        }
+      ],
+      "notes": "The same withdrawal is treated differently by three separate Texas rules on three pages, and the repeat-rule and excessive-hours lists use nearly identical wording, so a system might retrieve only one and generalize."
+    },
+    {
+      "id": "m1-near-01",
+      "category": "near_miss",
+      "query": "Can I audit CS 3345 in the spring? I don't need the credit, I just want to sit in on the lectures before I take it for real.",
+      "unanswerable": false,
+      "requirement": "The answer must come from the course auditing rules, which state that Computer Science & Engineering courses may not be audited. Chunks about degree audits or graduation audits share the word 'audit' but are unrelated.",
+      "evidence": [
+        {
+          "id": "cs-courses-not-auditable",
+          "support": [
+            {
+              "chunk_id": "doc142_p1_c1",
+              "quote": "Computer Science & Engineering, Geosciences"
+            },
+            {
+              "chunk_id": "doc007_p1_c2",
+              "quote": "The following courses may not be audited: Computer Science and Engineering courses"
+            }
+          ],
+          "note": "doc142 is the Registrar's Audit a Course page; doc007 is the catalog's Auditing Courses policy. Both list CS & Engineering as non-auditable."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc194_p2_c1",
+          "reason": "'Review degree audit' is a degree progress check with an advisor, not auditing a class."
+        },
+        {
+          "chunk_id": "doc193_p1_c1",
+          "reason": "'Review degree progress audit' is about degree planning with NSM advisors, not sitting in on a course."
+        },
+        {
+          "chunk_id": "doc165_p3_c1",
+          "reason": "'degree audits have been verified' refers to the excessive hours appeal process."
+        },
+        {
+          "chunk_id": "doc173_p3_c1",
+          "reason": "'Graduation audit' is an advising service, unrelated to auditing a course."
+        },
+        {
+          "chunk_id": "doc142_p2_c1",
+          "reason": "Gives the steps to apply to audit, which is moot because CS courses cannot be audited."
+        }
+      ],
+      "notes": "Keyword 'audit' appears in degree-audit and graduation-audit advising contexts. The application steps look responsive but the course is ineligible."
+    },
+    {
+      "id": "m1-near-02",
+      "category": "near_miss",
+      "query": "Things are bad this semester and I'm thinking about withdrawing from all four of my classes. Would that use up four of my six allowed withdrawals?",
+      "unanswerable": false,
+      "requirement": "The answer requires the rule that a complete withdrawal from all classes for a semester is excluded from the 6-Withdrawals count. Chunks about withdrawing from a single course, or the mechanics of the 'withdraw from ALL courses' option, share the words but do not answer whether it counts.",
+      "evidence": [
+        {
+          "id": "complete-withdrawal-excluded",
+          "support": [
+            {
+              "chunk_id": "doc137_p2_c2",
+              "quote": "The count excludes complete withdrawal from all classes for a semester"
+            },
+            {
+              "chunk_id": "doc108_p2_c10",
+              "quote": "Is not withdrawing from the course in order to withdraw from the institution"
+            }
+          ],
+          "note": "doc108_p2_c10 states the rule applies only when the student is not withdrawing in order to withdraw from the institution, which equivalently excludes a complete withdrawal."
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc143_p3_c1",
+          "reason": "Explains how to select 'Withdraw from ALL Courses' online, but says nothing about the 6-withdrawal count."
+        },
+        {
+          "chunk_id": "doc137_p2_c1",
+          "reason": "Says all academic withdrawals (W, WL, WP, WF) count, which would wrongly suggest four withdrawals are used."
+        },
+        {
+          "chunk_id": "doc137_p1_c1",
+          "reason": "Defines 'Complete university withdrawal' but does not say whether it counts toward the limit."
+        }
+      ],
+      "notes": "Course withdrawal vs complete withdrawal: the chunk saying all W grades count is the trap. A secondary fact (complete withdrawal is recorded as WU) is in the same support chunk."
+    },
+    {
+      "id": "m1-near-03",
+      "category": "near_miss",
+      "query": "There's a hold on my account because the transcript from a summer class I took at a community college never made it to UTD. How do I get the hold cleared?",
+      "unanswerable": false,
+      "requirement": "The answer comes from the transfer credit page: an academic hold for missing/incomplete transfer coursework is resolved by submitting all final transcripts for every institution attended. Chunks about holds that block ordering a UTD transcript, financial holds, or registration holds for unpaid balances share 'hold' and 'transcript' but are a different kind of hold.",
+      "evidence": [
+        {
+          "id": "resolve-missing-transcript-hold",
+          "support": [
+            {
+              "chunk_id": "doc153_p4_c4",
+              "quote": "To resolve the hold, please ensure all final transcripts are submitted for every institution attended"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc149_p3_c1",
+          "reason": "'All University holds must be cleared before requesting a transcript' is about ordering a UTD transcript, not a hold caused by a missing incoming transcript."
+        },
+        {
+          "chunk_id": "doc131_p2_c1",
+          "reason": "Explains financial holds released by the Bursar and non-financial holds blocking transcript orders; not the missing transfer transcript hold."
+        },
+        {
+          "chunk_id": "doc151_p2_c1",
+          "reason": "'request my transcript to be held for grades/degree' uses 'held' in a different sense (delaying a UTD transcript order)."
+        },
+        {
+          "chunk_id": "doc119_p3_c1",
+          "reason": "Registration holds placed for past-due balances, a financial hold."
+        },
+        {
+          "chunk_id": "doc005_p5_c39",
+          "reason": "Says holds must be cleared before requesting a UTD transcript; wrong direction of transcript."
+        }
+      ],
+      "notes": "Both 'hold' and 'transcript' match many chunks, but almost all concern outgoing UTD transcripts or financial holds. The correct chunk is about incoming transfer transcripts."
+    },
+    {
+      "id": "m1-near-04",
+      "category": "near_miss",
+      "query": "I'm taking a class for the third time and it's in the second 8-week session this fall. I'm worried about the third-attempt tuition charge. What's the last day I can drop it without penalty?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the Three Course Repeat Rule page says students may drop without penalty through census day of the given term/session, and the Fall 2026 calendar gives the second 8-week session census day (Oct. 26). The full-term census day (Sept. 9) and the '12th class day' rule share the 'census day' wording but apply to a different session.",
+      "evidence": [
+        {
+          "id": "drop-through-session-census",
+          "support": [
+            {
+              "chunk_id": "doc136_p2_c1",
+              "quote": "A student is free to drop classes without penalty through census day of a given term/session"
+            }
+          ]
+        },
+        {
+          "id": "second-8wk-census-date",
+          "support": [
+            {
+              "chunk_id": "doc036_p2_c3",
+              "quote": "Census Day (end of late registration and last day to add/swap or drop without a \"W\") is Oct. 26"
+            },
+            {
+              "chunk_id": "doc160_p3_c1",
+              "quote": "last day to add/swap or drop without a “W” Oct. 26"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc117_p2_c7",
+              "reason": "Calendar fragment (in a document mistitled 'Public Course and Syllabus Information') with the same Oct. 26 wording, but the chunk names neither the term nor the session, so on its own it cannot establish that Oct. 26 is the Fall 2026 second 8-week Census Day."
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Full-term Census Day is Sept. 9; wrong session for a second 8-week class."
+        },
+        {
+          "chunk_id": "doc160_p1_c1",
+          "reason": "Same full-term Sept. 9 Census Day in the other calendar rendering."
+        },
+        {
+          "chunk_id": "doc036_p1_c2",
+          "reason": "First 8-week session Census Day is Aug. 31; wrong session."
+        },
+        {
+          "chunk_id": "doc117_p1_c2",
+          "reason": "Unlabeled calendar fragment with the full-term Census Day (Sept. 9); wrong session."
+        },
+        {
+          "chunk_id": "doc137_p2_c2",
+          "reason": "'prior to the 12th class day (Census Day) in any semester' describes a full semester and the 6-withdrawal rule, not the 8-week session date."
+        },
+        {
+          "chunk_id": "doc136_p1_c1",
+          "reason": "Explains the third-attempt penalty fee but not the drop deadline."
+        }
+      ],
+      "notes": "Several 'Census Day' dates exist for different sessions; the session in the question determines the date."
+    },
+    {
+      "id": "m1-near-05",
+      "category": "near_miss",
+      "query": "My favorite professor is a Senior Lecturer. Do the teaching evaluations students fill out at the end of the semester actually get looked at when they're reviewed for contract renewal?",
+      "unanswerable": false,
+      "requirement": "All groups are required: the nontenure-system faculty policy lists Senior Lecturer as a nontenure-system title, and the same policy says the review file includes statistical summaries of teaching evaluation forms and student comments. The tenured-faculty periodic review and the academic administrator review also mention student evaluations or input but cover a different population.",
+      "evidence": [
+        {
+          "id": "senior-lecturer-is-nontenure",
+          "support": [
+            {
+              "chunk_id": "doc096_p2_c4",
+              "quote": "Nontenure-system faculty titles may include but are not limited to the following: Senior Lecturer 1"
+            }
+          ]
+        },
+        {
+          "id": "review-file-includes-teaching-evals",
+          "support": [
+            {
+              "chunk_id": "doc096_p6_c39",
+              "quote": "statistical summaries of the teaching evaluation form for each course taught during the previous six regular, long semesters"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc097_p6_c44",
+          "reason": "Includes 'evaluations of teaching from students' but for Periodic Performance Evaluation of tenured faculty, a different population."
+        },
+        {
+          "chunk_id": "doc097_p6_c46",
+          "reason": "Allows anonymous teaching evaluations in the tenured-faculty PPE file; wrong population."
+        },
+        {
+          "chunk_id": "doc094_p1_c4",
+          "reason": "Student input for evaluating academic administrators (deans, department heads), not lecturers' teaching."
+        },
+        {
+          "chunk_id": "doc018_p11_c24",
+          "reason": "Online teaching handbook says faculty review course evaluations after the course, which is self-reflection, not the contract review."
+        },
+        {
+          "chunk_id": "doc097_p5_c35",
+          "reason": "Only points to UTDPP1062 for non-tenure-track faculty; does not itself say evaluations are used."
+        }
+      ],
+      "notes": "Faculty evaluation policies for tenured faculty, nontenure-system faculty and administrators all mention evaluations; the title 'Senior Lecturer' determines which policy applies."
+    },
+    {
+      "id": "m1-unans-01",
+      "category": "unanswerable",
+      "query": "How many computer science students are enrolled at UTD?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The corpus contains B.S. Computer Science degree plans for many catalog years and one university-wide figure (30,139 students enrolled in fall 2023 on the admissions page), but no enrollment or headcount figure for the computer science major, the CS department or the Jonsson School. The university total is a different population (all students, all majors) and cannot be narrowed to CS majors.",
+      "absence_checks": [
+        "grep -i 'enrollment|enrolled' over all chunks: only policy text (course load, continuous enrollment, concurrent enrollment, 'enrolled in fall 2023' on doc161), no per-major counts",
+        "regex for 'NN,NNN students|student body|headcount|student population|number of students|more than N students': only doc161_p2_c1 (30,139 university-wide, fall 2023) and doc183_p3_c1 (2,000 student employees)",
+        "reviewed CS degree plans doc076 and doc084 and Jonsson advising doc184: requirements and contacts only, no counts of majors",
+        "grep -i 'majors' with digits and 'computer science' with digits/percent: no CS headcount"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc161_p2_c1",
+          "reason": "Gives 30,139 students enrolled in fall 2023 for the whole university, not computer science students and not the current term."
+        },
+        {
+          "chunk_id": "doc084_p1_c15",
+          "reason": "2026-2027 B.S. Computer Science plan (124 hours); describes the degree, not how many students are in it."
+        }
+      ],
+      "notes": "Mentor's canonical example. The 30,139 number is a strong lexical/numeric lure (students, enrolled) for the wrong population."
+    },
+    {
+      "id": "m1-unans-02",
+      "category": "unanswerable",
+      "query": "how many students are registered for PHYS 2325 this semester and are there still open seats",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "PHYS 2325 appears throughout the corpus only as a required course in CS, SE and CE degree plans and course maps. Live section data (seat counts, enrollment totals, waitlist size) would come from Orion/CourseBook class search, which is not in the corpus; the registration pages only describe how to search, waitlist and register.",
+      "absence_checks": [
+        "grep 'PHYS ?2325': only degree plans and suggested four-year plans (doc020-doc034, doc076, doc084, doc085 etc.), no section or enrollment data",
+        "grep -i 'seat|wait ?list|class size|capacity|open classes|class search': doc140_p1_c1 and doc144_p1_c1 (how to use the wait list), doc188 300-seat Testing Center, doc017 COVID-era classroom occupancy; no per-course seat counts",
+        "reviewed doc110, doc111, doc112, doc113 (registration how-tos): procedures only",
+        "no CourseBook/Orion schedule export or section listing exists among the 198 documents"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc084_p1_c4",
+          "reason": "Lists '3 Mechanics PHYS 2325' as a requirement in the 2026-2027 CS plan; says nothing about how many students are taking it."
+        },
+        {
+          "chunk_id": "doc140_p1_c1",
+          "reason": "Points to wait list instructions and Schedule Planner, but contains no seat or enrollment numbers."
+        }
+      ],
+      "notes": "Current course enrollment. Course number match will pull many degree-plan chunks."
+    },
+    {
+      "id": "m1-unans-03",
+      "category": "unanswerable",
+      "query": "How many credit hours do you need for the master's in computer science at UT Dallas?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The corpus has undergraduate B.S. Computer Science degree plans (e.g. 124 hours for 2025-2026 and 2026-2027) and graduate catalog policy pages, but no M.S. Computer Science degree plan or graduate CS program requirements. The 124-hour figure belongs to the bachelor's population and cannot answer a master's question; Fast Track mentions only say undergraduates can take graduate courses.",
+      "absence_checks": [
+        "grep -i \"master of science|M\\.S\\.|MSCS|master's degree|master's program\": only Fast Track text for Applied Cognition and Neuroscience (doc016, doc026, doc028, doc118), EPPS Fast Track (doc195), JSOM MBA contact (doc171); nothing for CS",
+        "reviewed graduate catalog chunks doc003 and doc121: registration, good standing, leave of absence, catalog overview; no program hour totals",
+        "grep 'Fast Track' in CS/SE plans: doc039_p1_c5, doc085_p1_c21, doc087 only mention the option, no graduate hour counts",
+        "grep -i 'GRE|TOEFL': only doc195 EPPS Fast Track"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc084_p1_c15",
+          "reason": "124 Hours is the undergraduate B.S. CS total (2026-2027), wrong degree level."
+        },
+        {
+          "chunk_id": "doc085_p1_c21",
+          "reason": "Fast Track mention about taking graduate level courses as an undergrad; gives no master's hour requirement."
+        }
+      ],
+      "notes": "Specific-number question where a same-type number exists for a different population (undergraduate)."
+    },
+    {
+      "id": "m1-unans-04",
+      "category": "unanswerable",
+      "query": "What is the tuition per credit hour for a Texas resident undergraduate in 2026-2027?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "No chunk gives a tuition dollar amount per credit hour or per semester. The corpus has the Cost of Attendance calculator page (questions only, no output figures), a 'Tuition Plans & Rates' link label, Bursar payment deadlines, housing rates, the $1,000 tuition rebate and Comet Promise coverage rules, but not the tuition rate table itself.",
+      "absence_checks": [
+        "regex for dollar amounts ('$' followed by digits) across all chunks: housing rates (doc182, doc196), $1,000 tuition rebate (doc135, doc166), scholarships (doc190), fees ($10 transcript, $50 major change), fines; no tuition rate",
+        "grep -i 'per (semester )?credit hour|tuition rate|tuition plan|guaranteed tuition|designated tuition|fixed tuition': only doc163_p4_c1 link label 'Tuition Plans & Rates' and nonresident-rate wording in excessive hours pages (doc135, doc165)",
+        "reviewed doc125 (Cost of Attendance calculator): only questionnaire text, no computed amounts",
+        "reviewed doc119 Bursar and doc177 Costs pages: deadlines, contacts and Comet Promise, no rate table"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc125_p1_c1",
+          "reason": "Says tuition cost depends on hours enrolled and program, but gives no dollar figure."
+        },
+        {
+          "chunk_id": "doc163_p4_c1",
+          "reason": "Only a link label 'Tuition Plans & Rates'; the linked rate page is not in the corpus."
+        },
+        {
+          "chunk_id": "doc165_p1_c1",
+          "reason": "Mentions resident vs nonresident tuition rate for excessive hours but never states the rate."
+        }
+      ],
+      "notes": "Current-price question. Many dollar amounts in the corpus (housing, rebate) are numeric lures."
+    },
+    {
+      "id": "m1-unans-05",
+      "category": "unanswerable",
+      "query": "Which Jonsson School advisor is assigned to computer science majors with last names starting with K?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "Advisor-by-last-name assignments exist in the corpus only for other schools (Bass School doc192, Interdisciplinary Studies doc173, partially NSM doc193). The Jonsson School advising page names only directors and an associate dean plus a shared email address and office; it does not list individual CS advisors or a last-name split.",
+      "absence_checks": [
+        "grep -i 'last name': doc163 (financial aid), doc173 (IS advisors), doc192 (Bass School advisors), doc193 (NSM, list truncated after A-C); none for Jonsson/ECS",
+        "reviewed all doc184 chunks (Jonsson School Undergraduate Advising): ecs_ugadvising@utdallas.edu, ECSS 2.502, Kim Calvert-Gibson, Dr. Stephen Crynes, Dr. Joshua Summers; no assigned-advisor table",
+        "reviewed doc141 and doc191 (registrar and undergraduate education advising directories): only links to school advising pages",
+        "grep -i 'computer science' near 'advisor': degree-plan boilerplate only"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc184_p2_c1",
+          "reason": "Jonsson advising contacts (directors, shared email), but no per-student or last-name assignment."
+        },
+        {
+          "chunk_id": "doc192_p2_c1",
+          "reason": "Has an advisor-by-last-name table, but for Bass School of Arts, Humanities, and Technology majors, not CS."
+        }
+      ],
+      "notes": "Person-specific staff question. Name-shaped answers exist for other schools and can be wrongly transferred."
+    },
+    {
+      "id": "m1-unans-06",
+      "category": "unanswerable",
+      "query": "When is spring break in Spring 2027?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The corpus academic calendar covers only Fall 2026 (full term and both 8-week sessions), including a Fall break Nov. 23-25. Spring 2027 appears only in other contexts (meningitis vaccine deadline Jan. 9, 2027, housing spring-only agreement Jan. 19 to May 15, 2027, Testing Center resuming Jan. 19, financial aid year labels). No Spring 2027 calendar or spring break dates are present.",
+      "absence_checks": [
+        "grep -i 'spring break': no matches in chunks or raw_text",
+        "grep -i 'spring 2027|2027': doc126 (aid year labels), doc133/doc139 (vaccine deadline), doc134 (graduation tabs), doc146 (residency reviews), doc182/doc196 (housing), doc188 (Testing Center resumes Jan. 19); no calendar breaks",
+        "reviewed doc036 and doc160 (academic calendar): Fall 2026 only",
+        "grep -i 'march [0-9]': only SAT history and payroll example"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Gives Fall 2026 fall break (Nov. 23-25), a break in a different term."
+        },
+        {
+          "chunk_id": "doc196_p2_c1",
+          "reason": "Spring-only housing agreement dates Jan. 19, 2027 to May 15, 2027; term span, not spring break."
+        },
+        {
+          "chunk_id": "doc188_p4_c1",
+          "reason": "Testing Center resumes in 2027 Spring Semester on Jan. 19; no break dates."
+        }
+      ],
+      "notes": "Time not covered by the corpus calendar; 'break' and '2027' lexical lures exist."
+    },
+    {
+      "id": "m1-unans-07",
+      "category": "unanswerable",
+      "query": "What time does McDermott Library close on Saturdays during the fall semester?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The McDermott Library page in the corpus lists services and has a 'New Library Hours' link label and a 'Contacts, Hours & Location' label, but the hours themselves are not included. Weekend hours present in the corpus belong to other buildings (Student Union, Testing Center), which are not the library.",
+      "absence_checks": [
+        "reviewed all doc178 chunks (Eugene McDermott Library): services, news, tours, contact phone; 'New Library Hours' heading text only",
+        "grep -i 'library hours|hours of operation|open 24': only doc178_p1_c1 label",
+        "regex for 'a.m.'/'p.m.' times: doc119 Bursar, doc171 JSOM advising, doc181 Student Union, doc188 Testing Center; none for the library",
+        "grep -i 'library' with 'Saturday|weekend': no match"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc178_p1_c1",
+          "reason": "Library services page ending in 'New Library Hours' with no times listed."
+        },
+        {
+          "chunk_id": "doc181_p1_c1",
+          "reason": "Fall 2026 weekend hours (Sat. - Sun. 9:00 a.m. - 11:00 p.m.) but for the Student Union, a different building."
+        }
+      ],
+      "notes": "Avoids rule words; must be decided by evidence. Building-hours numbers from other buildings are tempting."
+    },
+    {
+      "id": "m1-unans-08",
+      "category": "unanswerable",
+      "query": "How much is the Academic Excellence Scholarship worth per year for incoming freshmen?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The Academic Excellence Scholarship (AES) is named on the freshman scholarships and financial aid scholarship pages, with a Dec. 1 review note, but no award amount is given. Dollar award amounts in the corpus belong to transfer scholarships (Comet Transfer Level 3, Phi Theta Kappa, Transfer Academic Achievement), a different population.",
+      "absence_checks": [
+        "grep -i 'Academic Excellence Scholarship|AES': doc130_p2_c1 (program name in list), doc180_p1_c1 (heading), doc180_p2_c1 (Dec. 1 review note); no amount",
+        "regex '$' amounts: scholarship amounts only in doc190 (transfer) and Comet Promise income threshold $100,000 (doc175, doc177)",
+        "reviewed all doc180 chunks (Freshman Scholarships) and doc130 (Financial Aid Scholarships): names and deadlines only"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc180_p1_c1",
+          "reason": "Introduces freshman merit scholarships and the AES heading, without an amount."
+        },
+        {
+          "chunk_id": "doc190_p2_c1",
+          "reason": "Shows $1,500 / $1,000 / $500 award amounts, but for transfer scholarships, not the freshman AES."
+        }
+      ],
+      "notes": "Population contrast (freshman vs transfer) with real dollar amounts as lures. Avoids rule words."
+    },
+    {
+      "id": "m1-unans-09",
+      "category": "unanswerable",
+      "query": "What is the four-year graduation rate for computer science majors at UTD?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The only graduation rate in the corpus is the university-wide four-year graduation rate of 63% on the admissions page. No program-, department- or school-level outcome statistics exist; CS documents are degree plans and suggested four-year plans (course sequences), which describe a schedule, not how many students actually finish in four years.",
+      "absence_checks": [
+        "grep -i 'graduation rate|retention rate': only doc161_p2_c1 (63%, university-wide)",
+        "grep -i 'four.year|4.year': doc010_p1_c1 (timely graduation info link) and suggested four year plan documents (doc025, doc027, doc043-046, doc061 ...), which are course sequences",
+        "regex for percent values: policy percentages (Dean's list, Latin honors, credit/no credit), PA 6315 syllabus grading; none for CS outcomes",
+        "grep -i 'placement|salary|outcome': no CS outcome data"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc161_p2_c1",
+          "reason": "Four-year graduation rate 63% is for UT Dallas overall, not CS majors."
+        },
+        {
+          "chunk_id": "doc027_p1_c1",
+          "reason": "BS Computer Science Suggested Four Year Plan (2021-2022) lays out courses over four years; not a completion statistic."
+        }
+      ],
+      "notes": "Population narrowing (all students to CS majors). 'Four year' matches suggested-plan titles lexically. Avoids rule words."
+    },
+    {
+      "id": "m1-unans-10",
+      "category": "unanswerable",
+      "query": "How much does a room in University Commons cost per semester for a first-year student in 2026-2027?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The 2026-2027 housing rates in the corpus are listed for University Village and Canyon Creek Heights (North/South, Andromeda Hall), which are non-first-year apartments. University Commons, the first-year residence halls, is described (three-bedroom suites, available to first-year students) but no price is given for it.",
+      "absence_checks": [
+        "grep -i 'University Commons|residence hall|first.year housing': doc196_p3_c1 description only; doc177_p2_c1 generic 'all-suite residence hall'",
+        "reviewed doc182 (Fall 2026 - Spring 2027 Non-First Year Housing Availability): all prices are Canyon Creek Heights and University Village",
+        "reviewed doc196_p2_c1 (2026-2027 Housing Rates): 2x2 A/B, 4x2, Canyon Creek Heights South/North, Andromeda Hall; no University Commons",
+        "grep -i 'meal plan|dining': no housing price for first-year halls"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc196_p2_c1",
+          "reason": "2026-2027 housing rates, but for apartment floorplans available to non-first-year students."
+        },
+        {
+          "chunk_id": "doc196_p3_c1",
+          "reason": "Describes University Commons as first-year housing with no cost."
+        },
+        {
+          "chunk_id": "doc182_p1_c1",
+          "reason": "Rates explicitly labeled Non-First Year Housing Availability."
+        }
+      ],
+      "notes": "Population contrast (first-year vs non-first-year) with same year and real prices nearby. Avoids rule words."
+    },
+    {
+      "id": "m1-follow-01",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "How many computer science students are at UTD?"
+        },
+        {
+          "role": "assistant",
+          "content": "I could not find an exact count in the documents."
+        }
+      ],
+      "query": "From those, how many are taking physics right now?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "Resolved against the history, the question asks how many current computer science majors are enrolled in a physics course this term. The corpus has neither a CS headcount (only a university-wide 30,139 for fall 2023) nor any current section enrollment data; physics appears only as PHYS 2325/2326 requirements in degree plans. The prior assistant turn is not evidence and itself contained no number.",
+      "absence_checks": [
+        "grep -i 'enrollment|enrolled|headcount|student body': only policy text and doc161_p2_c1 university-wide total",
+        "grep 'PHYS ?23(25|26)|physics': degree plans and course maps only (e.g. doc084_p1_c4, doc084_p1_c6, doc085_p1_c5)",
+        "grep -i 'seat|wait ?list|class size': registration how-to pages only (doc140, doc144), no per-course counts"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc161_p2_c1",
+          "reason": "University-wide 30,139 students in fall 2023; not CS, not physics, not current."
+        },
+        {
+          "chunk_id": "doc084_p1_c4",
+          "reason": "CS plan lists PHYS 2325 Mechanics as required, not how many are taking it now."
+        }
+      ],
+      "notes": "Mentor's follow-up example. 'Those' refers to CS students from the history; both the base count and the current physics enrollment are missing."
+    },
+    {
+      "id": "m1-follow-02",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "How many hours is the 2026-2027 computer science degree and how long does it take?"
+        },
+        {
+          "role": "assistant",
+          "content": "The 2026-2027 B.S. in Computer Science plan lists 124 hours, and at a 15 credit hour average that is about 8.27 long semesters."
+        }
+      ],
+      "query": "so how much tuition would that be per semester at that pace?",
+      "unanswerable": true,
+      "evidence": [],
+      "unanswerable_reason": "The follow-up asks to extend the prior answer (124 hours, 15 hours per semester) into a dollar amount. The hour figures are supported by doc084, but the corpus has no tuition rate per credit hour or per semester for any residency or catalog year, so the computation cannot be grounded. The assistant turn's numbers do not make the tuition part answerable.",
+      "absence_checks": [
+        "regex '$' amounts across chunks: housing, rebate, scholarships, fees and fines only; no tuition rate",
+        "grep -i 'per (semester )?credit hour|tuition rate|tuition plan|designated tuition': only link label in doc163_p4_c1 and nonresident-rate wording in doc135/doc165",
+        "reviewed doc125 Cost of Attendance and doc119 Bursar: no rate figures"
+      ],
+      "nearest_related": [
+        {
+          "chunk_id": "doc084_p1_c15",
+          "reason": "Supports 124 hours and the 15 credit hour average from the history, but contains no cost information."
+        },
+        {
+          "chunk_id": "doc125_p1_c1",
+          "reason": "Says tuition depends on hours enrolled; gives no dollar amount."
+        }
+      ],
+      "notes": "Assistant turn states real numbers; the follow-up asks for a computation needing an absent input (tuition rate)."
+    },
+    {
+      "id": "m1-follow-03",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does the Comet Promise cover?"
+        },
+        {
+          "role": "assistant",
+          "content": "For eligible Texas residents with a family income of $100,000 or less, it covers tuition and mandatory fees through scholarships, grants and exemptions."
+        }
+      ],
+      "query": "does it cover summer classes too?",
+      "unanswerable": false,
+      "requirement": "Single group: a Comet Promise statement about whether summer tuition and fees are covered. 'it' must be resolved to the Comet Promise from the history; the assistant turn is not evidence.",
+      "evidence": [
+        {
+          "id": "summer-coverage",
+          "support": [
+            {
+              "chunk_id": "doc175_p2_c1",
+              "quote": "Only tuition and mandatory fees for fall and spring terms are covered; summer tuition and fees are not covered"
+            },
+            {
+              "chunk_id": "doc175_p3_c1",
+              "quote": "Is Comet Promise available for the summer? Only tuition and mandatory fees for the fall and spring terms are covered; summer tuition and mandatory fees are not covered"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc175_p2_c2",
+          "reason": "Mentions summer semesters only in the renewal rule (24 credit hours across fall, spring and summer), not coverage."
+        },
+        {
+          "chunk_id": "doc177_p2_c1",
+          "reason": "Comet Promise full tuition and fee coverage summary, silent on summer."
+        }
+      ],
+      "notes": "Pronoun follow-up. Without the history, 'it' and 'summer classes' would not retrieve Comet Promise."
+    },
+    {
+      "id": "m1-follow-04",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "When is census day for the first 8-week session in Fall 2026?"
+        },
+        {
+          "role": "assistant",
+          "content": "For the Fall 2026 first 8-week session, Census Day is Aug. 31."
+        }
+      ],
+      "query": "and for the second one?",
+      "unanswerable": false,
+      "requirement": "Single group: the Census Day date for the Fall 2026 second 8-week session. The ellipsis must be resolved to 'Census Day, Fall 2026, second 8-week session' from the history.",
+      "evidence": [
+        {
+          "id": "second-8wk-census",
+          "support": [
+            {
+              "chunk_id": "doc036_p2_c3",
+              "quote": "or drop without a \"W\") is Oct. 26"
+            },
+            {
+              "chunk_id": "doc160_p3_c1",
+              "quote": "Census Day; End of late registration and last day to add/swap or drop without a “W” Oct. 26"
+            }
+          ],
+          "not_equivalent": [
+            {
+              "chunk_id": "doc117_p2_c7",
+              "reason": "Fragment of a duplicated calendar page (titled 'Public Course and Syllabus Information') with the same Oct. 26 census wording, but neither the chunk text nor its heading names Fall 2026 or the second 8-week session, so on its own it does not establish which term/session the date belongs to."
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc036_p1_c2",
+          "reason": "First 8-week session census Aug. 31, the session from the history, not the one asked."
+        },
+        {
+          "chunk_id": "doc160_p2_c1",
+          "reason": "Calendar page chunk with the first 8-week census Aug. 31."
+        },
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Full-term census Sept. 9, different session."
+        },
+        {
+          "chunk_id": "doc117_p2_c4",
+          "reason": "Duplicated calendar fragment with the Aug. 31 census (first 8-week session), the session from the history."
+        }
+      ],
+      "notes": "Ellipsis follow-up; the query alone has no topic words. doc160_p3_c1 carries the session only in its section heading. doc117 is a third, unlabeled copy of the calendar."
+    },
+    {
+      "id": "m1-follow-05",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "When is the first installment payment due for Fall 2026?"
+        },
+        {
+          "role": "assistant",
+          "content": "The first installment payment deadline is Wednesday, September 23, 2026."
+        },
+        {
+          "role": "user",
+          "content": "Separately, where is the Bursar drop box?"
+        },
+        {
+          "role": "assistant",
+          "content": "It is in SSB 2.300 on the second floor of the Student Services Building."
+        }
+      ],
+      "query": "ok and when is the third one due?",
+      "unanswerable": false,
+      "requirement": "Single group: the Fall 2026 third installment due date. 'the third one' must be resolved against the FIRST user turn (installment payments), not the latest user turn (drop box location); resolving only against the latest turn is wrong.",
+      "evidence": [
+        {
+          "id": "third-installment",
+          "support": [
+            {
+              "chunk_id": "doc119_p3_c1",
+              "quote": "Wednesday, November 18, 2026 – 3 installment due"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc119_p5_c1",
+          "reason": "Bursar contact and drop box location (topic of the latest user turn), no installment dates."
+        },
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Fall 2026 academic calendar dates, not payment deadlines."
+        }
+      ],
+      "notes": "Topic carry-over across two user turns with a subject change in between; the correct referent is the earlier turn. Chunk text has a lost ordinal ('3 installment')."
+    },
+    {
+      "id": "m1-follow-06",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "What GPA does an undergrad need to keep to be making satisfactory progress?"
+        },
+        {
+          "role": "assistant",
+          "content": "Undergraduates need at least a 2.000 GPA in the major and overall and must not be on probation."
+        }
+      ],
+      "query": "is it the same for grad students or do they need higher?",
+      "unanswerable": false,
+      "requirement": "Single group: the graduate good-standing GPA rule (3.00 cumulative; below 3.00 at the end of a semester means academic probation). The population changes from undergraduate (history) to graduate; undergraduate 2.000 text must not be used.",
+      "evidence": [
+        {
+          "id": "grad-gpa-standing",
+          "support": [
+            {
+              "chunk_id": "doc003_p2_c4",
+              "quote": "If, at the end of a semester, a student's cumulative GPA is below 3.00, the student will be placed on academic probation"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc005_p2_c13",
+          "reason": "Undergraduate satisfactory progress rule (2.000 in the major and overall), the old population."
+        },
+        {
+          "chunk_id": "doc010_p4_c10",
+          "reason": "Undergraduate graduation requirement of 2.000 GPA, wrong population and purpose."
+        },
+        {
+          "chunk_id": "doc016_p1_c42",
+          "reason": "Fast Track requires a 3.00 GPA, but for undergraduates taking graduate courses, not graduate standing."
+        }
+      ],
+      "notes": "Population switch undergrad to graduate. The 3.00 number also appears in Fast Track text for undergrads."
+    },
+    {
+      "id": "m1-follow-07",
+      "category": "follow_up",
+      "history": [
+        {
+          "role": "user",
+          "content": "When does the withdrawal period end in Fall 2026?"
+        },
+        {
+          "role": "assistant",
+          "content": "For the Fall 2026 full-term session, the withdrawal period ends Nov. 9."
+        }
+      ],
+      "query": "what if the class is only in the first 8-week session?",
+      "unanswerable": false,
+      "requirement": "Single group: the withdrawal period end date for the Fall 2026 first 8-week session. The time window changes from the full term (history) to the first 8-week session.",
+      "evidence": [
+        {
+          "id": "first-8wk-withdrawal",
+          "support": [
+            {
+              "chunk_id": "doc036_p1_c2",
+              "quote": "Withdrawal period ends Sept. 28"
+            }
+          ]
+        }
+      ],
+      "distractors": [
+        {
+          "chunk_id": "doc036_p1_c1",
+          "reason": "Full-term withdrawal end Nov. 9, the old time window from the history."
+        },
+        {
+          "chunk_id": "doc036_p2_c3",
+          "reason": "Second 8-week session withdrawal end Nov. 25, wrong session."
+        },
+        {
+          "chunk_id": "doc160_p2_c1",
+          "reason": "Calendar page chunk for the first 8-week session, but the withdrawal date is truncated to 'Sept.' with no day, so it does not fully answer."
+        },
+        {
+          "chunk_id": "doc117_p2_c5",
+          "reason": "Duplicated calendar fragment reading 'Withdrawal period ends Sept.' with the day truncated and no session label."
+        }
+      ],
+      "notes": "Time/session switch. The calendar page duplicate (doc160) is truncated, so only doc036_p1_c2 gives the full date."
+    }
+  ]
+}
