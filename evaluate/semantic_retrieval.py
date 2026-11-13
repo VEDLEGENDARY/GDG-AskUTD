@@ -2,7 +2,7 @@
 from pathlib import Path
 from functools import lru_cache
 from collections import Counter
-import argparse, hashlib, json, math, re, time, unicodedata
+import argparse, hashlib, json, math, re, unicodedata
 import numpy as np
 import onnxruntime as ort
 from evaluate_chunks import read_chunks, read_questions, grade, summarize, cost, metadata

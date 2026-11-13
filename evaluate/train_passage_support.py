@@ -1,5 +1,4 @@
-import sys,json
-from pathlib import Path
+import json
 import numpy as np
 from hard_retrieval import *
 from passage_support import matrix,fit,predict

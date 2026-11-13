@@ -1,7 +1,6 @@
 import json,sys
 from pathlib import Path
 sys.path.insert(0,'evaluate')
-from evaluate_chunks import summarize
 root=Path('evaluate'); report=json.loads((root/'runs/hybrid-balanced/results.json').read_text())
 labels={'starter_questions.json':'Starter test (10)','realistic_questions.json':'Realistic test (9)','audit_questions.json':'Audit (15)','questions.json':'Repository hard test (32)'}
 lines=['# Balanced hybrid retrieval: results and limits','',
@@ -28,7 +27,7 @@ lines+=['','These difficulty rows report complete-evidence counts, not the weigh
 '', '## Run a new question','',
 'This machine has a working Python 3.10 installation with NumPy and ONNX Runtime. The bundled Python used earlier lacks ONNX Runtime. The model snapshots are read from the local Hugging Face cache; no model download or API call was made.',
 '', '```powershell',
-'& "$env:LOCALAPPDATA\Programs\Python\Python310\python.exe" evaluate/query_hybrid.py --query "I am a graduate student. How do I drop a class before Census Day?"',
+'& "$env:LOCALAPPDATA\\Programs\\Python\\Python310\\python.exe" evaluate/query_hybrid.py --query "I am a graduate student. How do I drop a class before Census Day?"',
 '```',
 '', 'The CLI loads hybrid.config.json and hybrid.detector.json, evaluates new questions without fitting on reference labels, and returns candidate evidence or an abstention reason. It does not generate a final answer or perform university account actions. Neural inference is slower than the earlier lexical-only exercise; cached features speed repeated evaluation.',
 '', '## Checks and artifacts','',

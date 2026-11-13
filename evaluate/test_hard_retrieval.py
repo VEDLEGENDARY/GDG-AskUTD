@@ -1,8 +1,7 @@
 import unittest
 from types import SimpleNamespace
-from pathlib import Path
 import numpy as np
-from hard_retrieval import FacetRetriever,requests,rewrite,reject_reason
+from hard_retrieval import FacetRetriever,requests,reject_reason
 from passage_support import fit,predict
 class HardRetrievalTests(unittest.TestCase):
     def sem(self):

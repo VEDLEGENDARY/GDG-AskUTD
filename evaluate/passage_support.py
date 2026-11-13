@@ -3,7 +3,6 @@ Only model scores, metadata overlap, cost and neighborhood features enter infere
 """
 import numpy as np
 from lexical_retrieval_v2 import terms
-from evaluate_chunks import metadata
 
 def matrix(r,v):
     ix=v['indices'];ce=1/(1+np.exp(-np.clip(np.array(v['ce'])/3,-30,30)));lex=np.array(v['lexical']);dense=np.array(v['dense'])

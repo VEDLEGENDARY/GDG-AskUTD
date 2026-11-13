@@ -3,7 +3,7 @@ from types import SimpleNamespace
 from unittest.mock import Mock
 import numpy as np
 from hybrid_retrieval import Hybrid,record_reason
-from record_classifier import RecordDetector,features
+from record_classifier import RecordDetector
 class HybridTests(unittest.TestCase):
     def make_hybrid(self,costs,docs=None):
         r=object.__new__(Hybrid)
