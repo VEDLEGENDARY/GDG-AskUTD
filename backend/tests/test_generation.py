@@ -73,19 +73,19 @@ class PromptTests(GenerationTestCase):
     def test_gemini_selection_and_fallback_order(self) -> None:
         question = "How do I request an official transcript?"
         passages = [passage(1, "Select Order Official Transcript in My Academics.", "Transcript Orders")]
-        with mock.patch.dict(os.environ, {"LLM_PROVIDER": "gemini"}), \
+        with mock.patch.dict(os.environ, {"LLM_PROVIDER": "gemini", "OLLAMA_FALLBACK": "1"}), \
                 mock.patch.object(GeminiLLM, "complete", return_value='{"ids":[1]}') as gemini, \
                 mock.patch.object(OllamaLLM, "complete", return_value='{"ids":[1]}') as ollama:
-            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            self.assertEqual(generation.generate_answer(question, passages).provider, "gemini")
             gemini.assert_called_once()
             ollama.assert_not_called()
 
             gemini.side_effect = LLMError("Gemini returned HTTP 429")
-            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            self.assertEqual(generation.generate_answer(question, passages).provider, "ollama")
             ollama.assert_called_once()
 
             ollama.side_effect = LLMError("Ollama unavailable")
-            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            self.assertEqual(generation.generate_answer(question, passages).provider, "extractive")
             self.assertEqual(ollama.call_count, 2)
 
     def test_drop_timing_rejects_navigation_instructions(self) -> None:

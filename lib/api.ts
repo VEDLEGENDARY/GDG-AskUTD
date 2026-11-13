@@ -3,9 +3,21 @@ export type Citation = {
   section: string; snippet: string; source_url: string | null;
 };
 export type Turn = { role: 'user' | 'assistant'; content: string };
+export const answerProviderLabels = {
+  gemini: 'Gemini API',
+  ollama: 'Ollama',
+  extractive: 'Offline reader',
+  api: 'Hosted API',
+} as const;
+export type AnswerProvider = keyof typeof answerProviderLabels;
+
+export function isAnswerProvider(value: unknown): value is AnswerProvider {
+  return typeof value === 'string' && Object.hasOwn(answerProviderLabels, value);
+}
 export type RetrievalTrace = { passages: number; documents: number; elapsed_ms: number; status: string; chunks: string[] };
 export type StreamUpdate = {
   retrieval?: RetrievalTrace;
+  provider?: AnswerProvider;
   requestId?: string; text?: string; citations?: Citation[]; abstained?: boolean;
 };
 
@@ -39,7 +51,12 @@ export async function streamAnswer(
     if (event === 'retrieval') onUpdate({ retrieval: payload });
     if (event === 'token') onUpdate({ text: payload.text });
     if (event === 'citations') onUpdate({ citations: payload });
-    if (event === 'done') { done = true; onUpdate({ abstained: payload.abstained }); }
+    if (event === 'done') {
+      done = true;
+      const update: StreamUpdate = { abstained: payload.abstained };
+      if (isAnswerProvider(payload.provider)) update.provider = payload.provider;
+      onUpdate(update);
+    }
   }
   try {
     while (true) {

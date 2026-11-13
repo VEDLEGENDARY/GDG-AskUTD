@@ -10,8 +10,9 @@ import logging
 import os
 import re
 from collections.abc import Iterator
+from dataclasses import replace
 
-from .llm import LLM, ExtractiveLLM, OllamaLLM, get_provider
+from .llm import LLM, ExtractiveLLM, OllamaLLM, OpenAICompatLLM, get_provider
 from .llm.extractive import terms, with_marker
 from .llm.gemini import GeminiLLM
 from .prompts import (ABSTAIN_SENTENCE, CONFIRM_NOTE, MAX_QUESTION_CHARS, build_prompt, leaked_system_prompt,
@@ -205,7 +206,7 @@ def _fallback(system: str, user: str, passages: list[Passage], question: str) ->
     except Exception:
         logger.exception("extractive fallback failed")
         answer = None
-    return answer or _abstain()
+    return replace(answer, provider='extractive') if answer and not answer.abstained else _abstain()
 
 
 def drop_clarification(question: str) -> Answer | None:
@@ -287,7 +288,7 @@ def generate_answer(question: str, passages: list[Passage], history: list[Turn] 
                 gemini = GeminiLLM(os.environ.get("GEMINI_API_KEY", "").strip())
                 answer = finalize(_select_quotes(gemini, question, selected), selected, question)
                 if answer is not None and not answer.abstained:
-                    return answer
+                    return replace(answer, provider='gemini')
                 logger.warning("Gemini returned no validated answer, falling back to %s", fallback_name)
             except Exception as exc:
                 logger.warning("Gemini failed (%s), falling back to %s", exc, fallback_name)
@@ -306,7 +307,15 @@ def generate_answer(question: str, passages: list[Passage], history: list[Turn] 
         if answer is None and not isinstance(provider, ExtractiveLLM):
             logger.warning("provider %s gave unusable output, falling back to extractive", provider.name)
             return _fallback(system, user, selected, question)
-        return answer or _abstain()
+        if answer is None or answer.abstained:
+            return answer or _abstain()
+        if isinstance(provider, OllamaLLM):
+            return replace(answer, provider='ollama')
+        if isinstance(provider, ExtractiveLLM):
+            return replace(answer, provider='extractive')
+        if isinstance(provider, OpenAICompatLLM):
+            return replace(answer, provider='api')
+        return answer
     except Exception:
         logger.exception("generate_answer failed unexpectedly")
         return _abstain()

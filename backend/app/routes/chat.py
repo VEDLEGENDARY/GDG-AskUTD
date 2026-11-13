@@ -42,7 +42,8 @@ def _answer(request: Request, body: ChatRequest, request_id: str, started: float
     latency = record_request(request, request_id, started, body.question,
                              answer.abstained, len(answer.citations))
     return ChatResponse(request_id=request_id, answer=answer.text, abstained=answer.abstained,
-                        citations=[c.__dict__ for c in answer.citations], latency_ms=latency)
+                        citations=[c.__dict__ for c in answer.citations], latency_ms=latency,
+                        provider=answer.provider)
 
 
 @router.post("/chat", response_model=ChatResponse, dependencies=[Depends(rate_limit)])
@@ -81,7 +82,8 @@ async def chat_stream(body: ChatRequest, request: Request):
             yield sse("token", {"text": answer.text})
             latency = record_request(request, request_id, started, body.question,
                                      answer.abstained, len(answer.citations))
-            yield sse("done", {"abstained": answer.abstained, "latency_ms": latency})
+            yield sse("done", {"abstained": answer.abstained, "latency_ms": latency,
+                               "provider": answer.provider})
         except Exception:
             logger.exception("streaming chat failed", extra={"request_id": request_id})
             yield sse("error", {"code": "internal_error", "message": "The request could not be completed."})

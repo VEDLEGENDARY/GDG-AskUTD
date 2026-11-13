@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from typing import Literal
+
+AnswerProvider = Literal['gemini', 'ollama', 'extractive', 'api']
 
 
 @dataclass(frozen=True)
@@ -44,3 +47,4 @@ class Answer:
     text: str  # contains [1] style markers that match Citation.n
     citations: list[Citation] = field(default_factory=list)
     abstained: bool = False
+    provider: AnswerProvider | None = None

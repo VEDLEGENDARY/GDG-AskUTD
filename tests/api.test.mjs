@@ -48,10 +48,11 @@ test('feedback uses the stored request id and handles rejection', async () => {
   await assert.rejects(sendFeedback('r1', 'up'), /503/);
 });
 
-test('retrieval telemetry survives the answer stream', async () => {
+test('retrieval telemetry and the final answer provider survive the stream', async () => {
   const trace = { passages: 2, documents: 1, elapsed_ms: 12, status: 'retrieved', chunks: ['doc1_c1', 'doc1_c2'] };
-  globalThis.fetch = async () => stream([`event: retrieval\ndata: ${JSON.stringify(trace)}\n\nevent: done\ndata: {"abstained":true}\n\n`]);
+  globalThis.fetch = async () => stream([`event: retrieval\ndata: ${JSON.stringify(trace)}\n\nevent: done\ndata: {"abstained":false,"provider":"extractive"}\n\n`]);
   const updates = [];
   await streamAnswer('q', [], (v) => updates.push(v));
   assert.deepEqual(updates[0], { retrieval: trace });
+  assert.deepEqual(updates[1], { abstained: false, provider: 'extractive' });
 });

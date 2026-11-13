@@ -28,6 +28,9 @@ import {
 import {
   sendFeedback,
   streamAnswer,
+  answerProviderLabels,
+  isAnswerProvider,
+  type AnswerProvider,
   type Citation,
   type Turn,
   type RetrievalTrace,
@@ -41,6 +44,7 @@ type Message = {
   citations: Citation[];
   requestId?: string;
   abstained?: boolean;
+  provider?: AnswerProvider;
   error?: string;
 };
 
@@ -291,6 +295,7 @@ export default function AskUtdApp({ questionId }: { questionId?: string }) {
           requestId: update.requestId ?? m.requestId,
 
           abstained: update.abstained ?? m.abstained,
+          provider: update.provider ?? m.provider,
           retrieval: update.retrieval ?? m.retrieval,
         })),
       );
@@ -582,6 +587,11 @@ export default function AskUtdApp({ questionId }: { questionId?: string }) {
                   <h2 className="mb-3 flex items-center gap-2 font-bold">
                     <Sparkles size={19} />
                     From the documents
+                    {isAnswerProvider(message.provider) && (
+                      <span className="ml-auto shrink-0 text-xs font-normal opacity-70" title="Provider that produced this answer">
+                        {answerProviderLabels[message.provider]}
+                      </span>
+                    )}
                   </h2>
 
                   {message.abstained && (

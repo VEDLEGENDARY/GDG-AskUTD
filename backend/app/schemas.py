@@ -5,6 +5,8 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
+from .types import AnswerProvider
+
 
 class TurnInput(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -71,3 +73,4 @@ class ChatResponse(BaseModel):
     abstained: bool
     citations: list[CitationOutput]
     latency_ms: int
+    provider: AnswerProvider | None = None
