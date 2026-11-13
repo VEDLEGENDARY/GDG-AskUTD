@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, Request
 from fastapi.responses import StreamingResponse
 from starlette.concurrency import run_in_threadpool
 
+from ..generation import drop_clarification
 from ..schemas import ChatRequest, ChatResponse
 from ..types import Answer
 from ..retrieval_support.query import rewrite
@@ -30,11 +31,14 @@ def _answer(request: Request, body: ChatRequest, request_id: str, started: float
     retrieval = request.app.state.retrieval
     generation = request.app.state.generation
     history = to_turns(body.history)
+    question = rewrite(body.question, history)
     result = retrieval.retrieve(body.question, body.top_k, history)
-    if result.abstain:
+    if clarification := drop_clarification(question):
+        answer = clarification
+    elif result.abstain:
         answer = Answer(generation.ABSTAIN_TEXT, abstained=True)
     else:
-        answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
+        answer = generation.generate_answer(question, result.passages, history)
     latency = record_request(request, request_id, started, body.question,
                              answer.abstained, len(answer.citations))
     return ChatResponse(request_id=request_id, answer=answer.text, abstained=answer.abstained,
@@ -59,6 +63,7 @@ async def chat_stream(body: ChatRequest, request: Request):
             retrieval = request.app.state.retrieval
             generation = request.app.state.generation
             history = to_turns(body.history)
+            question = rewrite(body.question, history)
             result = retrieval.retrieve(body.question, body.top_k, history)
             yield sse("retrieval", {
                 "passages": len(result.passages), "documents": len({p.doc_id for p in result.passages}),
@@ -66,10 +71,12 @@ async def chat_stream(body: ChatRequest, request: Request):
                 "status": "insufficient" if result.abstain else "retrieved",
                 "chunks": [p.chunk_id for p in result.passages],
             })
-            if result.abstain:
+            if clarification := drop_clarification(question):
+                answer = clarification
+            elif result.abstain:
                 answer = Answer(generation.ABSTAIN_TEXT, abstained=True)
             else:
-                answer = generation.generate_answer(rewrite(body.question, history), result.passages, history)
+                answer = generation.generate_answer(question, result.passages, history)
             yield sse("citations", answer.citations)
             yield sse("token", {"text": answer.text})
             latency = record_request(request, request_id, started, body.question,

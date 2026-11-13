@@ -31,10 +31,13 @@ class OllamaLLM:
             "options": {"temperature": self.temperature, "num_predict": MAX_OUTPUT_TOKENS},
         }
 
-    def complete(self, system: str, user: str) -> str:
+    def complete(self, system: str, user: str, *, output_schema: dict | None = None) -> str:
         """Return the whole reply from one non-streaming request."""
+        payload = self._payload(system, user, False)
+        if output_schema is not None:
+            payload["format"] = output_schema
         try:
-            response = requests.post(f"{self.host}/api/chat", json=self._payload(system, user, False),
+            response = requests.post(f"{self.host}/api/chat", json=payload,
                                      timeout=self.timeout)
             response.raise_for_status()
             text = (response.json().get("message") or {}).get("content") or ""

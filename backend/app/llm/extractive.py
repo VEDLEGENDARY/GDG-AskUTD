@@ -40,7 +40,7 @@ def terms(text: str) -> set[str]:
     return {_stem(w) for w in re.findall(r"[a-z0-9]+", text.casefold()) if w not in _STOP}
 
 
-def _with_marker(sentence: str, n: int) -> str:
+def with_marker(sentence: str, n: int) -> str:
     sentence = sentence.strip()
     if sentence and sentence[-1] in ".!?":
         return f"{sentence[:-1]} [{n}]{sentence[-1]}"
@@ -67,12 +67,12 @@ def extractive_answer(question: str, passages: list[str], headings: list[str] | 
             if match is None:
                 return ""
             i, sentence = match
-            extracts.append(_with_marker(sentence, i))
+            extracts.append(with_marker(sentence, i))
             if len(exams) == 1:
                 options = next((part for part in evidence_sentences(passages[i-1])
                                 if part.startswith("The equivalency options") or part.startswith("The options listed")), "")
                 if options:
-                    extracts.append(_with_marker(options, i))
+                    extracts.append(with_marker(options, i))
         return " ".join(extracts)
     scopes, elective_types = catalog_scopes(question), catalog_elective_types(question)
     if scopes and elective_types:
@@ -88,7 +88,7 @@ def extractive_answer(question: str, passages: list[str], headings: list[str] | 
                 if match is None:
                     return ""
                 i, sentence = match
-                extracts.append(_with_marker(sentence, i))
+                extracts.append(with_marker(sentence, i))
         return " ".join(extracts)
     focus = focus_for(question)
     candidates = []
@@ -141,7 +141,7 @@ def extractive_answer(question: str, passages: list[str], headings: list[str] | 
         seen.add(key)
         chosen.append((p_index, s_index, sentence))
         words_used += length
-    return " ".join(_with_marker(sentence, p_index + 1) for p_index, _, sentence in chosen)
+    return " ".join(with_marker(sentence, p_index + 1) for p_index, _, sentence in chosen)
 
 
 class ExtractiveLLM:

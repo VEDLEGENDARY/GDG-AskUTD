@@ -6,6 +6,12 @@ from dataclasses import dataclass
 
 MONTH = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
 DATE = rf"\b{MONTH}\.?\s+\d{{1,2}}\b"
+DROP_OUTCOME = re.compile(
+    r"\b(?:what happens\s*if|when (?:can|may|is it (?:ok|okay|allowed) to)|"
+    r"what are the consequences (?:of|if))\b[^?!.]*"
+    r"\b(?:drop(?:ping)?[^?!.]*\b(?:class(?:es)?|courses?|it)|withdraw\w*)\b",
+    re.I,
+)
 _YEAR_RANGE = re.compile(r"\b((?:19|20)\d{2})\s*[-\u2013\u2014]\s*(\d{2})\b")
 _SENTENCE_BOUNDARY = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9(\"'])")
 _MONTH_END = re.compile(rf"\b{MONTH}\.$", re.I)
@@ -60,6 +66,11 @@ FOCUSES = (
            r"\b(?:commencement|graduation ceremon\w*)\b", DATE),
     _focus("withdrawal deadline", r"\b(?:when|what (?:day|date)|last day|deadline)\b.*\bwithdraw\w*\b|\bwithdrawal (?:period|deadline)\b.*\b(?:end|when|date)\b",
            r"\b(?:withdrawal period|withdrawal deadline|last day to withdraw)\b", DATE),
+    _focus("class drop timing and consequences", DROP_OUTCOME.pattern,
+           r"\b(?:dropp?\w*|withdraw\w*)\b",
+           r"\b(?:census day|withdrawal deadline|last day to (?:drop|withdraw)|"
+           r"(?:appear|recorded|reflected) on (?:the |a |your |their )?(?:student.s )?transcript|"
+           r"(?:grade|notation) of [\"'“]?W\b|six[- ]drop limit)\b"),
     _focus("tuition payment", r"\b(?:pay|payment)\b.{0,36}\b(?:tuition|bursar bill)\b|\btuition\s+payment\b",
            r"\b(?:tuition|bursar|ezpay)\b", r"\b(?:ezpay|echeck|payment methods?|credit card|payment plans?|flywire)\b"),
     _focus("tuition estimate", r"\btuition\b.*\b(?:estimate|cost)\b|\b(?:estimate|cost)\b.*\btuition\b",

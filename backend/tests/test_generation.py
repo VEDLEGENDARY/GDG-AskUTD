@@ -16,7 +16,8 @@ if str(ROOT) not in sys.path:
 import requests  # noqa: E402
 
 from backend.app import generation, prompts  # noqa: E402
-from backend.app.llm import ExtractiveLLM, FakeLLM, OllamaLLM, OpenAICompatLLM, get_provider  # noqa: E402
+from backend.app.llm import ExtractiveLLM, FakeLLM, LLMError, OllamaLLM, OpenAICompatLLM, get_provider  # noqa: E402
+from backend.app.llm.gemini import GeminiLLM  # noqa: E402
 from backend.app.types import Answer, Passage, Turn  # noqa: E402
 
 EM_DASH = "\u2014"
@@ -69,6 +70,30 @@ class GenerationTestCase(unittest.TestCase):
 
 
 class PromptTests(GenerationTestCase):
+    def test_gemini_selection_and_fallback_order(self) -> None:
+        question = "How do I request an official transcript?"
+        passages = [passage(1, "Select Order Official Transcript in My Academics.", "Transcript Orders")]
+        with mock.patch.dict(os.environ, {"LLM_PROVIDER": "gemini"}), \
+                mock.patch.object(GeminiLLM, "complete", return_value='{"ids":[1]}') as gemini, \
+                mock.patch.object(OllamaLLM, "complete", return_value='{"ids":[1]}') as ollama:
+            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            gemini.assert_called_once()
+            ollama.assert_not_called()
+
+            gemini.side_effect = LLMError("Gemini returned HTTP 429")
+            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            ollama.assert_called_once()
+
+            ollama.side_effect = LLMError("Ollama unavailable")
+            self.assertFalse(generation.generate_answer(question, passages).abstained)
+            self.assertEqual(ollama.call_count, 2)
+
+    def test_drop_timing_rejects_navigation_instructions(self) -> None:
+        directions = "If you want to drop a class, click on the drop classes"
+        passages = [passage(1, directions + ".", "Mobile Registration")]
+        self.assertIsNone(generation.finalize(directions + " [1].", passages,
+                                              "When is it okay to drop classes?"))
+
     def test_prompt_numbers_passages_with_title_and_section(self) -> None:
         fake = self.use()
         generation.generate_answer("How do I drop a class?", PASSAGES)

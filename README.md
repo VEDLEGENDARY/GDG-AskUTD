@@ -47,6 +47,28 @@ reranked lexical retrieval and offline extractive answers by default. On Windows
 virtual environment's Python executable if the launcher does not pick it up.
 Requires Node.js 22.18+ and Python 3.12+. No model download or API key is needed.
 
+### Local Ollama on Windows
+
+With Ollama installed, quit its tray app if it is already serving on port 11434.
+Start `.\scripts\ollama-local.ps1` in one PowerShell
+terminal, then run `ollama pull qwen2.5:1.5b` in another. The launcher enables
+Intel Arc via Vulkan and allows three parallel requests with 4,096 tokens of context each.
+
+Set `LLM_PROVIDER=ollama`, `OLLAMA_HOST=http://127.0.0.1:11434`, and
+`OLLAMA_MODEL=qwen2.5:1.5b` in your local `.env`, then restart `npm run dev:all`.
+The local health endpoint should report `ollama:qwen2.5:1.5b`.
+
+To try Gemini first, set `LLM_PROVIDER=gemini` and put your Google AI Studio key in
+`GEMINI_API_KEY` in the local `.env`. Gemini 3.1 Flash-Lite selects source sentences
+for citation. If Gemini is unavailable or its selection fails validation, AskUTD
+tries Ollama, then the offline extractive reader. Keep the AI Studio project on the
+Free Tier for free usage.
+
+For Vercel production, configure `LLM_PROVIDER=gemini` and a sensitive
+`GEMINI_API_KEY` from an AI Studio Free Tier project with Cloud Billing disabled.
+Set `OLLAMA_FALLBACK=0` when the backend has no Ollama server. Google enforces
+the project's free quota, and AskUTD falls back to offline answers if it is reached.
+
 For the complete container stack, run `docker compose up --build` from this root.
 It starts Next.js and the API with persistent SQLite storage. See
 [`documentation/DEPLOY.md`](documentation/DEPLOY.md) for separate-server commands,

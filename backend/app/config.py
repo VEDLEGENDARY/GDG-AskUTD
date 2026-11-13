@@ -44,8 +44,8 @@ class Settings:
     @classmethod
     def from_env(cls) -> "Settings":
         provider = os.environ.get("LLM_PROVIDER", "ollama").strip().lower()
-        if provider not in {"ollama", "openai_compat", "extractive"}:
-            raise ValueError("LLM_PROVIDER must be ollama, openai_compat, or extractive")
+        if provider not in {"gemini", "ollama", "openai_compat", "extractive"}:
+            raise ValueError("LLM_PROVIDER must be gemini, ollama, openai_compat, or extractive")
         origins = tuple(x.strip() for x in os.environ.get(
             "CORS_ORIGINS", "http://localhost:3000,http://localhost:5173").split(",") if x.strip())
         ui_dir = os.environ.get("SERVE_UI_DIR", "").strip()

@@ -6,7 +6,7 @@ import re
 from evaluate import evaluate_chunks as ev
 
 from ..types import Turn
-from .focus import focus_for, normalize_years, session_scope, scope_matches
+from .focus import DROP_OUTCOME, focus_for, normalize_years, session_scope, scope_matches
 
 _PRIVATE = re.compile(
     r"^\s*(?:has|have|did|was|were|is)\b[^?.]*\b(?:my|me)\b[^?.]*\b(?:approved|accepted|processed|received|assigned|reviewed|excluded|recorded)\b"
@@ -75,13 +75,18 @@ _TOPIC_TERMS = {
     "advising": re.compile(r"\b(?:advisor|advising|academic counselor)\b", re.I),
 }
 _FOLLOW_UP = re.compile(
-    r"^(?:what about|how about|what if|and\b|does (?:that|it)\b|"
+    r"^(?:what about|how about|what if|what happens\s*if|and\b|does (?:that|it)\b|"
     r"can (?:they|i)\b|is (?:that|it)\b|what(?:'s| is) the deadline\b|"
     r"when is the deadline\b|where is it\b|from those\b)", re.I,
 )
 _UNDERGRAD_POPULATION = re.compile(r"\b(?:undergraduates?|undergrads?)(?:\s+students?)?\b", re.I)
 _GRAD_POPULATION = re.compile(r"\b(?:graduates?|grads?)(?:\s+students?)?\b", re.I)
 _POPULATION = re.compile(r"\b(?:undergraduates?|undergrads?|graduates?|grads?)(?:\s+students?)?\b", re.I)
+_DROP_SCOPE_REPLY = re.compile(
+    r"^(?:(?:i am|i'm)\s+(?:an?\s+)?)?"
+    r"(?:undergrad\w*|grad\w*|(?:spring|summer|fall)\s+20\d{2}|full[- ]term|(?:first|second)\s+8[- ]week)\b",
+    re.I,
+)
 _REGISTRATION_TIMING = re.compile(r"\b(?:when|what date|what time|deadline)\b.*\bregistration\b|\bregistration\b.*\bdeadline\b", re.I)
 _REGISTRATION_PROCESS = re.compile(
     r"\bregistration\s+(?:work|process|procedure)\b|\bsign\s+up\s+for\b", re.I,
@@ -188,7 +193,10 @@ def _rewrite(query: str, history: list[Turn] | None, *, use_aliases: bool, use_h
 
     prior = _history_user_question(history) if use_history else None
     resolved = original
-    if prior and _FOLLOW_UP.search(original) and not _is_topic_change(original, prior):
+    if prior and DROP_OUTCOME.search(prior) and _DROP_SCOPE_REPLY.search(original):
+        if len(prior) + len(original) < 500:
+            resolved = f"{prior} {original}"
+    elif prior and _FOLLOW_UP.search(original) and not _is_topic_change(original, prior):
         if session_scope(original):
             prior = re.sub(r"\b(?:(?:first|second)\s+8[- ]week|full[- ]term)(?:\s+session)?\b", "", prior, flags=re.I)
         # A population named in the follow-up replaces the prior population while

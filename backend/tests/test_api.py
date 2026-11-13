@@ -56,6 +56,19 @@ class ApiTests(unittest.TestCase):
         self.assertTrue(response.json()["abstained"])
         self.assertEqual(response.json()["citations"], [])
 
+    def test_drop_today_follow_up_asks_for_missing_scope(self):
+        body = {"question": "what happensif i drop it today?", "history": [
+            {"role": "user", "content": "How do I drop a class?"},
+        ]}
+        with patch.object(self.app.state.generation, "generate_answer",
+                          side_effect=AssertionError("generation should be skipped")):
+            answer = self.client.post("/api/chat", json=body).json()
+            stream = self.client.post("/api/chat/stream", json=body).text
+        self.assertTrue(answer["abstained"])
+        self.assertFalse(answer["citations"])
+        self.assertIn("Which session", answer["answer"])
+        self.assertIn(answer["answer"], stream)
+
     def test_validation_errors_use_standard_shape(self):
         cases = ({"question": "   "}, {"question": "x" * 501},
                  {"question": "hi", "history": [{"role": "system", "content": "x"}]},
